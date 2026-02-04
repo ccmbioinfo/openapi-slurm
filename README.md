@@ -382,4 +382,5 @@ Authentication schemes defined for the API:
 ## Authors
 
 sales@schedmd.com
-Adjustments by Mackenzie Frew
+
+Adjustments by [Mackenzie Frew](https://github.com/frewmack).
