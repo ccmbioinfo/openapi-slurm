@@ -25,7 +25,7 @@ pip install git+https://github.com/ccmbioinfo/openapi-slurm.git
 
 Then import the package:
 ```python
-import openapi-slurm
+import openapi_slurm
 ```
 
 ### Setuptools
@@ -39,7 +39,7 @@ python setup.py install --user
 
 Then import the package:
 ```python
-import openapi-slurm
+import openapi_slurm
 ```
 
 ### Tests
@@ -52,13 +52,13 @@ Please follow the [installation procedure](#installation--usage) and then run th
 
 ```python
 
-import openapi-slurm
-from openapi-slurm.rest import ApiException
+import openapi_slurm
+from openapi_slurm.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi-slurm.Configuration(
+configuration = openapi_slurm.Configuration(
     host = "http://localhost"
 )
 
@@ -74,7 +74,7 @@ configuration.api_key['user'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['user'] = 'Bearer'
 
 # Configure Bearer authorization (JWT): bearerAuth
-configuration = openapi-slurm.Configuration(
+configuration = openapi_slurm.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
@@ -86,9 +86,9 @@ configuration.api_key['token'] = os.environ["API_KEY"]
 
 
 # Enter a context with an instance of the API client
-with openapi-slurm.ApiClient(configuration) as api_client:
+with openapi_slurm.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi-slurm.SlurmApi(api_client)
+    api_instance = openapi_slurm.SlurmApi(api_client)
     job_id = 'job_id_example' # str | Job ID
     signal = 'signal_example' # str | Signal to send to Job (optional)
     flags = 'flags_example' # str | Signalling flags (optional)
