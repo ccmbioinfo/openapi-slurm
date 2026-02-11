@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0043_rollup_stats_daily import V0043RollupStatsDaily
+from openapi_slurm.models.v0043_rollup_stats_daily import V0043RollupStatsDaily
 
 class TestV0043RollupStatsDaily(unittest.TestCase):
     """V0043RollupStatsDaily unit test stubs"""
@@ -38,9 +38,9 @@ class TestV0043RollupStatsDaily(unittest.TestCase):
             return V0043RollupStatsDaily(
                 count = 56,
                 last_run = 56,
-                duration = openapi_client.models.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_daily_duration.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_daily_duration(
-                    last = 56, 
-                    max = 56, 
+                duration = openapi_slurm.models.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_daily_duration.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_daily_duration(
+                    last = 56,
+                    max = 56,
                     time = 56, )
             )
         else:

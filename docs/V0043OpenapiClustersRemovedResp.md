@@ -5,15 +5,15 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**deleted_clusters** | **List[str]** |  | 
-**meta** | [**V0043OpenapiMeta**](V0043OpenapiMeta.md) |  | [optional] 
-**errors** | [**List[V0043OpenapiError]**](V0043OpenapiError.md) |  | [optional] 
-**warnings** | [**List[V0043OpenapiWarning]**](V0043OpenapiWarning.md) |  | [optional] 
+**deleted_clusters** | **List[str]** |  |
+**meta** | [**V0043OpenapiMeta**](V0043OpenapiMeta.md) |  | [optional]
+**errors** | [**List[V0043OpenapiError]**](V0043OpenapiError.md) |  | [optional]
+**warnings** | [**List[V0043OpenapiWarning]**](V0043OpenapiWarning.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0043_openapi_clusters_removed_resp import V0043OpenapiClustersRemovedResp
+from openapi_slurm.models.v0043_openapi_clusters_removed_resp import V0043OpenapiClustersRemovedResp
 
 # TODO update the JSON string below
 json = "{}"

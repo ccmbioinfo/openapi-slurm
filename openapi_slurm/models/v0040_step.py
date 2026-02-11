@@ -20,15 +20,15 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictStr, field_validator
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0040_process_exit_code_verbose import V0040ProcessExitCodeVerbose
-from openapi_client.models.v0040_step_cpu import V0040StepCPU
-from openapi_client.models.v0040_step_nodes import V0040StepNodes
-from openapi_client.models.v0040_step_statistics import V0040StepStatistics
-from openapi_client.models.v0040_step_step import V0040StepStep
-from openapi_client.models.v0040_step_task import V0040StepTask
-from openapi_client.models.v0040_step_tasks import V0040StepTasks
-from openapi_client.models.v0040_step_time import V0040StepTime
-from openapi_client.models.v0040_step_tres import V0040StepTres
+from openapi_slurm.models.v0040_process_exit_code_verbose import V0040ProcessExitCodeVerbose
+from openapi_slurm.models.v0040_step_cpu import V0040StepCPU
+from openapi_slurm.models.v0040_step_nodes import V0040StepNodes
+from openapi_slurm.models.v0040_step_statistics import V0040StepStatistics
+from openapi_slurm.models.v0040_step_step import V0040StepStep
+from openapi_slurm.models.v0040_step_task import V0040StepTask
+from openapi_slurm.models.v0040_step_tasks import V0040StepTasks
+from openapi_slurm.models.v0040_step_time import V0040StepTime
+from openapi_slurm.models.v0040_step_tres import V0040StepTres
 from typing import Optional, Set
 from typing_extensions import Self
 

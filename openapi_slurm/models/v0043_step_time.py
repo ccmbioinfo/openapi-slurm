@@ -20,11 +20,11 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictInt
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0040_step_time_system import V0040StepTimeSystem
-from openapi_client.models.v0040_step_time_total import V0040StepTimeTotal
-from openapi_client.models.v0040_step_time_user import V0040StepTimeUser
-from openapi_client.models.v0043_uint32_no_val_struct import V0043Uint32NoValStruct
-from openapi_client.models.v0043_uint64_no_val_struct import V0043Uint64NoValStruct
+from openapi_slurm.models.v0040_step_time_system import V0040StepTimeSystem
+from openapi_slurm.models.v0040_step_time_total import V0040StepTimeTotal
+from openapi_slurm.models.v0040_step_time_user import V0040StepTimeUser
+from openapi_slurm.models.v0043_uint32_no_val_struct import V0043Uint32NoValStruct
+from openapi_slurm.models.v0043_uint64_no_val_struct import V0043Uint64NoValStruct
 from typing import Optional, Set
 from typing_extensions import Self
 

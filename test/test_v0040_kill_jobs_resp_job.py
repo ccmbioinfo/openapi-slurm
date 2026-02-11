@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_kill_jobs_resp_job import V0040KillJobsRespJob
+from openapi_slurm.models.v0040_kill_jobs_resp_job import V0040KillJobsRespJob
 
 class TestV0040KillJobsRespJob(unittest.TestCase):
     """V0040KillJobsRespJob unit test stubs"""
@@ -36,24 +36,24 @@ class TestV0040KillJobsRespJob(unittest.TestCase):
         model = V0040KillJobsRespJob()
         if include_optional:
             return V0040KillJobsRespJob(
-                error = openapi_client.models.v0_0_40_kill_jobs_resp_job_error.v0_0_40_kill_jobs_resp_job_error(
-                    string = '', 
-                    code = 56, 
+                error = openapi_slurm.models.v0_0_40_kill_jobs_resp_job_error.v0_0_40_kill_jobs_resp_job_error(
+                    string = '',
+                    code = 56,
                     message = '', ),
                 step_id = '',
-                job_id = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
-                    set = True, 
-                    infinite = True, 
+                job_id = openapi_slurm.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                federation = openapi_client.models.v0_0_40_kill_jobs_resp_job_federation.v0_0_40_kill_jobs_resp_job_federation(
+                federation = openapi_slurm.models.v0_0_40_kill_jobs_resp_job_federation.v0_0_40_kill_jobs_resp_job_federation(
                     sibling = '', )
             )
         else:
             return V0040KillJobsRespJob(
                 step_id = '',
-                job_id = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
-                    set = True, 
-                    infinite = True, 
+                job_id = openapi_slurm.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
         )
         """

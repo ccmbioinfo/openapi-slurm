@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**allowed** | **str** | AllowAccounts | [optional] 
-**deny** | **str** | DenyAccounts | [optional] 
+**allowed** | **str** | AllowAccounts | [optional]
+**deny** | **str** | DenyAccounts | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_partition_info_accounts import V0040PartitionInfoAccounts
+from openapi_slurm.models.v0040_partition_info_accounts import V0040PartitionInfoAccounts
 
 # TODO update the JSON string below
 json = "{}"

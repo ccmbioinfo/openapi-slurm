@@ -5,15 +5,15 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**status** | [**List[V0041OpenapiKillJobsRespStatusInner]**](V0041OpenapiKillJobsRespStatusInner.md) | resultant status of signal request | 
-**meta** | [**V0041OpenapiSharesRespMeta**](V0041OpenapiSharesRespMeta.md) |  | [optional] 
-**errors** | [**List[V0041OpenapiSharesRespErrorsInner]**](V0041OpenapiSharesRespErrorsInner.md) | Query errors | [optional] 
-**warnings** | [**List[V0041OpenapiSharesRespWarningsInner]**](V0041OpenapiSharesRespWarningsInner.md) | Query warnings | [optional] 
+**status** | [**List[V0041OpenapiKillJobsRespStatusInner]**](V0041OpenapiKillJobsRespStatusInner.md) | resultant status of signal request |
+**meta** | [**V0041OpenapiSharesRespMeta**](V0041OpenapiSharesRespMeta.md) |  | [optional]
+**errors** | [**List[V0041OpenapiSharesRespErrorsInner]**](V0041OpenapiSharesRespErrorsInner.md) | Query errors | [optional]
+**warnings** | [**List[V0041OpenapiSharesRespWarningsInner]**](V0041OpenapiSharesRespWarningsInner.md) | Query warnings | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_kill_jobs_resp import V0041OpenapiKillJobsResp
+from openapi_slurm.models.v0041_openapi_kill_jobs_resp import V0041OpenapiKillJobsResp
 
 # TODO update the JSON string below
 json = "{}"

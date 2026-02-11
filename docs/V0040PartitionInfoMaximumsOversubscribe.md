@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**jobs** | **int** | Maximum number of jobs allowed to oversubscribe resources | [optional] 
-**flags** | **List[str]** |  | [optional] 
+**jobs** | **int** | Maximum number of jobs allowed to oversubscribe resources | [optional]
+**flags** | **List[str]** |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_partition_info_maximums_oversubscribe import V0040PartitionInfoMaximumsOversubscribe
+from openapi_slurm.models.v0040_partition_info_maximums_oversubscribe import V0040PartitionInfoMaximumsOversubscribe
 
 # TODO update the JSON string below
 json = "{}"

@@ -5,15 +5,15 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**count** | [**V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxActiveJobsCount**](V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxActiveJobsCount.md) |  | [optional] 
-**accruing** | [**V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxActiveJobsAccruing**](V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxActiveJobsAccruing.md) |  | [optional] 
-**submitted** | [**V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxJobsPerSubmitted**](V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxJobsPerSubmitted.md) |  | [optional] 
-**wall_clock** | [**V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxWallClockPerJob**](V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxWallClockPerJob.md) |  | [optional] 
+**count** | [**V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxActiveJobsCount**](V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxActiveJobsCount.md) |  | [optional]
+**accruing** | [**V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxActiveJobsAccruing**](V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxActiveJobsAccruing.md) |  | [optional]
+**submitted** | [**V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxJobsPerSubmitted**](V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxJobsPerSubmitted.md) |  | [optional]
+**wall_clock** | [**V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxWallClockPerJob**](V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxWallClockPerJob.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_associations_inner_max_jobs_per import V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxJobsPer
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_associations_inner_max_jobs_per import V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxJobsPer
 
 # TODO update the JSON string below
 json = "{}"

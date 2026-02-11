@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_job_state import V0040JobState
+from openapi_slurm.models.v0040_job_state import V0040JobState
 
 class TestV0040JobState(unittest.TestCase):
     """V0040JobState unit test stubs"""

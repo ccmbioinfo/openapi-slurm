@@ -5,19 +5,19 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**elapsed** | **int** | Elapsed time in seconds | [optional] 
-**end** | [**V0043Uint64NoValStruct**](V0043Uint64NoValStruct.md) |  | [optional] 
-**start** | [**V0043Uint64NoValStruct**](V0043Uint64NoValStruct.md) |  | [optional] 
-**suspended** | **int** | Total time in suspended state in seconds | [optional] 
-**system** | [**V0040StepTimeSystem**](V0040StepTimeSystem.md) |  | [optional] 
-**limit** | [**V0043Uint32NoValStruct**](V0043Uint32NoValStruct.md) |  | [optional] 
-**total** | [**V0040StepTimeTotal**](V0040StepTimeTotal.md) |  | [optional] 
-**user** | [**V0040StepTimeUser**](V0040StepTimeUser.md) |  | [optional] 
+**elapsed** | **int** | Elapsed time in seconds | [optional]
+**end** | [**V0043Uint64NoValStruct**](V0043Uint64NoValStruct.md) |  | [optional]
+**start** | [**V0043Uint64NoValStruct**](V0043Uint64NoValStruct.md) |  | [optional]
+**suspended** | **int** | Total time in suspended state in seconds | [optional]
+**system** | [**V0040StepTimeSystem**](V0040StepTimeSystem.md) |  | [optional]
+**limit** | [**V0043Uint32NoValStruct**](V0043Uint32NoValStruct.md) |  | [optional]
+**total** | [**V0040StepTimeTotal**](V0040StepTimeTotal.md) |  | [optional]
+**user** | [**V0040StepTimeUser**](V0040StepTimeUser.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0043_step_time import V0043StepTime
+from openapi_slurm.models.v0043_step_time import V0043StepTime
 
 # TODO update the JSON string below
 json = "{}"

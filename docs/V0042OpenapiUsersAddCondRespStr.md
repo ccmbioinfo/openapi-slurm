@@ -5,15 +5,15 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**added_users** | **str** | added_users | 
-**meta** | [**V0042OpenapiMeta**](V0042OpenapiMeta.md) |  | [optional] 
-**errors** | [**List[V0042OpenapiError]**](V0042OpenapiError.md) |  | [optional] 
-**warnings** | [**List[V0042OpenapiWarning]**](V0042OpenapiWarning.md) |  | [optional] 
+**added_users** | **str** | added_users |
+**meta** | [**V0042OpenapiMeta**](V0042OpenapiMeta.md) |  | [optional]
+**errors** | [**List[V0042OpenapiError]**](V0042OpenapiError.md) |  | [optional]
+**warnings** | [**List[V0042OpenapiWarning]**](V0042OpenapiWarning.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0042_openapi_users_add_cond_resp_str import V0042OpenapiUsersAddCondRespStr
+from openapi_slurm.models.v0042_openapi_users_add_cond_resp_str import V0042OpenapiUsersAddCondRespStr
 
 # TODO update the JSON string below
 json = "{}"

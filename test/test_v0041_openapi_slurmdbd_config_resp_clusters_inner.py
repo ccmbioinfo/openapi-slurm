@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_clusters_inner import V0041OpenapiSlurmdbdConfigRespClustersInner
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_clusters_inner import V0041OpenapiSlurmdbdConfigRespClustersInner
 
 class TestV0041OpenapiSlurmdbdConfigRespClustersInner(unittest.TestCase):
     """V0041OpenapiSlurmdbdConfigRespClustersInner unit test stubs"""
@@ -36,8 +36,8 @@ class TestV0041OpenapiSlurmdbdConfigRespClustersInner(unittest.TestCase):
         model = V0041OpenapiSlurmdbdConfigRespClustersInner()
         if include_optional:
             return V0041OpenapiSlurmdbdConfigRespClustersInner(
-                controller = openapi_client.models.v0_0_40_cluster_rec_controller.v0_0_40_cluster_rec_controller(
-                    host = '', 
+                controller = openapi_slurm.models.v0_0_40_cluster_rec_controller.v0_0_40_cluster_rec_controller(
+                    host = '',
                     port = 56, ),
                 flags = [
                     'REGISTERING'
@@ -45,19 +45,19 @@ class TestV0041OpenapiSlurmdbdConfigRespClustersInner(unittest.TestCase):
                 name = '',
                 nodes = '',
                 select_plugin = '',
-                associations = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_clusters_inner_associations.v0_0_41_openapi_slurmdbd_config_resp_clusters_inner_associations(
-                    root = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_clusters_inner_associations_root.v0_0_41_openapi_slurmdbd_config_resp_clusters_inner_associations_root(
-                        account = '', 
-                        cluster = '', 
-                        partition = '', 
-                        user = '', 
+                associations = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_clusters_inner_associations.v0_0_41_openapi_slurmdbd_config_resp_clusters_inner_associations(
+                    root = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_clusters_inner_associations_root.v0_0_41_openapi_slurmdbd_config_resp_clusters_inner_associations_root(
+                        account = '',
+                        cluster = '',
+                        partition = '',
+                        user = '',
                         id = 56, ), ),
                 rpc_version = 56,
                 tres = [
-                    openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner(
-                        type = '', 
-                        name = '', 
-                        id = 56, 
+                    openapi_slurm.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner(
+                        type = '',
+                        name = '',
+                        id = 56,
                         count = 56, )
                     ]
             )

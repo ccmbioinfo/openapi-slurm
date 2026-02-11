@@ -5,15 +5,15 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**tres** | [**List[V0042Tres]**](V0042Tres.md) |  | 
-**meta** | [**V0042OpenapiMeta**](V0042OpenapiMeta.md) |  | [optional] 
-**errors** | [**List[V0042OpenapiError]**](V0042OpenapiError.md) |  | [optional] 
-**warnings** | [**List[V0042OpenapiWarning]**](V0042OpenapiWarning.md) |  | [optional] 
+**tres** | [**List[V0042Tres]**](V0042Tres.md) |  |
+**meta** | [**V0042OpenapiMeta**](V0042OpenapiMeta.md) |  | [optional]
+**errors** | [**List[V0042OpenapiError]**](V0042OpenapiError.md) |  | [optional]
+**warnings** | [**List[V0042OpenapiWarning]**](V0042OpenapiWarning.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0042_openapi_tres_resp import V0042OpenapiTresResp
+from openapi_slurm.models.v0042_openapi_tres_resp import V0042OpenapiTresResp
 
 # TODO update the JSON string below
 json = "{}"

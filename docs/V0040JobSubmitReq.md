@@ -5,14 +5,14 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**script** | **str** | Batch job script; must be specified in first component of jobs or in job if this field is not populated | [optional] 
-**jobs** | [**List[V0040JobDescMsg]**](V0040JobDescMsg.md) |  | [optional] 
-**job** | [**V0040JobDescMsg**](V0040JobDescMsg.md) |  | [optional] 
+**script** | **str** | Batch job script; must be specified in first component of jobs or in job if this field is not populated | [optional]
+**jobs** | [**List[V0040JobDescMsg]**](V0040JobDescMsg.md) |  | [optional]
+**job** | [**V0040JobDescMsg**](V0040JobDescMsg.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_job_submit_req import V0040JobSubmitReq
+from openapi_slurm.models.v0040_job_submit_req import V0040JobSubmitReq
 
 # TODO update the JSON string below
 json = "{}"

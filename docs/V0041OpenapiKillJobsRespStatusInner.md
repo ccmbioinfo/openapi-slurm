@@ -6,15 +6,15 @@ List of jobs signal responses
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**error** | [**V0040KillJobsRespJobError**](V0040KillJobsRespJobError.md) |  | [optional] 
-**step_id** | **str** | Job or Step ID that signaling failed | 
-**job_id** | [**V0041OpenapiKillJobsRespStatusInnerJobId**](V0041OpenapiKillJobsRespStatusInnerJobId.md) |  | 
-**federation** | [**V0040KillJobsRespJobFederation**](V0040KillJobsRespJobFederation.md) |  | [optional] 
+**error** | [**V0040KillJobsRespJobError**](V0040KillJobsRespJobError.md) |  | [optional]
+**step_id** | **str** | Job or Step ID that signaling failed |
+**job_id** | [**V0041OpenapiKillJobsRespStatusInnerJobId**](V0041OpenapiKillJobsRespStatusInnerJobId.md) |  |
+**federation** | [**V0040KillJobsRespJobFederation**](V0040KillJobsRespJobFederation.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_kill_jobs_resp_status_inner import V0041OpenapiKillJobsRespStatusInner
+from openapi_slurm.models.v0041_openapi_kill_jobs_resp_status_inner import V0041OpenapiKillJobsRespStatusInner
 
 # TODO update the JSON string below
 json = "{}"

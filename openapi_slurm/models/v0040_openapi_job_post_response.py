@@ -20,10 +20,10 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictStr
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0040_job_array_response_msg_entry import V0040JobArrayResponseMsgEntry
-from openapi_client.models.v0040_openapi_error import V0040OpenapiError
-from openapi_client.models.v0040_openapi_meta import V0040OpenapiMeta
-from openapi_client.models.v0040_openapi_warning import V0040OpenapiWarning
+from openapi_slurm.models.v0040_job_array_response_msg_entry import V0040JobArrayResponseMsgEntry
+from openapi_slurm.models.v0040_openapi_error import V0040OpenapiError
+from openapi_slurm.models.v0040_openapi_meta import V0040OpenapiMeta
+from openapi_slurm.models.v0040_openapi_warning import V0040OpenapiWarning
 from typing import Optional, Set
 from typing_extensions import Self
 

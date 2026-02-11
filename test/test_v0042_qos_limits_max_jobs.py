@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0042_qos_limits_max_jobs import V0042QosLimitsMaxJobs
+from openapi_slurm.models.v0042_qos_limits_max_jobs import V0042QosLimitsMaxJobs
 
 class TestV0042QosLimitsMaxJobs(unittest.TestCase):
     """V0042QosLimitsMaxJobs unit test stubs"""
@@ -36,28 +36,28 @@ class TestV0042QosLimitsMaxJobs(unittest.TestCase):
         model = V0042QosLimitsMaxJobs()
         if include_optional:
             return V0042QosLimitsMaxJobs(
-                count = openapi_client.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                count = openapi_slurm.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                active_jobs = openapi_client.models.v0_0_42_qos_limits_max_jobs_active_jobs.v0_0_42_qos_limits_max_jobs_active_jobs(
-                    per = openapi_client.models.v0_0_42_qos_limits_max_jobs_active_jobs_per.v0_0_42_qos_limits_max_jobs_active_jobs_per(
-                        account = openapi_client.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
-                            set = True, 
-                            infinite = True, 
-                            number = 56, ), 
-                        user = openapi_client.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
-                            set = True, 
-                            infinite = True, 
+                active_jobs = openapi_slurm.models.v0_0_42_qos_limits_max_jobs_active_jobs.v0_0_42_qos_limits_max_jobs_active_jobs(
+                    per = openapi_slurm.models.v0_0_42_qos_limits_max_jobs_active_jobs_per.v0_0_42_qos_limits_max_jobs_active_jobs_per(
+                        account = openapi_slurm.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
+                            set = True,
+                            infinite = True,
+                            number = 56, ),
+                        user = openapi_slurm.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
+                            set = True,
+                            infinite = True,
                             number = 56, ), ), ),
-                per = openapi_client.models.v0_0_42_qos_limits_max_jobs_active_jobs_per.v0_0_42_qos_limits_max_jobs_active_jobs_per(
-                    account = openapi_client.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
-                        set = True, 
-                        infinite = True, 
-                        number = 56, ), 
-                    user = openapi_client.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
-                        set = True, 
-                        infinite = True, 
+                per = openapi_slurm.models.v0_0_42_qos_limits_max_jobs_active_jobs_per.v0_0_42_qos_limits_max_jobs_active_jobs_per(
+                    account = openapi_slurm.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
+                        set = True,
+                        infinite = True,
+                        number = 56, ),
+                    user = openapi_slurm.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
+                        set = True,
+                        infinite = True,
                         number = 56, ), )
             )
         else:

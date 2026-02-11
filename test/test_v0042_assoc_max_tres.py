@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0042_assoc_max_tres import V0042AssocMaxTres
+from openapi_slurm.models.v0042_assoc_max_tres import V0042AssocMaxTres
 
 class TestV0042AssocMaxTres(unittest.TestCase):
     """V0042AssocMaxTres unit test stubs"""
@@ -37,56 +37,56 @@ class TestV0042AssocMaxTres(unittest.TestCase):
         if include_optional:
             return V0042AssocMaxTres(
                 total = [
-                    openapi_client.models.v0/0/42_tres.v0.0.42_tres(
-                        type = '', 
-                        name = '', 
-                        id = 56, 
+                    openapi_slurm.models.v0/0/42_tres.v0.0.42_tres(
+                        type = '',
+                        name = '',
+                        id = 56,
                         count = 56, )
                     ],
-                group = openapi_client.models.v0_0_42_assoc_max_tres_group.v0_0_42_assoc_max_tres_group(
+                group = openapi_slurm.models.v0_0_42_assoc_max_tres_group.v0_0_42_assoc_max_tres_group(
                     minutes = [
-                        openapi_client.models.v0/0/42_tres.v0.0.42_tres(
-                            type = '', 
-                            name = '', 
-                            id = 56, 
+                        openapi_slurm.models.v0/0/42_tres.v0.0.42_tres(
+                            type = '',
+                            name = '',
+                            id = 56,
                             count = 56, )
-                        ], 
+                        ],
                     active = [
-                        openapi_client.models.v0/0/42_tres.v0.0.42_tres(
-                            type = '', 
-                            name = '', 
-                            id = 56, 
+                        openapi_slurm.models.v0/0/42_tres.v0.0.42_tres(
+                            type = '',
+                            name = '',
+                            id = 56,
                             count = 56, )
                         ], ),
-                minutes = openapi_client.models.v0_0_42_assoc_max_tres_minutes.v0_0_42_assoc_max_tres_minutes(
+                minutes = openapi_slurm.models.v0_0_42_assoc_max_tres_minutes.v0_0_42_assoc_max_tres_minutes(
                     total = [
-                        openapi_client.models.v0/0/42_tres.v0.0.42_tres(
-                            type = '', 
-                            name = '', 
-                            id = 56, 
+                        openapi_slurm.models.v0/0/42_tres.v0.0.42_tres(
+                            type = '',
+                            name = '',
+                            id = 56,
                             count = 56, )
-                        ], 
-                    per = openapi_client.models.v0_0_42_qos_limits_min_tres_per.v0_0_42_qos_limits_min_tres_per(
+                        ],
+                    per = openapi_slurm.models.v0_0_42_qos_limits_min_tres_per.v0_0_42_qos_limits_min_tres_per(
                         job = [
-                            openapi_client.models.v0/0/42_tres.v0.0.42_tres(
-                                type = '', 
-                                name = '', 
-                                id = 56, 
+                            openapi_slurm.models.v0/0/42_tres.v0.0.42_tres(
+                                type = '',
+                                name = '',
+                                id = 56,
                                 count = 56, )
                             ], ), ),
-                per = openapi_client.models.v0_0_42_assoc_max_tres_per.v0_0_42_assoc_max_tres_per(
+                per = openapi_slurm.models.v0_0_42_assoc_max_tres_per.v0_0_42_assoc_max_tres_per(
                     job = [
-                        openapi_client.models.v0/0/42_tres.v0.0.42_tres(
-                            type = '', 
-                            name = '', 
-                            id = 56, 
+                        openapi_slurm.models.v0/0/42_tres.v0.0.42_tres(
+                            type = '',
+                            name = '',
+                            id = 56,
                             count = 56, )
-                        ], 
+                        ],
                     node = [
-                        openapi_client.models.v0/0/42_tres.v0.0.42_tres(
-                            type = '', 
-                            name = '', 
-                            id = 56, 
+                        openapi_slurm.models.v0/0/42_tres.v0.0.42_tres(
+                            type = '',
+                            name = '',
+                            id = 56,
                             count = 56, )
                         ], )
             )

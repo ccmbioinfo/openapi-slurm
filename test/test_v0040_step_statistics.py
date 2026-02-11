@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_step_statistics import V0040StepStatistics
+from openapi_slurm.models.v0040_step_statistics import V0040StepStatistics
 
 class TestV0040StepStatistics(unittest.TestCase):
     """V0040StepStatistics unit test stubs"""
@@ -36,12 +36,12 @@ class TestV0040StepStatistics(unittest.TestCase):
         model = V0040StepStatistics()
         if include_optional:
             return V0040StepStatistics(
-                cpu = openapi_client.models.v0_0_40_step_statistics_cpu.v0_0_40_step_statistics_CPU(
+                cpu = openapi_slurm.models.v0_0_40_step_statistics_cpu.v0_0_40_step_statistics_CPU(
                     actual_frequency = 56, ),
-                energy = openapi_client.models.v0_0_40_step_statistics_energy.v0_0_40_step_statistics_energy(
-                    consumed = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
-                        set = True, 
-                        infinite = True, 
+                energy = openapi_slurm.models.v0_0_40_step_statistics_energy.v0_0_40_step_statistics_energy(
+                    consumed = openapi_slurm.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                        set = True,
+                        infinite = True,
                         number = 56, ), )
             )
         else:

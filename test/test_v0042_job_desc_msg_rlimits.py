@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0042_job_desc_msg_rlimits import V0042JobDescMsgRlimits
+from openapi_slurm.models.v0042_job_desc_msg_rlimits import V0042JobDescMsgRlimits
 
 class TestV0042JobDescMsgRlimits(unittest.TestCase):
     """V0042JobDescMsgRlimits unit test stubs"""
@@ -36,45 +36,45 @@ class TestV0042JobDescMsgRlimits(unittest.TestCase):
         model = V0042JobDescMsgRlimits()
         if include_optional:
             return V0042JobDescMsgRlimits(
-                cpu = openapi_client.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                cpu = openapi_slurm.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                fsize = openapi_client.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                fsize = openapi_slurm.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                data = openapi_client.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                data = openapi_slurm.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                stack = openapi_client.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                stack = openapi_slurm.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                core = openapi_client.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                core = openapi_slurm.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                rss = openapi_client.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                rss = openapi_slurm.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                nproc = openapi_client.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                nproc = openapi_slurm.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                nofile = openapi_client.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                nofile = openapi_slurm.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                memlock = openapi_client.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                memlock = openapi_slurm.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                var_as = openapi_client.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                var_as = openapi_slurm.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, )
             )
         else:

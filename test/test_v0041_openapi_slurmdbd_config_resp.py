@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp import V0041OpenapiSlurmdbdConfigResp
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp import V0041OpenapiSlurmdbdConfigResp
 
 class TestV0041OpenapiSlurmdbdConfigResp(unittest.TestCase):
     """V0041OpenapiSlurmdbdConfigResp unit test stubs"""
@@ -37,338 +37,338 @@ class TestV0041OpenapiSlurmdbdConfigResp(unittest.TestCase):
         if include_optional:
             return V0041OpenapiSlurmdbdConfigResp(
                 clusters = [
-                    openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_clusters_inner.v0_0_41_openapi_slurmdbd_config_resp_clusters_inner(
-                        controller = openapi_client.models.v0_0_40_cluster_rec_controller.v0_0_40_cluster_rec_controller(
-                            host = '', 
-                            port = 56, ), 
+                    openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_clusters_inner.v0_0_41_openapi_slurmdbd_config_resp_clusters_inner(
+                        controller = openapi_slurm.models.v0_0_40_cluster_rec_controller.v0_0_40_cluster_rec_controller(
+                            host = '',
+                            port = 56, ),
                         flags = [
                             'REGISTERING'
-                            ], 
-                        name = '', 
-                        nodes = '', 
-                        select_plugin = '', 
-                        associations = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_clusters_inner_associations.v0_0_41_openapi_slurmdbd_config_resp_clusters_inner_associations(
-                            root = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_clusters_inner_associations_root.v0_0_41_openapi_slurmdbd_config_resp_clusters_inner_associations_root(
-                                account = '', 
-                                cluster = '', 
-                                partition = '', 
-                                user = '', 
-                                id = 56, ), ), 
-                        rpc_version = 56, 
+                            ],
+                        name = '',
+                        nodes = '',
+                        select_plugin = '',
+                        associations = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_clusters_inner_associations.v0_0_41_openapi_slurmdbd_config_resp_clusters_inner_associations(
+                            root = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_clusters_inner_associations_root.v0_0_41_openapi_slurmdbd_config_resp_clusters_inner_associations_root(
+                                account = '',
+                                cluster = '',
+                                partition = '',
+                                user = '',
+                                id = 56, ), ),
+                        rpc_version = 56,
                         tres = [
-                            openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner(
-                                type = '', 
-                                name = '', 
-                                id = 56, 
+                            openapi_slurm.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner(
+                                type = '',
+                                name = '',
+                                id = 56,
                                 count = 56, )
                             ], )
                     ],
                 tres = [
-                    openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner(
-                        type = '', 
-                        name = '', 
-                        id = 56, 
+                    openapi_slurm.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner(
+                        type = '',
+                        name = '',
+                        id = 56,
                         count = 56, )
                     ],
                 accounts = [
-                    openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_accounts_inner.v0_0_41_openapi_slurmdbd_config_resp_accounts_inner(
+                    openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_accounts_inner.v0_0_41_openapi_slurmdbd_config_resp_accounts_inner(
                         associations = [
-                            openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_accounts_inner_associations_inner.v0_0_41_openapi_slurmdbd_config_resp_accounts_inner_associations_inner(
-                                account = '', 
-                                cluster = '', 
-                                partition = '', 
-                                user = '', 
+                            openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_accounts_inner_associations_inner.v0_0_41_openapi_slurmdbd_config_resp_accounts_inner_associations_inner(
+                                account = '',
+                                cluster = '',
+                                partition = '',
+                                user = '',
                                 id = 56, )
-                            ], 
+                            ],
                         coordinators = [
-                            openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_accounts_inner_coordinators_inner.v0_0_41_openapi_slurmdbd_config_resp_accounts_inner_coordinators_inner(
-                                name = '', 
+                            openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_accounts_inner_coordinators_inner.v0_0_41_openapi_slurmdbd_config_resp_accounts_inner_coordinators_inner(
+                                name = '',
                                 direct = True, )
-                            ], 
-                        description = '', 
-                        name = '', 
-                        organization = '', 
+                            ],
+                        description = '',
+                        name = '',
+                        organization = '',
                         flags = [
                             'DELETED'
                             ], )
                     ],
                 users = [
-                    openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_users_inner.v0_0_41_openapi_slurmdbd_config_resp_users_inner(
+                    openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_users_inner.v0_0_41_openapi_slurmdbd_config_resp_users_inner(
                         administrator_level = [
                             'Not Set'
-                            ], 
+                            ],
                         associations = [
-                            openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_accounts_inner_associations_inner.v0_0_41_openapi_slurmdbd_config_resp_accounts_inner_associations_inner(
-                                account = '', 
-                                cluster = '', 
-                                partition = '', 
-                                user = '', 
+                            openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_accounts_inner_associations_inner.v0_0_41_openapi_slurmdbd_config_resp_accounts_inner_associations_inner(
+                                account = '',
+                                cluster = '',
+                                partition = '',
+                                user = '',
                                 id = 56, )
-                            ], 
+                            ],
                         coordinators = [
-                            openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_accounts_inner_coordinators_inner.v0_0_41_openapi_slurmdbd_config_resp_accounts_inner_coordinators_inner(
-                                name = '', 
+                            openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_accounts_inner_coordinators_inner.v0_0_41_openapi_slurmdbd_config_resp_accounts_inner_coordinators_inner(
+                                name = '',
                                 direct = True, )
-                            ], 
-                        default = openapi_client.models.v0_0_40_user_default.v0_0_40_user_default(
-                            account = '', 
-                            wckey = '', ), 
+                            ],
+                        default = openapi_slurm.models.v0_0_40_user_default.v0_0_40_user_default(
+                            account = '',
+                            wckey = '', ),
                         flags = [
                             'NONE'
-                            ], 
-                        name = '', 
-                        old_name = '', 
+                            ],
+                        name = '',
+                        old_name = '',
                         wckeys = [
-                            openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner(
+                            openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner(
                                 accounting = [
-                                    openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner_accounting_inner.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner_accounting_inner(
-                                        allocated = openapi_client.models.v0_0_40_accounting_allocated.v0_0_40_accounting_allocated(
-                                            seconds = 56, ), 
-                                        id = 56, 
-                                        start = 56, 
-                                        tres = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner_accounting_inner_tres.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner_accounting_inner_TRES(
-                                            type = '', 
-                                            name = '', 
-                                            id = 56, 
+                                    openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner_accounting_inner.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner_accounting_inner(
+                                        allocated = openapi_slurm.models.v0_0_40_accounting_allocated.v0_0_40_accounting_allocated(
+                                            seconds = 56, ),
+                                        id = 56,
+                                        start = 56,
+                                        tres = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner_accounting_inner_tres.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner_accounting_inner_TRES(
+                                            type = '',
+                                            name = '',
+                                            id = 56,
                                             count = 56, ), )
-                                    ], 
-                                cluster = '', 
-                                id = 56, 
-                                name = '', 
+                                    ],
+                                cluster = '',
+                                id = 56,
+                                name = '',
                                 user = '', )
                             ], )
                     ],
                 qos = [
-                    openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner.v0_0_41_openapi_slurmdbd_config_resp_qos_inner(
-                        description = '', 
+                    openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner.v0_0_41_openapi_slurmdbd_config_resp_qos_inner(
+                        description = '',
                         flags = [
                             'NOT_SET'
-                            ], 
-                        id = 56, 
-                        limits = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits(
-                            grace_time = 56, 
-                            max = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max(
-                                active_jobs = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs(
-                                    accruing = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs_accruing.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs_accruing(
-                                        set = True, 
-                                        infinite = True, 
-                                        number = 56, ), 
-                                    count = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs_count.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs_count(
-                                        set = True, 
-                                        infinite = True, 
-                                        number = 56, ), ), 
-                                tres = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_tres.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_tres(
+                            ],
+                        id = 56,
+                        limits = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits(
+                            grace_time = 56,
+                            max = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max(
+                                active_jobs = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs(
+                                    accruing = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs_accruing.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs_accruing(
+                                        set = True,
+                                        infinite = True,
+                                        number = 56, ),
+                                    count = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs_count.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs_count(
+                                        set = True,
+                                        infinite = True,
+                                        number = 56, ), ),
+                                tres = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_tres.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_tres(
                                     total = [
-                                        openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner(
-                                            type = '', 
-                                            name = '', 
+                                        openapi_slurm.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner(
+                                            type = '',
+                                            name = '',
                                             id = 56, )
-                                        ], 
-                                    minutes = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_tres_minutes.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_tres_minutes(
-                                        per = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_tres_minutes_per.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_tres_minutes_per(
+                                        ],
+                                    minutes = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_tres_minutes.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_tres_minutes(
+                                        per = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_tres_minutes_per.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_tres_minutes_per(
                                             qos = [
-                                                openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner(
-                                                    type = '', 
-                                                    name = '', 
+                                                openapi_slurm.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner(
+                                                    type = '',
+                                                    name = '',
                                                     id = 56, )
-                                                ], 
+                                                ],
                                             job = [
-                                                
-                                                ], 
+
+                                                ],
                                             account = [
-                                                
-                                                ], 
+
+                                                ],
                                             user = [
-                                                
-                                                ], ), ), 
-                                    per = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_tres_per.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_tres_per(
+
+                                                ], ), ),
+                                    per = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_tres_per.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_tres_per(
                                         node = [
-                                            
-                                            ], ), ), 
-                                wall_clock = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock(), 
-                                jobs = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs(), 
-                                accruing = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_accruing.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_accruing(), ), 
-                            factor = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_factor.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_factor(
-                                set = True, 
-                                infinite = True, 
-                                number = 1.337, ), 
-                            min = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_min.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_min(
-                                priority_threshold = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_min_priority_threshold.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_min_priority_threshold(
-                                    set = True, 
-                                    infinite = True, 
-                                    number = 56, ), ), ), 
-                        name = '', 
-                        preempt = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_preempt.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_preempt(
+
+                                            ], ), ),
+                                wall_clock = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock(),
+                                jobs = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs(),
+                                accruing = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_accruing.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_accruing(), ),
+                            factor = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_factor.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_factor(
+                                set = True,
+                                infinite = True,
+                                number = 1.337, ),
+                            min = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_min.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_min(
+                                priority_threshold = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_min_priority_threshold.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_min_priority_threshold(
+                                    set = True,
+                                    infinite = True,
+                                    number = 56, ), ), ),
+                        name = '',
+                        preempt = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_preempt.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_preempt(
                             list = [
                                 ''
-                                ], 
+                                ],
                             mode = [
                                 'DISABLED'
-                                ], 
-                            exempt_time = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_preempt_exempt_time.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_preempt_exempt_time(
-                                set = True, 
-                                infinite = True, 
-                                number = 56, ), ), 
-                        priority = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_priority.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_priority(
-                            set = True, 
-                            infinite = True, 
-                            number = 56, ), 
-                        usage_factor = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_usage_factor.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_usage_factor(
-                            set = True, 
-                            infinite = True, 
-                            number = 1.337, ), 
-                        usage_threshold = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_usage_threshold.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_usage_threshold(
-                            set = True, 
-                            infinite = True, 
+                                ],
+                            exempt_time = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_preempt_exempt_time.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_preempt_exempt_time(
+                                set = True,
+                                infinite = True,
+                                number = 56, ), ),
+                        priority = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_priority.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_priority(
+                            set = True,
+                            infinite = True,
+                            number = 56, ),
+                        usage_factor = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_usage_factor.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_usage_factor(
+                            set = True,
+                            infinite = True,
+                            number = 1.337, ),
+                        usage_threshold = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_usage_threshold.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_usage_threshold(
+                            set = True,
+                            infinite = True,
                             number = 1.337, ), )
                     ],
                 wckeys = [
-                    openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner(
+                    openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner(
                         accounting = [
-                            openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner_accounting_inner.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner_accounting_inner(
-                                allocated = openapi_client.models.v0_0_40_accounting_allocated.v0_0_40_accounting_allocated(
-                                    seconds = 56, ), 
-                                id = 56, 
-                                start = 56, 
-                                tres = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner_accounting_inner_tres.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner_accounting_inner_TRES(
-                                    type = '', 
-                                    name = '', 
-                                    id = 56, 
+                            openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner_accounting_inner.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner_accounting_inner(
+                                allocated = openapi_slurm.models.v0_0_40_accounting_allocated.v0_0_40_accounting_allocated(
+                                    seconds = 56, ),
+                                id = 56,
+                                start = 56,
+                                tres = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner_accounting_inner_tres.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner_accounting_inner_TRES(
+                                    type = '',
+                                    name = '',
+                                    id = 56,
                                     count = 56, ), )
-                            ], 
-                        cluster = '', 
-                        id = 56, 
-                        name = '', 
-                        user = '', 
+                            ],
+                        cluster = '',
+                        id = 56,
+                        name = '',
+                        user = '',
                         flags = [
                             'DELETED'
                             ], )
                     ],
                 associations = [
-                    openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_associations_inner.v0_0_41_openapi_slurmdbd_config_resp_associations_inner(
+                    openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_associations_inner.v0_0_41_openapi_slurmdbd_config_resp_associations_inner(
                         accounting = [
-                            openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner_accounting_inner.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner_accounting_inner(
-                                allocated = openapi_client.models.v0_0_40_accounting_allocated.v0_0_40_accounting_allocated(
-                                    seconds = 56, ), 
-                                id = 56, 
-                                start = 56, 
-                                tres = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner_accounting_inner_tres.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner_accounting_inner_TRES(
-                                    type = '', 
-                                    name = '', 
-                                    id = 56, 
+                            openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner_accounting_inner.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner_accounting_inner(
+                                allocated = openapi_slurm.models.v0_0_40_accounting_allocated.v0_0_40_accounting_allocated(
+                                    seconds = 56, ),
+                                id = 56,
+                                start = 56,
+                                tres = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner_accounting_inner_tres.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner_accounting_inner_TRES(
+                                    type = '',
+                                    name = '',
+                                    id = 56,
                                     count = 56, ), )
-                            ], 
-                        account = '', 
-                        cluster = '', 
-                        comment = '', 
-                        default = openapi_client.models.v0_0_40_assoc_default.v0_0_40_assoc_default(
-                            qos = '', ), 
+                            ],
+                        account = '',
+                        cluster = '',
+                        comment = '',
+                        default = openapi_slurm.models.v0_0_40_assoc_default.v0_0_40_assoc_default(
+                            qos = '', ),
                         flags = [
                             'DELETED'
-                            ], 
-                        max = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max(
-                            jobs = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_jobs.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_jobs(
-                                per = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_jobs_per.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_jobs_per(
-                                    count = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs_count.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs_count(
-                                        set = True, 
-                                        infinite = True, 
-                                        number = 56, ), 
-                                    accruing = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs_accruing.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs_accruing(
-                                        set = True, 
-                                        infinite = True, 
-                                        number = 56, ), 
-                                    submitted = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_jobs_per_submitted.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_jobs_per_submitted(
-                                        set = True, 
-                                        infinite = True, 
-                                        number = 56, ), 
-                                    wall_clock = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock_per_job.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock_per_job(
-                                        set = True, 
-                                        infinite = True, 
-                                        number = 56, ), ), 
-                                active = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_jobs_active.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_jobs_active(
-                                    set = True, 
-                                    infinite = True, 
-                                    number = 56, ), 
-                                accruing = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_jobs_accruing.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_jobs_accruing(
-                                    set = True, 
-                                    infinite = True, 
-                                    number = 56, ), 
-                                total = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_jobs_total.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_jobs_total(
-                                    set = True, 
-                                    infinite = True, 
-                                    number = 56, ), ), 
-                            tres = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_tres.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_tres(
-                                group = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_tres_group.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_tres_group(
+                            ],
+                        max = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max(
+                            jobs = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_jobs.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_jobs(
+                                per = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_jobs_per.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_jobs_per(
+                                    count = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs_count.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs_count(
+                                        set = True,
+                                        infinite = True,
+                                        number = 56, ),
+                                    accruing = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs_accruing.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs_accruing(
+                                        set = True,
+                                        infinite = True,
+                                        number = 56, ),
+                                    submitted = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_jobs_per_submitted.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_jobs_per_submitted(
+                                        set = True,
+                                        infinite = True,
+                                        number = 56, ),
+                                    wall_clock = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock_per_job.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock_per_job(
+                                        set = True,
+                                        infinite = True,
+                                        number = 56, ), ),
+                                active = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_jobs_active.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_jobs_active(
+                                    set = True,
+                                    infinite = True,
+                                    number = 56, ),
+                                accruing = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_jobs_accruing.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_jobs_accruing(
+                                    set = True,
+                                    infinite = True,
+                                    number = 56, ),
+                                total = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_jobs_total.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_jobs_total(
+                                    set = True,
+                                    infinite = True,
+                                    number = 56, ), ),
+                            tres = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_tres.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_tres(
+                                group = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_tres_group.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_tres_group(
                                     minutes = [
-                                        openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner(
-                                            type = '', 
-                                            name = '', 
+                                        openapi_slurm.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner(
+                                            type = '',
+                                            name = '',
                                             id = 56, )
-                                        ], ), 
-                                minutes = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_tres_minutes.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_tres_minutes(), ), 
-                            per = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_per.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_per(
-                                account = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_per_account.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_per_account(), ), ), 
-                        id = 56, 
-                        is_default = True, 
-                        lineage = '', 
-                        min = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_min.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_min(
-                            priority_threshold = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_min_priority_threshold.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_min_priority_threshold(
-                                set = True, 
-                                infinite = True, 
-                                number = 56, ), ), 
-                        parent_account = '', 
-                        partition = '', 
-                        priority = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_priority.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_priority(
-                            set = True, 
-                            infinite = True, 
-                            number = 56, ), 
+                                        ], ),
+                                minutes = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_tres_minutes.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_tres_minutes(), ),
+                            per = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_per.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_per(
+                                account = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_per_account.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_per_account(), ), ),
+                        id = 56,
+                        is_default = True,
+                        lineage = '',
+                        min = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_min.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_min(
+                            priority_threshold = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_min_priority_threshold.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_min_priority_threshold(
+                                set = True,
+                                infinite = True,
+                                number = 56, ), ),
+                        parent_account = '',
+                        partition = '',
+                        priority = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_priority.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_priority(
+                            set = True,
+                            infinite = True,
+                            number = 56, ),
                         qos = [
                             ''
-                            ], 
-                        shares_raw = 56, 
+                            ],
+                        shares_raw = 56,
                         user = '', )
                     ],
                 instances = [
-                    openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_instances_inner.v0_0_41_openapi_slurmdbd_config_resp_instances_inner(
-                        cluster = '', 
-                        extra = '', 
-                        instance_id = '', 
-                        instance_type = '', 
-                        node_name = '', 
-                        time = openapi_client.models.v0_0_40_instance_time.v0_0_40_instance_time(
-                            time_end = 56, 
+                    openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_instances_inner.v0_0_41_openapi_slurmdbd_config_resp_instances_inner(
+                        cluster = '',
+                        extra = '',
+                        instance_id = '',
+                        instance_type = '',
+                        node_name = '',
+                        time = openapi_slurm.models.v0_0_40_instance_time.v0_0_40_instance_time(
+                            time_end = 56,
                             time_start = 56, ), )
                     ],
-                meta = openapi_client.models.v0_0_41_openapi_shares_resp_meta.v0_0_41_openapi_shares_resp_meta(
-                    plugin = openapi_client.models.v0_0_40_openapi_meta_plugin.v0_0_40_openapi_meta_plugin(
-                        type = '', 
-                        name = '', 
-                        data_parser = '', 
-                        accounting_storage = '', ), 
-                    client = openapi_client.models.v0_0_40_openapi_meta_client.v0_0_40_openapi_meta_client(
-                        source = '', 
-                        user = '', 
-                        group = '', ), 
+                meta = openapi_slurm.models.v0_0_41_openapi_shares_resp_meta.v0_0_41_openapi_shares_resp_meta(
+                    plugin = openapi_slurm.models.v0_0_40_openapi_meta_plugin.v0_0_40_openapi_meta_plugin(
+                        type = '',
+                        name = '',
+                        data_parser = '',
+                        accounting_storage = '', ),
+                    client = openapi_slurm.models.v0_0_40_openapi_meta_client.v0_0_40_openapi_meta_client(
+                        source = '',
+                        user = '',
+                        group = '', ),
                     command = [
                         ''
-                        ], 
-                    slurm = openapi_client.models.v0_0_40_openapi_meta_slurm.v0_0_40_openapi_meta_slurm(
-                        version = openapi_client.models.v0_0_40_openapi_meta_slurm_version.v0_0_40_openapi_meta_slurm_version(
-                            major = '', 
-                            micro = '', 
-                            minor = '', ), 
-                        release = '', 
+                        ],
+                    slurm = openapi_slurm.models.v0_0_40_openapi_meta_slurm.v0_0_40_openapi_meta_slurm(
+                        version = openapi_slurm.models.v0_0_40_openapi_meta_slurm_version.v0_0_40_openapi_meta_slurm_version(
+                            major = '',
+                            micro = '',
+                            minor = '', ),
+                        release = '',
                         cluster = '', ), ),
                 errors = [
-                    openapi_client.models.v0_0_41_openapi_shares_resp_errors_inner.v0_0_41_openapi_shares_resp_errors_inner(
-                        description = '', 
-                        error_number = 56, 
-                        error = '', 
+                    openapi_slurm.models.v0_0_41_openapi_shares_resp_errors_inner.v0_0_41_openapi_shares_resp_errors_inner(
+                        description = '',
+                        error_number = 56,
+                        error = '',
                         source = '', )
                     ],
                 warnings = [
-                    openapi_client.models.v0_0_41_openapi_shares_resp_warnings_inner.v0_0_41_openapi_shares_resp_warnings_inner(
-                        description = '', 
+                    openapi_slurm.models.v0_0_41_openapi_shares_resp_warnings_inner.v0_0_41_openapi_shares_resp_warnings_inner(
+                        description = '',
                         source = '', )
                     ]
             )

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0043_users_add_cond import V0043UsersAddCond
+from openapi_slurm.models.v0043_users_add_cond import V0043UsersAddCond
 
 class TestV0043UsersAddCond(unittest.TestCase):
     """V0043UsersAddCond unit test stubs"""
@@ -39,48 +39,48 @@ class TestV0043UsersAddCond(unittest.TestCase):
                 accounts = [
                     ''
                     ],
-                association = openapi_client.models.v0/0/43_assoc_rec_set.v0.0.43_assoc_rec_set(
-                    comment = '', 
-                    defaultqos = '', 
-                    grpjobs = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                        set = True, 
-                        infinite = True, 
-                        number = 56, ), 
-                    grpjobsaccrue = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                        set = True, 
-                        infinite = True, 
-                        number = 56, ), 
-                    grpsubmitjobs = , 
+                association = openapi_slurm.models.v0/0/43_assoc_rec_set.v0.0.43_assoc_rec_set(
+                    comment = '',
+                    defaultqos = '',
+                    grpjobs = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                        set = True,
+                        infinite = True,
+                        number = 56, ),
+                    grpjobsaccrue = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                        set = True,
+                        infinite = True,
+                        number = 56, ),
+                    grpsubmitjobs = ,
                     grptres = [
-                        openapi_client.models.v0/0/43_tres.v0.0.43_tres(
-                            type = '', 
-                            name = '', 
-                            id = 56, 
+                        openapi_slurm.models.v0/0/43_tres.v0.0.43_tres(
+                            type = '',
+                            name = '',
+                            id = 56,
                             count = 56, )
-                        ], 
+                        ],
                     grptresmins = [
-                        openapi_client.models.v0/0/43_tres.v0.0.43_tres(
-                            type = '', 
-                            name = '', 
-                            id = 56, 
+                        openapi_slurm.models.v0/0/43_tres.v0.0.43_tres(
+                            type = '',
+                            name = '',
+                            id = 56,
                             count = 56, )
-                        ], 
-                    grptresrunmins = , 
-                    grpwall = , 
-                    maxjobs = , 
-                    maxjobsaccrue = , 
-                    maxsubmitjobs = , 
-                    maxtresminsperjob = , 
-                    maxtresrunmins = , 
-                    maxtresperjob = , 
-                    maxtrespernode = , 
-                    maxwalldurationperjob = , 
-                    minpriothresh = , 
-                    parent = '', 
-                    priority = , 
+                        ],
+                    grptresrunmins = ,
+                    grpwall = ,
+                    maxjobs = ,
+                    maxjobsaccrue = ,
+                    maxsubmitjobs = ,
+                    maxtresminsperjob = ,
+                    maxtresrunmins = ,
+                    maxtresperjob = ,
+                    maxtrespernode = ,
+                    maxwalldurationperjob = ,
+                    minpriothresh = ,
+                    parent = '',
+                    priority = ,
                     qoslevel = [
                         ''
-                        ], 
+                        ],
                     fairshare = 56, ),
                 clusters = [
                     ''

@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**priority_threshold** | [**V0040Uint32NoVal**](V0040Uint32NoVal.md) |  | [optional] 
-**tres** | [**V0040QosLimitsMinTres**](V0040QosLimitsMinTres.md) |  | [optional] 
+**priority_threshold** | [**V0040Uint32NoVal**](V0040Uint32NoVal.md) |  | [optional]
+**tres** | [**V0040QosLimitsMinTres**](V0040QosLimitsMinTres.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_qos_limits_min import V0040QosLimitsMin
+from openapi_slurm.models.v0040_qos_limits_min import V0040QosLimitsMin
 
 # TODO update the JSON string below
 json = "{}"

@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**index** | **int** | Core index | 
-**cores** | [**List[V0043JobResCore]**](V0043JobResCore.md) |  | 
+**index** | **int** | Core index |
+**cores** | [**List[V0043JobResCore]**](V0043JobResCore.md) |  |
 
 ## Example
 
 ```python
-from openapi_client.models.v0043_job_res_socket import V0043JobResSocket
+from openapi_slurm.models.v0043_job_res_socket import V0043JobResSocket
 
 # TODO update the JSON string below
 json = "{}"

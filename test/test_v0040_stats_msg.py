@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_stats_msg import V0040StatsMsg
+from openapi_slurm.models.v0040_stats_msg import V0040StatsMsg
 
 class TestV0040StatsMsg(unittest.TestCase):
     """V0040StatsMsg unit test stubs"""
@@ -37,13 +37,13 @@ class TestV0040StatsMsg(unittest.TestCase):
         if include_optional:
             return V0040StatsMsg(
                 parts_packed = 56,
-                req_time = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
-                    set = True, 
-                    infinite = True, 
+                req_time = openapi_slurm.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                req_time_start = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
-                    set = True, 
-                    infinite = True, 
+                req_time_start = openapi_slurm.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
                 server_thread_count = 56,
                 agent_queue_size = 56,
@@ -58,12 +58,12 @@ class TestV0040StatsMsg(unittest.TestCase):
                 schedule_cycle_mean_depth = 56,
                 schedule_cycle_per_minute = 56,
                 schedule_queue_length = 56,
-                schedule_exit = openapi_client.models.v0/0/40_schedule_exit_fields.v0.0.40_schedule_exit_fields(
-                    end_job_queue = 56, 
-                    default_queue_depth = 56, 
-                    max_job_start = 56, 
-                    max_rpc_cnt = 56, 
-                    max_sched_time = 56, 
+                schedule_exit = openapi_slurm.models.v0/0/40_schedule_exit_fields.v0.0.40_schedule_exit_fields(
+                    end_job_queue = 56,
+                    default_queue_depth = 56,
+                    max_job_start = 56,
+                    max_rpc_cnt = 56,
+                    max_sched_time = 56,
                     licenses = 56, ),
                 jobs_submitted = 56,
                 jobs_started = 56,
@@ -72,9 +72,9 @@ class TestV0040StatsMsg(unittest.TestCase):
                 jobs_failed = 56,
                 jobs_pending = 56,
                 jobs_running = 56,
-                job_states_ts = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
-                    set = True, 
-                    infinite = True, 
+                job_states_ts = openapi_slurm.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
                 bf_backfilled_jobs = 56,
                 bf_last_backfilled_jobs = 56,
@@ -94,32 +94,32 @@ class TestV0040StatsMsg(unittest.TestCase):
                 bf_queue_len_sum = 56,
                 bf_table_size = 56,
                 bf_table_size_mean = 56,
-                bf_when_last_cycle = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
-                    set = True, 
-                    infinite = True, 
+                bf_when_last_cycle = openapi_slurm.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
                 bf_active = True,
-                bf_exit = openapi_client.models.v0/0/40_bf_exit_fields.v0.0.40_bf_exit_fields(
-                    end_job_queue = 56, 
-                    bf_max_job_start = 56, 
-                    bf_max_job_test = 56, 
-                    bf_max_time = 56, 
-                    bf_node_space_size = 56, 
+                bf_exit = openapi_slurm.models.v0/0/40_bf_exit_fields.v0.0.40_bf_exit_fields(
+                    end_job_queue = 56,
+                    bf_max_job_start = 56,
+                    bf_max_job_test = 56,
+                    bf_max_time = 56,
+                    bf_node_space_size = 56,
                     state_changed = 56, ),
                 rpcs_by_message_type = [
-                    openapi_client.models.v0_0_40_stats_msg_rpcs_by_type_inner.v0_0_40_stats_msg_rpcs_by_type_inner(
-                        message_type = '', 
-                        type_id = 56, 
-                        count = 56, 
-                        average_time = 56, 
+                    openapi_slurm.models.v0_0_40_stats_msg_rpcs_by_type_inner.v0_0_40_stats_msg_rpcs_by_type_inner(
+                        message_type = '',
+                        type_id = 56,
+                        count = 56,
+                        average_time = 56,
                         total_time = 56, )
                     ],
                 rpcs_by_user = [
-                    openapi_client.models.v0_0_40_stats_msg_rpcs_by_user_inner.v0_0_40_stats_msg_rpcs_by_user_inner(
-                        user = '', 
-                        user_id = 56, 
-                        count = 56, 
-                        average_time = 56, 
+                    openapi_slurm.models.v0_0_40_stats_msg_rpcs_by_user_inner.v0_0_40_stats_msg_rpcs_by_user_inner(
+                        user = '',
+                        user_id = 56,
+                        count = 56,
+                        average_time = 56,
                         total_time = 56, )
                     ]
             )

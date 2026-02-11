@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**account** | [**V0042Uint32NoValStruct**](V0042Uint32NoValStruct.md) |  | [optional] 
-**user** | [**V0042Uint32NoValStruct**](V0042Uint32NoValStruct.md) |  | [optional] 
+**account** | [**V0042Uint32NoValStruct**](V0042Uint32NoValStruct.md) |  | [optional]
+**user** | [**V0042Uint32NoValStruct**](V0042Uint32NoValStruct.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0042_qos_limits_max_jobs_active_jobs_per import V0042QosLimitsMaxJobsActiveJobsPer
+from openapi_slurm.models.v0042_qos_limits_max_jobs_active_jobs_per import V0042QosLimitsMaxJobsActiveJobsPer
 
 # TODO update the JSON string below
 json = "{}"

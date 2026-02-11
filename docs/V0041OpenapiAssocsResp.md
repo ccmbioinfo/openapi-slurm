@@ -5,15 +5,15 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**associations** | [**List[V0041OpenapiSlurmdbdConfigRespAssociationsInner]**](V0041OpenapiSlurmdbdConfigRespAssociationsInner.md) | associations | 
-**meta** | [**V0041OpenapiSharesRespMeta**](V0041OpenapiSharesRespMeta.md) |  | [optional] 
-**errors** | [**List[V0041OpenapiSharesRespErrorsInner]**](V0041OpenapiSharesRespErrorsInner.md) | Query errors | [optional] 
-**warnings** | [**List[V0041OpenapiSharesRespWarningsInner]**](V0041OpenapiSharesRespWarningsInner.md) | Query warnings | [optional] 
+**associations** | [**List[V0041OpenapiSlurmdbdConfigRespAssociationsInner]**](V0041OpenapiSlurmdbdConfigRespAssociationsInner.md) | associations |
+**meta** | [**V0041OpenapiSharesRespMeta**](V0041OpenapiSharesRespMeta.md) |  | [optional]
+**errors** | [**List[V0041OpenapiSharesRespErrorsInner]**](V0041OpenapiSharesRespErrorsInner.md) | Query errors | [optional]
+**warnings** | [**List[V0041OpenapiSharesRespWarningsInner]**](V0041OpenapiSharesRespWarningsInner.md) | Query warnings | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_assocs_resp import V0041OpenapiAssocsResp
+from openapi_slurm.models.v0041_openapi_assocs_resp import V0041OpenapiAssocsResp
 
 # TODO update the JSON string below
 json = "{}"

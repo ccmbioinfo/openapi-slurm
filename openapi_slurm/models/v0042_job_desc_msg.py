@@ -20,11 +20,11 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictBool, StrictInt, StrictStr, field_validator
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0042_cron_entry import V0042CronEntry
-from openapi_client.models.v0042_job_desc_msg_rlimits import V0042JobDescMsgRlimits
-from openapi_client.models.v0042_uint16_no_val_struct import V0042Uint16NoValStruct
-from openapi_client.models.v0042_uint32_no_val_struct import V0042Uint32NoValStruct
-from openapi_client.models.v0042_uint64_no_val_struct import V0042Uint64NoValStruct
+from openapi_slurm.models.v0042_cron_entry import V0042CronEntry
+from openapi_slurm.models.v0042_job_desc_msg_rlimits import V0042JobDescMsgRlimits
+from openapi_slurm.models.v0042_uint16_no_val_struct import V0042Uint16NoValStruct
+from openapi_slurm.models.v0042_uint32_no_val_struct import V0042Uint32NoValStruct
+from openapi_slurm.models.v0042_uint64_no_val_struct import V0042Uint64NoValStruct
 from typing import Optional, Set
 from typing_extensions import Self
 

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_openapi_job_submit_response import V0040OpenapiJobSubmitResponse
+from openapi_slurm.models.v0040_openapi_job_submit_response import V0040OpenapiJobSubmitResponse
 
 class TestV0040OpenapiJobSubmitResponse(unittest.TestCase):
     """V0040OpenapiJobSubmitResponse unit test stubs"""
@@ -36,45 +36,45 @@ class TestV0040OpenapiJobSubmitResponse(unittest.TestCase):
         model = V0040OpenapiJobSubmitResponse()
         if include_optional:
             return V0040OpenapiJobSubmitResponse(
-                result = openapi_client.models.v0/0/40_job_submit_response_msg.v0.0.40_job_submit_response_msg(
-                    job_id = 56, 
-                    step_id = '', 
-                    error_code = 56, 
-                    error = '', 
+                result = openapi_slurm.models.v0/0/40_job_submit_response_msg.v0.0.40_job_submit_response_msg(
+                    job_id = 56,
+                    step_id = '',
+                    error_code = 56,
+                    error = '',
                     job_submit_user_msg = '', ),
                 job_id = 56,
                 step_id = '',
                 job_submit_user_msg = '',
-                meta = openapi_client.models.v0/0/40_openapi_meta.v0.0.40_openapi_meta(
-                    plugin = openapi_client.models.v0_0_40_openapi_meta_plugin.v0_0_40_openapi_meta_plugin(
-                        type = '', 
-                        name = '', 
-                        data_parser = '', 
-                        accounting_storage = '', ), 
-                    client = openapi_client.models.v0_0_40_openapi_meta_client.v0_0_40_openapi_meta_client(
-                        source = '', 
-                        user = '', 
-                        group = '', ), 
+                meta = openapi_slurm.models.v0/0/40_openapi_meta.v0.0.40_openapi_meta(
+                    plugin = openapi_slurm.models.v0_0_40_openapi_meta_plugin.v0_0_40_openapi_meta_plugin(
+                        type = '',
+                        name = '',
+                        data_parser = '',
+                        accounting_storage = '', ),
+                    client = openapi_slurm.models.v0_0_40_openapi_meta_client.v0_0_40_openapi_meta_client(
+                        source = '',
+                        user = '',
+                        group = '', ),
                     command = [
                         ''
-                        ], 
-                    slurm = openapi_client.models.v0_0_40_openapi_meta_slurm.v0_0_40_openapi_meta_slurm(
-                        version = openapi_client.models.v0_0_40_openapi_meta_slurm_version.v0_0_40_openapi_meta_slurm_version(
-                            major = '', 
-                            micro = '', 
-                            minor = '', ), 
-                        release = '', 
+                        ],
+                    slurm = openapi_slurm.models.v0_0_40_openapi_meta_slurm.v0_0_40_openapi_meta_slurm(
+                        version = openapi_slurm.models.v0_0_40_openapi_meta_slurm_version.v0_0_40_openapi_meta_slurm_version(
+                            major = '',
+                            micro = '',
+                            minor = '', ),
+                        release = '',
                         cluster = '', ), ),
                 errors = [
-                    openapi_client.models.v0/0/40_openapi_error.v0.0.40_openapi_error(
-                        description = '', 
-                        error_number = 56, 
-                        error = '', 
+                    openapi_slurm.models.v0/0/40_openapi_error.v0.0.40_openapi_error(
+                        description = '',
+                        error_number = 56,
+                        error = '',
                         source = '', )
                     ],
                 warnings = [
-                    openapi_client.models.v0/0/40_openapi_warning.v0.0.40_openapi_warning(
-                        description = '', 
+                    openapi_slurm.models.v0/0/40_openapi_warning.v0.0.40_openapi_warning(
+                        description = '',
                         source = '', )
                     ]
             )

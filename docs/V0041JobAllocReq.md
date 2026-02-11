@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**hetjob** | [**List[V0041JobDescMsg]**](V0041JobDescMsg.md) | HetJob description | [optional] 
-**job** | [**V0041JobDescMsg**](V0041JobDescMsg.md) |  | [optional] 
+**hetjob** | [**List[V0041JobDescMsg]**](V0041JobDescMsg.md) | HetJob description | [optional]
+**job** | [**V0041JobDescMsg**](V0041JobDescMsg.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_job_alloc_req import V0041JobAllocReq
+from openapi_slurm.models.v0041_job_alloc_req import V0041JobAllocReq
 
 # TODO update the JSON string below
 json = "{}"

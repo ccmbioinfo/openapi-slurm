@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0042_qos_limits_min_tres import V0042QosLimitsMinTres
+from openapi_slurm.models.v0042_qos_limits_min_tres import V0042QosLimitsMinTres
 
 class TestV0042QosLimitsMinTres(unittest.TestCase):
     """V0042QosLimitsMinTres unit test stubs"""
@@ -36,12 +36,12 @@ class TestV0042QosLimitsMinTres(unittest.TestCase):
         model = V0042QosLimitsMinTres()
         if include_optional:
             return V0042QosLimitsMinTres(
-                per = openapi_client.models.v0_0_42_qos_limits_min_tres_per.v0_0_42_qos_limits_min_tres_per(
+                per = openapi_slurm.models.v0_0_42_qos_limits_min_tres_per.v0_0_42_qos_limits_min_tres_per(
                     job = [
-                        openapi_client.models.v0/0/42_tres.v0.0.42_tres(
-                            type = '', 
-                            name = '', 
-                            id = 56, 
+                        openapi_slurm.models.v0/0/42_tres.v0.0.42_tres(
+                            type = '',
+                            name = '',
+                            id = 56,
                             count = 56, )
                         ], )
             )

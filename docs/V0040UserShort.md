@@ -5,14 +5,14 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**adminlevel** | **List[str]** |  | [optional] 
-**defaultaccount** | **str** | Default account | [optional] 
-**defaultwckey** | **str** | Default WCKey | [optional] 
+**adminlevel** | **List[str]** |  | [optional]
+**defaultaccount** | **str** | Default account | [optional]
+**defaultwckey** | **str** | Default WCKey | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_user_short import V0040UserShort
+from openapi_slurm.models.v0040_user_short import V0040UserShort
 
 # TODO update the JSON string below
 json = "{}"

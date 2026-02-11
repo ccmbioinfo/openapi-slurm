@@ -5,15 +5,15 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**total** | [**List[V0040Tres]**](V0040Tres.md) |  | [optional] 
-**group** | [**V0040AssocMaxTresGroup**](V0040AssocMaxTresGroup.md) |  | [optional] 
-**minutes** | [**V0040AssocMaxTresMinutes**](V0040AssocMaxTresMinutes.md) |  | [optional] 
-**per** | [**V0040AssocMaxTresPer**](V0040AssocMaxTresPer.md) |  | [optional] 
+**total** | [**List[V0040Tres]**](V0040Tres.md) |  | [optional]
+**group** | [**V0040AssocMaxTresGroup**](V0040AssocMaxTresGroup.md) |  | [optional]
+**minutes** | [**V0040AssocMaxTresMinutes**](V0040AssocMaxTresMinutes.md) |  | [optional]
+**per** | [**V0040AssocMaxTresPer**](V0040AssocMaxTresPer.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_assoc_max_tres import V0040AssocMaxTres
+from openapi_slurm.models.v0040_assoc_max_tres import V0040AssocMaxTres
 
 # TODO update the JSON string below
 json = "{}"

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0043_job_res import V0043JobRes
+from openapi_slurm.models.v0043_job_res import V0043JobRes
 
 class TestV0043JobRes(unittest.TestCase):
     """V0043JobRes unit test stubs"""
@@ -39,29 +39,29 @@ class TestV0043JobRes(unittest.TestCase):
                 select_type = [
                     'CPU'
                     ],
-                nodes = openapi_client.models.v0_0_43_job_res_nodes.v0_0_43_job_res_nodes(
-                    count = 56, 
+                nodes = openapi_slurm.models.v0_0_43_job_res_nodes.v0_0_43_job_res_nodes(
+                    count = 56,
                     select_type = [
                         'AVAILABLE'
-                        ], 
-                    list = '', 
-                    whole = True, 
+                        ],
+                    list = '',
+                    whole = True,
                     allocation = [
-                        openapi_client.models.v0/0/43_job_res_node.v0.0.43_job_res_node(
-                            index = 56, 
-                            name = '', 
-                            cpus = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_cpus.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_cpus(
-                                count = 56, 
-                                used = 56, ), 
-                            memory = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_memory.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_memory(
-                                used = 56, 
-                                allocated = 56, ), 
+                        openapi_slurm.models.v0/0/43_job_res_node.v0.0.43_job_res_node(
+                            index = 56,
+                            name = '',
+                            cpus = openapi_slurm.models.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_cpus.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_cpus(
+                                count = 56,
+                                used = 56, ),
+                            memory = openapi_slurm.models.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_memory.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_memory(
+                                used = 56,
+                                allocated = 56, ),
                             sockets = [
-                                openapi_client.models.v0/0/43_job_res_socket.v0.0.43_job_res_socket(
-                                    index = 56, 
+                                openapi_slurm.models.v0/0/43_job_res_socket.v0.0.43_job_res_socket(
+                                    index = 56,
                                     cores = [
-                                        openapi_client.models.v0/0/43_job_res_core.v0.0.43_job_res_core(
-                                            index = 56, 
+                                        openapi_slurm.models.v0/0/43_job_res_core.v0.0.43_job_res_core(
+                                            index = 56,
                                             status = [
                                                 'INVALID'
                                                 ], )
@@ -69,9 +69,9 @@ class TestV0043JobRes(unittest.TestCase):
                                 ], )
                         ], ),
                 cpus = 56,
-                threads_per_core = openapi_client.models.v0/0/43_uint16_no_val_struct.v0.0.43_uint16_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                threads_per_core = openapi_slurm.models.v0/0/43_uint16_no_val_struct.v0.0.43_uint16_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, )
             )
         else:
@@ -80,9 +80,9 @@ class TestV0043JobRes(unittest.TestCase):
                     'CPU'
                     ],
                 cpus = 56,
-                threads_per_core = openapi_client.models.v0/0/43_uint16_no_val_struct.v0.0.43_uint16_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                threads_per_core = openapi_slurm.models.v0/0/43_uint16_no_val_struct.v0.0.43_uint16_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
         )
         """

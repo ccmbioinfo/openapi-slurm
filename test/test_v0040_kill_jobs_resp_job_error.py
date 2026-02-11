@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_kill_jobs_resp_job_error import V0040KillJobsRespJobError
+from openapi_slurm.models.v0040_kill_jobs_resp_job_error import V0040KillJobsRespJobError
 
 class TestV0040KillJobsRespJobError(unittest.TestCase):
     """V0040KillJobsRespJobError unit test stubs"""

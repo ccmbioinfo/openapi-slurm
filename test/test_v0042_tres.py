@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0042_tres import V0042Tres
+from openapi_slurm.models.v0042_tres import V0042Tres
 
 class TestV0042Tres(unittest.TestCase):
     """V0042Tres unit test stubs"""

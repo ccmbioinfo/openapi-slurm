@@ -6,17 +6,17 @@ recorded rollup statistics
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**type** | **str** | type | [optional] 
-**last_run** | **int** | Last time rollup ran (UNIX timestamp) | [optional] 
-**max_cycle** | **int** | longest rollup time (seconds) | [optional] 
-**total_time** | **int** | total time spent doing rollups (seconds) | [optional] 
-**total_cycles** | **int** | number of rollups since last_run | [optional] 
-**mean_cycles** | **int** | average time for rollup (seconds) | [optional] 
+**type** | **str** | type | [optional]
+**last_run** | **int** | Last time rollup ran (UNIX timestamp) | [optional]
+**max_cycle** | **int** | longest rollup time (seconds) | [optional]
+**total_time** | **int** | total time spent doing rollups (seconds) | [optional]
+**total_cycles** | **int** | number of rollups since last_run | [optional]
+**mean_cycles** | **int** | average time for rollup (seconds) | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_rollup_stats_inner import V0040RollupStatsInner
+from openapi_slurm.models.v0040_rollup_stats_inner import V0040RollupStatsInner
 
 # TODO update the JSON string below
 json = "{}"

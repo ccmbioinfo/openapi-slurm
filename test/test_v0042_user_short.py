@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0042_user_short import V0042UserShort
+from openapi_slurm.models.v0042_user_short import V0042UserShort
 
 class TestV0042UserShort(unittest.TestCase):
     """V0042UserShort unit test stubs"""

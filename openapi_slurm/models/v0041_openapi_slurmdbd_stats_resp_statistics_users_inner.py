@@ -20,7 +20,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictInt, StrictStr
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0040_stats_rpc_time import V0040StatsRpcTime
+from openapi_slurm.models.v0040_stats_rpc_time import V0040StatsRpcTime
 from typing import Optional, Set
 from typing_extensions import Self
 

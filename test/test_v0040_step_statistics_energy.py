@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_step_statistics_energy import V0040StepStatisticsEnergy
+from openapi_slurm.models.v0040_step_statistics_energy import V0040StepStatisticsEnergy
 
 class TestV0040StepStatisticsEnergy(unittest.TestCase):
     """V0040StepStatisticsEnergy unit test stubs"""
@@ -36,9 +36,9 @@ class TestV0040StepStatisticsEnergy(unittest.TestCase):
         model = V0040StepStatisticsEnergy()
         if include_optional:
             return V0040StepStatisticsEnergy(
-                consumed = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
-                    set = True, 
-                    infinite = True, 
+                consumed = openapi_slurm.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                    set = True,
+                    infinite = True,
                     number = 56, )
             )
         else:

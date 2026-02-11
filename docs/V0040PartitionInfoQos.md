@@ -5,14 +5,14 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**allowed** | **str** | AllowQOS | [optional] 
-**deny** | **str** | DenyQOS | [optional] 
-**assigned** | **str** | QOS | [optional] 
+**allowed** | **str** | AllowQOS | [optional]
+**deny** | **str** | DenyQOS | [optional]
+**assigned** | **str** | QOS | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_partition_info_qos import V0040PartitionInfoQos
+from openapi_slurm.models.v0040_partition_info_qos import V0040PartitionInfoQos
 
 # TODO update the JSON string below
 json = "{}"

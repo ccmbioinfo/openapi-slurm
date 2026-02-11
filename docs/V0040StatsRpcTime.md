@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**average** | **int** | Average RPC processing time in microseconds | [optional] 
-**total** | **int** | Total RPC processing time in microseconds | [optional] 
+**average** | **int** | Average RPC processing time in microseconds | [optional]
+**total** | **int** | Total RPC processing time in microseconds | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_stats_rpc_time import V0040StatsRpcTime
+from openapi_slurm.models.v0040_stats_rpc_time import V0040StatsRpcTime
 
 # TODO update the JSON string below
 json = "{}"

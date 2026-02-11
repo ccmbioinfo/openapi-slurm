@@ -6,14 +6,14 @@ Pending RPCs by hostlist
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**type_id** | **int** | Message type as integer | 
-**message_type** | **str** | Message type as string | 
-**count** | **List[str]** | Number of RPCs received | 
+**type_id** | **int** | Message type as integer |
+**message_type** | **str** | Message type as string |
+**count** | **List[str]** | Number of RPCs received |
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_diag_resp_statistics_pending_rpcs_by_hostlist_inner import V0041OpenapiDiagRespStatisticsPendingRpcsByHostlistInner
+from openapi_slurm.models.v0041_openapi_diag_resp_statistics_pending_rpcs_by_hostlist_inner import V0041OpenapiDiagRespStatisticsPendingRpcsByHostlistInner
 
 # TODO update the JSON string below
 json = "{}"

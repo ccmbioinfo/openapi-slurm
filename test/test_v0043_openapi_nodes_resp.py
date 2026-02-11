@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0043_openapi_nodes_resp import V0043OpenapiNodesResp
+from openapi_slurm.models.v0043_openapi_nodes_resp import V0043OpenapiNodesResp
 
 class TestV0043OpenapiNodesResp(unittest.TestCase):
     """V0043OpenapiNodesResp unit test stubs"""
@@ -37,223 +37,223 @@ class TestV0043OpenapiNodesResp(unittest.TestCase):
         if include_optional:
             return V0043OpenapiNodesResp(
                 nodes = [
-                    openapi_client.models.v0/0/43_node.v0.0.43_node(
-                        architecture = '', 
-                        burstbuffer_network_address = '', 
-                        boards = 56, 
-                        boot_time = openapi_client.models.v0/0/43_uint64_no_val_struct.v0.0.43_uint64_no_val_struct(
-                            set = True, 
-                            infinite = True, 
-                            number = 56, ), 
-                        tls_cert_last_renewal = openapi_client.models.v0/0/43_uint64_no_val_struct.v0.0.43_uint64_no_val_struct(
-                            set = True, 
-                            infinite = True, 
-                            number = 56, ), 
+                    openapi_slurm.models.v0/0/43_node.v0.0.43_node(
+                        architecture = '',
+                        burstbuffer_network_address = '',
+                        boards = 56,
+                        boot_time = openapi_slurm.models.v0/0/43_uint64_no_val_struct.v0.0.43_uint64_no_val_struct(
+                            set = True,
+                            infinite = True,
+                            number = 56, ),
+                        tls_cert_last_renewal = openapi_slurm.models.v0/0/43_uint64_no_val_struct.v0.0.43_uint64_no_val_struct(
+                            set = True,
+                            infinite = True,
+                            number = 56, ),
                         cert_flags = [
                             'TOKEN_SET'
-                            ], 
-                        cluster_name = '', 
-                        cores = 56, 
-                        specialized_cores = 56, 
-                        cpu_binding = 56, 
-                        cpu_load = 56, 
-                        free_mem = , 
-                        cpus = 56, 
-                        effective_cpus = 56, 
-                        specialized_cpus = '', 
-                        energy = openapi_client.models.v0/0/43_acct_gather_energy.v0.0.43_acct_gather_energy(
-                            average_watts = 56, 
-                            base_consumed_energy = 56, 
-                            consumed_energy = 56, 
-                            current_watts = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                                set = True, 
-                                infinite = True, 
-                                number = 56, ), 
-                            previous_consumed_energy = 56, 
-                            last_collected = 56, ), 
-                        external_sensors = openapi_client.models.external_sensors.external_sensors(), 
-                        extra = '', 
-                        power = openapi_client.models.power.power(), 
+                            ],
+                        cluster_name = '',
+                        cores = 56,
+                        specialized_cores = 56,
+                        cpu_binding = 56,
+                        cpu_load = 56,
+                        free_mem = ,
+                        cpus = 56,
+                        effective_cpus = 56,
+                        specialized_cpus = '',
+                        energy = openapi_slurm.models.v0/0/43_acct_gather_energy.v0.0.43_acct_gather_energy(
+                            average_watts = 56,
+                            base_consumed_energy = 56,
+                            consumed_energy = 56,
+                            current_watts = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                                set = True,
+                                infinite = True,
+                                number = 56, ),
+                            previous_consumed_energy = 56,
+                            last_collected = 56, ),
+                        external_sensors = openapi_slurm.models.external_sensors.external_sensors(),
+                        extra = '',
+                        power = openapi_slurm.models.power.power(),
                         features = [
                             ''
-                            ], 
+                            ],
                         active_features = [
                             ''
-                            ], 
-                        gpu_spec = '', 
-                        gres = '', 
-                        gres_drained = '', 
-                        gres_used = '', 
-                        instance_id = '', 
-                        instance_type = '', 
-                        last_busy = , 
-                        mcs_label = '', 
-                        specialized_memory = 56, 
-                        name = '', 
+                            ],
+                        gpu_spec = '',
+                        gres = '',
+                        gres_drained = '',
+                        gres_used = '',
+                        instance_id = '',
+                        instance_type = '',
+                        last_busy = ,
+                        mcs_label = '',
+                        specialized_memory = 56,
+                        name = '',
                         next_state_after_reboot = [
                             'INVALID'
-                            ], 
-                        address = '', 
-                        hostname = '', 
+                            ],
+                        address = '',
+                        hostname = '',
                         state = [
                             'INVALID'
-                            ], 
-                        operating_system = '', 
-                        owner = '', 
-                        partitions = , 
-                        port = 56, 
-                        real_memory = 56, 
-                        res_cores_per_gpu = 56, 
-                        comment = '', 
-                        reason = '', 
-                        reason_changed_at = , 
-                        reason_set_by_user = '', 
-                        resume_after = , 
-                        reservation = '', 
-                        alloc_memory = 56, 
-                        alloc_cpus = 56, 
-                        alloc_idle_cpus = 56, 
-                        tres_used = '', 
-                        tres_weighted = 1.337, 
-                        slurmd_start_time = , 
-                        sockets = 56, 
-                        threads = 56, 
-                        temporary_disk = 56, 
-                        weight = 56, 
-                        topology = '', 
-                        tres = '', 
+                            ],
+                        operating_system = '',
+                        owner = '',
+                        partitions = ,
+                        port = 56,
+                        real_memory = 56,
+                        res_cores_per_gpu = 56,
+                        comment = '',
+                        reason = '',
+                        reason_changed_at = ,
+                        reason_set_by_user = '',
+                        resume_after = ,
+                        reservation = '',
+                        alloc_memory = 56,
+                        alloc_cpus = 56,
+                        alloc_idle_cpus = 56,
+                        tres_used = '',
+                        tres_weighted = 1.337,
+                        slurmd_start_time = ,
+                        sockets = 56,
+                        threads = 56,
+                        temporary_disk = 56,
+                        weight = 56,
+                        topology = '',
+                        tres = '',
                         version = '', )
                     ],
-                last_update = openapi_client.models.v0/0/43_uint64_no_val_struct.v0.0.43_uint64_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                last_update = openapi_slurm.models.v0/0/43_uint64_no_val_struct.v0.0.43_uint64_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                meta = openapi_client.models.v0/0/43_openapi_meta.v0.0.43_openapi_meta(
-                    plugin = openapi_client.models.v0_0_40_openapi_meta_plugin.v0_0_40_openapi_meta_plugin(
-                        type = '', 
-                        name = '', 
-                        data_parser = '', 
-                        accounting_storage = '', ), 
-                    client = openapi_client.models.v0_0_40_openapi_meta_client.v0_0_40_openapi_meta_client(
-                        source = '', 
-                        user = '', 
-                        group = '', ), 
+                meta = openapi_slurm.models.v0/0/43_openapi_meta.v0.0.43_openapi_meta(
+                    plugin = openapi_slurm.models.v0_0_40_openapi_meta_plugin.v0_0_40_openapi_meta_plugin(
+                        type = '',
+                        name = '',
+                        data_parser = '',
+                        accounting_storage = '', ),
+                    client = openapi_slurm.models.v0_0_40_openapi_meta_client.v0_0_40_openapi_meta_client(
+                        source = '',
+                        user = '',
+                        group = '', ),
                     command = [
                         ''
-                        ], 
-                    slurm = openapi_client.models.v0_0_40_openapi_meta_slurm.v0_0_40_openapi_meta_slurm(
-                        version = openapi_client.models.v0_0_40_openapi_meta_slurm_version.v0_0_40_openapi_meta_slurm_version(
-                            major = '', 
-                            micro = '', 
-                            minor = '', ), 
-                        release = '', 
+                        ],
+                    slurm = openapi_slurm.models.v0_0_40_openapi_meta_slurm.v0_0_40_openapi_meta_slurm(
+                        version = openapi_slurm.models.v0_0_40_openapi_meta_slurm_version.v0_0_40_openapi_meta_slurm_version(
+                            major = '',
+                            micro = '',
+                            minor = '', ),
+                        release = '',
                         cluster = '', ), ),
                 errors = [
-                    openapi_client.models.v0/0/43_openapi_error.v0.0.43_openapi_error(
-                        description = '', 
-                        error_number = 56, 
-                        error = '', 
+                    openapi_slurm.models.v0/0/43_openapi_error.v0.0.43_openapi_error(
+                        description = '',
+                        error_number = 56,
+                        error = '',
                         source = '', )
                     ],
                 warnings = [
-                    openapi_client.models.v0/0/43_openapi_warning.v0.0.43_openapi_warning(
-                        description = '', 
+                    openapi_slurm.models.v0/0/43_openapi_warning.v0.0.43_openapi_warning(
+                        description = '',
                         source = '', )
                     ]
             )
         else:
             return V0043OpenapiNodesResp(
                 nodes = [
-                    openapi_client.models.v0/0/43_node.v0.0.43_node(
-                        architecture = '', 
-                        burstbuffer_network_address = '', 
-                        boards = 56, 
-                        boot_time = openapi_client.models.v0/0/43_uint64_no_val_struct.v0.0.43_uint64_no_val_struct(
-                            set = True, 
-                            infinite = True, 
-                            number = 56, ), 
-                        tls_cert_last_renewal = openapi_client.models.v0/0/43_uint64_no_val_struct.v0.0.43_uint64_no_val_struct(
-                            set = True, 
-                            infinite = True, 
-                            number = 56, ), 
+                    openapi_slurm.models.v0/0/43_node.v0.0.43_node(
+                        architecture = '',
+                        burstbuffer_network_address = '',
+                        boards = 56,
+                        boot_time = openapi_slurm.models.v0/0/43_uint64_no_val_struct.v0.0.43_uint64_no_val_struct(
+                            set = True,
+                            infinite = True,
+                            number = 56, ),
+                        tls_cert_last_renewal = openapi_slurm.models.v0/0/43_uint64_no_val_struct.v0.0.43_uint64_no_val_struct(
+                            set = True,
+                            infinite = True,
+                            number = 56, ),
                         cert_flags = [
                             'TOKEN_SET'
-                            ], 
-                        cluster_name = '', 
-                        cores = 56, 
-                        specialized_cores = 56, 
-                        cpu_binding = 56, 
-                        cpu_load = 56, 
-                        free_mem = , 
-                        cpus = 56, 
-                        effective_cpus = 56, 
-                        specialized_cpus = '', 
-                        energy = openapi_client.models.v0/0/43_acct_gather_energy.v0.0.43_acct_gather_energy(
-                            average_watts = 56, 
-                            base_consumed_energy = 56, 
-                            consumed_energy = 56, 
-                            current_watts = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                                set = True, 
-                                infinite = True, 
-                                number = 56, ), 
-                            previous_consumed_energy = 56, 
-                            last_collected = 56, ), 
-                        external_sensors = openapi_client.models.external_sensors.external_sensors(), 
-                        extra = '', 
-                        power = openapi_client.models.power.power(), 
+                            ],
+                        cluster_name = '',
+                        cores = 56,
+                        specialized_cores = 56,
+                        cpu_binding = 56,
+                        cpu_load = 56,
+                        free_mem = ,
+                        cpus = 56,
+                        effective_cpus = 56,
+                        specialized_cpus = '',
+                        energy = openapi_slurm.models.v0/0/43_acct_gather_energy.v0.0.43_acct_gather_energy(
+                            average_watts = 56,
+                            base_consumed_energy = 56,
+                            consumed_energy = 56,
+                            current_watts = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                                set = True,
+                                infinite = True,
+                                number = 56, ),
+                            previous_consumed_energy = 56,
+                            last_collected = 56, ),
+                        external_sensors = openapi_slurm.models.external_sensors.external_sensors(),
+                        extra = '',
+                        power = openapi_slurm.models.power.power(),
                         features = [
                             ''
-                            ], 
+                            ],
                         active_features = [
                             ''
-                            ], 
-                        gpu_spec = '', 
-                        gres = '', 
-                        gres_drained = '', 
-                        gres_used = '', 
-                        instance_id = '', 
-                        instance_type = '', 
-                        last_busy = , 
-                        mcs_label = '', 
-                        specialized_memory = 56, 
-                        name = '', 
+                            ],
+                        gpu_spec = '',
+                        gres = '',
+                        gres_drained = '',
+                        gres_used = '',
+                        instance_id = '',
+                        instance_type = '',
+                        last_busy = ,
+                        mcs_label = '',
+                        specialized_memory = 56,
+                        name = '',
                         next_state_after_reboot = [
                             'INVALID'
-                            ], 
-                        address = '', 
-                        hostname = '', 
+                            ],
+                        address = '',
+                        hostname = '',
                         state = [
                             'INVALID'
-                            ], 
-                        operating_system = '', 
-                        owner = '', 
-                        partitions = , 
-                        port = 56, 
-                        real_memory = 56, 
-                        res_cores_per_gpu = 56, 
-                        comment = '', 
-                        reason = '', 
-                        reason_changed_at = , 
-                        reason_set_by_user = '', 
-                        resume_after = , 
-                        reservation = '', 
-                        alloc_memory = 56, 
-                        alloc_cpus = 56, 
-                        alloc_idle_cpus = 56, 
-                        tres_used = '', 
-                        tres_weighted = 1.337, 
-                        slurmd_start_time = , 
-                        sockets = 56, 
-                        threads = 56, 
-                        temporary_disk = 56, 
-                        weight = 56, 
-                        topology = '', 
-                        tres = '', 
+                            ],
+                        operating_system = '',
+                        owner = '',
+                        partitions = ,
+                        port = 56,
+                        real_memory = 56,
+                        res_cores_per_gpu = 56,
+                        comment = '',
+                        reason = '',
+                        reason_changed_at = ,
+                        reason_set_by_user = '',
+                        resume_after = ,
+                        reservation = '',
+                        alloc_memory = 56,
+                        alloc_cpus = 56,
+                        alloc_idle_cpus = 56,
+                        tres_used = '',
+                        tres_weighted = 1.337,
+                        slurmd_start_time = ,
+                        sockets = 56,
+                        threads = 56,
+                        temporary_disk = 56,
+                        weight = 56,
+                        topology = '',
+                        tres = '',
                         version = '', )
                     ],
-                last_update = openapi_client.models.v0/0/43_uint64_no_val_struct.v0.0.43_uint64_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                last_update = openapi_slurm.models.v0/0/43_uint64_no_val_struct.v0.0.43_uint64_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
         )
         """

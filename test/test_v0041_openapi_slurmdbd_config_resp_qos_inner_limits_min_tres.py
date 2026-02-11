@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_min_tres import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMinTres
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_min_tres import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMinTres
 
 class TestV0041OpenapiSlurmdbdConfigRespQosInnerLimitsMinTres(unittest.TestCase):
     """V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMinTres unit test stubs"""
@@ -36,12 +36,12 @@ class TestV0041OpenapiSlurmdbdConfigRespQosInnerLimitsMinTres(unittest.TestCase)
         model = V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMinTres()
         if include_optional:
             return V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMinTres(
-                per = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_min_tres_per.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_min_tres_per(
+                per = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_min_tres_per.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_min_tres_per(
                     job = [
-                        openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner(
-                            type = '', 
-                            name = '', 
-                            id = 56, 
+                        openapi_slurm.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner(
+                            type = '',
+                            name = '',
+                            id = 56,
                             count = 56, )
                         ], )
             )

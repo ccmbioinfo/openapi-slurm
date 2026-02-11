@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0042_step_time import V0042StepTime
+from openapi_slurm.models.v0042_step_time import V0042StepTime
 
 class TestV0042StepTime(unittest.TestCase):
     """V0042StepTime unit test stubs"""
@@ -37,23 +37,23 @@ class TestV0042StepTime(unittest.TestCase):
         if include_optional:
             return V0042StepTime(
                 elapsed = 56,
-                end = openapi_client.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                end = openapi_slurm.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                start = openapi_client.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                start = openapi_slurm.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
                 suspended = 56,
-                system = openapi_client.models.v0_0_40_step_time_system.v0_0_40_step_time_system(
-                    seconds = 56, 
+                system = openapi_slurm.models.v0_0_40_step_time_system.v0_0_40_step_time_system(
+                    seconds = 56,
                     microseconds = 56, ),
-                total = openapi_client.models.v0_0_40_step_time_total.v0_0_40_step_time_total(
-                    seconds = 56, 
+                total = openapi_slurm.models.v0_0_40_step_time_total.v0_0_40_step_time_total(
+                    seconds = 56,
                     microseconds = 56, ),
-                user = openapi_client.models.v0_0_40_step_time_user.v0_0_40_step_time_user(
-                    seconds = 56, 
+                user = openapi_slurm.models.v0_0_40_step_time_user.v0_0_40_step_time_user(
+                    seconds = 56,
                     microseconds = 56, )
             )
         else:

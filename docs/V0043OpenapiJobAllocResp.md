@@ -5,16 +5,16 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**job_id** | **int** | Submitted Job ID | [optional] 
-**job_submit_user_msg** | **str** | Job submission user message | [optional] 
-**meta** | [**V0043OpenapiMeta**](V0043OpenapiMeta.md) |  | [optional] 
-**errors** | [**List[V0043OpenapiError]**](V0043OpenapiError.md) |  | [optional] 
-**warnings** | [**List[V0043OpenapiWarning]**](V0043OpenapiWarning.md) |  | [optional] 
+**job_id** | **int** | Submitted Job ID | [optional]
+**job_submit_user_msg** | **str** | Job submission user message | [optional]
+**meta** | [**V0043OpenapiMeta**](V0043OpenapiMeta.md) |  | [optional]
+**errors** | [**List[V0043OpenapiError]**](V0043OpenapiError.md) |  | [optional]
+**warnings** | [**List[V0043OpenapiWarning]**](V0043OpenapiWarning.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0043_openapi_job_alloc_resp import V0043OpenapiJobAllocResp
+from openapi_slurm.models.v0043_openapi_job_alloc_resp import V0043OpenapiJobAllocResp
 
 # TODO update the JSON string below
 json = "{}"

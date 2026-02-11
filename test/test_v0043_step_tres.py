@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0043_step_tres import V0043StepTres
+from openapi_slurm.models.v0043_step_tres import V0043StepTres
 
 class TestV0043StepTres(unittest.TestCase):
     """V0043StepTres unit test stubs"""
@@ -36,53 +36,53 @@ class TestV0043StepTres(unittest.TestCase):
         model = V0043StepTres()
         if include_optional:
             return V0043StepTres(
-                requested = openapi_client.models.v0_0_43_step_tres_requested.v0_0_43_step_tres_requested(
+                requested = openapi_slurm.models.v0_0_43_step_tres_requested.v0_0_43_step_tres_requested(
                     max = [
-                        openapi_client.models.v0/0/43_tres.v0.0.43_tres(
-                            type = '', 
-                            name = '', 
-                            id = 56, 
+                        openapi_slurm.models.v0/0/43_tres.v0.0.43_tres(
+                            type = '',
+                            name = '',
+                            id = 56,
                             count = 56, )
-                        ], 
+                        ],
                     min = [
-                        openapi_client.models.v0/0/43_tres.v0.0.43_tres(
-                            type = '', 
-                            name = '', 
-                            id = 56, 
+                        openapi_slurm.models.v0/0/43_tres.v0.0.43_tres(
+                            type = '',
+                            name = '',
+                            id = 56,
                             count = 56, )
-                        ], 
+                        ],
                     average = [
-                        
-                        ], 
+
+                        ],
                     total = [
-                        
+
                         ], ),
-                consumed = openapi_client.models.v0_0_43_step_tres_consumed.v0_0_43_step_tres_consumed(
+                consumed = openapi_slurm.models.v0_0_43_step_tres_consumed.v0_0_43_step_tres_consumed(
                     max = [
-                        openapi_client.models.v0/0/43_tres.v0.0.43_tres(
-                            type = '', 
-                            name = '', 
-                            id = 56, 
+                        openapi_slurm.models.v0/0/43_tres.v0.0.43_tres(
+                            type = '',
+                            name = '',
+                            id = 56,
                             count = 56, )
-                        ], 
+                        ],
                     min = [
-                        openapi_client.models.v0/0/43_tres.v0.0.43_tres(
-                            type = '', 
-                            name = '', 
-                            id = 56, 
+                        openapi_slurm.models.v0/0/43_tres.v0.0.43_tres(
+                            type = '',
+                            name = '',
+                            id = 56,
                             count = 56, )
-                        ], 
+                        ],
                     average = [
-                        
-                        ], 
+
+                        ],
                     total = [
-                        
+
                         ], ),
                 allocated = [
-                    openapi_client.models.v0/0/43_tres.v0.0.43_tres(
-                        type = '', 
-                        name = '', 
-                        id = 56, 
+                    openapi_slurm.models.v0/0/43_tres.v0.0.43_tres(
+                        type = '',
+                        name = '',
+                        id = 56,
                         count = 56, )
                     ]
             )

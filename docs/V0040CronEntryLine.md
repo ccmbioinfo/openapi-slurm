@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**start** | **int** | Start of this entry in file | [optional] 
-**end** | **int** | End of this entry in file | [optional] 
+**start** | **int** | Start of this entry in file | [optional]
+**end** | **int** | End of this entry in file | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_cron_entry_line import V0040CronEntryLine
+from openapi_slurm.models.v0040_cron_entry_line import V0040CronEntryLine
 
 # TODO update the JSON string below
 json = "{}"

@@ -5,12 +5,12 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**count** | **int** | Total number of tasks | [optional] 
+**count** | **int** | Total number of tasks | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_step_tasks import V0040StepTasks
+from openapi_slurm.models.v0040_step_tasks import V0040StepTasks
 
 # TODO update the JSON string below
 json = "{}"

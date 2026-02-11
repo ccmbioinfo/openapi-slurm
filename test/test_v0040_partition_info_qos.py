@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_partition_info_qos import V0040PartitionInfoQos
+from openapi_slurm.models.v0040_partition_info_qos import V0040PartitionInfoQos
 
 class TestV0040PartitionInfoQos(unittest.TestCase):
     """V0040PartitionInfoQos unit test stubs"""

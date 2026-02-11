@@ -5,12 +5,12 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**label** | **str** | Multi-Category Security label on the job | [optional] 
+**label** | **str** | Multi-Category Security label on the job | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_job_mcs import V0040JobMcs
+from openapi_slurm.models.v0040_job_mcs import V0040JobMcs
 
 # TODO update the JSON string below
 json = "{}"

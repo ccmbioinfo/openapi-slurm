@@ -5,12 +5,12 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**account** | [**V0042AssocMaxPerAccount**](V0042AssocMaxPerAccount.md) |  | [optional] 
+**account** | [**V0042AssocMaxPerAccount**](V0042AssocMaxPerAccount.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0042_assoc_max_per import V0042AssocMaxPer
+from openapi_slurm.models.v0042_assoc_max_per import V0042AssocMaxPer
 
 # TODO update the JSON string below
 json = "{}"

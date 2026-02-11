@@ -5,14 +5,14 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**allowed** | **str** | AllowQOS - Comma-separated list of Qos which may execute jobs in the partition | [optional] 
-**deny** | **str** | DenyQOS - Comma-separated list of Qos which may not execute jobs in the partition | [optional] 
-**assigned** | **str** | QOS - QOS name containing limits that will apply to all jobs in this partition | [optional] 
+**allowed** | **str** | AllowQOS - Comma-separated list of Qos which may execute jobs in the partition | [optional]
+**deny** | **str** | DenyQOS - Comma-separated list of Qos which may not execute jobs in the partition | [optional]
+**assigned** | **str** | QOS - QOS name containing limits that will apply to all jobs in this partition | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0043_partition_info_qos import V0043PartitionInfoQos
+from openapi_slurm.models.v0043_partition_info_qos import V0043PartitionInfoQos
 
 # TODO update the JSON string below
 json = "{}"

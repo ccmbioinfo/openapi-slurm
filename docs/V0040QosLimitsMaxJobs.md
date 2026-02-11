@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**active_jobs** | [**V0040QosLimitsMaxJobsActiveJobs**](V0040QosLimitsMaxJobsActiveJobs.md) |  | [optional] 
-**per** | [**V0040QosLimitsMaxJobsActiveJobsPer**](V0040QosLimitsMaxJobsActiveJobsPer.md) |  | [optional] 
+**active_jobs** | [**V0040QosLimitsMaxJobsActiveJobs**](V0040QosLimitsMaxJobsActiveJobs.md) |  | [optional]
+**per** | [**V0040QosLimitsMaxJobsActiveJobsPer**](V0040QosLimitsMaxJobsActiveJobsPer.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_qos_limits_max_jobs import V0040QosLimitsMaxJobs
+from openapi_slurm.models.v0040_qos_limits_max_jobs import V0040QosLimitsMaxJobs
 
 # TODO update the JSON string below
 json = "{}"

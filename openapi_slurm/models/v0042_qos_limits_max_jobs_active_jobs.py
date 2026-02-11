@@ -20,7 +20,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0042_qos_limits_max_jobs_active_jobs_per import V0042QosLimitsMaxJobsActiveJobsPer
+from openapi_slurm.models.v0042_qos_limits_max_jobs_active_jobs_per import V0042QosLimitsMaxJobsActiveJobsPer
 from typing import Optional, Set
 from typing_extensions import Self
 

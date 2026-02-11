@@ -5,15 +5,15 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**removed_accounts** | **List[str]** |  | 
-**meta** | [**V0042OpenapiMeta**](V0042OpenapiMeta.md) |  | [optional] 
-**errors** | [**List[V0042OpenapiError]**](V0042OpenapiError.md) |  | [optional] 
-**warnings** | [**List[V0042OpenapiWarning]**](V0042OpenapiWarning.md) |  | [optional] 
+**removed_accounts** | **List[str]** |  |
+**meta** | [**V0042OpenapiMeta**](V0042OpenapiMeta.md) |  | [optional]
+**errors** | [**List[V0042OpenapiError]**](V0042OpenapiError.md) |  | [optional]
+**warnings** | [**List[V0042OpenapiWarning]**](V0042OpenapiWarning.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0042_openapi_accounts_removed_resp import V0042OpenapiAccountsRemovedResp
+from openapi_slurm.models.v0042_openapi_accounts_removed_resp import V0042OpenapiAccountsRemovedResp
 
 # TODO update the JSON string below
 json = "{}"

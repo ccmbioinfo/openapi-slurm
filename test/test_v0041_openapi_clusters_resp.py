@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_clusters_resp import V0041OpenapiClustersResp
+from openapi_slurm.models.v0041_openapi_clusters_resp import V0041OpenapiClustersResp
 
 class TestV0041OpenapiClustersResp(unittest.TestCase):
     """V0041OpenapiClustersResp unit test stubs"""
@@ -37,91 +37,91 @@ class TestV0041OpenapiClustersResp(unittest.TestCase):
         if include_optional:
             return V0041OpenapiClustersResp(
                 clusters = [
-                    openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_clusters_inner.v0_0_41_openapi_slurmdbd_config_resp_clusters_inner(
-                        controller = openapi_client.models.v0_0_40_cluster_rec_controller.v0_0_40_cluster_rec_controller(
-                            host = '', 
-                            port = 56, ), 
+                    openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_clusters_inner.v0_0_41_openapi_slurmdbd_config_resp_clusters_inner(
+                        controller = openapi_slurm.models.v0_0_40_cluster_rec_controller.v0_0_40_cluster_rec_controller(
+                            host = '',
+                            port = 56, ),
                         flags = [
                             'REGISTERING'
-                            ], 
-                        name = '', 
-                        nodes = '', 
-                        select_plugin = '', 
-                        associations = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_clusters_inner_associations.v0_0_41_openapi_slurmdbd_config_resp_clusters_inner_associations(
-                            root = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_clusters_inner_associations_root.v0_0_41_openapi_slurmdbd_config_resp_clusters_inner_associations_root(
-                                account = '', 
-                                cluster = '', 
-                                partition = '', 
-                                user = '', 
-                                id = 56, ), ), 
-                        rpc_version = 56, 
+                            ],
+                        name = '',
+                        nodes = '',
+                        select_plugin = '',
+                        associations = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_clusters_inner_associations.v0_0_41_openapi_slurmdbd_config_resp_clusters_inner_associations(
+                            root = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_clusters_inner_associations_root.v0_0_41_openapi_slurmdbd_config_resp_clusters_inner_associations_root(
+                                account = '',
+                                cluster = '',
+                                partition = '',
+                                user = '',
+                                id = 56, ), ),
+                        rpc_version = 56,
                         tres = [
-                            openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner(
-                                type = '', 
-                                name = '', 
-                                id = 56, 
+                            openapi_slurm.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner(
+                                type = '',
+                                name = '',
+                                id = 56,
                                 count = 56, )
                             ], )
                     ],
-                meta = openapi_client.models.v0_0_41_openapi_shares_resp_meta.v0_0_41_openapi_shares_resp_meta(
-                    plugin = openapi_client.models.v0_0_40_openapi_meta_plugin.v0_0_40_openapi_meta_plugin(
-                        type = '', 
-                        name = '', 
-                        data_parser = '', 
-                        accounting_storage = '', ), 
-                    client = openapi_client.models.v0_0_40_openapi_meta_client.v0_0_40_openapi_meta_client(
-                        source = '', 
-                        user = '', 
-                        group = '', ), 
+                meta = openapi_slurm.models.v0_0_41_openapi_shares_resp_meta.v0_0_41_openapi_shares_resp_meta(
+                    plugin = openapi_slurm.models.v0_0_40_openapi_meta_plugin.v0_0_40_openapi_meta_plugin(
+                        type = '',
+                        name = '',
+                        data_parser = '',
+                        accounting_storage = '', ),
+                    client = openapi_slurm.models.v0_0_40_openapi_meta_client.v0_0_40_openapi_meta_client(
+                        source = '',
+                        user = '',
+                        group = '', ),
                     command = [
                         ''
-                        ], 
-                    slurm = openapi_client.models.v0_0_40_openapi_meta_slurm.v0_0_40_openapi_meta_slurm(
-                        version = openapi_client.models.v0_0_40_openapi_meta_slurm_version.v0_0_40_openapi_meta_slurm_version(
-                            major = '', 
-                            micro = '', 
-                            minor = '', ), 
-                        release = '', 
+                        ],
+                    slurm = openapi_slurm.models.v0_0_40_openapi_meta_slurm.v0_0_40_openapi_meta_slurm(
+                        version = openapi_slurm.models.v0_0_40_openapi_meta_slurm_version.v0_0_40_openapi_meta_slurm_version(
+                            major = '',
+                            micro = '',
+                            minor = '', ),
+                        release = '',
                         cluster = '', ), ),
                 errors = [
-                    openapi_client.models.v0_0_41_openapi_shares_resp_errors_inner.v0_0_41_openapi_shares_resp_errors_inner(
-                        description = '', 
-                        error_number = 56, 
-                        error = '', 
+                    openapi_slurm.models.v0_0_41_openapi_shares_resp_errors_inner.v0_0_41_openapi_shares_resp_errors_inner(
+                        description = '',
+                        error_number = 56,
+                        error = '',
                         source = '', )
                     ],
                 warnings = [
-                    openapi_client.models.v0_0_41_openapi_shares_resp_warnings_inner.v0_0_41_openapi_shares_resp_warnings_inner(
-                        description = '', 
+                    openapi_slurm.models.v0_0_41_openapi_shares_resp_warnings_inner.v0_0_41_openapi_shares_resp_warnings_inner(
+                        description = '',
                         source = '', )
                     ]
             )
         else:
             return V0041OpenapiClustersResp(
                 clusters = [
-                    openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_clusters_inner.v0_0_41_openapi_slurmdbd_config_resp_clusters_inner(
-                        controller = openapi_client.models.v0_0_40_cluster_rec_controller.v0_0_40_cluster_rec_controller(
-                            host = '', 
-                            port = 56, ), 
+                    openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_clusters_inner.v0_0_41_openapi_slurmdbd_config_resp_clusters_inner(
+                        controller = openapi_slurm.models.v0_0_40_cluster_rec_controller.v0_0_40_cluster_rec_controller(
+                            host = '',
+                            port = 56, ),
                         flags = [
                             'REGISTERING'
-                            ], 
-                        name = '', 
-                        nodes = '', 
-                        select_plugin = '', 
-                        associations = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_clusters_inner_associations.v0_0_41_openapi_slurmdbd_config_resp_clusters_inner_associations(
-                            root = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_clusters_inner_associations_root.v0_0_41_openapi_slurmdbd_config_resp_clusters_inner_associations_root(
-                                account = '', 
-                                cluster = '', 
-                                partition = '', 
-                                user = '', 
-                                id = 56, ), ), 
-                        rpc_version = 56, 
+                            ],
+                        name = '',
+                        nodes = '',
+                        select_plugin = '',
+                        associations = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_clusters_inner_associations.v0_0_41_openapi_slurmdbd_config_resp_clusters_inner_associations(
+                            root = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_clusters_inner_associations_root.v0_0_41_openapi_slurmdbd_config_resp_clusters_inner_associations_root(
+                                account = '',
+                                cluster = '',
+                                partition = '',
+                                user = '',
+                                id = 56, ), ),
+                        rpc_version = 56,
                         tres = [
-                            openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner(
-                                type = '', 
-                                name = '', 
-                                id = 56, 
+                            openapi_slurm.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner(
+                                type = '',
+                                name = '',
+                                id = 56,
                                 count = 56, )
                             ], )
                     ],

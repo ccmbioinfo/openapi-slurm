@@ -5,12 +5,12 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**per** | [**V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMinTresPer**](V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMinTresPer.md) |  | [optional] 
+**per** | [**V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMinTresPer**](V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMinTresPer.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_min_tres import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMinTres
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_min_tres import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMinTres
 
 # TODO update the JSON string below
 json = "{}"

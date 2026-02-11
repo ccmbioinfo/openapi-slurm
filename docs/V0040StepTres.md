@@ -5,14 +5,14 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**requested** | [**V0040StepTresRequested**](V0040StepTresRequested.md) |  | [optional] 
-**consumed** | [**V0040StepTresConsumed**](V0040StepTresConsumed.md) |  | [optional] 
-**allocated** | [**List[V0040Tres]**](V0040Tres.md) |  | [optional] 
+**requested** | [**V0040StepTresRequested**](V0040StepTresRequested.md) |  | [optional]
+**consumed** | [**V0040StepTresConsumed**](V0040StepTresConsumed.md) |  | [optional]
+**allocated** | [**List[V0040Tres]**](V0040Tres.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_step_tres import V0040StepTres
+from openapi_slurm.models.v0040_step_tres import V0040StepTres
 
 # TODO update the JSON string below
 json = "{}"

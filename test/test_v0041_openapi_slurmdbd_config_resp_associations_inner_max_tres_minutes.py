@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_associations_inner_max_tres_minutes import V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxTresMinutes
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_associations_inner_max_tres_minutes import V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxTresMinutes
 
 class TestV0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxTresMinutes(unittest.TestCase):
     """V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxTresMinutes unit test stubs"""
@@ -37,18 +37,18 @@ class TestV0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxTresMinutes(unittest
         if include_optional:
             return V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxTresMinutes(
                 total = [
-                    openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner(
-                        type = '', 
-                        name = '', 
-                        id = 56, 
+                    openapi_slurm.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner(
+                        type = '',
+                        name = '',
+                        id = 56,
                         count = 56, )
                     ],
-                per = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_tres_minutes_per.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_tres_minutes_per(
+                per = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_tres_minutes_per.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_tres_minutes_per(
                     job = [
-                        openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner(
-                            type = '', 
-                            name = '', 
-                            id = 56, 
+                        openapi_slurm.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner(
+                            type = '',
+                            name = '',
+                            id = 56,
                             count = 56, )
                         ], )
             )

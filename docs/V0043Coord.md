@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**name** | **str** | User name | 
-**direct** | **bool** | Indicates whether the coordinator was directly assigned to this account | [optional] 
+**name** | **str** | User name |
+**direct** | **bool** | Indicates whether the coordinator was directly assigned to this account | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0043_coord import V0043Coord
+from openapi_slurm.models.v0043_coord import V0043Coord
 
 # TODO update the JSON string below
 json = "{}"

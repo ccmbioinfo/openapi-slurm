@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0043_openapi_kill_jobs_resp import V0043OpenapiKillJobsResp
+from openapi_slurm.models.v0043_openapi_kill_jobs_resp import V0043OpenapiKillJobsResp
 
 class TestV0043OpenapiKillJobsResp(unittest.TestCase):
     """V0043OpenapiKillJobsResp unit test stubs"""
@@ -37,66 +37,66 @@ class TestV0043OpenapiKillJobsResp(unittest.TestCase):
         if include_optional:
             return V0043OpenapiKillJobsResp(
                 status = [
-                    openapi_client.models.v0/0/43_kill_jobs_resp_job.v0.0.43_kill_jobs_resp_job(
-                        error = openapi_client.models.v0_0_40_kill_jobs_resp_job_error.v0_0_40_kill_jobs_resp_job_error(
-                            string = '', 
-                            code = 56, 
-                            message = '', ), 
-                        step_id = '', 
-                        job_id = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                            set = True, 
-                            infinite = True, 
-                            number = 56, ), 
-                        federation = openapi_client.models.v0_0_40_kill_jobs_resp_job_federation.v0_0_40_kill_jobs_resp_job_federation(
+                    openapi_slurm.models.v0/0/43_kill_jobs_resp_job.v0.0.43_kill_jobs_resp_job(
+                        error = openapi_slurm.models.v0_0_40_kill_jobs_resp_job_error.v0_0_40_kill_jobs_resp_job_error(
+                            string = '',
+                            code = 56,
+                            message = '', ),
+                        step_id = '',
+                        job_id = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                            set = True,
+                            infinite = True,
+                            number = 56, ),
+                        federation = openapi_slurm.models.v0_0_40_kill_jobs_resp_job_federation.v0_0_40_kill_jobs_resp_job_federation(
                             sibling = '', ), )
                     ],
-                meta = openapi_client.models.v0/0/43_openapi_meta.v0.0.43_openapi_meta(
-                    plugin = openapi_client.models.v0_0_40_openapi_meta_plugin.v0_0_40_openapi_meta_plugin(
-                        type = '', 
-                        name = '', 
-                        data_parser = '', 
-                        accounting_storage = '', ), 
-                    client = openapi_client.models.v0_0_40_openapi_meta_client.v0_0_40_openapi_meta_client(
-                        source = '', 
-                        user = '', 
-                        group = '', ), 
+                meta = openapi_slurm.models.v0/0/43_openapi_meta.v0.0.43_openapi_meta(
+                    plugin = openapi_slurm.models.v0_0_40_openapi_meta_plugin.v0_0_40_openapi_meta_plugin(
+                        type = '',
+                        name = '',
+                        data_parser = '',
+                        accounting_storage = '', ),
+                    client = openapi_slurm.models.v0_0_40_openapi_meta_client.v0_0_40_openapi_meta_client(
+                        source = '',
+                        user = '',
+                        group = '', ),
                     command = [
                         ''
-                        ], 
-                    slurm = openapi_client.models.v0_0_40_openapi_meta_slurm.v0_0_40_openapi_meta_slurm(
-                        version = openapi_client.models.v0_0_40_openapi_meta_slurm_version.v0_0_40_openapi_meta_slurm_version(
-                            major = '', 
-                            micro = '', 
-                            minor = '', ), 
-                        release = '', 
+                        ],
+                    slurm = openapi_slurm.models.v0_0_40_openapi_meta_slurm.v0_0_40_openapi_meta_slurm(
+                        version = openapi_slurm.models.v0_0_40_openapi_meta_slurm_version.v0_0_40_openapi_meta_slurm_version(
+                            major = '',
+                            micro = '',
+                            minor = '', ),
+                        release = '',
                         cluster = '', ), ),
                 errors = [
-                    openapi_client.models.v0/0/43_openapi_error.v0.0.43_openapi_error(
-                        description = '', 
-                        error_number = 56, 
-                        error = '', 
+                    openapi_slurm.models.v0/0/43_openapi_error.v0.0.43_openapi_error(
+                        description = '',
+                        error_number = 56,
+                        error = '',
                         source = '', )
                     ],
                 warnings = [
-                    openapi_client.models.v0/0/43_openapi_warning.v0.0.43_openapi_warning(
-                        description = '', 
+                    openapi_slurm.models.v0/0/43_openapi_warning.v0.0.43_openapi_warning(
+                        description = '',
                         source = '', )
                     ]
             )
         else:
             return V0043OpenapiKillJobsResp(
                 status = [
-                    openapi_client.models.v0/0/43_kill_jobs_resp_job.v0.0.43_kill_jobs_resp_job(
-                        error = openapi_client.models.v0_0_40_kill_jobs_resp_job_error.v0_0_40_kill_jobs_resp_job_error(
-                            string = '', 
-                            code = 56, 
-                            message = '', ), 
-                        step_id = '', 
-                        job_id = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                            set = True, 
-                            infinite = True, 
-                            number = 56, ), 
-                        federation = openapi_client.models.v0_0_40_kill_jobs_resp_job_federation.v0_0_40_kill_jobs_resp_job_federation(
+                    openapi_slurm.models.v0/0/43_kill_jobs_resp_job.v0.0.43_kill_jobs_resp_job(
+                        error = openapi_slurm.models.v0_0_40_kill_jobs_resp_job_error.v0_0_40_kill_jobs_resp_job_error(
+                            string = '',
+                            code = 56,
+                            message = '', ),
+                        step_id = '',
+                        job_id = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                            set = True,
+                            infinite = True,
+                            number = 56, ),
+                        federation = openapi_slurm.models.v0_0_40_kill_jobs_resp_job_federation.v0_0_40_kill_jobs_resp_job_federation(
                             sibling = '', ), )
                     ],
         )

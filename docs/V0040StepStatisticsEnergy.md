@@ -5,12 +5,12 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**consumed** | [**V0040Uint64NoVal**](V0040Uint64NoVal.md) |  | [optional] 
+**consumed** | [**V0040Uint64NoVal**](V0040Uint64NoVal.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_step_statistics_energy import V0040StepStatisticsEnergy
+from openapi_slurm.models.v0040_step_statistics_energy import V0040StepStatisticsEnergy
 
 # TODO update the JSON string below
 json = "{}"

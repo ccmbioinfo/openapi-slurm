@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**allowed** | **str** | AllowAccounts - Comma-separated list of accounts which may execute jobs in the partition | [optional] 
-**deny** | **str** | DenyAccounts - Comma-separated list of accounts which may not execute jobs in the partition | [optional] 
+**allowed** | **str** | AllowAccounts - Comma-separated list of accounts which may execute jobs in the partition | [optional]
+**deny** | **str** | DenyAccounts - Comma-separated list of accounts which may not execute jobs in the partition | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0043_partition_info_accounts import V0043PartitionInfoAccounts
+from openapi_slurm.models.v0043_partition_info_accounts import V0043PartitionInfoAccounts
 
 # TODO update the JSON string below
 json = "{}"

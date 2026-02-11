@@ -5,12 +5,12 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**per** | [**V0040QosLimitsMaxTresMinutesPer**](V0040QosLimitsMaxTresMinutesPer.md) |  | [optional] 
+**per** | [**V0040QosLimitsMaxTresMinutesPer**](V0040QosLimitsMaxTresMinutesPer.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_qos_limits_max_tres_minutes import V0040QosLimitsMaxTresMinutes
+from openapi_slurm.models.v0040_qos_limits_max_tres_minutes import V0040QosLimitsMaxTresMinutes
 
 # TODO update the JSON string below
 json = "{}"

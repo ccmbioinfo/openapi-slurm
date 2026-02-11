@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_cpu import V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerCPU
+from openapi_slurm.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_cpu import V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerCPU
 
 class TestV0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerCPU(unittest.TestCase):
     """V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerCPU unit test stubs"""
@@ -36,14 +36,14 @@ class TestV0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerCPU(unittest.TestCase):
         model = V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerCPU()
         if include_optional:
             return V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerCPU(
-                requested_frequency = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_cpu_requested_frequency.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_CPU_requested_frequency(
-                    min = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_cpu_requested_frequency_min.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_CPU_requested_frequency_min(
-                        set = True, 
-                        infinite = True, 
-                        number = 56, ), 
-                    max = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_cpu_requested_frequency_max.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_CPU_requested_frequency_max(
-                        set = True, 
-                        infinite = True, 
+                requested_frequency = openapi_slurm.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_cpu_requested_frequency.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_CPU_requested_frequency(
+                    min = openapi_slurm.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_cpu_requested_frequency_min.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_CPU_requested_frequency_min(
+                        set = True,
+                        infinite = True,
+                        number = 56, ),
+                    max = openapi_slurm.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_cpu_requested_frequency_max.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_CPU_requested_frequency_max(
+                        set = True,
+                        infinite = True,
                         number = 56, ), ),
                 governor = ''
             )

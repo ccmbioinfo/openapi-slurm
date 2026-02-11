@@ -5,14 +5,14 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**total** | [**List[V0040Tres]**](V0040Tres.md) |  | [optional] 
-**minutes** | [**V0040QosLimitsMaxTresMinutes**](V0040QosLimitsMaxTresMinutes.md) |  | [optional] 
-**per** | [**V0040QosLimitsMaxTresPer**](V0040QosLimitsMaxTresPer.md) |  | [optional] 
+**total** | [**List[V0040Tres]**](V0040Tres.md) |  | [optional]
+**minutes** | [**V0040QosLimitsMaxTresMinutes**](V0040QosLimitsMaxTresMinutes.md) |  | [optional]
+**per** | [**V0040QosLimitsMaxTresPer**](V0040QosLimitsMaxTresPer.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_qos_limits_max_tres import V0040QosLimitsMaxTres
+from openapi_slurm.models.v0040_qos_limits_max_tres import V0040QosLimitsMaxTres
 
 # TODO update the JSON string below
 json = "{}"

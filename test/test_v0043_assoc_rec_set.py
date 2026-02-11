@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0043_assoc_rec_set import V0043AssocRecSet
+from openapi_slurm.models.v0043_assoc_rec_set import V0043AssocRecSet
 
 class TestV0043AssocRecSet(unittest.TestCase):
     """V0043AssocRecSet unit test stubs"""
@@ -38,95 +38,95 @@ class TestV0043AssocRecSet(unittest.TestCase):
             return V0043AssocRecSet(
                 comment = '',
                 defaultqos = '',
-                grpjobs = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                grpjobs = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                grpjobsaccrue = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                grpjobsaccrue = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                grpsubmitjobs = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                grpsubmitjobs = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
                 grptres = [
-                    openapi_client.models.v0/0/43_tres.v0.0.43_tres(
-                        type = '', 
-                        name = '', 
-                        id = 56, 
+                    openapi_slurm.models.v0/0/43_tres.v0.0.43_tres(
+                        type = '',
+                        name = '',
+                        id = 56,
                         count = 56, )
                     ],
                 grptresmins = [
-                    openapi_client.models.v0/0/43_tres.v0.0.43_tres(
-                        type = '', 
-                        name = '', 
-                        id = 56, 
+                    openapi_slurm.models.v0/0/43_tres.v0.0.43_tres(
+                        type = '',
+                        name = '',
+                        id = 56,
                         count = 56, )
                     ],
                 grptresrunmins = [
-                    openapi_client.models.v0/0/43_tres.v0.0.43_tres(
-                        type = '', 
-                        name = '', 
-                        id = 56, 
+                    openapi_slurm.models.v0/0/43_tres.v0.0.43_tres(
+                        type = '',
+                        name = '',
+                        id = 56,
                         count = 56, )
                     ],
-                grpwall = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                grpwall = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                maxjobs = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                maxjobs = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                maxjobsaccrue = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                maxjobsaccrue = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                maxsubmitjobs = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                maxsubmitjobs = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
                 maxtresminsperjob = [
-                    openapi_client.models.v0/0/43_tres.v0.0.43_tres(
-                        type = '', 
-                        name = '', 
-                        id = 56, 
+                    openapi_slurm.models.v0/0/43_tres.v0.0.43_tres(
+                        type = '',
+                        name = '',
+                        id = 56,
                         count = 56, )
                     ],
                 maxtresrunmins = [
-                    openapi_client.models.v0/0/43_tres.v0.0.43_tres(
-                        type = '', 
-                        name = '', 
-                        id = 56, 
+                    openapi_slurm.models.v0/0/43_tres.v0.0.43_tres(
+                        type = '',
+                        name = '',
+                        id = 56,
                         count = 56, )
                     ],
                 maxtresperjob = [
-                    openapi_client.models.v0/0/43_tres.v0.0.43_tres(
-                        type = '', 
-                        name = '', 
-                        id = 56, 
+                    openapi_slurm.models.v0/0/43_tres.v0.0.43_tres(
+                        type = '',
+                        name = '',
+                        id = 56,
                         count = 56, )
                     ],
                 maxtrespernode = [
-                    openapi_client.models.v0/0/43_tres.v0.0.43_tres(
-                        type = '', 
-                        name = '', 
-                        id = 56, 
+                    openapi_slurm.models.v0/0/43_tres.v0.0.43_tres(
+                        type = '',
+                        name = '',
+                        id = 56,
                         count = 56, )
                     ],
-                maxwalldurationperjob = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                maxwalldurationperjob = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                minpriothresh = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                minpriothresh = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
                 parent = '',
-                priority = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                priority = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
                 qoslevel = [
                     ''

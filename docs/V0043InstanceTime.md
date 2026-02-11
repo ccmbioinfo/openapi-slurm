@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**time_end** | **int** | When the instance will end (UNIX timestamp) (UNIX timestamp or time string recognized by Slurm (e.g., &#39;[MM/DD[/YY]-]HH:MM[:SS]&#39;)) | [optional] 
-**time_start** | **int** | When the instance will start (UNIX timestamp) (UNIX timestamp or time string recognized by Slurm (e.g., &#39;[MM/DD[/YY]-]HH:MM[:SS]&#39;)) | [optional] 
+**time_end** | **int** | When the instance will end (UNIX timestamp) (UNIX timestamp or time string recognized by Slurm (e.g., &#39;[MM/DD[/YY]-]HH:MM[:SS]&#39;)) | [optional]
+**time_start** | **int** | When the instance will start (UNIX timestamp) (UNIX timestamp or time string recognized by Slurm (e.g., &#39;[MM/DD[/YY]-]HH:MM[:SS]&#39;)) | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0043_instance_time import V0043InstanceTime
+from openapi_slurm.models.v0043_instance_time import V0043InstanceTime
 
 # TODO update the JSON string below
 json = "{}"

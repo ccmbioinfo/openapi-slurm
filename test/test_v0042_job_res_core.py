@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0042_job_res_core import V0042JobResCore
+from openapi_slurm.models.v0042_job_res_core import V0042JobResCore
 
 class TestV0042JobResCore(unittest.TestCase):
     """V0042JobResCore unit test stubs"""

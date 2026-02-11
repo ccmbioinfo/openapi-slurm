@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0043_bf_exit_fields import V0043BfExitFields
+from openapi_slurm.models.v0043_bf_exit_fields import V0043BfExitFields
 
 class TestV0043BfExitFields(unittest.TestCase):
     """V0043BfExitFields unit test stubs"""

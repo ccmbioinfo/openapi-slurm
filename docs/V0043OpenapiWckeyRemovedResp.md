@@ -5,15 +5,15 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**deleted_wckeys** | **List[str]** |  | 
-**meta** | [**V0043OpenapiMeta**](V0043OpenapiMeta.md) |  | [optional] 
-**errors** | [**List[V0043OpenapiError]**](V0043OpenapiError.md) |  | [optional] 
-**warnings** | [**List[V0043OpenapiWarning]**](V0043OpenapiWarning.md) |  | [optional] 
+**deleted_wckeys** | **List[str]** |  |
+**meta** | [**V0043OpenapiMeta**](V0043OpenapiMeta.md) |  | [optional]
+**errors** | [**List[V0043OpenapiError]**](V0043OpenapiError.md) |  | [optional]
+**warnings** | [**List[V0043OpenapiWarning]**](V0043OpenapiWarning.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0043_openapi_wckey_removed_resp import V0043OpenapiWckeyRemovedResp
+from openapi_slurm.models.v0043_openapi_wckey_removed_resp import V0043OpenapiWckeyRemovedResp
 
 # TODO update the JSON string below
 json = "{}"

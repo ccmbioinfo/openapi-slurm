@@ -6,16 +6,16 @@ RPCs by user
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**user_id** | **int** | User ID (numeric) | 
-**user** | **str** | User name | 
-**count** | **int** | Number of RPCs received | 
-**total_time** | **int** | Total time spent processing RPC in seconds | 
-**average_time** | [**V0041OpenapiDiagRespStatisticsRpcsByMessageTypeInnerAverageTime**](V0041OpenapiDiagRespStatisticsRpcsByMessageTypeInnerAverageTime.md) |  | 
+**user_id** | **int** | User ID (numeric) |
+**user** | **str** | User name |
+**count** | **int** | Number of RPCs received |
+**total_time** | **int** | Total time spent processing RPC in seconds |
+**average_time** | [**V0041OpenapiDiagRespStatisticsRpcsByMessageTypeInnerAverageTime**](V0041OpenapiDiagRespStatisticsRpcsByMessageTypeInnerAverageTime.md) |  |
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_diag_resp_statistics_rpcs_by_user_inner import V0041OpenapiDiagRespStatisticsRpcsByUserInner
+from openapi_slurm.models.v0041_openapi_diag_resp_statistics_rpcs_by_user_inner import V0041OpenapiDiagRespStatisticsRpcsByUserInner
 
 # TODO update the JSON string below
 json = "{}"

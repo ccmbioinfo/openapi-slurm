@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0042_partition_info_maximums import V0042PartitionInfoMaximums
+from openapi_slurm.models.v0042_partition_info_maximums import V0042PartitionInfoMaximums
 
 class TestV0042PartitionInfoMaximums(unittest.TestCase):
     """V0042PartitionInfoMaximums unit test stubs"""
@@ -36,40 +36,40 @@ class TestV0042PartitionInfoMaximums(unittest.TestCase):
         model = V0042PartitionInfoMaximums()
         if include_optional:
             return V0042PartitionInfoMaximums(
-                cpus_per_node = openapi_client.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                cpus_per_node = openapi_slurm.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                cpus_per_socket = openapi_client.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                cpus_per_socket = openapi_slurm.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
                 memory_per_cpu = 56,
-                partition_memory_per_cpu = openapi_client.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                partition_memory_per_cpu = openapi_slurm.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                partition_memory_per_node = openapi_client.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                partition_memory_per_node = openapi_slurm.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                nodes = openapi_client.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                nodes = openapi_slurm.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
                 shares = 56,
-                oversubscribe = openapi_client.models.v0_0_42_partition_info_maximums_oversubscribe.v0_0_42_partition_info_maximums_oversubscribe(
-                    jobs = 56, 
+                oversubscribe = openapi_slurm.models.v0_0_42_partition_info_maximums_oversubscribe.v0_0_42_partition_info_maximums_oversubscribe(
+                    jobs = 56,
                     flags = [
                         'force'
                         ], ),
-                time = openapi_client.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                time = openapi_slurm.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                over_time_limit = openapi_client.models.v0/0/42_uint16_no_val_struct.v0.0.42_uint16_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                over_time_limit = openapi_slurm.models.v0/0/42_uint16_no_val_struct.v0.0.42_uint16_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, )
             )
         else:

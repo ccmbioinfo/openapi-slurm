@@ -20,7 +20,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictStr
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0040_openapi_meta_slurm_version import V0040OpenapiMetaSlurmVersion
+from openapi_slurm.models.v0040_openapi_meta_slurm_version import V0040OpenapiMetaSlurmVersion
 from typing import Optional, Set
 from typing_extensions import Self
 

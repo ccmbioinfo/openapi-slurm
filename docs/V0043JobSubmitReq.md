@@ -5,14 +5,14 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**script** | **str** | Deprecated; Populate script field in jobs[0] or job | [optional] 
-**jobs** | [**List[V0043JobDescMsg]**](V0043JobDescMsg.md) |  | [optional] 
-**job** | [**V0043JobDescMsg**](V0043JobDescMsg.md) |  | [optional] 
+**script** | **str** | Deprecated; Populate script field in jobs[0] or job | [optional]
+**jobs** | [**List[V0043JobDescMsg]**](V0043JobDescMsg.md) |  | [optional]
+**job** | [**V0043JobDescMsg**](V0043JobDescMsg.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0043_job_submit_req import V0043JobSubmitReq
+from openapi_slurm.models.v0043_job_submit_req import V0043JobSubmitReq
 
 # TODO update the JSON string below
 json = "{}"

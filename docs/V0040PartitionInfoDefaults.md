@@ -5,16 +5,16 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**memory_per_cpu** | **int** | DefMemPerCPU or DefMemPerNode | [optional] 
-**partition_memory_per_cpu** | [**V0040Uint64NoVal**](V0040Uint64NoVal.md) |  | [optional] 
-**partition_memory_per_node** | [**V0040Uint64NoVal**](V0040Uint64NoVal.md) |  | [optional] 
-**time** | [**V0040Uint32NoVal**](V0040Uint32NoVal.md) |  | [optional] 
-**job** | **str** | JobDefaults | [optional] 
+**memory_per_cpu** | **int** | DefMemPerCPU or DefMemPerNode | [optional]
+**partition_memory_per_cpu** | [**V0040Uint64NoVal**](V0040Uint64NoVal.md) |  | [optional]
+**partition_memory_per_node** | [**V0040Uint64NoVal**](V0040Uint64NoVal.md) |  | [optional]
+**time** | [**V0040Uint32NoVal**](V0040Uint32NoVal.md) |  | [optional]
+**job** | **str** | JobDefaults | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_partition_info_defaults import V0040PartitionInfoDefaults
+from openapi_slurm.models.v0040_partition_info_defaults import V0040PartitionInfoDefaults
 
 # TODO update the JSON string below
 json = "{}"

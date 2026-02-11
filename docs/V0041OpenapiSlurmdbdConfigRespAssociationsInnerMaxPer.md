@@ -5,12 +5,12 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**account** | [**V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxPerAccount**](V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxPerAccount.md) |  | [optional] 
+**account** | [**V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxPerAccount**](V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxPerAccount.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_associations_inner_max_per import V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxPer
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_associations_inner_max_per import V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxPer
 
 # TODO update the JSON string below
 json = "{}"

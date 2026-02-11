@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**used** | **int** | Total memory (MiB) used by job | [optional] 
-**allocated** | **int** | Total memory (MiB) allocated to job | [optional] 
+**used** | **int** | Total memory (MiB) used by job | [optional]
+**allocated** | **int** | Total memory (MiB) allocated to job | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_memory import V0041OpenapiJobInfoRespJobsInnerJobResourcesNodesAllocationInnerMemory
+from openapi_slurm.models.v0041_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_memory import V0041OpenapiJobInfoRespJobsInnerJobResourcesNodesAllocationInnerMemory
 
 # TODO update the JSON string below
 json = "{}"

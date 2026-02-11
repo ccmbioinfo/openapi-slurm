@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0042_job import V0042Job
+from openapi_slurm.models.v0042_job import V0042Job
 
 class TestV0042Job(unittest.TestCase):
     """V0042Job unit test stubs"""
@@ -37,83 +37,83 @@ class TestV0042Job(unittest.TestCase):
         if include_optional:
             return V0042Job(
                 account = '',
-                comment = openapi_client.models.v0_0_40_job_comment.v0_0_40_job_comment(
-                    administrator = '', 
-                    job = '', 
+                comment = openapi_slurm.models.v0_0_40_job_comment.v0_0_40_job_comment(
+                    administrator = '',
+                    job = '',
                     system = '', ),
                 allocation_nodes = 56,
-                array = openapi_client.models.v0_0_42_job_array.v0_0_42_job_array(
-                    job_id = 56, 
-                    limits = openapi_client.models.v0_0_40_job_array_limits.v0_0_40_job_array_limits(
-                        max = openapi_client.models.v0_0_40_job_array_limits_max.v0_0_40_job_array_limits_max(
-                            running = openapi_client.models.v0_0_40_job_array_limits_max_running.v0_0_40_job_array_limits_max_running(
-                                tasks = 56, ), ), ), 
-                    task_id = openapi_client.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
-                        set = True, 
-                        infinite = True, 
-                        number = 56, ), 
+                array = openapi_slurm.models.v0_0_42_job_array.v0_0_42_job_array(
+                    job_id = 56,
+                    limits = openapi_slurm.models.v0_0_40_job_array_limits.v0_0_40_job_array_limits(
+                        max = openapi_slurm.models.v0_0_40_job_array_limits_max.v0_0_40_job_array_limits_max(
+                            running = openapi_slurm.models.v0_0_40_job_array_limits_max_running.v0_0_40_job_array_limits_max_running(
+                                tasks = 56, ), ), ),
+                    task_id = openapi_slurm.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
+                        set = True,
+                        infinite = True,
+                        number = 56, ),
                     task = '', ),
-                association = openapi_client.models.v0/0/42_assoc_short.v0.0.42_assoc_short(
-                    account = '', 
-                    cluster = '', 
-                    partition = '', 
-                    user = '', 
+                association = openapi_slurm.models.v0/0/42_assoc_short.v0.0.42_assoc_short(
+                    account = '',
+                    cluster = '',
+                    partition = '',
+                    user = '',
                     id = 56, ),
                 block = '',
                 cluster = '',
                 constraints = '',
                 container = '',
-                derived_exit_code = openapi_client.models.v0/0/42_process_exit_code_verbose.v0.0.42_process_exit_code_verbose(
+                derived_exit_code = openapi_slurm.models.v0/0/42_process_exit_code_verbose.v0.0.42_process_exit_code_verbose(
                     status = [
                         'INVALID'
-                        ], 
-                    return_code = openapi_client.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
-                        set = True, 
-                        infinite = True, 
-                        number = 56, ), 
-                    signal = openapi_client.models.v0_0_42_process_exit_code_verbose_signal.v0_0_42_process_exit_code_verbose_signal(
-                        id = openapi_client.models.v0/0/42_uint16_no_val_struct.v0.0.42_uint16_no_val_struct(
-                            set = True, 
-                            infinite = True, 
-                            number = 56, ), 
+                        ],
+                    return_code = openapi_slurm.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
+                        set = True,
+                        infinite = True,
+                        number = 56, ),
+                    signal = openapi_slurm.models.v0_0_42_process_exit_code_verbose_signal.v0_0_42_process_exit_code_verbose_signal(
+                        id = openapi_slurm.models.v0/0/42_uint16_no_val_struct.v0.0.42_uint16_no_val_struct(
+                            set = True,
+                            infinite = True,
+                            number = 56, ),
                         name = '', ), ),
-                time = openapi_client.models.v0_0_42_job_time.v0_0_42_job_time(
-                    elapsed = 56, 
-                    eligible = 56, 
-                    end = 56, 
-                    planned = openapi_client.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
-                        set = True, 
-                        infinite = True, 
-                        number = 56, ), 
-                    start = 56, 
-                    submission = 56, 
-                    suspended = 56, 
-                    system = openapi_client.models.v0_0_40_job_time_system.v0_0_40_job_time_system(
-                        seconds = 56, 
-                        microseconds = 56, ), 
-                    limit = openapi_client.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
-                        set = True, 
-                        infinite = True, 
-                        number = 56, ), 
-                    total = openapi_client.models.v0_0_40_job_time_total.v0_0_40_job_time_total(
-                        seconds = 56, 
-                        microseconds = 56, ), 
-                    user = openapi_client.models.v0_0_40_job_time_user.v0_0_40_job_time_user(
-                        seconds = 56, 
+                time = openapi_slurm.models.v0_0_42_job_time.v0_0_42_job_time(
+                    elapsed = 56,
+                    eligible = 56,
+                    end = 56,
+                    planned = openapi_slurm.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
+                        set = True,
+                        infinite = True,
+                        number = 56, ),
+                    start = 56,
+                    submission = 56,
+                    suspended = 56,
+                    system = openapi_slurm.models.v0_0_40_job_time_system.v0_0_40_job_time_system(
+                        seconds = 56,
+                        microseconds = 56, ),
+                    limit = openapi_slurm.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
+                        set = True,
+                        infinite = True,
+                        number = 56, ),
+                    total = openapi_slurm.models.v0_0_40_job_time_total.v0_0_40_job_time_total(
+                        seconds = 56,
+                        microseconds = 56, ),
+                    user = openapi_slurm.models.v0_0_40_job_time_user.v0_0_40_job_time_user(
+                        seconds = 56,
                         microseconds = 56, ), ),
-                exit_code = openapi_client.models.v0/0/42_process_exit_code_verbose.v0.0.42_process_exit_code_verbose(
+                exit_code = openapi_slurm.models.v0/0/42_process_exit_code_verbose.v0.0.42_process_exit_code_verbose(
                     status = [
                         'INVALID'
-                        ], 
-                    return_code = openapi_client.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
-                        set = True, 
-                        infinite = True, 
-                        number = 56, ), 
-                    signal = openapi_client.models.v0_0_42_process_exit_code_verbose_signal.v0_0_42_process_exit_code_verbose_signal(
-                        id = openapi_client.models.v0/0/42_uint16_no_val_struct.v0.0.42_uint16_no_val_struct(
-                            set = True, 
-                            infinite = True, 
-                            number = 56, ), 
+                        ],
+                    return_code = openapi_slurm.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
+                        set = True,
+                        infinite = True,
+                        number = 56, ),
+                    signal = openapi_slurm.models.v0_0_42_process_exit_code_verbose_signal.v0_0_42_process_exit_code_verbose_signal(
+                        id = openapi_slurm.models.v0/0/42_uint16_no_val_struct.v0.0.42_uint16_no_val_struct(
+                            set = True,
+                            infinite = True,
+                            number = 56, ),
                         name = '', ), ),
                 extra = '',
                 failed_node = '',
@@ -121,40 +121,40 @@ class TestV0042Job(unittest.TestCase):
                     'NONE'
                     ],
                 group = '',
-                het = openapi_client.models.v0_0_42_job_het.v0_0_42_job_het(
-                    job_id = 56, 
-                    job_offset = openapi_client.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
-                        set = True, 
-                        infinite = True, 
+                het = openapi_slurm.models.v0_0_42_job_het.v0_0_42_job_het(
+                    job_id = 56,
+                    job_offset = openapi_slurm.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
+                        set = True,
+                        infinite = True,
                         number = 56, ), ),
                 job_id = 56,
                 name = '',
                 licenses = '',
-                mcs = openapi_client.models.v0_0_40_job_mcs.v0_0_40_job_mcs(
+                mcs = openapi_slurm.models.v0_0_40_job_mcs.v0_0_40_job_mcs(
                     label = '', ),
                 nodes = '',
                 partition = '',
                 hold = True,
-                priority = openapi_client.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                priority = openapi_slurm.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
                 qos = '',
                 qosreq = '',
-                required = openapi_client.models.v0_0_42_job_required.v0_0_42_job_required(
-                    cpus = 56, 
-                    memory_per_cpu = openapi_client.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
-                        set = True, 
-                        infinite = True, 
-                        number = 56, ), 
-                    memory_per_node = openapi_client.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
-                        set = True, 
-                        infinite = True, 
+                required = openapi_slurm.models.v0_0_42_job_required.v0_0_42_job_required(
+                    cpus = 56,
+                    memory_per_cpu = openapi_slurm.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
+                        set = True,
+                        infinite = True,
+                        number = 56, ),
+                    memory_per_node = openapi_slurm.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
+                        set = True,
+                        infinite = True,
                         number = 56, ), ),
                 kill_request_user = '',
                 restart_cnt = 56,
-                reservation = openapi_client.models.v0_0_40_job_reservation.v0_0_40_job_reservation(
-                    id = 56, 
+                reservation = openapi_slurm.models.v0_0_40_job_reservation.v0_0_40_job_reservation(
+                    id = 56,
                     name = '', ),
                 script = '',
                 stdin_expanded = '',
@@ -163,110 +163,110 @@ class TestV0042Job(unittest.TestCase):
                 stdout = '',
                 stderr = '',
                 stdin = '',
-                state = openapi_client.models.v0_0_42_job_state.v0_0_42_job_state(
+                state = openapi_slurm.models.v0_0_42_job_state.v0_0_42_job_state(
                     current = [
                         'PENDING'
-                        ], 
+                        ],
                     reason = '', ),
                 steps = [
-                    openapi_client.models.v0/0/42_step.v0.0.42_step(
-                        time = openapi_client.models.v0_0_42_step_time.v0_0_42_step_time(
-                            elapsed = 56, 
-                            end = openapi_client.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
-                                set = True, 
-                                infinite = True, 
-                                number = 56, ), 
-                            start = openapi_client.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
-                                set = True, 
-                                infinite = True, 
-                                number = 56, ), 
-                            suspended = 56, 
-                            system = openapi_client.models.v0_0_40_step_time_system.v0_0_40_step_time_system(
-                                seconds = 56, 
-                                microseconds = 56, ), 
-                            total = openapi_client.models.v0_0_40_step_time_total.v0_0_40_step_time_total(
-                                seconds = 56, 
-                                microseconds = 56, ), 
-                            user = openapi_client.models.v0_0_40_step_time_user.v0_0_40_step_time_user(
-                                seconds = 56, 
-                                microseconds = 56, ), ), 
-                        exit_code = openapi_client.models.v0/0/42_process_exit_code_verbose.v0.0.42_process_exit_code_verbose(
+                    openapi_slurm.models.v0/0/42_step.v0.0.42_step(
+                        time = openapi_slurm.models.v0_0_42_step_time.v0_0_42_step_time(
+                            elapsed = 56,
+                            end = openapi_slurm.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
+                                set = True,
+                                infinite = True,
+                                number = 56, ),
+                            start = openapi_slurm.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
+                                set = True,
+                                infinite = True,
+                                number = 56, ),
+                            suspended = 56,
+                            system = openapi_slurm.models.v0_0_40_step_time_system.v0_0_40_step_time_system(
+                                seconds = 56,
+                                microseconds = 56, ),
+                            total = openapi_slurm.models.v0_0_40_step_time_total.v0_0_40_step_time_total(
+                                seconds = 56,
+                                microseconds = 56, ),
+                            user = openapi_slurm.models.v0_0_40_step_time_user.v0_0_40_step_time_user(
+                                seconds = 56,
+                                microseconds = 56, ), ),
+                        exit_code = openapi_slurm.models.v0/0/42_process_exit_code_verbose.v0.0.42_process_exit_code_verbose(
                             status = [
                                 'INVALID'
-                                ], 
-                            return_code = openapi_client.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
-                                set = True, 
-                                infinite = True, 
-                                number = 56, ), 
-                            signal = openapi_client.models.v0_0_42_process_exit_code_verbose_signal.v0_0_42_process_exit_code_verbose_signal(
-                                id = openapi_client.models.v0/0/42_uint16_no_val_struct.v0.0.42_uint16_no_val_struct(
-                                    set = True, 
-                                    infinite = True, 
-                                    number = 56, ), 
-                                name = '', ), ), 
-                        nodes = openapi_client.models.v0_0_42_step_nodes.v0_0_42_step_nodes(
-                            count = 56, 
-                            range = '', 
+                                ],
+                            return_code = openapi_slurm.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
+                                set = True,
+                                infinite = True,
+                                number = 56, ),
+                            signal = openapi_slurm.models.v0_0_42_process_exit_code_verbose_signal.v0_0_42_process_exit_code_verbose_signal(
+                                id = openapi_slurm.models.v0/0/42_uint16_no_val_struct.v0.0.42_uint16_no_val_struct(
+                                    set = True,
+                                    infinite = True,
+                                    number = 56, ),
+                                name = '', ), ),
+                        nodes = openapi_slurm.models.v0_0_42_step_nodes.v0_0_42_step_nodes(
+                            count = 56,
+                            range = '',
                             list = [
                                 ''
-                                ], ), 
-                        tasks = openapi_client.models.v0_0_40_step_tasks.v0_0_40_step_tasks(
-                            count = 56, ), 
-                        pid = '', 
-                        cpu = openapi_client.models.v0_0_42_step_cpu.v0_0_42_step_CPU(
-                            requested_frequency = openapi_client.models.v0_0_42_step_cpu_requested_frequency.v0_0_42_step_CPU_requested_frequency(
-                                min = openapi_client.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
-                                    set = True, 
-                                    infinite = True, 
-                                    number = 56, ), 
-                                max = , ), 
-                            governor = '', ), 
-                        kill_request_user = '', 
+                                ], ),
+                        tasks = openapi_slurm.models.v0_0_40_step_tasks.v0_0_40_step_tasks(
+                            count = 56, ),
+                        pid = '',
+                        cpu = openapi_slurm.models.v0_0_42_step_cpu.v0_0_42_step_CPU(
+                            requested_frequency = openapi_slurm.models.v0_0_42_step_cpu_requested_frequency.v0_0_42_step_CPU_requested_frequency(
+                                min = openapi_slurm.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
+                                    set = True,
+                                    infinite = True,
+                                    number = 56, ),
+                                max = , ),
+                            governor = '', ),
+                        kill_request_user = '',
                         state = [
                             'PENDING'
-                            ], 
-                        statistics = openapi_client.models.v0_0_42_step_statistics.v0_0_42_step_statistics(
-                            energy = openapi_client.models.v0_0_42_step_statistics_energy.v0_0_42_step_statistics_energy(
-                                consumed = , ), ), 
-                        step = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_step.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_step(
-                            name = '', ), 
-                        task = openapi_client.models.v0_0_40_step_task.v0_0_40_step_task(
-                            distribution = '', ), 
-                        tres = openapi_client.models.v0_0_42_step_tres.v0_0_42_step_tres(
-                            requested = openapi_client.models.v0_0_42_step_tres_requested.v0_0_42_step_tres_requested(
+                            ],
+                        statistics = openapi_slurm.models.v0_0_42_step_statistics.v0_0_42_step_statistics(
+                            energy = openapi_slurm.models.v0_0_42_step_statistics_energy.v0_0_42_step_statistics_energy(
+                                consumed = , ), ),
+                        step = openapi_slurm.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_step.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_step(
+                            name = '', ),
+                        task = openapi_slurm.models.v0_0_40_step_task.v0_0_40_step_task(
+                            distribution = '', ),
+                        tres = openapi_slurm.models.v0_0_42_step_tres.v0_0_42_step_tres(
+                            requested = openapi_slurm.models.v0_0_42_step_tres_requested.v0_0_42_step_tres_requested(
                                 average = [
-                                    openapi_client.models.v0/0/42_tres.v0.0.42_tres(
-                                        type = '', 
-                                        name = '', 
+                                    openapi_slurm.models.v0/0/42_tres.v0.0.42_tres(
+                                        type = '',
+                                        name = '',
                                         count = 56, )
-                                    ], ), 
+                                    ], ),
                             allocated = [
-                                openapi_client.models.v0/0/42_tres.v0.0.42_tres(
-                                    type = '', 
-                                    name = '', 
+                                openapi_slurm.models.v0/0/42_tres.v0.0.42_tres(
+                                    type = '',
+                                    name = '',
                                     count = 56, )
                                 ], ), )
                     ],
                 submit_line = '',
-                tres = openapi_client.models.v0_0_42_job_tres.v0_0_42_job_tres(
+                tres = openapi_slurm.models.v0_0_42_job_tres.v0_0_42_job_tres(
                     allocated = [
-                        openapi_client.models.v0/0/42_tres.v0.0.42_tres(
-                            type = '', 
-                            name = '', 
-                            id = 56, 
+                        openapi_slurm.models.v0/0/42_tres.v0.0.42_tres(
+                            type = '',
+                            name = '',
+                            id = 56,
                             count = 56, )
-                        ], 
+                        ],
                     requested = [
-                        openapi_client.models.v0/0/42_tres.v0.0.42_tres(
-                            type = '', 
-                            name = '', 
-                            id = 56, 
+                        openapi_slurm.models.v0/0/42_tres.v0.0.42_tres(
+                            type = '',
+                            name = '',
+                            id = 56,
                             count = 56, )
                         ], ),
                 used_gres = '',
                 user = '',
-                wckey = openapi_client.models.v0/0/42_wckey_tag_struct.v0.0.42_wckey_tag_struct(
-                    wckey = '', 
+                wckey = openapi_slurm.models.v0/0/42_wckey_tag_struct.v0.0.42_wckey_tag_struct(
+                    wckey = '',
                     flags = [
                         'ASSIGNED_DEFAULT'
                         ], ),

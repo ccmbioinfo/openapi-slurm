@@ -20,96 +20,96 @@ from typing_extensions import Annotated
 from pydantic import Field, StrictStr, field_validator
 from typing import Optional
 from typing_extensions import Annotated
-from openapi_client.models.v0040_openapi_accounts_add_cond_resp import V0040OpenapiAccountsAddCondResp
-from openapi_client.models.v0040_openapi_accounts_add_cond_resp_str import V0040OpenapiAccountsAddCondRespStr
-from openapi_client.models.v0040_openapi_accounts_removed_resp import V0040OpenapiAccountsRemovedResp
-from openapi_client.models.v0040_openapi_accounts_resp import V0040OpenapiAccountsResp
-from openapi_client.models.v0040_openapi_assocs_removed_resp import V0040OpenapiAssocsRemovedResp
-from openapi_client.models.v0040_openapi_assocs_resp import V0040OpenapiAssocsResp
-from openapi_client.models.v0040_openapi_clusters_removed_resp import V0040OpenapiClustersRemovedResp
-from openapi_client.models.v0040_openapi_clusters_resp import V0040OpenapiClustersResp
-from openapi_client.models.v0040_openapi_instances_resp import V0040OpenapiInstancesResp
-from openapi_client.models.v0040_openapi_resp import V0040OpenapiResp
-from openapi_client.models.v0040_openapi_slurmdbd_config_resp import V0040OpenapiSlurmdbdConfigResp
-from openapi_client.models.v0040_openapi_slurmdbd_jobs_resp import V0040OpenapiSlurmdbdJobsResp
-from openapi_client.models.v0040_openapi_slurmdbd_qos_removed_resp import V0040OpenapiSlurmdbdQosRemovedResp
-from openapi_client.models.v0040_openapi_slurmdbd_qos_resp import V0040OpenapiSlurmdbdQosResp
-from openapi_client.models.v0040_openapi_slurmdbd_stats_resp import V0040OpenapiSlurmdbdStatsResp
-from openapi_client.models.v0040_openapi_tres_resp import V0040OpenapiTresResp
-from openapi_client.models.v0040_openapi_users_add_cond_resp import V0040OpenapiUsersAddCondResp
-from openapi_client.models.v0040_openapi_users_add_cond_resp_str import V0040OpenapiUsersAddCondRespStr
-from openapi_client.models.v0040_openapi_users_resp import V0040OpenapiUsersResp
-from openapi_client.models.v0040_openapi_wckey_removed_resp import V0040OpenapiWckeyRemovedResp
-from openapi_client.models.v0040_openapi_wckey_resp import V0040OpenapiWckeyResp
-from openapi_client.models.v0041_openapi_accounts_add_cond_resp import V0041OpenapiAccountsAddCondResp
-from openapi_client.models.v0041_openapi_accounts_add_cond_resp_str import V0041OpenapiAccountsAddCondRespStr
-from openapi_client.models.v0041_openapi_accounts_removed_resp import V0041OpenapiAccountsRemovedResp
-from openapi_client.models.v0041_openapi_accounts_resp import V0041OpenapiAccountsResp
-from openapi_client.models.v0041_openapi_assocs_removed_resp import V0041OpenapiAssocsRemovedResp
-from openapi_client.models.v0041_openapi_assocs_resp import V0041OpenapiAssocsResp
-from openapi_client.models.v0041_openapi_clusters_removed_resp import V0041OpenapiClustersRemovedResp
-from openapi_client.models.v0041_openapi_clusters_resp import V0041OpenapiClustersResp
-from openapi_client.models.v0041_openapi_instances_resp import V0041OpenapiInstancesResp
-from openapi_client.models.v0041_openapi_resp import V0041OpenapiResp
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp import V0041OpenapiSlurmdbdConfigResp
-from openapi_client.models.v0041_openapi_slurmdbd_jobs_resp import V0041OpenapiSlurmdbdJobsResp
-from openapi_client.models.v0041_openapi_slurmdbd_qos_removed_resp import V0041OpenapiSlurmdbdQosRemovedResp
-from openapi_client.models.v0041_openapi_slurmdbd_qos_resp import V0041OpenapiSlurmdbdQosResp
-from openapi_client.models.v0041_openapi_slurmdbd_stats_resp import V0041OpenapiSlurmdbdStatsResp
-from openapi_client.models.v0041_openapi_tres_resp import V0041OpenapiTresResp
-from openapi_client.models.v0041_openapi_users_add_cond_resp import V0041OpenapiUsersAddCondResp
-from openapi_client.models.v0041_openapi_users_add_cond_resp_str import V0041OpenapiUsersAddCondRespStr
-from openapi_client.models.v0041_openapi_users_resp import V0041OpenapiUsersResp
-from openapi_client.models.v0041_openapi_wckey_removed_resp import V0041OpenapiWckeyRemovedResp
-from openapi_client.models.v0041_openapi_wckey_resp import V0041OpenapiWckeyResp
-from openapi_client.models.v0042_openapi_accounts_add_cond_resp import V0042OpenapiAccountsAddCondResp
-from openapi_client.models.v0042_openapi_accounts_add_cond_resp_str import V0042OpenapiAccountsAddCondRespStr
-from openapi_client.models.v0042_openapi_accounts_removed_resp import V0042OpenapiAccountsRemovedResp
-from openapi_client.models.v0042_openapi_accounts_resp import V0042OpenapiAccountsResp
-from openapi_client.models.v0042_openapi_assocs_removed_resp import V0042OpenapiAssocsRemovedResp
-from openapi_client.models.v0042_openapi_assocs_resp import V0042OpenapiAssocsResp
-from openapi_client.models.v0042_openapi_clusters_removed_resp import V0042OpenapiClustersRemovedResp
-from openapi_client.models.v0042_openapi_clusters_resp import V0042OpenapiClustersResp
-from openapi_client.models.v0042_openapi_instances_resp import V0042OpenapiInstancesResp
-from openapi_client.models.v0042_openapi_resp import V0042OpenapiResp
-from openapi_client.models.v0042_openapi_slurmdbd_config_resp import V0042OpenapiSlurmdbdConfigResp
-from openapi_client.models.v0042_openapi_slurmdbd_jobs_resp import V0042OpenapiSlurmdbdJobsResp
-from openapi_client.models.v0042_openapi_slurmdbd_ping_resp import V0042OpenapiSlurmdbdPingResp
-from openapi_client.models.v0042_openapi_slurmdbd_qos_removed_resp import V0042OpenapiSlurmdbdQosRemovedResp
-from openapi_client.models.v0042_openapi_slurmdbd_qos_resp import V0042OpenapiSlurmdbdQosResp
-from openapi_client.models.v0042_openapi_slurmdbd_stats_resp import V0042OpenapiSlurmdbdStatsResp
-from openapi_client.models.v0042_openapi_tres_resp import V0042OpenapiTresResp
-from openapi_client.models.v0042_openapi_users_add_cond_resp import V0042OpenapiUsersAddCondResp
-from openapi_client.models.v0042_openapi_users_add_cond_resp_str import V0042OpenapiUsersAddCondRespStr
-from openapi_client.models.v0042_openapi_users_resp import V0042OpenapiUsersResp
-from openapi_client.models.v0042_openapi_wckey_removed_resp import V0042OpenapiWckeyRemovedResp
-from openapi_client.models.v0042_openapi_wckey_resp import V0042OpenapiWckeyResp
-from openapi_client.models.v0043_openapi_accounts_add_cond_resp import V0043OpenapiAccountsAddCondResp
-from openapi_client.models.v0043_openapi_accounts_add_cond_resp_str import V0043OpenapiAccountsAddCondRespStr
-from openapi_client.models.v0043_openapi_accounts_removed_resp import V0043OpenapiAccountsRemovedResp
-from openapi_client.models.v0043_openapi_accounts_resp import V0043OpenapiAccountsResp
-from openapi_client.models.v0043_openapi_assocs_removed_resp import V0043OpenapiAssocsRemovedResp
-from openapi_client.models.v0043_openapi_assocs_resp import V0043OpenapiAssocsResp
-from openapi_client.models.v0043_openapi_clusters_removed_resp import V0043OpenapiClustersRemovedResp
-from openapi_client.models.v0043_openapi_clusters_resp import V0043OpenapiClustersResp
-from openapi_client.models.v0043_openapi_instances_resp import V0043OpenapiInstancesResp
-from openapi_client.models.v0043_openapi_resp import V0043OpenapiResp
-from openapi_client.models.v0043_openapi_slurmdbd_config_resp import V0043OpenapiSlurmdbdConfigResp
-from openapi_client.models.v0043_openapi_slurmdbd_jobs_resp import V0043OpenapiSlurmdbdJobsResp
-from openapi_client.models.v0043_openapi_slurmdbd_ping_resp import V0043OpenapiSlurmdbdPingResp
-from openapi_client.models.v0043_openapi_slurmdbd_qos_removed_resp import V0043OpenapiSlurmdbdQosRemovedResp
-from openapi_client.models.v0043_openapi_slurmdbd_qos_resp import V0043OpenapiSlurmdbdQosResp
-from openapi_client.models.v0043_openapi_slurmdbd_stats_resp import V0043OpenapiSlurmdbdStatsResp
-from openapi_client.models.v0043_openapi_tres_resp import V0043OpenapiTresResp
-from openapi_client.models.v0043_openapi_users_add_cond_resp import V0043OpenapiUsersAddCondResp
-from openapi_client.models.v0043_openapi_users_add_cond_resp_str import V0043OpenapiUsersAddCondRespStr
-from openapi_client.models.v0043_openapi_users_resp import V0043OpenapiUsersResp
-from openapi_client.models.v0043_openapi_wckey_removed_resp import V0043OpenapiWckeyRemovedResp
-from openapi_client.models.v0043_openapi_wckey_resp import V0043OpenapiWckeyResp
+from openapi_slurm.models.v0040_openapi_accounts_add_cond_resp import V0040OpenapiAccountsAddCondResp
+from openapi_slurm.models.v0040_openapi_accounts_add_cond_resp_str import V0040OpenapiAccountsAddCondRespStr
+from openapi_slurm.models.v0040_openapi_accounts_removed_resp import V0040OpenapiAccountsRemovedResp
+from openapi_slurm.models.v0040_openapi_accounts_resp import V0040OpenapiAccountsResp
+from openapi_slurm.models.v0040_openapi_assocs_removed_resp import V0040OpenapiAssocsRemovedResp
+from openapi_slurm.models.v0040_openapi_assocs_resp import V0040OpenapiAssocsResp
+from openapi_slurm.models.v0040_openapi_clusters_removed_resp import V0040OpenapiClustersRemovedResp
+from openapi_slurm.models.v0040_openapi_clusters_resp import V0040OpenapiClustersResp
+from openapi_slurm.models.v0040_openapi_instances_resp import V0040OpenapiInstancesResp
+from openapi_slurm.models.v0040_openapi_resp import V0040OpenapiResp
+from openapi_slurm.models.v0040_openapi_slurmdbd_config_resp import V0040OpenapiSlurmdbdConfigResp
+from openapi_slurm.models.v0040_openapi_slurmdbd_jobs_resp import V0040OpenapiSlurmdbdJobsResp
+from openapi_slurm.models.v0040_openapi_slurmdbd_qos_removed_resp import V0040OpenapiSlurmdbdQosRemovedResp
+from openapi_slurm.models.v0040_openapi_slurmdbd_qos_resp import V0040OpenapiSlurmdbdQosResp
+from openapi_slurm.models.v0040_openapi_slurmdbd_stats_resp import V0040OpenapiSlurmdbdStatsResp
+from openapi_slurm.models.v0040_openapi_tres_resp import V0040OpenapiTresResp
+from openapi_slurm.models.v0040_openapi_users_add_cond_resp import V0040OpenapiUsersAddCondResp
+from openapi_slurm.models.v0040_openapi_users_add_cond_resp_str import V0040OpenapiUsersAddCondRespStr
+from openapi_slurm.models.v0040_openapi_users_resp import V0040OpenapiUsersResp
+from openapi_slurm.models.v0040_openapi_wckey_removed_resp import V0040OpenapiWckeyRemovedResp
+from openapi_slurm.models.v0040_openapi_wckey_resp import V0040OpenapiWckeyResp
+from openapi_slurm.models.v0041_openapi_accounts_add_cond_resp import V0041OpenapiAccountsAddCondResp
+from openapi_slurm.models.v0041_openapi_accounts_add_cond_resp_str import V0041OpenapiAccountsAddCondRespStr
+from openapi_slurm.models.v0041_openapi_accounts_removed_resp import V0041OpenapiAccountsRemovedResp
+from openapi_slurm.models.v0041_openapi_accounts_resp import V0041OpenapiAccountsResp
+from openapi_slurm.models.v0041_openapi_assocs_removed_resp import V0041OpenapiAssocsRemovedResp
+from openapi_slurm.models.v0041_openapi_assocs_resp import V0041OpenapiAssocsResp
+from openapi_slurm.models.v0041_openapi_clusters_removed_resp import V0041OpenapiClustersRemovedResp
+from openapi_slurm.models.v0041_openapi_clusters_resp import V0041OpenapiClustersResp
+from openapi_slurm.models.v0041_openapi_instances_resp import V0041OpenapiInstancesResp
+from openapi_slurm.models.v0041_openapi_resp import V0041OpenapiResp
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp import V0041OpenapiSlurmdbdConfigResp
+from openapi_slurm.models.v0041_openapi_slurmdbd_jobs_resp import V0041OpenapiSlurmdbdJobsResp
+from openapi_slurm.models.v0041_openapi_slurmdbd_qos_removed_resp import V0041OpenapiSlurmdbdQosRemovedResp
+from openapi_slurm.models.v0041_openapi_slurmdbd_qos_resp import V0041OpenapiSlurmdbdQosResp
+from openapi_slurm.models.v0041_openapi_slurmdbd_stats_resp import V0041OpenapiSlurmdbdStatsResp
+from openapi_slurm.models.v0041_openapi_tres_resp import V0041OpenapiTresResp
+from openapi_slurm.models.v0041_openapi_users_add_cond_resp import V0041OpenapiUsersAddCondResp
+from openapi_slurm.models.v0041_openapi_users_add_cond_resp_str import V0041OpenapiUsersAddCondRespStr
+from openapi_slurm.models.v0041_openapi_users_resp import V0041OpenapiUsersResp
+from openapi_slurm.models.v0041_openapi_wckey_removed_resp import V0041OpenapiWckeyRemovedResp
+from openapi_slurm.models.v0041_openapi_wckey_resp import V0041OpenapiWckeyResp
+from openapi_slurm.models.v0042_openapi_accounts_add_cond_resp import V0042OpenapiAccountsAddCondResp
+from openapi_slurm.models.v0042_openapi_accounts_add_cond_resp_str import V0042OpenapiAccountsAddCondRespStr
+from openapi_slurm.models.v0042_openapi_accounts_removed_resp import V0042OpenapiAccountsRemovedResp
+from openapi_slurm.models.v0042_openapi_accounts_resp import V0042OpenapiAccountsResp
+from openapi_slurm.models.v0042_openapi_assocs_removed_resp import V0042OpenapiAssocsRemovedResp
+from openapi_slurm.models.v0042_openapi_assocs_resp import V0042OpenapiAssocsResp
+from openapi_slurm.models.v0042_openapi_clusters_removed_resp import V0042OpenapiClustersRemovedResp
+from openapi_slurm.models.v0042_openapi_clusters_resp import V0042OpenapiClustersResp
+from openapi_slurm.models.v0042_openapi_instances_resp import V0042OpenapiInstancesResp
+from openapi_slurm.models.v0042_openapi_resp import V0042OpenapiResp
+from openapi_slurm.models.v0042_openapi_slurmdbd_config_resp import V0042OpenapiSlurmdbdConfigResp
+from openapi_slurm.models.v0042_openapi_slurmdbd_jobs_resp import V0042OpenapiSlurmdbdJobsResp
+from openapi_slurm.models.v0042_openapi_slurmdbd_ping_resp import V0042OpenapiSlurmdbdPingResp
+from openapi_slurm.models.v0042_openapi_slurmdbd_qos_removed_resp import V0042OpenapiSlurmdbdQosRemovedResp
+from openapi_slurm.models.v0042_openapi_slurmdbd_qos_resp import V0042OpenapiSlurmdbdQosResp
+from openapi_slurm.models.v0042_openapi_slurmdbd_stats_resp import V0042OpenapiSlurmdbdStatsResp
+from openapi_slurm.models.v0042_openapi_tres_resp import V0042OpenapiTresResp
+from openapi_slurm.models.v0042_openapi_users_add_cond_resp import V0042OpenapiUsersAddCondResp
+from openapi_slurm.models.v0042_openapi_users_add_cond_resp_str import V0042OpenapiUsersAddCondRespStr
+from openapi_slurm.models.v0042_openapi_users_resp import V0042OpenapiUsersResp
+from openapi_slurm.models.v0042_openapi_wckey_removed_resp import V0042OpenapiWckeyRemovedResp
+from openapi_slurm.models.v0042_openapi_wckey_resp import V0042OpenapiWckeyResp
+from openapi_slurm.models.v0043_openapi_accounts_add_cond_resp import V0043OpenapiAccountsAddCondResp
+from openapi_slurm.models.v0043_openapi_accounts_add_cond_resp_str import V0043OpenapiAccountsAddCondRespStr
+from openapi_slurm.models.v0043_openapi_accounts_removed_resp import V0043OpenapiAccountsRemovedResp
+from openapi_slurm.models.v0043_openapi_accounts_resp import V0043OpenapiAccountsResp
+from openapi_slurm.models.v0043_openapi_assocs_removed_resp import V0043OpenapiAssocsRemovedResp
+from openapi_slurm.models.v0043_openapi_assocs_resp import V0043OpenapiAssocsResp
+from openapi_slurm.models.v0043_openapi_clusters_removed_resp import V0043OpenapiClustersRemovedResp
+from openapi_slurm.models.v0043_openapi_clusters_resp import V0043OpenapiClustersResp
+from openapi_slurm.models.v0043_openapi_instances_resp import V0043OpenapiInstancesResp
+from openapi_slurm.models.v0043_openapi_resp import V0043OpenapiResp
+from openapi_slurm.models.v0043_openapi_slurmdbd_config_resp import V0043OpenapiSlurmdbdConfigResp
+from openapi_slurm.models.v0043_openapi_slurmdbd_jobs_resp import V0043OpenapiSlurmdbdJobsResp
+from openapi_slurm.models.v0043_openapi_slurmdbd_ping_resp import V0043OpenapiSlurmdbdPingResp
+from openapi_slurm.models.v0043_openapi_slurmdbd_qos_removed_resp import V0043OpenapiSlurmdbdQosRemovedResp
+from openapi_slurm.models.v0043_openapi_slurmdbd_qos_resp import V0043OpenapiSlurmdbdQosResp
+from openapi_slurm.models.v0043_openapi_slurmdbd_stats_resp import V0043OpenapiSlurmdbdStatsResp
+from openapi_slurm.models.v0043_openapi_tres_resp import V0043OpenapiTresResp
+from openapi_slurm.models.v0043_openapi_users_add_cond_resp import V0043OpenapiUsersAddCondResp
+from openapi_slurm.models.v0043_openapi_users_add_cond_resp_str import V0043OpenapiUsersAddCondRespStr
+from openapi_slurm.models.v0043_openapi_users_resp import V0043OpenapiUsersResp
+from openapi_slurm.models.v0043_openapi_wckey_removed_resp import V0043OpenapiWckeyRemovedResp
+from openapi_slurm.models.v0043_openapi_wckey_resp import V0043OpenapiWckeyResp
 
-from openapi_client.api_client import ApiClient, RequestSerialized
-from openapi_client.api_response import ApiResponse
-from openapi_client.rest import RESTResponseType
+from openapi_slurm.api_client import ApiClient, RequestSerialized
+from openapi_slurm.api_response import ApiResponse
+from openapi_slurm.rest import RESTResponseType
 
 
 class SlurmdbApi:
@@ -365,8 +365,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -832,77 +832,77 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if account is not None:
-            
+
             _query_params.append(('account', account))
-            
+
         if cluster is not None:
-            
+
             _query_params.append(('cluster', cluster))
-            
+
         if default_qos is not None:
-            
+
             _query_params.append(('default_qos', default_qos))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if id is not None:
-            
+
             _query_params.append(('id', id))
-            
+
         if only_defaults is not None:
-            
+
             _query_params.append(('only_defaults', only_defaults))
-            
+
         if parent_account is not None:
-            
+
             _query_params.append(('parent_account', parent_account))
-            
+
         if partition is not None:
-            
+
             _query_params.append(('partition', partition))
-            
+
         if qos is not None:
-            
+
             _query_params.append(('qos', qos))
-            
+
         if usage_end is not None:
-            
+
             _query_params.append(('usage_end', usage_end))
-            
+
         if usage_start is not None:
-            
+
             _query_params.append(('usage_start', usage_start))
-            
+
         if user is not None:
-            
+
             _query_params.append(('user', user))
-            
+
         if with_usage is not None:
-            
+
             _query_params.append(('with_usage', with_usage))
-            
+
         if with_deleted is not None:
-            
+
             _query_params.append(('with_deleted', with_deleted))
-            
+
         if with_raw_qos is not None:
-            
+
             _query_params.append(('with_raw_qos', with_raw_qos))
-            
+
         if with_sub_accts is not None:
-            
+
             _query_params.append(('with_sub_accts', with_sub_accts))
-            
+
         if without_parent_info is not None:
-            
+
             _query_params.append(('without_parent_info', without_parent_info))
-            
+
         if without_parent_limits is not None:
-            
+
             _query_params.append(('without_parent_limits', without_parent_limits))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -919,8 +919,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -1386,77 +1386,77 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if account is not None:
-            
+
             _query_params.append(('account', account))
-            
+
         if cluster is not None:
-            
+
             _query_params.append(('cluster', cluster))
-            
+
         if default_qos is not None:
-            
+
             _query_params.append(('default_qos', default_qos))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if id is not None:
-            
+
             _query_params.append(('id', id))
-            
+
         if only_defaults is not None:
-            
+
             _query_params.append(('only_defaults', only_defaults))
-            
+
         if parent_account is not None:
-            
+
             _query_params.append(('parent_account', parent_account))
-            
+
         if partition is not None:
-            
+
             _query_params.append(('partition', partition))
-            
+
         if qos is not None:
-            
+
             _query_params.append(('qos', qos))
-            
+
         if usage_end is not None:
-            
+
             _query_params.append(('usage_end', usage_end))
-            
+
         if usage_start is not None:
-            
+
             _query_params.append(('usage_start', usage_start))
-            
+
         if user is not None:
-            
+
             _query_params.append(('user', user))
-            
+
         if with_usage is not None:
-            
+
             _query_params.append(('with_usage', with_usage))
-            
+
         if with_deleted is not None:
-            
+
             _query_params.append(('with_deleted', with_deleted))
-            
+
         if with_raw_qos is not None:
-            
+
             _query_params.append(('with_raw_qos', with_raw_qos))
-            
+
         if with_sub_accts is not None:
-            
+
             _query_params.append(('with_sub_accts', with_sub_accts))
-            
+
         if without_parent_info is not None:
-            
+
             _query_params.append(('without_parent_info', without_parent_info))
-            
+
         if without_parent_limits is not None:
-            
+
             _query_params.append(('without_parent_limits', without_parent_limits))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -1473,8 +1473,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -1851,45 +1851,45 @@ class SlurmdbApi:
             _path_params['cluster_name'] = cluster_name
         # process the query parameters
         if classification is not None:
-            
+
             _query_params.append(('classification', classification))
-            
+
         if cluster is not None:
-            
+
             _query_params.append(('cluster', cluster))
-            
+
         if federation is not None:
-            
+
             _query_params.append(('federation', federation))
-            
+
         if flags is not None:
-            
+
             _query_params.append(('flags', flags))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if rpc_version is not None:
-            
+
             _query_params.append(('rpc_version', rpc_version))
-            
+
         if usage_end is not None:
-            
+
             _query_params.append(('usage_end', usage_end))
-            
+
         if usage_start is not None:
-            
+
             _query_params.append(('usage_start', usage_start))
-            
+
         if with_deleted is not None:
-            
+
             _query_params.append(('with_deleted', with_deleted))
-            
+
         if with_usage is not None:
-            
+
             _query_params.append(('with_usage', with_usage))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -1906,8 +1906,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -2169,8 +2169,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -2432,8 +2432,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -2695,8 +2695,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -2982,17 +2982,17 @@ class SlurmdbApi:
             _path_params['account_name'] = account_name
         # process the query parameters
         if with_assocs is not None:
-            
+
             _query_params.append(('with_assocs', with_assocs))
-            
+
         if with_coords is not None:
-            
+
             _query_params.append(('with_coords', with_coords))
-            
+
         if with_deleted is not None:
-            
+
             _query_params.append(('with_deleted', with_deleted))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -3009,8 +3009,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -3294,21 +3294,21 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if description is not None:
-            
+
             _query_params.append(('description', description))
-            
+
         if with_assocs is not None:
-            
+
             _query_params.append(('with_assocs', with_assocs))
-            
+
         if with_coords is not None:
-            
+
             _query_params.append(('with_coords', with_coords))
-            
+
         if with_deleted is not None:
-            
+
             _query_params.append(('with_deleted', with_deleted))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -3325,8 +3325,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -3792,77 +3792,77 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if account is not None:
-            
+
             _query_params.append(('account', account))
-            
+
         if cluster is not None:
-            
+
             _query_params.append(('cluster', cluster))
-            
+
         if default_qos is not None:
-            
+
             _query_params.append(('default_qos', default_qos))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if id is not None:
-            
+
             _query_params.append(('id', id))
-            
+
         if only_defaults is not None:
-            
+
             _query_params.append(('only_defaults', only_defaults))
-            
+
         if parent_account is not None:
-            
+
             _query_params.append(('parent_account', parent_account))
-            
+
         if partition is not None:
-            
+
             _query_params.append(('partition', partition))
-            
+
         if qos is not None:
-            
+
             _query_params.append(('qos', qos))
-            
+
         if usage_end is not None:
-            
+
             _query_params.append(('usage_end', usage_end))
-            
+
         if usage_start is not None:
-            
+
             _query_params.append(('usage_start', usage_start))
-            
+
         if user is not None:
-            
+
             _query_params.append(('user', user))
-            
+
         if with_usage is not None:
-            
+
             _query_params.append(('with_usage', with_usage))
-            
+
         if with_deleted is not None:
-            
+
             _query_params.append(('with_deleted', with_deleted))
-            
+
         if with_raw_qos is not None:
-            
+
             _query_params.append(('with_raw_qos', with_raw_qos))
-            
+
         if with_sub_accts is not None:
-            
+
             _query_params.append(('with_sub_accts', with_sub_accts))
-            
+
         if without_parent_info is not None:
-            
+
             _query_params.append(('without_parent_info', without_parent_info))
-            
+
         if without_parent_limits is not None:
-            
+
             _query_params.append(('without_parent_limits', without_parent_limits))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -3879,8 +3879,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -4346,77 +4346,77 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if account is not None:
-            
+
             _query_params.append(('account', account))
-            
+
         if cluster is not None:
-            
+
             _query_params.append(('cluster', cluster))
-            
+
         if default_qos is not None:
-            
+
             _query_params.append(('default_qos', default_qos))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if id is not None:
-            
+
             _query_params.append(('id', id))
-            
+
         if only_defaults is not None:
-            
+
             _query_params.append(('only_defaults', only_defaults))
-            
+
         if parent_account is not None:
-            
+
             _query_params.append(('parent_account', parent_account))
-            
+
         if partition is not None:
-            
+
             _query_params.append(('partition', partition))
-            
+
         if qos is not None:
-            
+
             _query_params.append(('qos', qos))
-            
+
         if usage_end is not None:
-            
+
             _query_params.append(('usage_end', usage_end))
-            
+
         if usage_start is not None:
-            
+
             _query_params.append(('usage_start', usage_start))
-            
+
         if user is not None:
-            
+
             _query_params.append(('user', user))
-            
+
         if with_usage is not None:
-            
+
             _query_params.append(('with_usage', with_usage))
-            
+
         if with_deleted is not None:
-            
+
             _query_params.append(('with_deleted', with_deleted))
-            
+
         if with_raw_qos is not None:
-            
+
             _query_params.append(('with_raw_qos', with_raw_qos))
-            
+
         if with_sub_accts is not None:
-            
+
             _query_params.append(('with_sub_accts', with_sub_accts))
-            
+
         if without_parent_info is not None:
-            
+
             _query_params.append(('without_parent_info', without_parent_info))
-            
+
         if without_parent_limits is not None:
-            
+
             _query_params.append(('without_parent_limits', without_parent_limits))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -4433,8 +4433,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -4811,45 +4811,45 @@ class SlurmdbApi:
             _path_params['cluster_name'] = cluster_name
         # process the query parameters
         if classification is not None:
-            
+
             _query_params.append(('classification', classification))
-            
+
         if cluster is not None:
-            
+
             _query_params.append(('cluster', cluster))
-            
+
         if federation is not None:
-            
+
             _query_params.append(('federation', federation))
-            
+
         if flags is not None:
-            
+
             _query_params.append(('flags', flags))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if rpc_version is not None:
-            
+
             _query_params.append(('rpc_version', rpc_version))
-            
+
         if usage_end is not None:
-            
+
             _query_params.append(('usage_end', usage_end))
-            
+
         if usage_start is not None:
-            
+
             _query_params.append(('usage_start', usage_start))
-            
+
         if with_deleted is not None:
-            
+
             _query_params.append(('with_deleted', with_deleted))
-            
+
         if with_usage is not None:
-            
+
             _query_params.append(('with_usage', with_usage))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -4866,8 +4866,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -5112,9 +5112,9 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if update_time is not None:
-            
+
             _query_params.append(('update_time', update_time))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -5131,8 +5131,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -5379,8 +5379,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -5627,8 +5627,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -5964,37 +5964,37 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if cluster is not None:
-            
+
             _query_params.append(('cluster', cluster))
-            
+
         if extra is not None:
-            
+
             _query_params.append(('extra', extra))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if instance_id is not None:
-            
+
             _query_params.append(('instance_id', instance_id))
-            
+
         if instance_type is not None:
-            
+
             _query_params.append(('instance_type', instance_type))
-            
+
         if node_list is not None:
-            
+
             _query_params.append(('node_list', node_list))
-            
+
         if time_end is not None:
-            
+
             _query_params.append(('time_end', time_end))
-            
+
         if time_start is not None:
-            
+
             _query_params.append(('time_start', time_start))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -6011,8 +6011,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -6348,37 +6348,37 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if cluster is not None:
-            
+
             _query_params.append(('cluster', cluster))
-            
+
         if extra is not None:
-            
+
             _query_params.append(('extra', extra))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if instance_id is not None:
-            
+
             _query_params.append(('instance_id', instance_id))
-            
+
         if instance_type is not None:
-            
+
             _query_params.append(('instance_type', instance_type))
-            
+
         if node_list is not None:
-            
+
             _query_params.append(('node_list', node_list))
-            
+
         if time_end is not None:
-            
+
             _query_params.append(('time_end', time_end))
-            
+
         if time_start is not None:
-            
+
             _query_params.append(('time_start', time_start))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -6395,8 +6395,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -6661,8 +6661,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -7427,169 +7427,169 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if account is not None:
-            
+
             _query_params.append(('account', account))
-            
+
         if association is not None:
-            
+
             _query_params.append(('association', association))
-            
+
         if cluster is not None:
-            
+
             _query_params.append(('cluster', cluster))
-            
+
         if constraints is not None:
-            
+
             _query_params.append(('constraints', constraints))
-            
+
         if cpus_max is not None:
-            
+
             _query_params.append(('cpus_max', cpus_max))
-            
+
         if cpus_min is not None:
-            
+
             _query_params.append(('cpus_min', cpus_min))
-            
+
         if scheduler_unset is not None:
-            
+
             _query_params.append(('scheduler_unset', scheduler_unset))
-            
+
         if scheduled_on_submit is not None:
-            
+
             _query_params.append(('scheduled_on_submit', scheduled_on_submit))
-            
+
         if scheduled_by_main is not None:
-            
+
             _query_params.append(('scheduled_by_main', scheduled_by_main))
-            
+
         if scheduled_by_backfill is not None:
-            
+
             _query_params.append(('scheduled_by_backfill', scheduled_by_backfill))
-            
+
         if job_started is not None:
-            
+
             _query_params.append(('job_started', job_started))
-            
+
         if exit_code is not None:
-            
+
             _query_params.append(('exit_code', exit_code))
-            
+
         if show_duplicates is not None:
-            
+
             _query_params.append(('show_duplicates', show_duplicates))
-            
+
         if skip_steps is not None:
-            
+
             _query_params.append(('skip_steps', skip_steps))
-            
+
         if disable_truncate_usage_time is not None:
-            
+
             _query_params.append(('disable_truncate_usage_time', disable_truncate_usage_time))
-            
+
         if whole_hetjob is not None:
-            
+
             _query_params.append(('whole_hetjob', whole_hetjob))
-            
+
         if disable_whole_hetjob is not None:
-            
+
             _query_params.append(('disable_whole_hetjob', disable_whole_hetjob))
-            
+
         if disable_wait_for_result is not None:
-            
+
             _query_params.append(('disable_wait_for_result', disable_wait_for_result))
-            
+
         if usage_time_as_submit_time is not None:
-            
+
             _query_params.append(('usage_time_as_submit_time', usage_time_as_submit_time))
-            
+
         if show_batch_script is not None:
-            
+
             _query_params.append(('show_batch_script', show_batch_script))
-            
+
         if show_job_environment is not None:
-            
+
             _query_params.append(('show_job_environment', show_job_environment))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if groups is not None:
-            
+
             _query_params.append(('groups', groups))
-            
+
         if job_name is not None:
-            
+
             _query_params.append(('job_name', job_name))
-            
+
         if nodes_max is not None:
-            
+
             _query_params.append(('nodes_max', nodes_max))
-            
+
         if nodes_min is not None:
-            
+
             _query_params.append(('nodes_min', nodes_min))
-            
+
         if partition is not None:
-            
+
             _query_params.append(('partition', partition))
-            
+
         if qos is not None:
-            
+
             _query_params.append(('qos', qos))
-            
+
         if reason is not None:
-            
+
             _query_params.append(('reason', reason))
-            
+
         if reservation is not None:
-            
+
             _query_params.append(('reservation', reservation))
-            
+
         if reservation_id is not None:
-            
+
             _query_params.append(('reservation_id', reservation_id))
-            
+
         if state is not None:
-            
+
             _query_params.append(('state', state))
-            
+
         if step is not None:
-            
+
             _query_params.append(('step', step))
-            
+
         if timelimit_max is not None:
-            
+
             _query_params.append(('timelimit_max', timelimit_max))
-            
+
         if timelimit_min is not None:
-            
+
             _query_params.append(('timelimit_min', timelimit_min))
-            
+
         if end_time is not None:
-            
+
             _query_params.append(('end_time', end_time))
-            
+
         if start_time is not None:
-            
+
             _query_params.append(('start_time', start_time))
-            
+
         if submit_time is not None:
-            
+
             _query_params.append(('submit_time', submit_time))
-            
+
         if node is not None:
-            
+
             _query_params.append(('node', node))
-            
+
         if users is not None:
-            
+
             _query_params.append(('users', users))
-            
+
         if wckey is not None:
-            
+
             _query_params.append(('wckey', wckey))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -7606,8 +7606,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -7917,29 +7917,29 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if description is not None:
-            
+
             _query_params.append(('description', description))
-            
+
         if id is not None:
-            
+
             _query_params.append(('id', id))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if name is not None:
-            
+
             _query_params.append(('name', name))
-            
+
         if preempt_mode is not None:
-            
+
             _query_params.append(('preempt_mode', preempt_mode))
-            
+
         if with_deleted is not None:
-            
+
             _query_params.append(('with_deleted', with_deleted))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -7956,8 +7956,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -8217,9 +8217,9 @@ class SlurmdbApi:
             _path_params['qos'] = qos
         # process the query parameters
         if with_deleted is not None:
-            
+
             _query_params.append(('with_deleted', with_deleted))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -8236,8 +8236,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -8484,8 +8484,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -8784,21 +8784,21 @@ class SlurmdbApi:
             _path_params['name'] = name
         # process the query parameters
         if with_deleted is not None:
-            
+
             _query_params.append(('with_deleted', with_deleted))
-            
+
         if with_assocs is not None:
-            
+
             _query_params.append(('with_assocs', with_assocs))
-            
+
         if with_coords is not None:
-            
+
             _query_params.append(('with_coords', with_coords))
-            
+
         if with_wckeys is not None:
-            
+
             _query_params.append(('with_wckeys', with_wckeys))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -8815,8 +8815,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -9152,37 +9152,37 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if admin_level is not None:
-            
+
             _query_params.append(('admin_level', admin_level))
-            
+
         if default_account is not None:
-            
+
             _query_params.append(('default_account', default_account))
-            
+
         if default_wckey is not None:
-            
+
             _query_params.append(('default_wckey', default_wckey))
-            
+
         if with_assocs is not None:
-            
+
             _query_params.append(('with_assocs', with_assocs))
-            
+
         if with_coords is not None:
-            
+
             _query_params.append(('with_coords', with_coords))
-            
+
         if with_deleted is not None:
-            
+
             _query_params.append(('with_deleted', with_deleted))
-            
+
         if with_wckeys is not None:
-            
+
             _query_params.append(('with_wckeys', with_wckeys))
-            
+
         if without_defaults is not None:
-            
+
             _query_params.append(('without_defaults', without_defaults))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -9199,8 +9199,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -9462,8 +9462,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -9825,45 +9825,45 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if cluster is not None:
-            
+
             _query_params.append(('cluster', cluster))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if id is not None:
-            
+
             _query_params.append(('id', id))
-            
+
         if name is not None:
-            
+
             _query_params.append(('name', name))
-            
+
         if only_defaults is not None:
-            
+
             _query_params.append(('only_defaults', only_defaults))
-            
+
         if usage_end is not None:
-            
+
             _query_params.append(('usage_end', usage_end))
-            
+
         if usage_start is not None:
-            
+
             _query_params.append(('usage_start', usage_start))
-            
+
         if user is not None:
-            
+
             _query_params.append(('user', user))
-            
+
         if with_usage is not None:
-            
+
             _query_params.append(('with_usage', with_usage))
-            
+
         if with_deleted is not None:
-            
+
             _query_params.append(('with_deleted', with_deleted))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -9880,8 +9880,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -10156,8 +10156,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -10432,8 +10432,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -10708,8 +10708,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -10967,9 +10967,9 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if update_time is not None:
-            
+
             _query_params.append(('update_time', update_time))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -11001,8 +11001,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -11277,8 +11277,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -11601,29 +11601,29 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if description is not None:
-            
+
             _query_params.append(('description', description))
-            
+
         if id is not None:
-            
+
             _query_params.append(('id', id))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if name is not None:
-            
+
             _query_params.append(('name', name))
-            
+
         if preempt_mode is not None:
-            
+
             _query_params.append(('preempt_mode', preempt_mode))
-            
+
         if with_deleted is not None:
-            
+
             _query_params.append(('with_deleted', with_deleted))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -11655,8 +11655,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -11931,8 +11931,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -12207,8 +12207,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -12479,13 +12479,13 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if update_time is not None:
-            
+
             _query_params.append(('update_time', update_time))
-            
+
         if flags is not None:
-            
+
             _query_params.append(('flags', flags))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -12517,8 +12517,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -12893,45 +12893,45 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if cluster is not None:
-            
+
             _query_params.append(('cluster', cluster))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if id is not None:
-            
+
             _query_params.append(('id', id))
-            
+
         if name is not None:
-            
+
             _query_params.append(('name', name))
-            
+
         if only_defaults is not None:
-            
+
             _query_params.append(('only_defaults', only_defaults))
-            
+
         if usage_end is not None:
-            
+
             _query_params.append(('usage_end', usage_end))
-            
+
         if usage_start is not None:
-            
+
             _query_params.append(('usage_start', usage_start))
-            
+
         if user is not None:
-            
+
             _query_params.append(('user', user))
-            
+
         if with_usage is not None:
-            
+
             _query_params.append(('with_usage', with_usage))
-            
+
         if with_deleted is not None:
-            
+
             _query_params.append(('with_deleted', with_deleted))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -12963,8 +12963,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -13223,8 +13223,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -13687,77 +13687,77 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if account is not None:
-            
+
             _query_params.append(('account', account))
-            
+
         if cluster is not None:
-            
+
             _query_params.append(('cluster', cluster))
-            
+
         if default_qos is not None:
-            
+
             _query_params.append(('default_qos', default_qos))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if id is not None:
-            
+
             _query_params.append(('id', id))
-            
+
         if only_defaults is not None:
-            
+
             _query_params.append(('only_defaults', only_defaults))
-            
+
         if parent_account is not None:
-            
+
             _query_params.append(('parent_account', parent_account))
-            
+
         if partition is not None:
-            
+
             _query_params.append(('partition', partition))
-            
+
         if qos is not None:
-            
+
             _query_params.append(('qos', qos))
-            
+
         if usage_end is not None:
-            
+
             _query_params.append(('usage_end', usage_end))
-            
+
         if usage_start is not None:
-            
+
             _query_params.append(('usage_start', usage_start))
-            
+
         if user is not None:
-            
+
             _query_params.append(('user', user))
-            
+
         if with_usage is not None:
-            
+
             _query_params.append(('with_usage', with_usage))
-            
+
         if with_deleted is not None:
-            
+
             _query_params.append(('with_deleted', with_deleted))
-            
+
         if with_raw_qos is not None:
-            
+
             _query_params.append(('with_raw_qos', with_raw_qos))
-            
+
         if with_sub_accts is not None:
-            
+
             _query_params.append(('with_sub_accts', with_sub_accts))
-            
+
         if without_parent_info is not None:
-            
+
             _query_params.append(('without_parent_info', without_parent_info))
-            
+
         if without_parent_limits is not None:
-            
+
             _query_params.append(('without_parent_limits', without_parent_limits))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -13774,8 +13774,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -14238,77 +14238,77 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if account is not None:
-            
+
             _query_params.append(('account', account))
-            
+
         if cluster is not None:
-            
+
             _query_params.append(('cluster', cluster))
-            
+
         if default_qos is not None:
-            
+
             _query_params.append(('default_qos', default_qos))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if id is not None:
-            
+
             _query_params.append(('id', id))
-            
+
         if only_defaults is not None:
-            
+
             _query_params.append(('only_defaults', only_defaults))
-            
+
         if parent_account is not None:
-            
+
             _query_params.append(('parent_account', parent_account))
-            
+
         if partition is not None:
-            
+
             _query_params.append(('partition', partition))
-            
+
         if qos is not None:
-            
+
             _query_params.append(('qos', qos))
-            
+
         if usage_end is not None:
-            
+
             _query_params.append(('usage_end', usage_end))
-            
+
         if usage_start is not None:
-            
+
             _query_params.append(('usage_start', usage_start))
-            
+
         if user is not None:
-            
+
             _query_params.append(('user', user))
-            
+
         if with_usage is not None:
-            
+
             _query_params.append(('with_usage', with_usage))
-            
+
         if with_deleted is not None:
-            
+
             _query_params.append(('with_deleted', with_deleted))
-            
+
         if with_raw_qos is not None:
-            
+
             _query_params.append(('with_raw_qos', with_raw_qos))
-            
+
         if with_sub_accts is not None:
-            
+
             _query_params.append(('with_sub_accts', with_sub_accts))
-            
+
         if without_parent_info is not None:
-            
+
             _query_params.append(('without_parent_info', without_parent_info))
-            
+
         if without_parent_limits is not None:
-            
+
             _query_params.append(('without_parent_limits', without_parent_limits))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -14325,8 +14325,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -14700,45 +14700,45 @@ class SlurmdbApi:
             _path_params['cluster_name'] = cluster_name
         # process the query parameters
         if classification is not None:
-            
+
             _query_params.append(('classification', classification))
-            
+
         if cluster is not None:
-            
+
             _query_params.append(('cluster', cluster))
-            
+
         if federation is not None:
-            
+
             _query_params.append(('federation', federation))
-            
+
         if flags is not None:
-            
+
             _query_params.append(('flags', flags))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if rpc_version is not None:
-            
+
             _query_params.append(('rpc_version', rpc_version))
-            
+
         if usage_end is not None:
-            
+
             _query_params.append(('usage_end', usage_end))
-            
+
         if usage_start is not None:
-            
+
             _query_params.append(('usage_start', usage_start))
-            
+
         if with_deleted is not None:
-            
+
             _query_params.append(('with_deleted', with_deleted))
-            
+
         if with_usage is not None:
-            
+
             _query_params.append(('with_usage', with_usage))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -14755,8 +14755,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -15015,8 +15015,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -15275,8 +15275,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -15535,8 +15535,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -15819,17 +15819,17 @@ class SlurmdbApi:
             _path_params['account_name'] = account_name
         # process the query parameters
         if with_assocs is not None:
-            
+
             _query_params.append(('with_assocs', with_assocs))
-            
+
         if with_coords is not None:
-            
+
             _query_params.append(('with_coords', with_coords))
-            
+
         if with_deleted is not None:
-            
+
             _query_params.append(('with_deleted', with_deleted))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -15846,8 +15846,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -16154,29 +16154,29 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if description is not None:
-            
+
             _query_params.append(('description', description))
-            
+
         if deleted is not None:
-            
+
             _query_params.append(('DELETED', deleted))
-            
+
         if with_associations is not None:
-            
+
             _query_params.append(('WithAssociations', with_associations))
-            
+
         if with_coordinators is not None:
-            
+
             _query_params.append(('WithCoordinators', with_coordinators))
-            
+
         if no_users_are_coords is not None:
-            
+
             _query_params.append(('NoUsersAreCoords', no_users_are_coords))
-            
+
         if users_are_coords is not None:
-            
+
             _query_params.append(('UsersAreCoords', users_are_coords))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -16193,8 +16193,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -16657,77 +16657,77 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if account is not None:
-            
+
             _query_params.append(('account', account))
-            
+
         if cluster is not None:
-            
+
             _query_params.append(('cluster', cluster))
-            
+
         if default_qos is not None:
-            
+
             _query_params.append(('default_qos', default_qos))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if id is not None:
-            
+
             _query_params.append(('id', id))
-            
+
         if only_defaults is not None:
-            
+
             _query_params.append(('only_defaults', only_defaults))
-            
+
         if parent_account is not None:
-            
+
             _query_params.append(('parent_account', parent_account))
-            
+
         if partition is not None:
-            
+
             _query_params.append(('partition', partition))
-            
+
         if qos is not None:
-            
+
             _query_params.append(('qos', qos))
-            
+
         if usage_end is not None:
-            
+
             _query_params.append(('usage_end', usage_end))
-            
+
         if usage_start is not None:
-            
+
             _query_params.append(('usage_start', usage_start))
-            
+
         if user is not None:
-            
+
             _query_params.append(('user', user))
-            
+
         if with_usage is not None:
-            
+
             _query_params.append(('with_usage', with_usage))
-            
+
         if with_deleted is not None:
-            
+
             _query_params.append(('with_deleted', with_deleted))
-            
+
         if with_raw_qos is not None:
-            
+
             _query_params.append(('with_raw_qos', with_raw_qos))
-            
+
         if with_sub_accts is not None:
-            
+
             _query_params.append(('with_sub_accts', with_sub_accts))
-            
+
         if without_parent_info is not None:
-            
+
             _query_params.append(('without_parent_info', without_parent_info))
-            
+
         if without_parent_limits is not None:
-            
+
             _query_params.append(('without_parent_limits', without_parent_limits))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -16744,8 +16744,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -17208,77 +17208,77 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if account is not None:
-            
+
             _query_params.append(('account', account))
-            
+
         if cluster is not None:
-            
+
             _query_params.append(('cluster', cluster))
-            
+
         if default_qos is not None:
-            
+
             _query_params.append(('default_qos', default_qos))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if id is not None:
-            
+
             _query_params.append(('id', id))
-            
+
         if only_defaults is not None:
-            
+
             _query_params.append(('only_defaults', only_defaults))
-            
+
         if parent_account is not None:
-            
+
             _query_params.append(('parent_account', parent_account))
-            
+
         if partition is not None:
-            
+
             _query_params.append(('partition', partition))
-            
+
         if qos is not None:
-            
+
             _query_params.append(('qos', qos))
-            
+
         if usage_end is not None:
-            
+
             _query_params.append(('usage_end', usage_end))
-            
+
         if usage_start is not None:
-            
+
             _query_params.append(('usage_start', usage_start))
-            
+
         if user is not None:
-            
+
             _query_params.append(('user', user))
-            
+
         if with_usage is not None:
-            
+
             _query_params.append(('with_usage', with_usage))
-            
+
         if with_deleted is not None:
-            
+
             _query_params.append(('with_deleted', with_deleted))
-            
+
         if with_raw_qos is not None:
-            
+
             _query_params.append(('with_raw_qos', with_raw_qos))
-            
+
         if with_sub_accts is not None:
-            
+
             _query_params.append(('with_sub_accts', with_sub_accts))
-            
+
         if without_parent_info is not None:
-            
+
             _query_params.append(('without_parent_info', without_parent_info))
-            
+
         if without_parent_limits is not None:
-            
+
             _query_params.append(('without_parent_limits', without_parent_limits))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -17295,8 +17295,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -17670,45 +17670,45 @@ class SlurmdbApi:
             _path_params['cluster_name'] = cluster_name
         # process the query parameters
         if classification is not None:
-            
+
             _query_params.append(('classification', classification))
-            
+
         if cluster is not None:
-            
+
             _query_params.append(('cluster', cluster))
-            
+
         if federation is not None:
-            
+
             _query_params.append(('federation', federation))
-            
+
         if flags is not None:
-            
+
             _query_params.append(('flags', flags))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if rpc_version is not None:
-            
+
             _query_params.append(('rpc_version', rpc_version))
-            
+
         if usage_end is not None:
-            
+
             _query_params.append(('usage_end', usage_end))
-            
+
         if usage_start is not None:
-            
+
             _query_params.append(('usage_start', usage_start))
-            
+
         if with_deleted is not None:
-            
+
             _query_params.append(('with_deleted', with_deleted))
-            
+
         if with_usage is not None:
-            
+
             _query_params.append(('with_usage', with_usage))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -17725,8 +17725,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -17968,9 +17968,9 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if update_time is not None:
-            
+
             _query_params.append(('update_time', update_time))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -17987,8 +17987,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -18232,8 +18232,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -18477,8 +18477,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -18811,37 +18811,37 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if cluster is not None:
-            
+
             _query_params.append(('cluster', cluster))
-            
+
         if extra is not None:
-            
+
             _query_params.append(('extra', extra))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if instance_id is not None:
-            
+
             _query_params.append(('instance_id', instance_id))
-            
+
         if instance_type is not None:
-            
+
             _query_params.append(('instance_type', instance_type))
-            
+
         if node_list is not None:
-            
+
             _query_params.append(('node_list', node_list))
-            
+
         if time_end is not None:
-            
+
             _query_params.append(('time_end', time_end))
-            
+
         if time_start is not None:
-            
+
             _query_params.append(('time_start', time_start))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -18858,8 +18858,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -19192,37 +19192,37 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if cluster is not None:
-            
+
             _query_params.append(('cluster', cluster))
-            
+
         if extra is not None:
-            
+
             _query_params.append(('extra', extra))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if instance_id is not None:
-            
+
             _query_params.append(('instance_id', instance_id))
-            
+
         if instance_type is not None:
-            
+
             _query_params.append(('instance_type', instance_type))
-            
+
         if node_list is not None:
-            
+
             _query_params.append(('node_list', node_list))
-            
+
         if time_end is not None:
-            
+
             _query_params.append(('time_end', time_end))
-            
+
         if time_start is not None:
-            
+
             _query_params.append(('time_start', time_start))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -19239,8 +19239,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -19502,8 +19502,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -20174,141 +20174,141 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if account is not None:
-            
+
             _query_params.append(('account', account))
-            
+
         if association is not None:
-            
+
             _query_params.append(('association', association))
-            
+
         if cluster is not None:
-            
+
             _query_params.append(('cluster', cluster))
-            
+
         if constraints is not None:
-            
+
             _query_params.append(('constraints', constraints))
-            
+
         if scheduler_unset is not None:
-            
+
             _query_params.append(('scheduler_unset', scheduler_unset))
-            
+
         if scheduled_on_submit is not None:
-            
+
             _query_params.append(('scheduled_on_submit', scheduled_on_submit))
-            
+
         if scheduled_by_main is not None:
-            
+
             _query_params.append(('scheduled_by_main', scheduled_by_main))
-            
+
         if scheduled_by_backfill is not None:
-            
+
             _query_params.append(('scheduled_by_backfill', scheduled_by_backfill))
-            
+
         if job_started is not None:
-            
+
             _query_params.append(('job_started', job_started))
-            
+
         if exit_code is not None:
-            
+
             _query_params.append(('exit_code', exit_code))
-            
+
         if show_duplicates is not None:
-            
+
             _query_params.append(('show_duplicates', show_duplicates))
-            
+
         if skip_steps is not None:
-            
+
             _query_params.append(('skip_steps', skip_steps))
-            
+
         if disable_truncate_usage_time is not None:
-            
+
             _query_params.append(('disable_truncate_usage_time', disable_truncate_usage_time))
-            
+
         if whole_hetjob is not None:
-            
+
             _query_params.append(('whole_hetjob', whole_hetjob))
-            
+
         if disable_whole_hetjob is not None:
-            
+
             _query_params.append(('disable_whole_hetjob', disable_whole_hetjob))
-            
+
         if disable_wait_for_result is not None:
-            
+
             _query_params.append(('disable_wait_for_result', disable_wait_for_result))
-            
+
         if usage_time_as_submit_time is not None:
-            
+
             _query_params.append(('usage_time_as_submit_time', usage_time_as_submit_time))
-            
+
         if show_batch_script is not None:
-            
+
             _query_params.append(('show_batch_script', show_batch_script))
-            
+
         if show_job_environment is not None:
-            
+
             _query_params.append(('show_job_environment', show_job_environment))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if groups is not None:
-            
+
             _query_params.append(('groups', groups))
-            
+
         if job_name is not None:
-            
+
             _query_params.append(('job_name', job_name))
-            
+
         if partition is not None:
-            
+
             _query_params.append(('partition', partition))
-            
+
         if qos is not None:
-            
+
             _query_params.append(('qos', qos))
-            
+
         if reason is not None:
-            
+
             _query_params.append(('reason', reason))
-            
+
         if reservation is not None:
-            
+
             _query_params.append(('reservation', reservation))
-            
+
         if reservation_id is not None:
-            
+
             _query_params.append(('reservation_id', reservation_id))
-            
+
         if state is not None:
-            
+
             _query_params.append(('state', state))
-            
+
         if step is not None:
-            
+
             _query_params.append(('step', step))
-            
+
         if end_time is not None:
-            
+
             _query_params.append(('end_time', end_time))
-            
+
         if start_time is not None:
-            
+
             _query_params.append(('start_time', start_time))
-            
+
         if node is not None:
-            
+
             _query_params.append(('node', node))
-            
+
         if users is not None:
-            
+
             _query_params.append(('users', users))
-            
+
         if wckey is not None:
-            
+
             _query_params.append(('wckey', wckey))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -20325,8 +20325,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -20633,29 +20633,29 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if description is not None:
-            
+
             _query_params.append(('description', description))
-            
+
         if id is not None:
-            
+
             _query_params.append(('id', id))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if name is not None:
-            
+
             _query_params.append(('name', name))
-            
+
         if preempt_mode is not None:
-            
+
             _query_params.append(('preempt_mode', preempt_mode))
-            
+
         if with_deleted is not None:
-            
+
             _query_params.append(('with_deleted', with_deleted))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -20672,8 +20672,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -20930,9 +20930,9 @@ class SlurmdbApi:
             _path_params['qos'] = qos
         # process the query parameters
         if with_deleted is not None:
-            
+
             _query_params.append(('with_deleted', with_deleted))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -20949,8 +20949,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -21194,8 +21194,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -21491,21 +21491,21 @@ class SlurmdbApi:
             _path_params['name'] = name
         # process the query parameters
         if with_deleted is not None:
-            
+
             _query_params.append(('with_deleted', with_deleted))
-            
+
         if with_assocs is not None:
-            
+
             _query_params.append(('with_assocs', with_assocs))
-            
+
         if with_coords is not None:
-            
+
             _query_params.append(('with_coords', with_coords))
-            
+
         if with_wckeys is not None:
-            
+
             _query_params.append(('with_wckeys', with_wckeys))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -21522,8 +21522,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -21856,37 +21856,37 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if admin_level is not None:
-            
+
             _query_params.append(('admin_level', admin_level))
-            
+
         if default_account is not None:
-            
+
             _query_params.append(('default_account', default_account))
-            
+
         if default_wckey is not None:
-            
+
             _query_params.append(('default_wckey', default_wckey))
-            
+
         if with_assocs is not None:
-            
+
             _query_params.append(('with_assocs', with_assocs))
-            
+
         if with_coords is not None:
-            
+
             _query_params.append(('with_coords', with_coords))
-            
+
         if with_deleted is not None:
-            
+
             _query_params.append(('with_deleted', with_deleted))
-            
+
         if with_wckeys is not None:
-            
+
             _query_params.append(('with_wckeys', with_wckeys))
-            
+
         if without_defaults is not None:
-            
+
             _query_params.append(('without_defaults', without_defaults))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -21903,8 +21903,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -22163,8 +22163,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -22523,45 +22523,45 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if cluster is not None:
-            
+
             _query_params.append(('cluster', cluster))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if id is not None:
-            
+
             _query_params.append(('id', id))
-            
+
         if name is not None:
-            
+
             _query_params.append(('name', name))
-            
+
         if only_defaults is not None:
-            
+
             _query_params.append(('only_defaults', only_defaults))
-            
+
         if usage_end is not None:
-            
+
             _query_params.append(('usage_end', usage_end))
-            
+
         if usage_start is not None:
-            
+
             _query_params.append(('usage_start', usage_start))
-            
+
         if user is not None:
-            
+
             _query_params.append(('user', user))
-            
+
         if with_usage is not None:
-            
+
             _query_params.append(('with_usage', with_usage))
-            
+
         if with_deleted is not None:
-            
+
             _query_params.append(('with_deleted', with_deleted))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -22578,8 +22578,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -22851,8 +22851,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -23124,8 +23124,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -23397,8 +23397,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -23653,9 +23653,9 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if update_time is not None:
-            
+
             _query_params.append(('update_time', update_time))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -23687,8 +23687,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -23960,8 +23960,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -24281,29 +24281,29 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if description is not None:
-            
+
             _query_params.append(('description', description))
-            
+
         if id is not None:
-            
+
             _query_params.append(('id', id))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if name is not None:
-            
+
             _query_params.append(('name', name))
-            
+
         if preempt_mode is not None:
-            
+
             _query_params.append(('preempt_mode', preempt_mode))
-            
+
         if with_deleted is not None:
-            
+
             _query_params.append(('with_deleted', with_deleted))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -24335,8 +24335,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -24608,8 +24608,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -24881,8 +24881,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -25150,13 +25150,13 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if update_time is not None:
-            
+
             _query_params.append(('update_time', update_time))
-            
+
         if flags is not None:
-            
+
             _query_params.append(('flags', flags))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -25188,8 +25188,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -25561,45 +25561,45 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if cluster is not None:
-            
+
             _query_params.append(('cluster', cluster))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if id is not None:
-            
+
             _query_params.append(('id', id))
-            
+
         if name is not None:
-            
+
             _query_params.append(('name', name))
-            
+
         if only_defaults is not None:
-            
+
             _query_params.append(('only_defaults', only_defaults))
-            
+
         if usage_end is not None:
-            
+
             _query_params.append(('usage_end', usage_end))
-            
+
         if usage_start is not None:
-            
+
             _query_params.append(('usage_start', usage_start))
-            
+
         if user is not None:
-            
+
             _query_params.append(('user', user))
-            
+
         if with_usage is not None:
-            
+
             _query_params.append(('with_usage', with_usage))
-            
+
         if with_deleted is not None:
-            
+
             _query_params.append(('with_deleted', with_deleted))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -25631,8 +25631,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -25891,8 +25891,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -26355,77 +26355,77 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if account is not None:
-            
+
             _query_params.append(('account', account))
-            
+
         if cluster is not None:
-            
+
             _query_params.append(('cluster', cluster))
-            
+
         if default_qos is not None:
-            
+
             _query_params.append(('default_qos', default_qos))
-            
+
         if include_deleted_associations is not None:
-            
+
             _query_params.append(('Include deleted associations', include_deleted_associations))
-            
+
         if include_usage is not None:
-            
+
             _query_params.append(('Include usage', include_usage))
-            
+
         if filter_to_only_defaults is not None:
-            
+
             _query_params.append(('Filter to only defaults', filter_to_only_defaults))
-            
+
         if include_the_raw_qos_or_delta_qos is not None:
-            
+
             _query_params.append(('Include the raw QOS or delta_qos', include_the_raw_qos_or_delta_qos))
-            
+
         if include_sub_acct_information is not None:
-            
+
             _query_params.append(('Include sub acct information', include_sub_acct_information))
-            
+
         if exclude_parent_id_name is not None:
-            
+
             _query_params.append(('Exclude parent id/name', exclude_parent_id_name))
-            
+
         if exclude_limits_from_parents is not None:
-            
+
             _query_params.append(('Exclude limits from parents', exclude_limits_from_parents))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if id is not None:
-            
+
             _query_params.append(('id', id))
-            
+
         if parent_account is not None:
-            
+
             _query_params.append(('parent_account', parent_account))
-            
+
         if partition is not None:
-            
+
             _query_params.append(('partition', partition))
-            
+
         if qos is not None:
-            
+
             _query_params.append(('qos', qos))
-            
+
         if usage_end is not None:
-            
+
             _query_params.append(('usage_end', usage_end))
-            
+
         if usage_start is not None:
-            
+
             _query_params.append(('usage_start', usage_start))
-            
+
         if user is not None:
-            
+
             _query_params.append(('user', user))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -26442,8 +26442,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -26906,77 +26906,77 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if account is not None:
-            
+
             _query_params.append(('account', account))
-            
+
         if cluster is not None:
-            
+
             _query_params.append(('cluster', cluster))
-            
+
         if default_qos is not None:
-            
+
             _query_params.append(('default_qos', default_qos))
-            
+
         if include_deleted_associations is not None:
-            
+
             _query_params.append(('Include deleted associations', include_deleted_associations))
-            
+
         if include_usage is not None:
-            
+
             _query_params.append(('Include usage', include_usage))
-            
+
         if filter_to_only_defaults is not None:
-            
+
             _query_params.append(('Filter to only defaults', filter_to_only_defaults))
-            
+
         if include_the_raw_qos_or_delta_qos is not None:
-            
+
             _query_params.append(('Include the raw QOS or delta_qos', include_the_raw_qos_or_delta_qos))
-            
+
         if include_sub_acct_information is not None:
-            
+
             _query_params.append(('Include sub acct information', include_sub_acct_information))
-            
+
         if exclude_parent_id_name is not None:
-            
+
             _query_params.append(('Exclude parent id/name', exclude_parent_id_name))
-            
+
         if exclude_limits_from_parents is not None:
-            
+
             _query_params.append(('Exclude limits from parents', exclude_limits_from_parents))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if id is not None:
-            
+
             _query_params.append(('id', id))
-            
+
         if parent_account is not None:
-            
+
             _query_params.append(('parent_account', parent_account))
-            
+
         if partition is not None:
-            
+
             _query_params.append(('partition', partition))
-            
+
         if qos is not None:
-            
+
             _query_params.append(('qos', qos))
-            
+
         if usage_end is not None:
-            
+
             _query_params.append(('usage_end', usage_end))
-            
+
         if usage_start is not None:
-            
+
             _query_params.append(('usage_start', usage_start))
-            
+
         if user is not None:
-            
+
             _query_params.append(('user', user))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -26993,8 +26993,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -27368,45 +27368,45 @@ class SlurmdbApi:
             _path_params['cluster_name'] = cluster_name
         # process the query parameters
         if classification is not None:
-            
+
             _query_params.append(('classification', classification))
-            
+
         if cluster is not None:
-            
+
             _query_params.append(('cluster', cluster))
-            
+
         if federation is not None:
-            
+
             _query_params.append(('federation', federation))
-            
+
         if flags is not None:
-            
+
             _query_params.append(('flags', flags))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if rpc_version is not None:
-            
+
             _query_params.append(('rpc_version', rpc_version))
-            
+
         if usage_end is not None:
-            
+
             _query_params.append(('usage_end', usage_end))
-            
+
         if usage_start is not None:
-            
+
             _query_params.append(('usage_start', usage_start))
-            
+
         if with_deleted is not None:
-            
+
             _query_params.append(('with_deleted', with_deleted))
-            
+
         if with_usage is not None:
-            
+
             _query_params.append(('with_usage', with_usage))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -27423,8 +27423,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -27683,8 +27683,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -27943,8 +27943,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -28203,8 +28203,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -28487,17 +28487,17 @@ class SlurmdbApi:
             _path_params['account_name'] = account_name
         # process the query parameters
         if with_assocs is not None:
-            
+
             _query_params.append(('with_assocs', with_assocs))
-            
+
         if with_coords is not None:
-            
+
             _query_params.append(('with_coords', with_coords))
-            
+
         if with_deleted is not None:
-            
+
             _query_params.append(('with_deleted', with_deleted))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -28514,8 +28514,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -28822,29 +28822,29 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if description is not None:
-            
+
             _query_params.append(('description', description))
-            
+
         if deleted is not None:
-            
+
             _query_params.append(('DELETED', deleted))
-            
+
         if with_associations is not None:
-            
+
             _query_params.append(('WithAssociations', with_associations))
-            
+
         if with_coordinators is not None:
-            
+
             _query_params.append(('WithCoordinators', with_coordinators))
-            
+
         if no_users_are_coords is not None:
-            
+
             _query_params.append(('NoUsersAreCoords', no_users_are_coords))
-            
+
         if users_are_coords is not None:
-            
+
             _query_params.append(('UsersAreCoords', users_are_coords))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -28861,8 +28861,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -29325,77 +29325,77 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if account is not None:
-            
+
             _query_params.append(('account', account))
-            
+
         if cluster is not None:
-            
+
             _query_params.append(('cluster', cluster))
-            
+
         if default_qos is not None:
-            
+
             _query_params.append(('default_qos', default_qos))
-            
+
         if include_deleted_associations is not None:
-            
+
             _query_params.append(('Include deleted associations', include_deleted_associations))
-            
+
         if include_usage is not None:
-            
+
             _query_params.append(('Include usage', include_usage))
-            
+
         if filter_to_only_defaults is not None:
-            
+
             _query_params.append(('Filter to only defaults', filter_to_only_defaults))
-            
+
         if include_the_raw_qos_or_delta_qos is not None:
-            
+
             _query_params.append(('Include the raw QOS or delta_qos', include_the_raw_qos_or_delta_qos))
-            
+
         if include_sub_acct_information is not None:
-            
+
             _query_params.append(('Include sub acct information', include_sub_acct_information))
-            
+
         if exclude_parent_id_name is not None:
-            
+
             _query_params.append(('Exclude parent id/name', exclude_parent_id_name))
-            
+
         if exclude_limits_from_parents is not None:
-            
+
             _query_params.append(('Exclude limits from parents', exclude_limits_from_parents))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if id is not None:
-            
+
             _query_params.append(('id', id))
-            
+
         if parent_account is not None:
-            
+
             _query_params.append(('parent_account', parent_account))
-            
+
         if partition is not None:
-            
+
             _query_params.append(('partition', partition))
-            
+
         if qos is not None:
-            
+
             _query_params.append(('qos', qos))
-            
+
         if usage_end is not None:
-            
+
             _query_params.append(('usage_end', usage_end))
-            
+
         if usage_start is not None:
-            
+
             _query_params.append(('usage_start', usage_start))
-            
+
         if user is not None:
-            
+
             _query_params.append(('user', user))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -29412,8 +29412,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -29876,77 +29876,77 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if account is not None:
-            
+
             _query_params.append(('account', account))
-            
+
         if cluster is not None:
-            
+
             _query_params.append(('cluster', cluster))
-            
+
         if default_qos is not None:
-            
+
             _query_params.append(('default_qos', default_qos))
-            
+
         if include_deleted_associations is not None:
-            
+
             _query_params.append(('Include deleted associations', include_deleted_associations))
-            
+
         if include_usage is not None:
-            
+
             _query_params.append(('Include usage', include_usage))
-            
+
         if filter_to_only_defaults is not None:
-            
+
             _query_params.append(('Filter to only defaults', filter_to_only_defaults))
-            
+
         if include_the_raw_qos_or_delta_qos is not None:
-            
+
             _query_params.append(('Include the raw QOS or delta_qos', include_the_raw_qos_or_delta_qos))
-            
+
         if include_sub_acct_information is not None:
-            
+
             _query_params.append(('Include sub acct information', include_sub_acct_information))
-            
+
         if exclude_parent_id_name is not None:
-            
+
             _query_params.append(('Exclude parent id/name', exclude_parent_id_name))
-            
+
         if exclude_limits_from_parents is not None:
-            
+
             _query_params.append(('Exclude limits from parents', exclude_limits_from_parents))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if id is not None:
-            
+
             _query_params.append(('id', id))
-            
+
         if parent_account is not None:
-            
+
             _query_params.append(('parent_account', parent_account))
-            
+
         if partition is not None:
-            
+
             _query_params.append(('partition', partition))
-            
+
         if qos is not None:
-            
+
             _query_params.append(('qos', qos))
-            
+
         if usage_end is not None:
-            
+
             _query_params.append(('usage_end', usage_end))
-            
+
         if usage_start is not None:
-            
+
             _query_params.append(('usage_start', usage_start))
-            
+
         if user is not None:
-            
+
             _query_params.append(('user', user))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -29963,8 +29963,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -30338,45 +30338,45 @@ class SlurmdbApi:
             _path_params['cluster_name'] = cluster_name
         # process the query parameters
         if classification is not None:
-            
+
             _query_params.append(('classification', classification))
-            
+
         if cluster is not None:
-            
+
             _query_params.append(('cluster', cluster))
-            
+
         if federation is not None:
-            
+
             _query_params.append(('federation', federation))
-            
+
         if flags is not None:
-            
+
             _query_params.append(('flags', flags))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if rpc_version is not None:
-            
+
             _query_params.append(('rpc_version', rpc_version))
-            
+
         if usage_end is not None:
-            
+
             _query_params.append(('usage_end', usage_end))
-            
+
         if usage_start is not None:
-            
+
             _query_params.append(('usage_start', usage_start))
-            
+
         if with_deleted is not None:
-            
+
             _query_params.append(('with_deleted', with_deleted))
-            
+
         if with_usage is not None:
-            
+
             _query_params.append(('with_usage', with_usage))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -30393,8 +30393,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -30636,9 +30636,9 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if update_time is not None:
-            
+
             _query_params.append(('update_time', update_time))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -30655,8 +30655,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -30900,8 +30900,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -31145,8 +31145,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -31479,37 +31479,37 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if cluster is not None:
-            
+
             _query_params.append(('cluster', cluster))
-            
+
         if extra is not None:
-            
+
             _query_params.append(('extra', extra))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if instance_id is not None:
-            
+
             _query_params.append(('instance_id', instance_id))
-            
+
         if instance_type is not None:
-            
+
             _query_params.append(('instance_type', instance_type))
-            
+
         if node_list is not None:
-            
+
             _query_params.append(('node_list', node_list))
-            
+
         if time_end is not None:
-            
+
             _query_params.append(('time_end', time_end))
-            
+
         if time_start is not None:
-            
+
             _query_params.append(('time_start', time_start))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -31526,8 +31526,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -31860,37 +31860,37 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if cluster is not None:
-            
+
             _query_params.append(('cluster', cluster))
-            
+
         if extra is not None:
-            
+
             _query_params.append(('extra', extra))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if instance_id is not None:
-            
+
             _query_params.append(('instance_id', instance_id))
-            
+
         if instance_type is not None:
-            
+
             _query_params.append(('instance_type', instance_type))
-            
+
         if node_list is not None:
-            
+
             _query_params.append(('node_list', node_list))
-            
+
         if time_end is not None:
-            
+
             _query_params.append(('time_end', time_end))
-            
+
         if time_start is not None:
-            
+
             _query_params.append(('time_start', time_start))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -31907,8 +31907,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -32170,8 +32170,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -32842,141 +32842,141 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if account is not None:
-            
+
             _query_params.append(('account', account))
-            
+
         if association is not None:
-            
+
             _query_params.append(('association', association))
-            
+
         if cluster is not None:
-            
+
             _query_params.append(('cluster', cluster))
-            
+
         if constraints is not None:
-            
+
             _query_params.append(('constraints', constraints))
-            
+
         if scheduler_unset is not None:
-            
+
             _query_params.append(('scheduler_unset', scheduler_unset))
-            
+
         if scheduled_on_submit is not None:
-            
+
             _query_params.append(('scheduled_on_submit', scheduled_on_submit))
-            
+
         if scheduled_by_main is not None:
-            
+
             _query_params.append(('scheduled_by_main', scheduled_by_main))
-            
+
         if scheduled_by_backfill is not None:
-            
+
             _query_params.append(('scheduled_by_backfill', scheduled_by_backfill))
-            
+
         if job_started is not None:
-            
+
             _query_params.append(('job_started', job_started))
-            
+
         if exit_code is not None:
-            
+
             _query_params.append(('exit_code', exit_code))
-            
+
         if show_duplicates is not None:
-            
+
             _query_params.append(('show_duplicates', show_duplicates))
-            
+
         if skip_steps is not None:
-            
+
             _query_params.append(('skip_steps', skip_steps))
-            
+
         if disable_truncate_usage_time is not None:
-            
+
             _query_params.append(('disable_truncate_usage_time', disable_truncate_usage_time))
-            
+
         if whole_hetjob is not None:
-            
+
             _query_params.append(('whole_hetjob', whole_hetjob))
-            
+
         if disable_whole_hetjob is not None:
-            
+
             _query_params.append(('disable_whole_hetjob', disable_whole_hetjob))
-            
+
         if disable_wait_for_result is not None:
-            
+
             _query_params.append(('disable_wait_for_result', disable_wait_for_result))
-            
+
         if usage_time_as_submit_time is not None:
-            
+
             _query_params.append(('usage_time_as_submit_time', usage_time_as_submit_time))
-            
+
         if show_batch_script is not None:
-            
+
             _query_params.append(('show_batch_script', show_batch_script))
-            
+
         if show_job_environment is not None:
-            
+
             _query_params.append(('show_job_environment', show_job_environment))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if groups is not None:
-            
+
             _query_params.append(('groups', groups))
-            
+
         if job_name is not None:
-            
+
             _query_params.append(('job_name', job_name))
-            
+
         if partition is not None:
-            
+
             _query_params.append(('partition', partition))
-            
+
         if qos is not None:
-            
+
             _query_params.append(('qos', qos))
-            
+
         if reason is not None:
-            
+
             _query_params.append(('reason', reason))
-            
+
         if reservation is not None:
-            
+
             _query_params.append(('reservation', reservation))
-            
+
         if reservation_id is not None:
-            
+
             _query_params.append(('reservation_id', reservation_id))
-            
+
         if state is not None:
-            
+
             _query_params.append(('state', state))
-            
+
         if step is not None:
-            
+
             _query_params.append(('step', step))
-            
+
         if end_time is not None:
-            
+
             _query_params.append(('end_time', end_time))
-            
+
         if start_time is not None:
-            
+
             _query_params.append(('start_time', start_time))
-            
+
         if node is not None:
-            
+
             _query_params.append(('node', node))
-            
+
         if users is not None:
-            
+
             _query_params.append(('users', users))
-            
+
         if wckey is not None:
-            
+
             _query_params.append(('wckey', wckey))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -32993,8 +32993,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -33238,8 +33238,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -33546,29 +33546,29 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if description is not None:
-            
+
             _query_params.append(('description', description))
-            
+
         if include_deleted_qos is not None:
-            
+
             _query_params.append(('Include deleted QOS', include_deleted_qos))
-            
+
         if id is not None:
-            
+
             _query_params.append(('id', id))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if name is not None:
-            
+
             _query_params.append(('name', name))
-            
+
         if preempt_mode is not None:
-            
+
             _query_params.append(('preempt_mode', preempt_mode))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -33585,8 +33585,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -33843,9 +33843,9 @@ class SlurmdbApi:
             _path_params['qos'] = qos
         # process the query parameters
         if with_deleted is not None:
-            
+
             _query_params.append(('with_deleted', with_deleted))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -33862,8 +33862,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -34107,8 +34107,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -34404,21 +34404,21 @@ class SlurmdbApi:
             _path_params['name'] = name
         # process the query parameters
         if with_deleted is not None:
-            
+
             _query_params.append(('with_deleted', with_deleted))
-            
+
         if with_assocs is not None:
-            
+
             _query_params.append(('with_assocs', with_assocs))
-            
+
         if with_coords is not None:
-            
+
             _query_params.append(('with_coords', with_coords))
-            
+
         if with_wckeys is not None:
-            
+
             _query_params.append(('with_wckeys', with_wckeys))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -34435,8 +34435,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -34769,37 +34769,37 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if admin_level is not None:
-            
+
             _query_params.append(('admin_level', admin_level))
-            
+
         if default_account is not None:
-            
+
             _query_params.append(('default_account', default_account))
-            
+
         if default_wckey is not None:
-            
+
             _query_params.append(('default_wckey', default_wckey))
-            
+
         if with_assocs is not None:
-            
+
             _query_params.append(('with_assocs', with_assocs))
-            
+
         if with_coords is not None:
-            
+
             _query_params.append(('with_coords', with_coords))
-            
+
         if with_deleted is not None:
-            
+
             _query_params.append(('with_deleted', with_deleted))
-            
+
         if with_wckeys is not None:
-            
+
             _query_params.append(('with_wckeys', with_wckeys))
-            
+
         if without_defaults is not None:
-            
+
             _query_params.append(('without_defaults', without_defaults))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -34816,8 +34816,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -35076,8 +35076,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -35436,45 +35436,45 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if cluster is not None:
-            
+
             _query_params.append(('cluster', cluster))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if id is not None:
-            
+
             _query_params.append(('id', id))
-            
+
         if name is not None:
-            
+
             _query_params.append(('name', name))
-            
+
         if only_defaults is not None:
-            
+
             _query_params.append(('only_defaults', only_defaults))
-            
+
         if usage_end is not None:
-            
+
             _query_params.append(('usage_end', usage_end))
-            
+
         if usage_start is not None:
-            
+
             _query_params.append(('usage_start', usage_start))
-            
+
         if user is not None:
-            
+
             _query_params.append(('user', user))
-            
+
         if with_usage is not None:
-            
+
             _query_params.append(('with_usage', with_usage))
-            
+
         if with_deleted is not None:
-            
+
             _query_params.append(('with_deleted', with_deleted))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -35491,8 +35491,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -35764,8 +35764,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -36037,8 +36037,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -36310,8 +36310,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -36566,9 +36566,9 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if update_time is not None:
-            
+
             _query_params.append(('update_time', update_time))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -36600,8 +36600,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -36873,8 +36873,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -37194,29 +37194,29 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if description is not None:
-            
+
             _query_params.append(('description', description))
-            
+
         if include_deleted_qos is not None:
-            
+
             _query_params.append(('Include deleted QOS', include_deleted_qos))
-            
+
         if id is not None:
-            
+
             _query_params.append(('id', id))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if name is not None:
-            
+
             _query_params.append(('name', name))
-            
+
         if preempt_mode is not None:
-            
+
             _query_params.append(('preempt_mode', preempt_mode))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -37248,8 +37248,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -37521,8 +37521,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -37794,8 +37794,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -38063,13 +38063,13 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if update_time is not None:
-            
+
             _query_params.append(('update_time', update_time))
-            
+
         if flags is not None:
-            
+
             _query_params.append(('flags', flags))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -38101,8 +38101,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -38474,45 +38474,45 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if cluster is not None:
-            
+
             _query_params.append(('cluster', cluster))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if id is not None:
-            
+
             _query_params.append(('id', id))
-            
+
         if name is not None:
-            
+
             _query_params.append(('name', name))
-            
+
         if only_defaults is not None:
-            
+
             _query_params.append(('only_defaults', only_defaults))
-            
+
         if usage_end is not None:
-            
+
             _query_params.append(('usage_end', usage_end))
-            
+
         if usage_start is not None:
-            
+
             _query_params.append(('usage_start', usage_start))
-            
+
         if user is not None:
-            
+
             _query_params.append(('user', user))
-            
+
         if with_usage is not None:
-            
+
             _query_params.append(('with_usage', with_usage))
-            
+
         if with_deleted is not None:
-            
+
             _query_params.append(('with_deleted', with_deleted))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -38544,8 +38544,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -38804,8 +38804,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -39268,77 +39268,77 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if account is not None:
-            
+
             _query_params.append(('account', account))
-            
+
         if cluster is not None:
-            
+
             _query_params.append(('cluster', cluster))
-            
+
         if default_qos is not None:
-            
+
             _query_params.append(('default_qos', default_qos))
-            
+
         if include_deleted_associations is not None:
-            
+
             _query_params.append(('Include deleted associations', include_deleted_associations))
-            
+
         if include_usage is not None:
-            
+
             _query_params.append(('Include usage', include_usage))
-            
+
         if filter_to_only_defaults is not None:
-            
+
             _query_params.append(('Filter to only defaults', filter_to_only_defaults))
-            
+
         if include_the_raw_qos_or_delta_qos is not None:
-            
+
             _query_params.append(('Include the raw QOS or delta_qos', include_the_raw_qos_or_delta_qos))
-            
+
         if include_sub_acct_information is not None:
-            
+
             _query_params.append(('Include sub acct information', include_sub_acct_information))
-            
+
         if exclude_parent_id_name is not None:
-            
+
             _query_params.append(('Exclude parent id/name', exclude_parent_id_name))
-            
+
         if exclude_limits_from_parents is not None:
-            
+
             _query_params.append(('Exclude limits from parents', exclude_limits_from_parents))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if id is not None:
-            
+
             _query_params.append(('id', id))
-            
+
         if parent_account is not None:
-            
+
             _query_params.append(('parent_account', parent_account))
-            
+
         if partition is not None:
-            
+
             _query_params.append(('partition', partition))
-            
+
         if qos is not None:
-            
+
             _query_params.append(('qos', qos))
-            
+
         if usage_end is not None:
-            
+
             _query_params.append(('usage_end', usage_end))
-            
+
         if usage_start is not None:
-            
+
             _query_params.append(('usage_start', usage_start))
-            
+
         if user is not None:
-            
+
             _query_params.append(('user', user))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -39355,8 +39355,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -39819,77 +39819,77 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if account is not None:
-            
+
             _query_params.append(('account', account))
-            
+
         if cluster is not None:
-            
+
             _query_params.append(('cluster', cluster))
-            
+
         if default_qos is not None:
-            
+
             _query_params.append(('default_qos', default_qos))
-            
+
         if include_deleted_associations is not None:
-            
+
             _query_params.append(('Include deleted associations', include_deleted_associations))
-            
+
         if include_usage is not None:
-            
+
             _query_params.append(('Include usage', include_usage))
-            
+
         if filter_to_only_defaults is not None:
-            
+
             _query_params.append(('Filter to only defaults', filter_to_only_defaults))
-            
+
         if include_the_raw_qos_or_delta_qos is not None:
-            
+
             _query_params.append(('Include the raw QOS or delta_qos', include_the_raw_qos_or_delta_qos))
-            
+
         if include_sub_acct_information is not None:
-            
+
             _query_params.append(('Include sub acct information', include_sub_acct_information))
-            
+
         if exclude_parent_id_name is not None:
-            
+
             _query_params.append(('Exclude parent id/name', exclude_parent_id_name))
-            
+
         if exclude_limits_from_parents is not None:
-            
+
             _query_params.append(('Exclude limits from parents', exclude_limits_from_parents))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if id is not None:
-            
+
             _query_params.append(('id', id))
-            
+
         if parent_account is not None:
-            
+
             _query_params.append(('parent_account', parent_account))
-            
+
         if partition is not None:
-            
+
             _query_params.append(('partition', partition))
-            
+
         if qos is not None:
-            
+
             _query_params.append(('qos', qos))
-            
+
         if usage_end is not None:
-            
+
             _query_params.append(('usage_end', usage_end))
-            
+
         if usage_start is not None:
-            
+
             _query_params.append(('usage_start', usage_start))
-            
+
         if user is not None:
-            
+
             _query_params.append(('user', user))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -39906,8 +39906,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -40281,45 +40281,45 @@ class SlurmdbApi:
             _path_params['cluster_name'] = cluster_name
         # process the query parameters
         if classification is not None:
-            
+
             _query_params.append(('classification', classification))
-            
+
         if cluster is not None:
-            
+
             _query_params.append(('cluster', cluster))
-            
+
         if federation is not None:
-            
+
             _query_params.append(('federation', federation))
-            
+
         if flags is not None:
-            
+
             _query_params.append(('flags', flags))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if rpc_version is not None:
-            
+
             _query_params.append(('rpc_version', rpc_version))
-            
+
         if usage_end is not None:
-            
+
             _query_params.append(('usage_end', usage_end))
-            
+
         if usage_start is not None:
-            
+
             _query_params.append(('usage_start', usage_start))
-            
+
         if with_deleted is not None:
-            
+
             _query_params.append(('with_deleted', with_deleted))
-            
+
         if with_usage is not None:
-            
+
             _query_params.append(('with_usage', with_usage))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -40336,8 +40336,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -40596,8 +40596,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -40856,8 +40856,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -41116,8 +41116,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -41400,17 +41400,17 @@ class SlurmdbApi:
             _path_params['account_name'] = account_name
         # process the query parameters
         if with_assocs is not None:
-            
+
             _query_params.append(('with_assocs', with_assocs))
-            
+
         if with_coords is not None:
-            
+
             _query_params.append(('with_coords', with_coords))
-            
+
         if with_deleted is not None:
-            
+
             _query_params.append(('with_deleted', with_deleted))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -41427,8 +41427,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -41735,29 +41735,29 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if description is not None:
-            
+
             _query_params.append(('description', description))
-            
+
         if deleted is not None:
-            
+
             _query_params.append(('DELETED', deleted))
-            
+
         if with_associations is not None:
-            
+
             _query_params.append(('WithAssociations', with_associations))
-            
+
         if with_coordinators is not None:
-            
+
             _query_params.append(('WithCoordinators', with_coordinators))
-            
+
         if no_users_are_coords is not None:
-            
+
             _query_params.append(('NoUsersAreCoords', no_users_are_coords))
-            
+
         if users_are_coords is not None:
-            
+
             _query_params.append(('UsersAreCoords', users_are_coords))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -41774,8 +41774,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -42238,77 +42238,77 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if account is not None:
-            
+
             _query_params.append(('account', account))
-            
+
         if cluster is not None:
-            
+
             _query_params.append(('cluster', cluster))
-            
+
         if default_qos is not None:
-            
+
             _query_params.append(('default_qos', default_qos))
-            
+
         if include_deleted_associations is not None:
-            
+
             _query_params.append(('Include deleted associations', include_deleted_associations))
-            
+
         if include_usage is not None:
-            
+
             _query_params.append(('Include usage', include_usage))
-            
+
         if filter_to_only_defaults is not None:
-            
+
             _query_params.append(('Filter to only defaults', filter_to_only_defaults))
-            
+
         if include_the_raw_qos_or_delta_qos is not None:
-            
+
             _query_params.append(('Include the raw QOS or delta_qos', include_the_raw_qos_or_delta_qos))
-            
+
         if include_sub_acct_information is not None:
-            
+
             _query_params.append(('Include sub acct information', include_sub_acct_information))
-            
+
         if exclude_parent_id_name is not None:
-            
+
             _query_params.append(('Exclude parent id/name', exclude_parent_id_name))
-            
+
         if exclude_limits_from_parents is not None:
-            
+
             _query_params.append(('Exclude limits from parents', exclude_limits_from_parents))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if id is not None:
-            
+
             _query_params.append(('id', id))
-            
+
         if parent_account is not None:
-            
+
             _query_params.append(('parent_account', parent_account))
-            
+
         if partition is not None:
-            
+
             _query_params.append(('partition', partition))
-            
+
         if qos is not None:
-            
+
             _query_params.append(('qos', qos))
-            
+
         if usage_end is not None:
-            
+
             _query_params.append(('usage_end', usage_end))
-            
+
         if usage_start is not None:
-            
+
             _query_params.append(('usage_start', usage_start))
-            
+
         if user is not None:
-            
+
             _query_params.append(('user', user))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -42325,8 +42325,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -42789,77 +42789,77 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if account is not None:
-            
+
             _query_params.append(('account', account))
-            
+
         if cluster is not None:
-            
+
             _query_params.append(('cluster', cluster))
-            
+
         if default_qos is not None:
-            
+
             _query_params.append(('default_qos', default_qos))
-            
+
         if include_deleted_associations is not None:
-            
+
             _query_params.append(('Include deleted associations', include_deleted_associations))
-            
+
         if include_usage is not None:
-            
+
             _query_params.append(('Include usage', include_usage))
-            
+
         if filter_to_only_defaults is not None:
-            
+
             _query_params.append(('Filter to only defaults', filter_to_only_defaults))
-            
+
         if include_the_raw_qos_or_delta_qos is not None:
-            
+
             _query_params.append(('Include the raw QOS or delta_qos', include_the_raw_qos_or_delta_qos))
-            
+
         if include_sub_acct_information is not None:
-            
+
             _query_params.append(('Include sub acct information', include_sub_acct_information))
-            
+
         if exclude_parent_id_name is not None:
-            
+
             _query_params.append(('Exclude parent id/name', exclude_parent_id_name))
-            
+
         if exclude_limits_from_parents is not None:
-            
+
             _query_params.append(('Exclude limits from parents', exclude_limits_from_parents))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if id is not None:
-            
+
             _query_params.append(('id', id))
-            
+
         if parent_account is not None:
-            
+
             _query_params.append(('parent_account', parent_account))
-            
+
         if partition is not None:
-            
+
             _query_params.append(('partition', partition))
-            
+
         if qos is not None:
-            
+
             _query_params.append(('qos', qos))
-            
+
         if usage_end is not None:
-            
+
             _query_params.append(('usage_end', usage_end))
-            
+
         if usage_start is not None:
-            
+
             _query_params.append(('usage_start', usage_start))
-            
+
         if user is not None:
-            
+
             _query_params.append(('user', user))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -42876,8 +42876,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -43251,45 +43251,45 @@ class SlurmdbApi:
             _path_params['cluster_name'] = cluster_name
         # process the query parameters
         if classification is not None:
-            
+
             _query_params.append(('classification', classification))
-            
+
         if cluster is not None:
-            
+
             _query_params.append(('cluster', cluster))
-            
+
         if federation is not None:
-            
+
             _query_params.append(('federation', federation))
-            
+
         if flags is not None:
-            
+
             _query_params.append(('flags', flags))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if rpc_version is not None:
-            
+
             _query_params.append(('rpc_version', rpc_version))
-            
+
         if usage_end is not None:
-            
+
             _query_params.append(('usage_end', usage_end))
-            
+
         if usage_start is not None:
-            
+
             _query_params.append(('usage_start', usage_start))
-            
+
         if with_deleted is not None:
-            
+
             _query_params.append(('with_deleted', with_deleted))
-            
+
         if with_usage is not None:
-            
+
             _query_params.append(('with_usage', with_usage))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -43306,8 +43306,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -43549,9 +43549,9 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if update_time is not None:
-            
+
             _query_params.append(('update_time', update_time))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -43568,8 +43568,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -43813,8 +43813,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -44058,8 +44058,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -44392,37 +44392,37 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if cluster is not None:
-            
+
             _query_params.append(('cluster', cluster))
-            
+
         if extra is not None:
-            
+
             _query_params.append(('extra', extra))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if instance_id is not None:
-            
+
             _query_params.append(('instance_id', instance_id))
-            
+
         if instance_type is not None:
-            
+
             _query_params.append(('instance_type', instance_type))
-            
+
         if node_list is not None:
-            
+
             _query_params.append(('node_list', node_list))
-            
+
         if time_end is not None:
-            
+
             _query_params.append(('time_end', time_end))
-            
+
         if time_start is not None:
-            
+
             _query_params.append(('time_start', time_start))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -44439,8 +44439,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -44773,37 +44773,37 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if cluster is not None:
-            
+
             _query_params.append(('cluster', cluster))
-            
+
         if extra is not None:
-            
+
             _query_params.append(('extra', extra))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if instance_id is not None:
-            
+
             _query_params.append(('instance_id', instance_id))
-            
+
         if instance_type is not None:
-            
+
             _query_params.append(('instance_type', instance_type))
-            
+
         if node_list is not None:
-            
+
             _query_params.append(('node_list', node_list))
-            
+
         if time_end is not None:
-            
+
             _query_params.append(('time_end', time_end))
-            
+
         if time_start is not None:
-            
+
             _query_params.append(('time_start', time_start))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -44820,8 +44820,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -45083,8 +45083,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -45755,141 +45755,141 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if account is not None:
-            
+
             _query_params.append(('account', account))
-            
+
         if association is not None:
-            
+
             _query_params.append(('association', association))
-            
+
         if cluster is not None:
-            
+
             _query_params.append(('cluster', cluster))
-            
+
         if constraints is not None:
-            
+
             _query_params.append(('constraints', constraints))
-            
+
         if scheduler_unset is not None:
-            
+
             _query_params.append(('scheduler_unset', scheduler_unset))
-            
+
         if scheduled_on_submit is not None:
-            
+
             _query_params.append(('scheduled_on_submit', scheduled_on_submit))
-            
+
         if scheduled_by_main is not None:
-            
+
             _query_params.append(('scheduled_by_main', scheduled_by_main))
-            
+
         if scheduled_by_backfill is not None:
-            
+
             _query_params.append(('scheduled_by_backfill', scheduled_by_backfill))
-            
+
         if job_started is not None:
-            
+
             _query_params.append(('job_started', job_started))
-            
+
         if exit_code is not None:
-            
+
             _query_params.append(('exit_code', exit_code))
-            
+
         if show_duplicates is not None:
-            
+
             _query_params.append(('show_duplicates', show_duplicates))
-            
+
         if skip_steps is not None:
-            
+
             _query_params.append(('skip_steps', skip_steps))
-            
+
         if disable_truncate_usage_time is not None:
-            
+
             _query_params.append(('disable_truncate_usage_time', disable_truncate_usage_time))
-            
+
         if whole_hetjob is not None:
-            
+
             _query_params.append(('whole_hetjob', whole_hetjob))
-            
+
         if disable_whole_hetjob is not None:
-            
+
             _query_params.append(('disable_whole_hetjob', disable_whole_hetjob))
-            
+
         if disable_wait_for_result is not None:
-            
+
             _query_params.append(('disable_wait_for_result', disable_wait_for_result))
-            
+
         if usage_time_as_submit_time is not None:
-            
+
             _query_params.append(('usage_time_as_submit_time', usage_time_as_submit_time))
-            
+
         if show_batch_script is not None:
-            
+
             _query_params.append(('show_batch_script', show_batch_script))
-            
+
         if show_job_environment is not None:
-            
+
             _query_params.append(('show_job_environment', show_job_environment))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if groups is not None:
-            
+
             _query_params.append(('groups', groups))
-            
+
         if job_name is not None:
-            
+
             _query_params.append(('job_name', job_name))
-            
+
         if partition is not None:
-            
+
             _query_params.append(('partition', partition))
-            
+
         if qos is not None:
-            
+
             _query_params.append(('qos', qos))
-            
+
         if reason is not None:
-            
+
             _query_params.append(('reason', reason))
-            
+
         if reservation is not None:
-            
+
             _query_params.append(('reservation', reservation))
-            
+
         if reservation_id is not None:
-            
+
             _query_params.append(('reservation_id', reservation_id))
-            
+
         if state is not None:
-            
+
             _query_params.append(('state', state))
-            
+
         if step is not None:
-            
+
             _query_params.append(('step', step))
-            
+
         if end_time is not None:
-            
+
             _query_params.append(('end_time', end_time))
-            
+
         if start_time is not None:
-            
+
             _query_params.append(('start_time', start_time))
-            
+
         if node is not None:
-            
+
             _query_params.append(('node', node))
-            
+
         if users is not None:
-            
+
             _query_params.append(('users', users))
-            
+
         if wckey is not None:
-            
+
             _query_params.append(('wckey', wckey))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -45906,8 +45906,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -46151,8 +46151,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -46459,29 +46459,29 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if description is not None:
-            
+
             _query_params.append(('description', description))
-            
+
         if include_deleted_qos is not None:
-            
+
             _query_params.append(('Include deleted QOS', include_deleted_qos))
-            
+
         if id is not None:
-            
+
             _query_params.append(('id', id))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if name is not None:
-            
+
             _query_params.append(('name', name))
-            
+
         if preempt_mode is not None:
-            
+
             _query_params.append(('preempt_mode', preempt_mode))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -46498,8 +46498,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -46756,9 +46756,9 @@ class SlurmdbApi:
             _path_params['qos'] = qos
         # process the query parameters
         if with_deleted is not None:
-            
+
             _query_params.append(('with_deleted', with_deleted))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -46775,8 +46775,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -47020,8 +47020,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -47317,21 +47317,21 @@ class SlurmdbApi:
             _path_params['name'] = name
         # process the query parameters
         if with_deleted is not None:
-            
+
             _query_params.append(('with_deleted', with_deleted))
-            
+
         if with_assocs is not None:
-            
+
             _query_params.append(('with_assocs', with_assocs))
-            
+
         if with_coords is not None:
-            
+
             _query_params.append(('with_coords', with_coords))
-            
+
         if with_wckeys is not None:
-            
+
             _query_params.append(('with_wckeys', with_wckeys))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -47348,8 +47348,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -47682,37 +47682,37 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if admin_level is not None:
-            
+
             _query_params.append(('admin_level', admin_level))
-            
+
         if default_account is not None:
-            
+
             _query_params.append(('default_account', default_account))
-            
+
         if default_wckey is not None:
-            
+
             _query_params.append(('default_wckey', default_wckey))
-            
+
         if with_assocs is not None:
-            
+
             _query_params.append(('with_assocs', with_assocs))
-            
+
         if with_coords is not None:
-            
+
             _query_params.append(('with_coords', with_coords))
-            
+
         if with_deleted is not None:
-            
+
             _query_params.append(('with_deleted', with_deleted))
-            
+
         if with_wckeys is not None:
-            
+
             _query_params.append(('with_wckeys', with_wckeys))
-            
+
         if without_defaults is not None:
-            
+
             _query_params.append(('without_defaults', without_defaults))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -47729,8 +47729,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -47989,8 +47989,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -48349,45 +48349,45 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if cluster is not None:
-            
+
             _query_params.append(('cluster', cluster))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if id is not None:
-            
+
             _query_params.append(('id', id))
-            
+
         if name is not None:
-            
+
             _query_params.append(('name', name))
-            
+
         if only_defaults is not None:
-            
+
             _query_params.append(('only_defaults', only_defaults))
-            
+
         if usage_end is not None:
-            
+
             _query_params.append(('usage_end', usage_end))
-            
+
         if usage_start is not None:
-            
+
             _query_params.append(('usage_start', usage_start))
-            
+
         if user is not None:
-            
+
             _query_params.append(('user', user))
-            
+
         if with_usage is not None:
-            
+
             _query_params.append(('with_usage', with_usage))
-            
+
         if with_deleted is not None:
-            
+
             _query_params.append(('with_deleted', with_deleted))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -48404,8 +48404,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -48677,8 +48677,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -48950,8 +48950,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -49223,8 +49223,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -49479,9 +49479,9 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if update_time is not None:
-            
+
             _query_params.append(('update_time', update_time))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -49513,8 +49513,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -49786,8 +49786,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -50107,29 +50107,29 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if description is not None:
-            
+
             _query_params.append(('description', description))
-            
+
         if include_deleted_qos is not None:
-            
+
             _query_params.append(('Include deleted QOS', include_deleted_qos))
-            
+
         if id is not None:
-            
+
             _query_params.append(('id', id))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if name is not None:
-            
+
             _query_params.append(('name', name))
-            
+
         if preempt_mode is not None:
-            
+
             _query_params.append(('preempt_mode', preempt_mode))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -50161,8 +50161,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -50434,8 +50434,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -50707,8 +50707,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -50976,13 +50976,13 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if update_time is not None:
-            
+
             _query_params.append(('update_time', update_time))
-            
+
         if flags is not None:
-            
+
             _query_params.append(('flags', flags))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -51014,8 +51014,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -51387,45 +51387,45 @@ class SlurmdbApi:
         # process the path parameters
         # process the query parameters
         if cluster is not None:
-            
+
             _query_params.append(('cluster', cluster))
-            
+
         if format is not None:
-            
+
             _query_params.append(('format', format))
-            
+
         if id is not None:
-            
+
             _query_params.append(('id', id))
-            
+
         if name is not None:
-            
+
             _query_params.append(('name', name))
-            
+
         if only_defaults is not None:
-            
+
             _query_params.append(('only_defaults', only_defaults))
-            
+
         if usage_end is not None:
-            
+
             _query_params.append(('usage_end', usage_end))
-            
+
         if usage_start is not None:
-            
+
             _query_params.append(('usage_start', usage_start))
-            
+
         if user is not None:
-            
+
             _query_params.append(('user', user))
-            
+
         if with_usage is not None:
-            
+
             _query_params.append(('with_usage', with_usage))
-            
+
         if with_deleted is not None:
-            
+
             _query_params.append(('with_deleted', with_deleted))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -51457,8 +51457,8 @@ class SlurmdbApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 

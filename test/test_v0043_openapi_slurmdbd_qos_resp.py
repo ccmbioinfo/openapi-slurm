@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0043_openapi_slurmdbd_qos_resp import V0043OpenapiSlurmdbdQosResp
+from openapi_slurm.models.v0043_openapi_slurmdbd_qos_resp import V0043OpenapiSlurmdbdQosResp
 
 class TestV0043OpenapiSlurmdbdQosResp(unittest.TestCase):
     """V0043OpenapiSlurmdbdQosResp unit test stubs"""
@@ -37,148 +37,148 @@ class TestV0043OpenapiSlurmdbdQosResp(unittest.TestCase):
         if include_optional:
             return V0043OpenapiSlurmdbdQosResp(
                 qos = [
-                    openapi_client.models.v0/0/43_qos.v0.0.43_qos(
-                        description = '', 
+                    openapi_slurm.models.v0/0/43_qos.v0.0.43_qos(
+                        description = '',
                         flags = [
                             'NOT_SET'
-                            ], 
-                        id = 56, 
-                        limits = openapi_client.models.v0_0_43_qos_limits.v0_0_43_qos_limits(
-                            grace_time = 56, 
-                            max = openapi_client.models.v0_0_43_qos_limits_max.v0_0_43_qos_limits_max(
-                                active_jobs = openapi_client.models.v0_0_43_qos_limits_max_active_jobs.v0_0_43_qos_limits_max_active_jobs(
-                                    accruing = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                                        set = True, 
-                                        infinite = True, 
-                                        number = 56, ), 
-                                    count = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                                        set = True, 
-                                        infinite = True, 
-                                        number = 56, ), ), 
-                                jobs = openapi_client.models.v0_0_43_qos_limits_max_jobs.v0_0_43_qos_limits_max_jobs(
-                                    per = openapi_client.models.v0_0_43_qos_limits_max_jobs_active_jobs_per.v0_0_43_qos_limits_max_jobs_active_jobs_per(
-                                        account = , 
-                                        user = , ), ), 
-                                tres = openapi_client.models.v0_0_43_qos_limits_max_tres.v0_0_43_qos_limits_max_tres(
+                            ],
+                        id = 56,
+                        limits = openapi_slurm.models.v0_0_43_qos_limits.v0_0_43_qos_limits(
+                            grace_time = 56,
+                            max = openapi_slurm.models.v0_0_43_qos_limits_max.v0_0_43_qos_limits_max(
+                                active_jobs = openapi_slurm.models.v0_0_43_qos_limits_max_active_jobs.v0_0_43_qos_limits_max_active_jobs(
+                                    accruing = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                                        set = True,
+                                        infinite = True,
+                                        number = 56, ),
+                                    count = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                                        set = True,
+                                        infinite = True,
+                                        number = 56, ), ),
+                                jobs = openapi_slurm.models.v0_0_43_qos_limits_max_jobs.v0_0_43_qos_limits_max_jobs(
+                                    per = openapi_slurm.models.v0_0_43_qos_limits_max_jobs_active_jobs_per.v0_0_43_qos_limits_max_jobs_active_jobs_per(
+                                        account = ,
+                                        user = , ), ),
+                                tres = openapi_slurm.models.v0_0_43_qos_limits_max_tres.v0_0_43_qos_limits_max_tres(
                                     total = [
-                                        openapi_client.models.v0/0/43_tres.v0.0.43_tres(
-                                            type = '', 
-                                            name = '', 
+                                        openapi_slurm.models.v0/0/43_tres.v0.0.43_tres(
+                                            type = '',
+                                            name = '',
                                             id = 56, )
-                                        ], 
-                                    minutes = openapi_client.models.v0_0_43_qos_limits_max_tres_minutes.v0_0_43_qos_limits_max_tres_minutes(), ), 
-                                wall_clock = openapi_client.models.v0_0_43_qos_limits_max_wall_clock.v0_0_43_qos_limits_max_wall_clock(), 
-                                accruing = openapi_client.models.v0_0_43_qos_limits_max_jobs_active_jobs.v0_0_43_qos_limits_max_jobs_active_jobs(), ), 
-                            factor = openapi_client.models.v0/0/43_float64_no_val_struct.v0.0.43_float64_no_val_struct(
-                                set = True, 
-                                infinite = True, 
-                                number = 1.337, ), 
-                            min = openapi_client.models.v0_0_43_qos_limits_min.v0_0_43_qos_limits_min(
-                                priority_threshold = , ), ), 
-                        name = '', 
-                        preempt = openapi_client.models.v0_0_43_qos_preempt.v0_0_43_qos_preempt(
+                                        ],
+                                    minutes = openapi_slurm.models.v0_0_43_qos_limits_max_tres_minutes.v0_0_43_qos_limits_max_tres_minutes(), ),
+                                wall_clock = openapi_slurm.models.v0_0_43_qos_limits_max_wall_clock.v0_0_43_qos_limits_max_wall_clock(),
+                                accruing = openapi_slurm.models.v0_0_43_qos_limits_max_jobs_active_jobs.v0_0_43_qos_limits_max_jobs_active_jobs(), ),
+                            factor = openapi_slurm.models.v0/0/43_float64_no_val_struct.v0.0.43_float64_no_val_struct(
+                                set = True,
+                                infinite = True,
+                                number = 1.337, ),
+                            min = openapi_slurm.models.v0_0_43_qos_limits_min.v0_0_43_qos_limits_min(
+                                priority_threshold = , ), ),
+                        name = '',
+                        preempt = openapi_slurm.models.v0_0_43_qos_preempt.v0_0_43_qos_preempt(
                             list = [
                                 ''
-                                ], 
+                                ],
                             mode = [
                                 'DISABLED'
-                                ], 
-                            exempt_time = , ), 
-                        priority = , 
-                        usage_factor = openapi_client.models.v0/0/43_float64_no_val_struct.v0.0.43_float64_no_val_struct(
-                            set = True, 
-                            infinite = True, 
-                            number = 1.337, ), 
+                                ],
+                            exempt_time = , ),
+                        priority = ,
+                        usage_factor = openapi_slurm.models.v0/0/43_float64_no_val_struct.v0.0.43_float64_no_val_struct(
+                            set = True,
+                            infinite = True,
+                            number = 1.337, ),
                         usage_threshold = , )
                     ],
-                meta = openapi_client.models.v0/0/43_openapi_meta.v0.0.43_openapi_meta(
-                    plugin = openapi_client.models.v0_0_40_openapi_meta_plugin.v0_0_40_openapi_meta_plugin(
-                        type = '', 
-                        name = '', 
-                        data_parser = '', 
-                        accounting_storage = '', ), 
-                    client = openapi_client.models.v0_0_40_openapi_meta_client.v0_0_40_openapi_meta_client(
-                        source = '', 
-                        user = '', 
-                        group = '', ), 
+                meta = openapi_slurm.models.v0/0/43_openapi_meta.v0.0.43_openapi_meta(
+                    plugin = openapi_slurm.models.v0_0_40_openapi_meta_plugin.v0_0_40_openapi_meta_plugin(
+                        type = '',
+                        name = '',
+                        data_parser = '',
+                        accounting_storage = '', ),
+                    client = openapi_slurm.models.v0_0_40_openapi_meta_client.v0_0_40_openapi_meta_client(
+                        source = '',
+                        user = '',
+                        group = '', ),
                     command = [
                         ''
-                        ], 
-                    slurm = openapi_client.models.v0_0_40_openapi_meta_slurm.v0_0_40_openapi_meta_slurm(
-                        version = openapi_client.models.v0_0_40_openapi_meta_slurm_version.v0_0_40_openapi_meta_slurm_version(
-                            major = '', 
-                            micro = '', 
-                            minor = '', ), 
-                        release = '', 
+                        ],
+                    slurm = openapi_slurm.models.v0_0_40_openapi_meta_slurm.v0_0_40_openapi_meta_slurm(
+                        version = openapi_slurm.models.v0_0_40_openapi_meta_slurm_version.v0_0_40_openapi_meta_slurm_version(
+                            major = '',
+                            micro = '',
+                            minor = '', ),
+                        release = '',
                         cluster = '', ), ),
                 errors = [
-                    openapi_client.models.v0/0/43_openapi_error.v0.0.43_openapi_error(
-                        description = '', 
-                        error_number = 56, 
-                        error = '', 
+                    openapi_slurm.models.v0/0/43_openapi_error.v0.0.43_openapi_error(
+                        description = '',
+                        error_number = 56,
+                        error = '',
                         source = '', )
                     ],
                 warnings = [
-                    openapi_client.models.v0/0/43_openapi_warning.v0.0.43_openapi_warning(
-                        description = '', 
+                    openapi_slurm.models.v0/0/43_openapi_warning.v0.0.43_openapi_warning(
+                        description = '',
                         source = '', )
                     ]
             )
         else:
             return V0043OpenapiSlurmdbdQosResp(
                 qos = [
-                    openapi_client.models.v0/0/43_qos.v0.0.43_qos(
-                        description = '', 
+                    openapi_slurm.models.v0/0/43_qos.v0.0.43_qos(
+                        description = '',
                         flags = [
                             'NOT_SET'
-                            ], 
-                        id = 56, 
-                        limits = openapi_client.models.v0_0_43_qos_limits.v0_0_43_qos_limits(
-                            grace_time = 56, 
-                            max = openapi_client.models.v0_0_43_qos_limits_max.v0_0_43_qos_limits_max(
-                                active_jobs = openapi_client.models.v0_0_43_qos_limits_max_active_jobs.v0_0_43_qos_limits_max_active_jobs(
-                                    accruing = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                                        set = True, 
-                                        infinite = True, 
-                                        number = 56, ), 
-                                    count = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                                        set = True, 
-                                        infinite = True, 
-                                        number = 56, ), ), 
-                                jobs = openapi_client.models.v0_0_43_qos_limits_max_jobs.v0_0_43_qos_limits_max_jobs(
-                                    per = openapi_client.models.v0_0_43_qos_limits_max_jobs_active_jobs_per.v0_0_43_qos_limits_max_jobs_active_jobs_per(
-                                        account = , 
-                                        user = , ), ), 
-                                tres = openapi_client.models.v0_0_43_qos_limits_max_tres.v0_0_43_qos_limits_max_tres(
+                            ],
+                        id = 56,
+                        limits = openapi_slurm.models.v0_0_43_qos_limits.v0_0_43_qos_limits(
+                            grace_time = 56,
+                            max = openapi_slurm.models.v0_0_43_qos_limits_max.v0_0_43_qos_limits_max(
+                                active_jobs = openapi_slurm.models.v0_0_43_qos_limits_max_active_jobs.v0_0_43_qos_limits_max_active_jobs(
+                                    accruing = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                                        set = True,
+                                        infinite = True,
+                                        number = 56, ),
+                                    count = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                                        set = True,
+                                        infinite = True,
+                                        number = 56, ), ),
+                                jobs = openapi_slurm.models.v0_0_43_qos_limits_max_jobs.v0_0_43_qos_limits_max_jobs(
+                                    per = openapi_slurm.models.v0_0_43_qos_limits_max_jobs_active_jobs_per.v0_0_43_qos_limits_max_jobs_active_jobs_per(
+                                        account = ,
+                                        user = , ), ),
+                                tres = openapi_slurm.models.v0_0_43_qos_limits_max_tres.v0_0_43_qos_limits_max_tres(
                                     total = [
-                                        openapi_client.models.v0/0/43_tres.v0.0.43_tres(
-                                            type = '', 
-                                            name = '', 
+                                        openapi_slurm.models.v0/0/43_tres.v0.0.43_tres(
+                                            type = '',
+                                            name = '',
                                             id = 56, )
-                                        ], 
-                                    minutes = openapi_client.models.v0_0_43_qos_limits_max_tres_minutes.v0_0_43_qos_limits_max_tres_minutes(), ), 
-                                wall_clock = openapi_client.models.v0_0_43_qos_limits_max_wall_clock.v0_0_43_qos_limits_max_wall_clock(), 
-                                accruing = openapi_client.models.v0_0_43_qos_limits_max_jobs_active_jobs.v0_0_43_qos_limits_max_jobs_active_jobs(), ), 
-                            factor = openapi_client.models.v0/0/43_float64_no_val_struct.v0.0.43_float64_no_val_struct(
-                                set = True, 
-                                infinite = True, 
-                                number = 1.337, ), 
-                            min = openapi_client.models.v0_0_43_qos_limits_min.v0_0_43_qos_limits_min(
-                                priority_threshold = , ), ), 
-                        name = '', 
-                        preempt = openapi_client.models.v0_0_43_qos_preempt.v0_0_43_qos_preempt(
+                                        ],
+                                    minutes = openapi_slurm.models.v0_0_43_qos_limits_max_tres_minutes.v0_0_43_qos_limits_max_tres_minutes(), ),
+                                wall_clock = openapi_slurm.models.v0_0_43_qos_limits_max_wall_clock.v0_0_43_qos_limits_max_wall_clock(),
+                                accruing = openapi_slurm.models.v0_0_43_qos_limits_max_jobs_active_jobs.v0_0_43_qos_limits_max_jobs_active_jobs(), ),
+                            factor = openapi_slurm.models.v0/0/43_float64_no_val_struct.v0.0.43_float64_no_val_struct(
+                                set = True,
+                                infinite = True,
+                                number = 1.337, ),
+                            min = openapi_slurm.models.v0_0_43_qos_limits_min.v0_0_43_qos_limits_min(
+                                priority_threshold = , ), ),
+                        name = '',
+                        preempt = openapi_slurm.models.v0_0_43_qos_preempt.v0_0_43_qos_preempt(
                             list = [
                                 ''
-                                ], 
+                                ],
                             mode = [
                                 'DISABLED'
-                                ], 
-                            exempt_time = , ), 
-                        priority = , 
-                        usage_factor = openapi_client.models.v0/0/43_float64_no_val_struct.v0.0.43_float64_no_val_struct(
-                            set = True, 
-                            infinite = True, 
-                            number = 1.337, ), 
+                                ],
+                            exempt_time = , ),
+                        priority = ,
+                        usage_factor = openapi_slurm.models.v0/0/43_float64_no_val_struct.v0.0.43_float64_no_val_struct(
+                            set = True,
+                            infinite = True,
+                            number = 1.337, ),
                         usage_threshold = , )
                     ],
         )

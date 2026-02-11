@@ -5,15 +5,15 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**count** | [**V0040Uint32NoVal**](V0040Uint32NoVal.md) |  | [optional] 
-**accruing** | [**V0040Uint32NoVal**](V0040Uint32NoVal.md) |  | [optional] 
-**submitted** | [**V0040Uint32NoVal**](V0040Uint32NoVal.md) |  | [optional] 
-**wall_clock** | [**V0040Uint32NoVal**](V0040Uint32NoVal.md) |  | [optional] 
+**count** | [**V0040Uint32NoVal**](V0040Uint32NoVal.md) |  | [optional]
+**accruing** | [**V0040Uint32NoVal**](V0040Uint32NoVal.md) |  | [optional]
+**submitted** | [**V0040Uint32NoVal**](V0040Uint32NoVal.md) |  | [optional]
+**wall_clock** | [**V0040Uint32NoVal**](V0040Uint32NoVal.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_assoc_max_jobs_per import V0040AssocMaxJobsPer
+from openapi_slurm.models.v0040_assoc_max_jobs_per import V0040AssocMaxJobsPer
 
 # TODO update the JSON string below
 json = "{}"

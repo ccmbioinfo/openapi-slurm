@@ -5,16 +5,16 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**job_id** | **int** | Submitted Job ID | [optional] 
-**job_submit_user_msg** | **str** | Job submission user message | [optional] 
-**meta** | [**V0041OpenapiSharesRespMeta**](V0041OpenapiSharesRespMeta.md) |  | [optional] 
-**errors** | [**List[V0041OpenapiSharesRespErrorsInner]**](V0041OpenapiSharesRespErrorsInner.md) | Query errors | [optional] 
-**warnings** | [**List[V0041OpenapiSharesRespWarningsInner]**](V0041OpenapiSharesRespWarningsInner.md) | Query warnings | [optional] 
+**job_id** | **int** | Submitted Job ID | [optional]
+**job_submit_user_msg** | **str** | Job submission user message | [optional]
+**meta** | [**V0041OpenapiSharesRespMeta**](V0041OpenapiSharesRespMeta.md) |  | [optional]
+**errors** | [**List[V0041OpenapiSharesRespErrorsInner]**](V0041OpenapiSharesRespErrorsInner.md) | Query errors | [optional]
+**warnings** | [**List[V0041OpenapiSharesRespWarningsInner]**](V0041OpenapiSharesRespWarningsInner.md) | Query warnings | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_job_alloc_resp import V0041OpenapiJobAllocResp
+from openapi_slurm.models.v0041_openapi_job_alloc_resp import V0041OpenapiJobAllocResp
 
 # TODO update the JSON string below
 json = "{}"

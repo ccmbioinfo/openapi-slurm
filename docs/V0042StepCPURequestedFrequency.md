@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**min** | [**V0042Uint32NoValStruct**](V0042Uint32NoValStruct.md) |  | [optional] 
-**max** | [**V0042Uint32NoValStruct**](V0042Uint32NoValStruct.md) |  | [optional] 
+**min** | [**V0042Uint32NoValStruct**](V0042Uint32NoValStruct.md) |  | [optional]
+**max** | [**V0042Uint32NoValStruct**](V0042Uint32NoValStruct.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0042_step_cpu_requested_frequency import V0042StepCPURequestedFrequency
+from openapi_slurm.models.v0042_step_cpu_requested_frequency import V0042StepCPURequestedFrequency
 
 # TODO update the JSON string below
 json = "{}"

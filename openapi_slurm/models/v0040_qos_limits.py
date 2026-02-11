@@ -20,9 +20,9 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictInt
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0040_float64_no_val import V0040Float64NoVal
-from openapi_client.models.v0040_qos_limits_max import V0040QosLimitsMax
-from openapi_client.models.v0040_qos_limits_min import V0040QosLimitsMin
+from openapi_slurm.models.v0040_float64_no_val import V0040Float64NoVal
+from openapi_slurm.models.v0040_qos_limits_max import V0040QosLimitsMax
+from openapi_slurm.models.v0040_qos_limits_min import V0040QosLimitsMin
 from typing import Optional, Set
 from typing_extensions import Self
 

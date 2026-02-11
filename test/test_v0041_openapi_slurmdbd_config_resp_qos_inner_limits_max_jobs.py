@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxJobs
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxJobs
 
 class TestV0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxJobs(unittest.TestCase):
     """V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxJobs unit test stubs"""
@@ -36,24 +36,24 @@ class TestV0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxJobs(unittest.TestCase)
         model = V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxJobs()
         if include_optional:
             return V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxJobs(
-                active_jobs = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs(
-                    per = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs_per.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs_per(
-                        account = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs_per_account.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs_per_account(
-                            set = True, 
-                            infinite = True, 
-                            number = 56, ), 
-                        user = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs_per_user.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs_per_user(
-                            set = True, 
-                            infinite = True, 
+                active_jobs = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs(
+                    per = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs_per.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs_per(
+                        account = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs_per_account.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs_per_account(
+                            set = True,
+                            infinite = True,
+                            number = 56, ),
+                        user = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs_per_user.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs_per_user(
+                            set = True,
+                            infinite = True,
                             number = 56, ), ), ),
-                per = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_per.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_per(
-                    account = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_per_account.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_per_account(
-                        set = True, 
-                        infinite = True, 
-                        number = 56, ), 
-                    user = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_per_user.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_per_user(
-                        set = True, 
-                        infinite = True, 
+                per = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_per.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_per(
+                    account = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_per_account.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_per_account(
+                        set = True,
+                        infinite = True,
+                        number = 56, ),
+                    user = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_per_user.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_per_user(
+                        set = True,
+                        infinite = True,
                         number = 56, ), )
             )
         else:

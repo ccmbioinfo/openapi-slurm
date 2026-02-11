@@ -20,8 +20,8 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictInt, StrictStr, field_validator
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0043_job_res_nodes import V0043JobResNodes
-from openapi_client.models.v0043_uint16_no_val_struct import V0043Uint16NoValStruct
+from openapi_slurm.models.v0043_job_res_nodes import V0043JobResNodes
+from openapi_slurm.models.v0043_uint16_no_val_struct import V0043Uint16NoValStruct
 from typing import Optional, Set
 from typing_extensions import Self
 

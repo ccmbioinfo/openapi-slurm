@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0042_stats_rpc import V0042StatsRpc
+from openapi_slurm.models.v0042_stats_rpc import V0042StatsRpc
 
 class TestV0042StatsRpc(unittest.TestCase):
     """V0042StatsRpc unit test stubs"""
@@ -38,8 +38,8 @@ class TestV0042StatsRpc(unittest.TestCase):
             return V0042StatsRpc(
                 rpc = '',
                 count = 56,
-                time = openapi_client.models.v0_0_40_stats_rpc_time.v0_0_40_stats_rpc_time(
-                    average = 56, 
+                time = openapi_slurm.models.v0_0_40_stats_rpc_time.v0_0_40_stats_rpc_time(
+                    average = 56,
                     total = 56, )
             )
         else:

@@ -5,15 +5,15 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**type** | **str** | TRES type (CPU, MEM, etc) | 
-**name** | **str** | TRES name (if applicable) | [optional] 
-**id** | **int** | ID used in the database | [optional] 
-**count** | **int** | TRES count (0 if listed generically) | [optional] 
+**type** | **str** | TRES type (CPU, MEM, etc) |
+**name** | **str** | TRES name (if applicable) | [optional]
+**id** | **int** | ID used in the database | [optional]
+**count** | **int** | TRES count (0 if listed generically) | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0042_tres import V0042Tres
+from openapi_slurm.models.v0042_tres import V0042Tres
 
 # TODO update the JSON string below
 json = "{}"

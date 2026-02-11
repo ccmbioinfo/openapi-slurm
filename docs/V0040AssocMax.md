@@ -5,14 +5,14 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**jobs** | [**V0040AssocMaxJobs**](V0040AssocMaxJobs.md) |  | [optional] 
-**tres** | [**V0040AssocMaxTres**](V0040AssocMaxTres.md) |  | [optional] 
-**per** | [**V0040AssocMaxPer**](V0040AssocMaxPer.md) |  | [optional] 
+**jobs** | [**V0040AssocMaxJobs**](V0040AssocMaxJobs.md) |  | [optional]
+**tres** | [**V0040AssocMaxTres**](V0040AssocMaxTres.md) |  | [optional]
+**per** | [**V0040AssocMaxPer**](V0040AssocMaxPer.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_assoc_max import V0040AssocMax
+from openapi_slurm.models.v0040_assoc_max import V0040AssocMax
 
 # TODO update the JSON string below
 json = "{}"

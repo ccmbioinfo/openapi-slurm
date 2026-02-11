@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0043_partition_info_accounts import V0043PartitionInfoAccounts
+from openapi_slurm.models.v0043_partition_info_accounts import V0043PartitionInfoAccounts
 
 class TestV0043PartitionInfoAccounts(unittest.TestCase):
     """V0043PartitionInfoAccounts unit test stubs"""

@@ -5,22 +5,22 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**clusters** | [**List[V0043ClusterRec]**](V0043ClusterRec.md) |  | [optional] 
-**tres** | [**List[V0043Tres]**](V0043Tres.md) |  | [optional] 
-**accounts** | [**List[V0043Account]**](V0043Account.md) |  | [optional] 
-**users** | [**List[V0043User]**](V0043User.md) |  | [optional] 
-**qos** | [**List[V0043Qos]**](V0043Qos.md) |  | [optional] 
-**wckeys** | [**List[V0043Wckey]**](V0043Wckey.md) |  | [optional] 
-**associations** | [**List[V0043Assoc]**](V0043Assoc.md) |  | [optional] 
-**instances** | [**List[V0043Instance]**](V0043Instance.md) |  | [optional] 
-**meta** | [**V0043OpenapiMeta**](V0043OpenapiMeta.md) |  | [optional] 
-**errors** | [**List[V0043OpenapiError]**](V0043OpenapiError.md) |  | [optional] 
-**warnings** | [**List[V0043OpenapiWarning]**](V0043OpenapiWarning.md) |  | [optional] 
+**clusters** | [**List[V0043ClusterRec]**](V0043ClusterRec.md) |  | [optional]
+**tres** | [**List[V0043Tres]**](V0043Tres.md) |  | [optional]
+**accounts** | [**List[V0043Account]**](V0043Account.md) |  | [optional]
+**users** | [**List[V0043User]**](V0043User.md) |  | [optional]
+**qos** | [**List[V0043Qos]**](V0043Qos.md) |  | [optional]
+**wckeys** | [**List[V0043Wckey]**](V0043Wckey.md) |  | [optional]
+**associations** | [**List[V0043Assoc]**](V0043Assoc.md) |  | [optional]
+**instances** | [**List[V0043Instance]**](V0043Instance.md) |  | [optional]
+**meta** | [**V0043OpenapiMeta**](V0043OpenapiMeta.md) |  | [optional]
+**errors** | [**List[V0043OpenapiError]**](V0043OpenapiError.md) |  | [optional]
+**warnings** | [**List[V0043OpenapiWarning]**](V0043OpenapiWarning.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0043_openapi_slurmdbd_config_resp import V0043OpenapiSlurmdbdConfigResp
+from openapi_slurm.models.v0043_openapi_slurmdbd_config_resp import V0043OpenapiSlurmdbdConfigResp
 
 # TODO update the JSON string below
 json = "{}"

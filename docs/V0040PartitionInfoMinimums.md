@@ -5,12 +5,12 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**nodes** | **int** | MinNodes | [optional] 
+**nodes** | **int** | MinNodes | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_partition_info_minimums import V0040PartitionInfoMinimums
+from openapi_slurm.models.v0040_partition_info_minimums import V0040PartitionInfoMinimums
 
 # TODO update the JSON string below
 json = "{}"

@@ -5,14 +5,14 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**user** | **str** | User ID | [optional] 
-**count** | **int** | Number of RPCs processed | [optional] 
-**time** | [**V0040StatsRpcTime**](V0040StatsRpcTime.md) |  | [optional] 
+**user** | **str** | User ID | [optional]
+**count** | **int** | Number of RPCs processed | [optional]
+**time** | [**V0040StatsRpcTime**](V0040StatsRpcTime.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_slurmdbd_stats_resp_statistics_users_inner import V0041OpenapiSlurmdbdStatsRespStatisticsUsersInner
+from openapi_slurm.models.v0041_openapi_slurmdbd_stats_resp_statistics_users_inner import V0041OpenapiSlurmdbdStatsRespStatisticsUsersInner
 
 # TODO update the JSON string below
 json = "{}"

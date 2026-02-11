@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**description** | **str** | Long form warning description | [optional] 
-**source** | **str** | Source of warning or where warning was first detected | [optional] 
+**description** | **str** | Long form warning description | [optional]
+**source** | **str** | Source of warning or where warning was first detected | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_shares_resp_warnings_inner import V0041OpenapiSharesRespWarningsInner
+from openapi_slurm.models.v0041_openapi_shares_resp_warnings_inner import V0041OpenapiSharesRespWarningsInner
 
 # TODO update the JSON string below
 json = "{}"

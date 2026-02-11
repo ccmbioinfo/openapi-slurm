@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0043_kill_jobs_resp_job import V0043KillJobsRespJob
+from openapi_slurm.models.v0043_kill_jobs_resp_job import V0043KillJobsRespJob
 
 class TestV0043KillJobsRespJob(unittest.TestCase):
     """V0043KillJobsRespJob unit test stubs"""
@@ -36,24 +36,24 @@ class TestV0043KillJobsRespJob(unittest.TestCase):
         model = V0043KillJobsRespJob()
         if include_optional:
             return V0043KillJobsRespJob(
-                error = openapi_client.models.v0_0_40_kill_jobs_resp_job_error.v0_0_40_kill_jobs_resp_job_error(
-                    string = '', 
-                    code = 56, 
+                error = openapi_slurm.models.v0_0_40_kill_jobs_resp_job_error.v0_0_40_kill_jobs_resp_job_error(
+                    string = '',
+                    code = 56,
                     message = '', ),
                 step_id = '',
-                job_id = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                job_id = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                federation = openapi_client.models.v0_0_40_kill_jobs_resp_job_federation.v0_0_40_kill_jobs_resp_job_federation(
+                federation = openapi_slurm.models.v0_0_40_kill_jobs_resp_job_federation.v0_0_40_kill_jobs_resp_job_federation(
                     sibling = '', )
             )
         else:
             return V0043KillJobsRespJob(
                 step_id = '',
-                job_id = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                job_id = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
         )
         """

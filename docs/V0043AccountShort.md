@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**description** | **str** | Arbitrary string describing the account | [optional] 
-**organization** | **str** | Organization to which the account belongs | [optional] 
+**description** | **str** | Arbitrary string describing the account | [optional]
+**organization** | **str** | Organization to which the account belongs | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0043_account_short import V0043AccountShort
+from openapi_slurm.models.v0043_account_short import V0043AccountShort
 
 # TODO update the JSON string below
 json = "{}"

@@ -20,17 +20,17 @@ import json
 
 from pydantic import BaseModel, ConfigDict
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0043_account import V0043Account
-from openapi_client.models.v0043_assoc import V0043Assoc
-from openapi_client.models.v0043_cluster_rec import V0043ClusterRec
-from openapi_client.models.v0043_instance import V0043Instance
-from openapi_client.models.v0043_openapi_error import V0043OpenapiError
-from openapi_client.models.v0043_openapi_meta import V0043OpenapiMeta
-from openapi_client.models.v0043_openapi_warning import V0043OpenapiWarning
-from openapi_client.models.v0043_qos import V0043Qos
-from openapi_client.models.v0043_tres import V0043Tres
-from openapi_client.models.v0043_user import V0043User
-from openapi_client.models.v0043_wckey import V0043Wckey
+from openapi_slurm.models.v0043_account import V0043Account
+from openapi_slurm.models.v0043_assoc import V0043Assoc
+from openapi_slurm.models.v0043_cluster_rec import V0043ClusterRec
+from openapi_slurm.models.v0043_instance import V0043Instance
+from openapi_slurm.models.v0043_openapi_error import V0043OpenapiError
+from openapi_slurm.models.v0043_openapi_meta import V0043OpenapiMeta
+from openapi_slurm.models.v0043_openapi_warning import V0043OpenapiWarning
+from openapi_slurm.models.v0043_qos import V0043Qos
+from openapi_slurm.models.v0043_tres import V0043Tres
+from openapi_slurm.models.v0043_user import V0043User
+from openapi_slurm.models.v0043_wckey import V0043Wckey
 from typing import Optional, Set
 from typing_extensions import Self
 

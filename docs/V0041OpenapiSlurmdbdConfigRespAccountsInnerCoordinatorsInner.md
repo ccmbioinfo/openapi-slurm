@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**name** | **str** | User name | 
-**direct** | **bool** | Indicates whether the coordinator was directly assigned to this account | [optional] 
+**name** | **str** | User name |
+**direct** | **bool** | Indicates whether the coordinator was directly assigned to this account | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_accounts_inner_coordinators_inner import V0041OpenapiSlurmdbdConfigRespAccountsInnerCoordinatorsInner
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_accounts_inner_coordinators_inner import V0041OpenapiSlurmdbdConfigRespAccountsInnerCoordinatorsInner
 
 # TODO update the JSON string below
 json = "{}"

@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**partition** | **str** | Partition name | [optional] 
-**priority** | **int** | Prospective job priority if it runs in this partition | [optional] 
+**partition** | **str** | Partition name | [optional]
+**priority** | **int** | Prospective job priority if it runs in this partition | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0042_part_prio import V0042PartPrio
+from openapi_slurm.models.v0042_part_prio import V0042PartPrio
 
 # TODO update the JSON string below
 json = "{}"

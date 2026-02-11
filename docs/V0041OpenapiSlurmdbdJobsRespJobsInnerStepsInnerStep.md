@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**id** | **str** | Step ID | [optional] 
-**name** | **str** | Step name | [optional] 
+**id** | **str** | Step ID | [optional]
+**name** | **str** | Step name | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_step import V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerStep
+from openapi_slurm.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_step import V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerStep
 
 # TODO update the JSON string below
 json = "{}"

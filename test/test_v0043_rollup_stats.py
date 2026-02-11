@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0043_rollup_stats import V0043RollupStats
+from openapi_slurm.models.v0043_rollup_stats import V0043RollupStats
 
 class TestV0043RollupStats(unittest.TestCase):
     """V0043RollupStats unit test stubs"""
@@ -36,26 +36,26 @@ class TestV0043RollupStats(unittest.TestCase):
         model = V0043RollupStats()
         if include_optional:
             return V0043RollupStats(
-                hourly = openapi_client.models.v0_0_43_rollup_stats_hourly.v0_0_43_rollup_stats_hourly(
-                    count = 56, 
-                    last_run = 56, 
-                    duration = openapi_client.models.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_hourly_duration.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_hourly_duration(
-                        last = 56, 
-                        max = 56, 
+                hourly = openapi_slurm.models.v0_0_43_rollup_stats_hourly.v0_0_43_rollup_stats_hourly(
+                    count = 56,
+                    last_run = 56,
+                    duration = openapi_slurm.models.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_hourly_duration.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_hourly_duration(
+                        last = 56,
+                        max = 56,
                         time = 56, ), ),
-                daily = openapi_client.models.v0_0_43_rollup_stats_daily.v0_0_43_rollup_stats_daily(
-                    count = 56, 
-                    last_run = 56, 
-                    duration = openapi_client.models.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_daily_duration.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_daily_duration(
-                        last = 56, 
-                        max = 56, 
+                daily = openapi_slurm.models.v0_0_43_rollup_stats_daily.v0_0_43_rollup_stats_daily(
+                    count = 56,
+                    last_run = 56,
+                    duration = openapi_slurm.models.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_daily_duration.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_daily_duration(
+                        last = 56,
+                        max = 56,
                         time = 56, ), ),
-                monthly = openapi_client.models.v0_0_43_rollup_stats_monthly.v0_0_43_rollup_stats_monthly(
-                    count = 56, 
-                    last_run = 56, 
-                    duration = openapi_client.models.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_monthly_duration.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_monthly_duration(
-                        last = 56, 
-                        max = 56, 
+                monthly = openapi_slurm.models.v0_0_43_rollup_stats_monthly.v0_0_43_rollup_stats_monthly(
+                    count = 56,
+                    last_run = 56,
+                    duration = openapi_slurm.models.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_monthly_duration.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_monthly_duration(
+                        last = 56,
+                        max = 56,
                         time = 56, ), )
             )
         else:

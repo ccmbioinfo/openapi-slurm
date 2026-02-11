@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_required import V0041OpenapiSlurmdbdJobsRespJobsInnerRequired
+from openapi_slurm.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_required import V0041OpenapiSlurmdbdJobsRespJobsInnerRequired
 
 class TestV0041OpenapiSlurmdbdJobsRespJobsInnerRequired(unittest.TestCase):
     """V0041OpenapiSlurmdbdJobsRespJobsInnerRequired unit test stubs"""
@@ -37,13 +37,13 @@ class TestV0041OpenapiSlurmdbdJobsRespJobsInnerRequired(unittest.TestCase):
         if include_optional:
             return V0041OpenapiSlurmdbdJobsRespJobsInnerRequired(
                 cpus = 56,
-                memory_per_cpu = openapi_client.models.v0_0_41_job_desc_msg_memory_per_cpu.v0_0_41_job_desc_msg_memory_per_cpu(
-                    set = True, 
-                    infinite = True, 
+                memory_per_cpu = openapi_slurm.models.v0_0_41_job_desc_msg_memory_per_cpu.v0_0_41_job_desc_msg_memory_per_cpu(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                memory_per_node = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_memory_per_node.v0_0_41_openapi_job_info_resp_jobs_inner_memory_per_node(
-                    set = True, 
-                    infinite = True, 
+                memory_per_node = openapi_slurm.models.v0_0_41_openapi_job_info_resp_jobs_inner_memory_per_node.v0_0_41_openapi_job_info_resp_jobs_inner_memory_per_node(
+                    set = True,
+                    infinite = True,
                     number = 56, )
             )
         else:

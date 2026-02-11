@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0042_assoc_shares_obj_wrap_tres import V0042AssocSharesObjWrapTres
+from openapi_slurm.models.v0042_assoc_shares_obj_wrap_tres import V0042AssocSharesObjWrapTres
 
 class TestV0042AssocSharesObjWrapTres(unittest.TestCase):
     """V0042AssocSharesObjWrapTres unit test stubs"""
@@ -37,24 +37,24 @@ class TestV0042AssocSharesObjWrapTres(unittest.TestCase):
         if include_optional:
             return V0042AssocSharesObjWrapTres(
                 run_seconds = [
-                    openapi_client.models.v0/0/42_shares_uint64_tres.v0.0.42_shares_uint64_tres(
-                        name = '', 
-                        value = openapi_client.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
-                            set = True, 
-                            infinite = True, 
+                    openapi_slurm.models.v0/0/42_shares_uint64_tres.v0.0.42_shares_uint64_tres(
+                        name = '',
+                        value = openapi_slurm.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
+                            set = True,
+                            infinite = True,
                             number = 56, ), )
                     ],
                 group_minutes = [
-                    openapi_client.models.v0/0/42_shares_uint64_tres.v0.0.42_shares_uint64_tres(
-                        name = '', 
-                        value = openapi_client.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
-                            set = True, 
-                            infinite = True, 
+                    openapi_slurm.models.v0/0/42_shares_uint64_tres.v0.0.42_shares_uint64_tres(
+                        name = '',
+                        value = openapi_slurm.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
+                            set = True,
+                            infinite = True,
                             number = 56, ), )
                     ],
                 usage = [
-                    openapi_client.models.v0/0/42_shares_float128_tres.v0.0.42_shares_float128_tres(
-                        name = '', 
+                    openapi_slurm.models.v0/0/42_shares_float128_tres.v0.0.42_shares_float128_tres(
+                        name = '',
                         value = 1.337, )
                     ]
             )

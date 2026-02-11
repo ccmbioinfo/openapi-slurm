@@ -5,17 +5,17 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**cluster** | **str** | Cluster name | [optional] 
-**extra** | **str** | Arbitrary string used for node filtering if extra constraints are enabled | [optional] 
-**instance_id** | **str** | Cloud instance ID | [optional] 
-**instance_type** | **str** | Cloud instance type | [optional] 
-**node_name** | **str** | NodeName | [optional] 
-**time** | [**V0040InstanceTime**](V0040InstanceTime.md) |  | [optional] 
+**cluster** | **str** | Cluster name | [optional]
+**extra** | **str** | Arbitrary string used for node filtering if extra constraints are enabled | [optional]
+**instance_id** | **str** | Cloud instance ID | [optional]
+**instance_type** | **str** | Cloud instance type | [optional]
+**node_name** | **str** | NodeName | [optional]
+**time** | [**V0040InstanceTime**](V0040InstanceTime.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0042_instance import V0042Instance
+from openapi_slurm.models.v0042_instance import V0042Instance
 
 # TODO update the JSON string below
 json = "{}"

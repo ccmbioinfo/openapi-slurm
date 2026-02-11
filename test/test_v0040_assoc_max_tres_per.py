@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_assoc_max_tres_per import V0040AssocMaxTresPer
+from openapi_slurm.models.v0040_assoc_max_tres_per import V0040AssocMaxTresPer
 
 class TestV0040AssocMaxTresPer(unittest.TestCase):
     """V0040AssocMaxTresPer unit test stubs"""
@@ -37,17 +37,17 @@ class TestV0040AssocMaxTresPer(unittest.TestCase):
         if include_optional:
             return V0040AssocMaxTresPer(
                 job = [
-                    openapi_client.models.v0/0/40_tres.v0.0.40_tres(
-                        type = '', 
-                        name = '', 
-                        id = 56, 
+                    openapi_slurm.models.v0/0/40_tres.v0.0.40_tres(
+                        type = '',
+                        name = '',
+                        id = 56,
                         count = 56, )
                     ],
                 node = [
-                    openapi_client.models.v0/0/40_tres.v0.0.40_tres(
-                        type = '', 
-                        name = '', 
-                        id = 56, 
+                    openapi_slurm.models.v0/0/40_tres.v0.0.40_tres(
+                        type = '',
+                        name = '',
+                        id = 56,
                         count = 56, )
                     ]
             )

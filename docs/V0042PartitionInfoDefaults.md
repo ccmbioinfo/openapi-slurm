@@ -5,16 +5,16 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**memory_per_cpu** | **int** | DefMemPerCPU or DefMemPerNode | [optional] 
-**partition_memory_per_cpu** | [**V0042Uint64NoValStruct**](V0042Uint64NoValStruct.md) |  | [optional] 
-**partition_memory_per_node** | [**V0042Uint64NoValStruct**](V0042Uint64NoValStruct.md) |  | [optional] 
-**time** | [**V0042Uint32NoValStruct**](V0042Uint32NoValStruct.md) |  | [optional] 
-**job** | **str** | JobDefaults | [optional] 
+**memory_per_cpu** | **int** | DefMemPerCPU or DefMemPerNode | [optional]
+**partition_memory_per_cpu** | [**V0042Uint64NoValStruct**](V0042Uint64NoValStruct.md) |  | [optional]
+**partition_memory_per_node** | [**V0042Uint64NoValStruct**](V0042Uint64NoValStruct.md) |  | [optional]
+**time** | [**V0042Uint32NoValStruct**](V0042Uint32NoValStruct.md) |  | [optional]
+**job** | **str** | JobDefaults | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0042_partition_info_defaults import V0042PartitionInfoDefaults
+from openapi_slurm.models.v0042_partition_info_defaults import V0042PartitionInfoDefaults
 
 # TODO update the JSON string below
 json = "{}"

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0043_part_prio import V0043PartPrio
+from openapi_slurm.models.v0043_part_prio import V0043PartPrio
 
 class TestV0043PartPrio(unittest.TestCase):
     """V0043PartPrio unit test stubs"""

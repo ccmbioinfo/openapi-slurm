@@ -20,11 +20,11 @@ import json
 
 from pydantic import BaseModel, ConfigDict
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0040_openapi_error import V0040OpenapiError
-from openapi_client.models.v0040_openapi_meta import V0040OpenapiMeta
-from openapi_client.models.v0040_openapi_warning import V0040OpenapiWarning
-from openapi_client.models.v0040_user_short import V0040UserShort
-from openapi_client.models.v0040_users_add_cond import V0040UsersAddCond
+from openapi_slurm.models.v0040_openapi_error import V0040OpenapiError
+from openapi_slurm.models.v0040_openapi_meta import V0040OpenapiMeta
+from openapi_slurm.models.v0040_openapi_warning import V0040OpenapiWarning
+from openapi_slurm.models.v0040_user_short import V0040UserShort
+from openapi_slurm.models.v0040_users_add_cond import V0040UsersAddCond
 from typing import Optional, Set
 from typing_extensions import Self
 

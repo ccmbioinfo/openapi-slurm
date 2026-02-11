@@ -5,15 +5,15 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**per** | [**V0043AssocMaxJobsPer**](V0043AssocMaxJobsPer.md) |  | [optional] 
-**active** | [**V0043Uint32NoValStruct**](V0043Uint32NoValStruct.md) |  | [optional] 
-**accruing** | [**V0043Uint32NoValStruct**](V0043Uint32NoValStruct.md) |  | [optional] 
-**total** | [**V0043Uint32NoValStruct**](V0043Uint32NoValStruct.md) |  | [optional] 
+**per** | [**V0043AssocMaxJobsPer**](V0043AssocMaxJobsPer.md) |  | [optional]
+**active** | [**V0043Uint32NoValStruct**](V0043Uint32NoValStruct.md) |  | [optional]
+**accruing** | [**V0043Uint32NoValStruct**](V0043Uint32NoValStruct.md) |  | [optional]
+**total** | [**V0043Uint32NoValStruct**](V0043Uint32NoValStruct.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0043_assoc_max_jobs import V0043AssocMaxJobs
+from openapi_slurm.models.v0043_assoc_max_jobs import V0043AssocMaxJobs
 
 # TODO update the JSON string below
 json = "{}"

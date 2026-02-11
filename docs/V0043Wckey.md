@@ -5,17 +5,17 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**accounting** | [**List[V0043Accounting]**](V0043Accounting.md) |  | [optional] 
-**cluster** | **str** | Cluster name | 
-**id** | **int** | Unique ID for this user-cluster-wckey combination | [optional] 
-**name** | **str** | WCKey name | 
-**user** | **str** | User name | 
-**flags** | **List[str]** | Flags associated with this WCKey | [optional] 
+**accounting** | [**List[V0043Accounting]**](V0043Accounting.md) |  | [optional]
+**cluster** | **str** | Cluster name |
+**id** | **int** | Unique ID for this user-cluster-wckey combination | [optional]
+**name** | **str** | WCKey name |
+**user** | **str** | User name |
+**flags** | **List[str]** | Flags associated with this WCKey | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0043_wckey import V0043Wckey
+from openapi_slurm.models.v0043_wckey import V0043Wckey
 
 # TODO update the JSON string below
 json = "{}"

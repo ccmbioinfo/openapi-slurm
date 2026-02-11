@@ -5,12 +5,12 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**job** | [**List[V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerTresRequestedMaxInner]**](V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerTresRequestedMaxInner.md) | MinTRES | [optional] 
+**job** | [**List[V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerTresRequestedMaxInner]**](V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerTresRequestedMaxInner.md) | MinTRES | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_min_tres_per import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMinTresPer
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_min_tres_per import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMinTresPer
 
 # TODO update the JSON string below
 json = "{}"

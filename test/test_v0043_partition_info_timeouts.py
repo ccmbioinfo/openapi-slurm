@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0043_partition_info_timeouts import V0043PartitionInfoTimeouts
+from openapi_slurm.models.v0043_partition_info_timeouts import V0043PartitionInfoTimeouts
 
 class TestV0043PartitionInfoTimeouts(unittest.TestCase):
     """V0043PartitionInfoTimeouts unit test stubs"""
@@ -36,13 +36,13 @@ class TestV0043PartitionInfoTimeouts(unittest.TestCase):
         model = V0043PartitionInfoTimeouts()
         if include_optional:
             return V0043PartitionInfoTimeouts(
-                resume = openapi_client.models.v0/0/43_uint16_no_val_struct.v0.0.43_uint16_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                resume = openapi_slurm.models.v0/0/43_uint16_no_val_struct.v0.0.43_uint16_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                suspend = openapi_client.models.v0/0/43_uint16_no_val_struct.v0.0.43_uint16_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                suspend = openapi_slurm.models.v0/0/43_uint16_no_val_struct.v0.0.43_uint16_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, )
             )
         else:

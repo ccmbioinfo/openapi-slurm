@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_assoc_max_per import V0040AssocMaxPer
+from openapi_slurm.models.v0040_assoc_max_per import V0040AssocMaxPer
 
 class TestV0040AssocMaxPer(unittest.TestCase):
     """V0040AssocMaxPer unit test stubs"""
@@ -36,10 +36,10 @@ class TestV0040AssocMaxPer(unittest.TestCase):
         model = V0040AssocMaxPer()
         if include_optional:
             return V0040AssocMaxPer(
-                account = openapi_client.models.v0_0_40_assoc_max_per_account.v0_0_40_assoc_max_per_account(
-                    wall_clock = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
-                        set = True, 
-                        infinite = True, 
+                account = openapi_slurm.models.v0_0_40_assoc_max_per_account.v0_0_40_assoc_max_per_account(
+                    wall_clock = openapi_slurm.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                        set = True,
+                        infinite = True,
                         number = 56, ), )
             )
         else:

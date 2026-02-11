@@ -5,16 +5,16 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**nodes** | [**List[V0043Node]**](V0043Node.md) |  | 
-**last_update** | [**V0043Uint64NoValStruct**](V0043Uint64NoValStruct.md) |  | 
-**meta** | [**V0043OpenapiMeta**](V0043OpenapiMeta.md) |  | [optional] 
-**errors** | [**List[V0043OpenapiError]**](V0043OpenapiError.md) |  | [optional] 
-**warnings** | [**List[V0043OpenapiWarning]**](V0043OpenapiWarning.md) |  | [optional] 
+**nodes** | [**List[V0043Node]**](V0043Node.md) |  |
+**last_update** | [**V0043Uint64NoValStruct**](V0043Uint64NoValStruct.md) |  |
+**meta** | [**V0043OpenapiMeta**](V0043OpenapiMeta.md) |  | [optional]
+**errors** | [**List[V0043OpenapiError]**](V0043OpenapiError.md) |  | [optional]
+**warnings** | [**List[V0043OpenapiWarning]**](V0043OpenapiWarning.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0043_openapi_nodes_resp import V0043OpenapiNodesResp
+from openapi_slurm.models.v0043_openapi_nodes_resp import V0043OpenapiNodesResp
 
 # TODO update the JSON string below
 json = "{}"

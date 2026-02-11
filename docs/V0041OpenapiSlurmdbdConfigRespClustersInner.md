@@ -5,19 +5,19 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**controller** | [**V0040ClusterRecController**](V0040ClusterRecController.md) |  | [optional] 
-**flags** | **List[str]** | Flags | [optional] 
-**name** | **str** | ClusterName | [optional] 
-**nodes** | **str** | Node names | [optional] 
-**select_plugin** | **str** |  | [optional] 
-**associations** | [**V0041OpenapiSlurmdbdConfigRespClustersInnerAssociations**](V0041OpenapiSlurmdbdConfigRespClustersInnerAssociations.md) |  | [optional] 
-**rpc_version** | **int** | RPC version used in the cluster | [optional] 
-**tres** | [**List[V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerTresRequestedMaxInner]**](V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerTresRequestedMaxInner.md) | Trackable resources | [optional] 
+**controller** | [**V0040ClusterRecController**](V0040ClusterRecController.md) |  | [optional]
+**flags** | **List[str]** | Flags | [optional]
+**name** | **str** | ClusterName | [optional]
+**nodes** | **str** | Node names | [optional]
+**select_plugin** | **str** |  | [optional]
+**associations** | [**V0041OpenapiSlurmdbdConfigRespClustersInnerAssociations**](V0041OpenapiSlurmdbdConfigRespClustersInnerAssociations.md) |  | [optional]
+**rpc_version** | **int** | RPC version used in the cluster | [optional]
+**tres** | [**List[V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerTresRequestedMaxInner]**](V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerTresRequestedMaxInner.md) | Trackable resources | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_clusters_inner import V0041OpenapiSlurmdbdConfigRespClustersInner
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_clusters_inner import V0041OpenapiSlurmdbdConfigRespClustersInner
 
 # TODO update the JSON string below
 json = "{}"

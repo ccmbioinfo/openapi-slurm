@@ -5,16 +5,16 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**nodes** | **str** | Node(s) allocated to the job | [optional] 
-**allocated_cores** | **int** | Number of allocated cores | [optional] 
-**allocated_cpus** | **int** | Number of allocated CPUs | [optional] 
-**allocated_hosts** | **int** | Number of allocated hosts | [optional] 
-**allocated_nodes** | **List[object]** | job node resources | [optional] 
+**nodes** | **str** | Node(s) allocated to the job | [optional]
+**allocated_cores** | **int** | Number of allocated cores | [optional]
+**allocated_cpus** | **int** | Number of allocated CPUs | [optional]
+**allocated_hosts** | **int** | Number of allocated hosts | [optional]
+**allocated_nodes** | **List[object]** | job node resources | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_job_res import V0040JobRes
+from openapi_slurm.models.v0040_job_res import V0040JobRes
 
 # TODO update the JSON string below
 json = "{}"

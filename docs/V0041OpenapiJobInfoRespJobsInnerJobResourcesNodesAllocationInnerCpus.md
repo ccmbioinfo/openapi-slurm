@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**count** | **int** | Total number of CPUs assigned to job | [optional] 
-**used** | **int** | Total number of CPUs used by job | [optional] 
+**count** | **int** | Total number of CPUs assigned to job | [optional]
+**used** | **int** | Total number of CPUs used by job | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_cpus import V0041OpenapiJobInfoRespJobsInnerJobResourcesNodesAllocationInnerCpus
+from openapi_slurm.models.v0041_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_cpus import V0041OpenapiJobInfoRespJobsInnerJobResourcesNodesAllocationInnerCpus
 
 # TODO update the JSON string below
 json = "{}"

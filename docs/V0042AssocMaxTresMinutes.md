@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**total** | [**List[V0042Tres]**](V0042Tres.md) |  | [optional] 
-**per** | [**V0042QosLimitsMinTresPer**](V0042QosLimitsMinTresPer.md) |  | [optional] 
+**total** | [**List[V0042Tres]**](V0042Tres.md) |  | [optional]
+**per** | [**V0042QosLimitsMinTresPer**](V0042QosLimitsMinTresPer.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0042_assoc_max_tres_minutes import V0042AssocMaxTresMinutes
+from openapi_slurm.models.v0042_assoc_max_tres_minutes import V0042AssocMaxTresMinutes
 
 # TODO update the JSON string below
 json = "{}"

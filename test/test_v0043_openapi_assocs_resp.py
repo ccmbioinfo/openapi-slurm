@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0043_openapi_assocs_resp import V0043OpenapiAssocsResp
+from openapi_slurm.models.v0043_openapi_assocs_resp import V0043OpenapiAssocsResp
 
 class TestV0043OpenapiAssocsResp(unittest.TestCase):
     """V0043OpenapiAssocsResp unit test stubs"""
@@ -37,166 +37,166 @@ class TestV0043OpenapiAssocsResp(unittest.TestCase):
         if include_optional:
             return V0043OpenapiAssocsResp(
                 associations = [
-                    openapi_client.models.v0/0/43_assoc.v0.0.43_assoc(
+                    openapi_slurm.models.v0/0/43_assoc.v0.0.43_assoc(
                         accounting = [
-                            openapi_client.models.v0/0/43_accounting.v0.0.43_accounting(
-                                allocated = openapi_client.models.v0_0_42_accounting_allocated.v0_0_42_accounting_allocated(
-                                    seconds = 56, ), 
-                                id = 56, 
-                                id_alt = 56, 
-                                start = 56, 
-                                tres = openapi_client.models.v0/0/43_tres.v0.0.43_tres(
-                                    type = '', 
-                                    name = '', 
-                                    id = 56, 
+                            openapi_slurm.models.v0/0/43_accounting.v0.0.43_accounting(
+                                allocated = openapi_slurm.models.v0_0_42_accounting_allocated.v0_0_42_accounting_allocated(
+                                    seconds = 56, ),
+                                id = 56,
+                                id_alt = 56,
+                                start = 56,
+                                tres = openapi_slurm.models.v0/0/43_tres.v0.0.43_tres(
+                                    type = '',
+                                    name = '',
+                                    id = 56,
                                     count = 56, ), )
-                            ], 
-                        account = '', 
-                        cluster = '', 
-                        comment = '', 
-                        default = openapi_client.models.v0_0_40_assoc_default.v0_0_40_assoc_default(
-                            qos = '', ), 
+                            ],
+                        account = '',
+                        cluster = '',
+                        comment = '',
+                        default = openapi_slurm.models.v0_0_40_assoc_default.v0_0_40_assoc_default(
+                            qos = '', ),
                         flags = [
                             'DELETED'
-                            ], 
-                        max = openapi_client.models.v0_0_43_assoc_max.v0_0_43_assoc_max(
-                            jobs = openapi_client.models.v0_0_43_assoc_max_jobs.v0_0_43_assoc_max_jobs(
-                                per = openapi_client.models.v0_0_43_assoc_max_jobs_per.v0_0_43_assoc_max_jobs_per(
-                                    count = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                                        set = True, 
-                                        infinite = True, 
-                                        number = 56, ), 
-                                    accruing = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                                        set = True, 
-                                        infinite = True, 
-                                        number = 56, ), 
-                                    submitted = , 
-                                    wall_clock = , ), 
-                                active = , 
-                                accruing = , 
-                                total = , ), 
-                            tres = openapi_client.models.v0_0_43_assoc_max_tres.v0_0_43_assoc_max_tres(
-                                group = openapi_client.models.v0_0_43_assoc_max_tres_group.v0_0_43_assoc_max_tres_group(
+                            ],
+                        max = openapi_slurm.models.v0_0_43_assoc_max.v0_0_43_assoc_max(
+                            jobs = openapi_slurm.models.v0_0_43_assoc_max_jobs.v0_0_43_assoc_max_jobs(
+                                per = openapi_slurm.models.v0_0_43_assoc_max_jobs_per.v0_0_43_assoc_max_jobs_per(
+                                    count = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                                        set = True,
+                                        infinite = True,
+                                        number = 56, ),
+                                    accruing = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                                        set = True,
+                                        infinite = True,
+                                        number = 56, ),
+                                    submitted = ,
+                                    wall_clock = , ),
+                                active = ,
+                                accruing = ,
+                                total = , ),
+                            tres = openapi_slurm.models.v0_0_43_assoc_max_tres.v0_0_43_assoc_max_tres(
+                                group = openapi_slurm.models.v0_0_43_assoc_max_tres_group.v0_0_43_assoc_max_tres_group(
                                     minutes = [
-                                        openapi_client.models.v0/0/43_tres.v0.0.43_tres(
-                                            type = '', 
-                                            name = '', 
+                                        openapi_slurm.models.v0/0/43_tres.v0.0.43_tres(
+                                            type = '',
+                                            name = '',
                                             id = 56, )
-                                        ], ), 
-                                minutes = openapi_client.models.v0_0_43_assoc_max_tres_minutes.v0_0_43_assoc_max_tres_minutes(), ), 
-                            per = openapi_client.models.v0_0_43_assoc_max_per.v0_0_43_assoc_max_per(
-                                account = openapi_client.models.v0_0_43_assoc_max_per_account.v0_0_43_assoc_max_per_account(), ), ), 
-                        id = 56, 
-                        is_default = True, 
-                        lineage = '', 
-                        min = openapi_client.models.v0_0_43_assoc_min.v0_0_43_assoc_min(
-                            priority_threshold = , ), 
-                        parent_account = '', 
-                        partition = '', 
-                        priority = , 
+                                        ], ),
+                                minutes = openapi_slurm.models.v0_0_43_assoc_max_tres_minutes.v0_0_43_assoc_max_tres_minutes(), ),
+                            per = openapi_slurm.models.v0_0_43_assoc_max_per.v0_0_43_assoc_max_per(
+                                account = openapi_slurm.models.v0_0_43_assoc_max_per_account.v0_0_43_assoc_max_per_account(), ), ),
+                        id = 56,
+                        is_default = True,
+                        lineage = '',
+                        min = openapi_slurm.models.v0_0_43_assoc_min.v0_0_43_assoc_min(
+                            priority_threshold = , ),
+                        parent_account = '',
+                        partition = '',
+                        priority = ,
                         qos = [
                             ''
-                            ], 
-                        shares_raw = 56, 
+                            ],
+                        shares_raw = 56,
                         user = '', )
                     ],
-                meta = openapi_client.models.v0/0/43_openapi_meta.v0.0.43_openapi_meta(
-                    plugin = openapi_client.models.v0_0_40_openapi_meta_plugin.v0_0_40_openapi_meta_plugin(
-                        type = '', 
-                        name = '', 
-                        data_parser = '', 
-                        accounting_storage = '', ), 
-                    client = openapi_client.models.v0_0_40_openapi_meta_client.v0_0_40_openapi_meta_client(
-                        source = '', 
-                        user = '', 
-                        group = '', ), 
+                meta = openapi_slurm.models.v0/0/43_openapi_meta.v0.0.43_openapi_meta(
+                    plugin = openapi_slurm.models.v0_0_40_openapi_meta_plugin.v0_0_40_openapi_meta_plugin(
+                        type = '',
+                        name = '',
+                        data_parser = '',
+                        accounting_storage = '', ),
+                    client = openapi_slurm.models.v0_0_40_openapi_meta_client.v0_0_40_openapi_meta_client(
+                        source = '',
+                        user = '',
+                        group = '', ),
                     command = [
                         ''
-                        ], 
-                    slurm = openapi_client.models.v0_0_40_openapi_meta_slurm.v0_0_40_openapi_meta_slurm(
-                        version = openapi_client.models.v0_0_40_openapi_meta_slurm_version.v0_0_40_openapi_meta_slurm_version(
-                            major = '', 
-                            micro = '', 
-                            minor = '', ), 
-                        release = '', 
+                        ],
+                    slurm = openapi_slurm.models.v0_0_40_openapi_meta_slurm.v0_0_40_openapi_meta_slurm(
+                        version = openapi_slurm.models.v0_0_40_openapi_meta_slurm_version.v0_0_40_openapi_meta_slurm_version(
+                            major = '',
+                            micro = '',
+                            minor = '', ),
+                        release = '',
                         cluster = '', ), ),
                 errors = [
-                    openapi_client.models.v0/0/43_openapi_error.v0.0.43_openapi_error(
-                        description = '', 
-                        error_number = 56, 
-                        error = '', 
+                    openapi_slurm.models.v0/0/43_openapi_error.v0.0.43_openapi_error(
+                        description = '',
+                        error_number = 56,
+                        error = '',
                         source = '', )
                     ],
                 warnings = [
-                    openapi_client.models.v0/0/43_openapi_warning.v0.0.43_openapi_warning(
-                        description = '', 
+                    openapi_slurm.models.v0/0/43_openapi_warning.v0.0.43_openapi_warning(
+                        description = '',
                         source = '', )
                     ]
             )
         else:
             return V0043OpenapiAssocsResp(
                 associations = [
-                    openapi_client.models.v0/0/43_assoc.v0.0.43_assoc(
+                    openapi_slurm.models.v0/0/43_assoc.v0.0.43_assoc(
                         accounting = [
-                            openapi_client.models.v0/0/43_accounting.v0.0.43_accounting(
-                                allocated = openapi_client.models.v0_0_42_accounting_allocated.v0_0_42_accounting_allocated(
-                                    seconds = 56, ), 
-                                id = 56, 
-                                id_alt = 56, 
-                                start = 56, 
-                                tres = openapi_client.models.v0/0/43_tres.v0.0.43_tres(
-                                    type = '', 
-                                    name = '', 
-                                    id = 56, 
+                            openapi_slurm.models.v0/0/43_accounting.v0.0.43_accounting(
+                                allocated = openapi_slurm.models.v0_0_42_accounting_allocated.v0_0_42_accounting_allocated(
+                                    seconds = 56, ),
+                                id = 56,
+                                id_alt = 56,
+                                start = 56,
+                                tres = openapi_slurm.models.v0/0/43_tres.v0.0.43_tres(
+                                    type = '',
+                                    name = '',
+                                    id = 56,
                                     count = 56, ), )
-                            ], 
-                        account = '', 
-                        cluster = '', 
-                        comment = '', 
-                        default = openapi_client.models.v0_0_40_assoc_default.v0_0_40_assoc_default(
-                            qos = '', ), 
+                            ],
+                        account = '',
+                        cluster = '',
+                        comment = '',
+                        default = openapi_slurm.models.v0_0_40_assoc_default.v0_0_40_assoc_default(
+                            qos = '', ),
                         flags = [
                             'DELETED'
-                            ], 
-                        max = openapi_client.models.v0_0_43_assoc_max.v0_0_43_assoc_max(
-                            jobs = openapi_client.models.v0_0_43_assoc_max_jobs.v0_0_43_assoc_max_jobs(
-                                per = openapi_client.models.v0_0_43_assoc_max_jobs_per.v0_0_43_assoc_max_jobs_per(
-                                    count = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                                        set = True, 
-                                        infinite = True, 
-                                        number = 56, ), 
-                                    accruing = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                                        set = True, 
-                                        infinite = True, 
-                                        number = 56, ), 
-                                    submitted = , 
-                                    wall_clock = , ), 
-                                active = , 
-                                accruing = , 
-                                total = , ), 
-                            tres = openapi_client.models.v0_0_43_assoc_max_tres.v0_0_43_assoc_max_tres(
-                                group = openapi_client.models.v0_0_43_assoc_max_tres_group.v0_0_43_assoc_max_tres_group(
+                            ],
+                        max = openapi_slurm.models.v0_0_43_assoc_max.v0_0_43_assoc_max(
+                            jobs = openapi_slurm.models.v0_0_43_assoc_max_jobs.v0_0_43_assoc_max_jobs(
+                                per = openapi_slurm.models.v0_0_43_assoc_max_jobs_per.v0_0_43_assoc_max_jobs_per(
+                                    count = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                                        set = True,
+                                        infinite = True,
+                                        number = 56, ),
+                                    accruing = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                                        set = True,
+                                        infinite = True,
+                                        number = 56, ),
+                                    submitted = ,
+                                    wall_clock = , ),
+                                active = ,
+                                accruing = ,
+                                total = , ),
+                            tres = openapi_slurm.models.v0_0_43_assoc_max_tres.v0_0_43_assoc_max_tres(
+                                group = openapi_slurm.models.v0_0_43_assoc_max_tres_group.v0_0_43_assoc_max_tres_group(
                                     minutes = [
-                                        openapi_client.models.v0/0/43_tres.v0.0.43_tres(
-                                            type = '', 
-                                            name = '', 
+                                        openapi_slurm.models.v0/0/43_tres.v0.0.43_tres(
+                                            type = '',
+                                            name = '',
                                             id = 56, )
-                                        ], ), 
-                                minutes = openapi_client.models.v0_0_43_assoc_max_tres_minutes.v0_0_43_assoc_max_tres_minutes(), ), 
-                            per = openapi_client.models.v0_0_43_assoc_max_per.v0_0_43_assoc_max_per(
-                                account = openapi_client.models.v0_0_43_assoc_max_per_account.v0_0_43_assoc_max_per_account(), ), ), 
-                        id = 56, 
-                        is_default = True, 
-                        lineage = '', 
-                        min = openapi_client.models.v0_0_43_assoc_min.v0_0_43_assoc_min(
-                            priority_threshold = , ), 
-                        parent_account = '', 
-                        partition = '', 
-                        priority = , 
+                                        ], ),
+                                minutes = openapi_slurm.models.v0_0_43_assoc_max_tres_minutes.v0_0_43_assoc_max_tres_minutes(), ),
+                            per = openapi_slurm.models.v0_0_43_assoc_max_per.v0_0_43_assoc_max_per(
+                                account = openapi_slurm.models.v0_0_43_assoc_max_per_account.v0_0_43_assoc_max_per_account(), ), ),
+                        id = 56,
+                        is_default = True,
+                        lineage = '',
+                        min = openapi_slurm.models.v0_0_43_assoc_min.v0_0_43_assoc_min(
+                            priority_threshold = , ),
+                        parent_account = '',
+                        partition = '',
+                        priority = ,
                         qos = [
                             ''
-                            ], 
-                        shares_raw = 56, 
+                            ],
+                        shares_raw = 56,
                         user = '', )
                     ],
         )

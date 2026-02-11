@@ -5,16 +5,16 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**count** | **int** | Number of allocated nodes | [optional] 
-**select_type** | **List[str]** | Node scheduling selection method | [optional] 
-**list** | **str** | Node(s) allocated to the job | [optional] 
-**whole** | **bool** | Whether whole nodes were allocated | [optional] 
-**allocation** | [**List[V0041OpenapiJobInfoRespJobsInnerJobResourcesNodesAllocationInner]**](V0041OpenapiJobInfoRespJobsInnerJobResourcesNodesAllocationInner.md) | Allocated node resources | [optional] 
+**count** | **int** | Number of allocated nodes | [optional]
+**select_type** | **List[str]** | Node scheduling selection method | [optional]
+**list** | **str** | Node(s) allocated to the job | [optional]
+**whole** | **bool** | Whether whole nodes were allocated | [optional]
+**allocation** | [**List[V0041OpenapiJobInfoRespJobsInnerJobResourcesNodesAllocationInner]**](V0041OpenapiJobInfoRespJobsInnerJobResourcesNodesAllocationInner.md) | Allocated node resources | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_job_info_resp_jobs_inner_job_resources_nodes import V0041OpenapiJobInfoRespJobsInnerJobResourcesNodes
+from openapi_slurm.models.v0041_openapi_job_info_resp_jobs_inner_job_resources_nodes import V0041OpenapiJobInfoRespJobsInnerJobResourcesNodes
 
 # TODO update the JSON string below
 json = "{}"

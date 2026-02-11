@@ -20,17 +20,17 @@ import json
 
 from pydantic import BaseModel, ConfigDict
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0040_account import V0040Account
-from openapi_client.models.v0040_assoc import V0040Assoc
-from openapi_client.models.v0040_cluster_rec import V0040ClusterRec
-from openapi_client.models.v0040_instance import V0040Instance
-from openapi_client.models.v0040_openapi_error import V0040OpenapiError
-from openapi_client.models.v0040_openapi_meta import V0040OpenapiMeta
-from openapi_client.models.v0040_openapi_warning import V0040OpenapiWarning
-from openapi_client.models.v0040_qos import V0040Qos
-from openapi_client.models.v0040_tres import V0040Tres
-from openapi_client.models.v0040_user import V0040User
-from openapi_client.models.v0040_wckey import V0040Wckey
+from openapi_slurm.models.v0040_account import V0040Account
+from openapi_slurm.models.v0040_assoc import V0040Assoc
+from openapi_slurm.models.v0040_cluster_rec import V0040ClusterRec
+from openapi_slurm.models.v0040_instance import V0040Instance
+from openapi_slurm.models.v0040_openapi_error import V0040OpenapiError
+from openapi_slurm.models.v0040_openapi_meta import V0040OpenapiMeta
+from openapi_slurm.models.v0040_openapi_warning import V0040OpenapiWarning
+from openapi_slurm.models.v0040_qos import V0040Qos
+from openapi_slurm.models.v0040_tres import V0040Tres
+from openapi_slurm.models.v0040_user import V0040User
+from openapi_slurm.models.v0040_wckey import V0040Wckey
 from typing import Optional, Set
 from typing_extensions import Self
 

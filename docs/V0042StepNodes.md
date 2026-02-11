@@ -5,14 +5,14 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**count** | **int** | Number of nodes in the job step | [optional] 
-**range** | **str** | Node(s) allocated to the job step | [optional] 
-**list** | **List[str]** |  | [optional] 
+**count** | **int** | Number of nodes in the job step | [optional]
+**range** | **str** | Node(s) allocated to the job step | [optional]
+**list** | **List[str]** |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0042_step_nodes import V0042StepNodes
+from openapi_slurm.models.v0042_step_nodes import V0042StepNodes
 
 # TODO update the JSON string below
 json = "{}"

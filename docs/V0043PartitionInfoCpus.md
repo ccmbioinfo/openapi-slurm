@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**task_binding** | **int** | CpuBind - Default method controlling how tasks are bound to allocated resources | [optional] 
-**total** | **int** | TotalCPUs - Number of CPUs available in this partition | [optional] 
+**task_binding** | **int** | CpuBind - Default method controlling how tasks are bound to allocated resources | [optional]
+**total** | **int** | TotalCPUs - Number of CPUs available in this partition | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0043_partition_info_cpus import V0043PartitionInfoCpus
+from openapi_slurm.models.v0043_partition_info_cpus import V0043PartitionInfoCpus
 
 # TODO update the JSON string below
 json = "{}"

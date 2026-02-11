@@ -5,17 +5,17 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**end_job_queue** | **int** | Reached end of queue | [optional] 
-**bf_max_job_start** | **int** | Reached number of jobs allowed to start | [optional] 
-**bf_max_job_test** | **int** | Reached number of jobs allowed to be tested | [optional] 
-**bf_max_time** | **int** | Reached maximum allowed scheduler time | [optional] 
-**bf_node_space_size** | **int** | Reached table size limit | [optional] 
-**state_changed** | **int** | System state changed | [optional] 
+**end_job_queue** | **int** | Reached end of queue | [optional]
+**bf_max_job_start** | **int** | Reached number of jobs allowed to start | [optional]
+**bf_max_job_test** | **int** | Reached number of jobs allowed to be tested | [optional]
+**bf_max_time** | **int** | Reached maximum allowed scheduler time | [optional]
+**bf_node_space_size** | **int** | Reached table size limit | [optional]
+**state_changed** | **int** | System state changed | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_bf_exit_fields import V0040BfExitFields
+from openapi_slurm.models.v0040_bf_exit_fields import V0040BfExitFields
 
 # TODO update the JSON string below
 json = "{}"

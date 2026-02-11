@@ -5,14 +5,14 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**rpc** | **str** | RPC type | [optional] 
-**count** | **int** | Number of RPCs processed | [optional] 
-**time** | [**V0040StatsRpcTime**](V0040StatsRpcTime.md) |  | [optional] 
+**rpc** | **str** | RPC type | [optional]
+**count** | **int** | Number of RPCs processed | [optional]
+**time** | [**V0040StatsRpcTime**](V0040StatsRpcTime.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0043_stats_rpc import V0043StatsRpc
+from openapi_slurm.models.v0043_stats_rpc import V0043StatsRpc
 
 # TODO update the JSON string below
 json = "{}"

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0043_update_node_msg import V0043UpdateNodeMsg
+from openapi_slurm.models.v0043_update_node_msg import V0043UpdateNodeMsg
 
 class TestV0043UpdateNodeMsg(unittest.TestCase):
     """V0043UpdateNodeMsg unit test stubs"""
@@ -60,14 +60,14 @@ class TestV0043UpdateNodeMsg(unittest.TestCase):
                     ],
                 reason = '',
                 reason_uid = '',
-                resume_after = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                resume_after = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
                 topology_str = '',
-                weight = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                weight = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, )
             )
         else:

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0043_qos_limits_max import V0043QosLimitsMax
+from openapi_slurm.models.v0043_qos_limits_max import V0043QosLimitsMax
 
 class TestV0043QosLimitsMax(unittest.TestCase):
     """V0043QosLimitsMax unit test stubs"""
@@ -36,73 +36,73 @@ class TestV0043QosLimitsMax(unittest.TestCase):
         model = V0043QosLimitsMax()
         if include_optional:
             return V0043QosLimitsMax(
-                active_jobs = openapi_client.models.v0_0_43_qos_limits_max_active_jobs.v0_0_43_qos_limits_max_active_jobs(
-                    accruing = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                        set = True, 
-                        infinite = True, 
-                        number = 56, ), 
-                    count = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                        set = True, 
-                        infinite = True, 
+                active_jobs = openapi_slurm.models.v0_0_43_qos_limits_max_active_jobs.v0_0_43_qos_limits_max_active_jobs(
+                    accruing = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                        set = True,
+                        infinite = True,
+                        number = 56, ),
+                    count = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                        set = True,
+                        infinite = True,
                         number = 56, ), ),
-                jobs = openapi_client.models.v0_0_43_qos_limits_max_jobs.v0_0_43_qos_limits_max_jobs(
-                    count = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                        set = True, 
-                        infinite = True, 
-                        number = 56, ), 
-                    active_jobs = openapi_client.models.v0_0_43_qos_limits_max_jobs_active_jobs.v0_0_43_qos_limits_max_jobs_active_jobs(
-                        per = openapi_client.models.v0_0_43_qos_limits_max_jobs_active_jobs_per.v0_0_43_qos_limits_max_jobs_active_jobs_per(
-                            account = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                                set = True, 
-                                infinite = True, 
-                                number = 56, ), 
-                            user = , ), ), 
-                    per = openapi_client.models.v0_0_43_qos_limits_max_jobs_active_jobs_per.v0_0_43_qos_limits_max_jobs_active_jobs_per(), ),
-                tres = openapi_client.models.v0_0_43_qos_limits_max_tres.v0_0_43_qos_limits_max_tres(
+                jobs = openapi_slurm.models.v0_0_43_qos_limits_max_jobs.v0_0_43_qos_limits_max_jobs(
+                    count = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                        set = True,
+                        infinite = True,
+                        number = 56, ),
+                    active_jobs = openapi_slurm.models.v0_0_43_qos_limits_max_jobs_active_jobs.v0_0_43_qos_limits_max_jobs_active_jobs(
+                        per = openapi_slurm.models.v0_0_43_qos_limits_max_jobs_active_jobs_per.v0_0_43_qos_limits_max_jobs_active_jobs_per(
+                            account = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                                set = True,
+                                infinite = True,
+                                number = 56, ),
+                            user = , ), ),
+                    per = openapi_slurm.models.v0_0_43_qos_limits_max_jobs_active_jobs_per.v0_0_43_qos_limits_max_jobs_active_jobs_per(), ),
+                tres = openapi_slurm.models.v0_0_43_qos_limits_max_tres.v0_0_43_qos_limits_max_tres(
                     total = [
-                        openapi_client.models.v0/0/43_tres.v0.0.43_tres(
-                            type = '', 
-                            name = '', 
-                            id = 56, 
+                        openapi_slurm.models.v0/0/43_tres.v0.0.43_tres(
+                            type = '',
+                            name = '',
+                            id = 56,
                             count = 56, )
-                        ], 
-                    minutes = openapi_client.models.v0_0_43_qos_limits_max_tres_minutes.v0_0_43_qos_limits_max_tres_minutes(
+                        ],
+                    minutes = openapi_slurm.models.v0_0_43_qos_limits_max_tres_minutes.v0_0_43_qos_limits_max_tres_minutes(
                         total = [
-                            openapi_client.models.v0/0/43_tres.v0.0.43_tres(
-                                type = '', 
-                                name = '', 
-                                id = 56, 
+                            openapi_slurm.models.v0/0/43_tres.v0.0.43_tres(
+                                type = '',
+                                name = '',
+                                id = 56,
                                 count = 56, )
-                            ], 
-                        per = openapi_client.models.v0_0_43_qos_limits_max_tres_minutes_per.v0_0_43_qos_limits_max_tres_minutes_per(
-                            qos = , 
-                            job = , 
-                            account = , 
-                            user = , ), ), 
-                    per = openapi_client.models.v0_0_43_qos_limits_max_tres_per.v0_0_43_qos_limits_max_tres_per(
-                        account = , 
-                        job = , 
-                        node = , 
+                            ],
+                        per = openapi_slurm.models.v0_0_43_qos_limits_max_tres_minutes_per.v0_0_43_qos_limits_max_tres_minutes_per(
+                            qos = ,
+                            job = ,
+                            account = ,
+                            user = , ), ),
+                    per = openapi_slurm.models.v0_0_43_qos_limits_max_tres_per.v0_0_43_qos_limits_max_tres_per(
+                        account = ,
+                        job = ,
+                        node = ,
                         user = , ), ),
-                wall_clock = openapi_client.models.v0_0_43_qos_limits_max_wall_clock.v0_0_43_qos_limits_max_wall_clock(
-                    per = openapi_client.models.v0_0_43_qos_limits_max_wall_clock_per.v0_0_43_qos_limits_max_wall_clock_per(
-                        qos = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                            set = True, 
-                            infinite = True, 
-                            number = 56, ), 
-                        job = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                            set = True, 
-                            infinite = True, 
+                wall_clock = openapi_slurm.models.v0_0_43_qos_limits_max_wall_clock.v0_0_43_qos_limits_max_wall_clock(
+                    per = openapi_slurm.models.v0_0_43_qos_limits_max_wall_clock_per.v0_0_43_qos_limits_max_wall_clock_per(
+                        qos = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                            set = True,
+                            infinite = True,
+                            number = 56, ),
+                        job = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                            set = True,
+                            infinite = True,
                             number = 56, ), ), ),
-                accruing = openapi_client.models.v0_0_43_qos_limits_max_jobs_active_jobs.v0_0_43_qos_limits_max_jobs_active_jobs(
-                    per = openapi_client.models.v0_0_43_qos_limits_max_jobs_active_jobs_per.v0_0_43_qos_limits_max_jobs_active_jobs_per(
-                        account = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                            set = True, 
-                            infinite = True, 
-                            number = 56, ), 
-                        user = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                            set = True, 
-                            infinite = True, 
+                accruing = openapi_slurm.models.v0_0_43_qos_limits_max_jobs_active_jobs.v0_0_43_qos_limits_max_jobs_active_jobs(
+                    per = openapi_slurm.models.v0_0_43_qos_limits_max_jobs_active_jobs_per.v0_0_43_qos_limits_max_jobs_active_jobs_per(
+                        account = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                            set = True,
+                            infinite = True,
+                            number = 56, ),
+                        user = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                            set = True,
+                            infinite = True,
                             number = 56, ), ), )
             )
         else:

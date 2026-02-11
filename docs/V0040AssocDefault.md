@@ -5,12 +5,12 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**qos** | **str** | Default QOS | [optional] 
+**qos** | **str** | Default QOS | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_assoc_default import V0040AssocDefault
+from openapi_slurm.models.v0040_assoc_default import V0040AssocDefault
 
 # TODO update the JSON string below
 json = "{}"

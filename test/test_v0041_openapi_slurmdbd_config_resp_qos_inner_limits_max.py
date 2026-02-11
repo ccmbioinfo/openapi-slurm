@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_max import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMax
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_max import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMax
 
 class TestV0041OpenapiSlurmdbdConfigRespQosInnerLimitsMax(unittest.TestCase):
     """V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMax unit test stubs"""
@@ -36,76 +36,76 @@ class TestV0041OpenapiSlurmdbdConfigRespQosInnerLimitsMax(unittest.TestCase):
         model = V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMax()
         if include_optional:
             return V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMax(
-                active_jobs = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs(
-                    accruing = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs_accruing.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs_accruing(
-                        set = True, 
-                        infinite = True, 
-                        number = 56, ), 
-                    count = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs_count.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs_count(
-                        set = True, 
-                        infinite = True, 
+                active_jobs = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs(
+                    accruing = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs_accruing.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs_accruing(
+                        set = True,
+                        infinite = True,
+                        number = 56, ),
+                    count = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs_count.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs_count(
+                        set = True,
+                        infinite = True,
                         number = 56, ), ),
-                tres = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_tres.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_tres(
+                tres = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_tres.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_tres(
                     total = [
-                        openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner(
-                            type = '', 
-                            name = '', 
-                            id = 56, 
+                        openapi_slurm.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner(
+                            type = '',
+                            name = '',
+                            id = 56,
                             count = 56, )
-                        ], 
-                    minutes = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_tres_minutes.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_tres_minutes(
-                        per = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_tres_minutes_per.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_tres_minutes_per(
+                        ],
+                    minutes = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_tres_minutes.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_tres_minutes(
+                        per = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_tres_minutes_per.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_tres_minutes_per(
                             qos = [
-                                openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner(
-                                    type = '', 
-                                    name = '', 
-                                    id = 56, 
+                                openapi_slurm.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner(
+                                    type = '',
+                                    name = '',
+                                    id = 56,
                                     count = 56, )
-                                ], 
+                                ],
                             job = [
-                                
-                                ], 
+
+                                ],
                             account = [
-                                
-                                ], 
+
+                                ],
                             user = [
-                                
-                                ], ), ), 
-                    per = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_tres_per.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_tres_per(
+
+                                ], ), ),
+                    per = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_tres_per.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_tres_per(
                         node = [
-                            
+
                             ], ), ),
-                wall_clock = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock(
-                    per = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock_per.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock_per(
-                        qos = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock_per_qos.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock_per_qos(
-                            set = True, 
-                            infinite = True, 
-                            number = 56, ), 
-                        job = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock_per_job.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock_per_job(
-                            set = True, 
-                            infinite = True, 
+                wall_clock = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock(
+                    per = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock_per.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock_per(
+                        qos = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock_per_qos.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock_per_qos(
+                            set = True,
+                            infinite = True,
+                            number = 56, ),
+                        job = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock_per_job.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock_per_job(
+                            set = True,
+                            infinite = True,
                             number = 56, ), ), ),
-                jobs = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs(
-                    active_jobs = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs(
-                        per = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs_per.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs_per(
-                            account = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs_per_account.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs_per_account(
-                                set = True, 
-                                infinite = True, 
-                                number = 56, ), 
-                            user = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs_per_user.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs_per_user(
-                                set = True, 
-                                infinite = True, 
-                                number = 56, ), ), ), 
-                    per = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_per.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_per(), ),
-                accruing = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_accruing.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_accruing(
-                    per = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_accruing_per.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_accruing_per(
-                        account = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_accruing_per_account.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_accruing_per_account(
-                            set = True, 
-                            infinite = True, 
-                            number = 56, ), 
-                        user = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_accruing_per_user.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_accruing_per_user(
-                            set = True, 
-                            infinite = True, 
+                jobs = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs(
+                    active_jobs = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs(
+                        per = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs_per.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs_per(
+                            account = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs_per_account.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs_per_account(
+                                set = True,
+                                infinite = True,
+                                number = 56, ),
+                            user = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs_per_user.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs_per_user(
+                                set = True,
+                                infinite = True,
+                                number = 56, ), ), ),
+                    per = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_per.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_per(), ),
+                accruing = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_accruing.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_accruing(
+                    per = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_accruing_per.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_accruing_per(
+                        account = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_accruing_per_account.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_accruing_per_account(
+                            set = True,
+                            infinite = True,
+                            number = 56, ),
+                        user = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_accruing_per_user.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_accruing_per_user(
+                            set = True,
+                            infinite = True,
                             number = 56, ), ), )
             )
         else:

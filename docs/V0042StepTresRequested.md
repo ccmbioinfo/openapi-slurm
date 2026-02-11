@@ -5,15 +5,15 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**max** | [**List[V0042Tres]**](V0042Tres.md) |  | [optional] 
-**min** | [**List[V0042Tres]**](V0042Tres.md) |  | [optional] 
-**average** | [**List[V0042Tres]**](V0042Tres.md) |  | [optional] 
-**total** | [**List[V0042Tres]**](V0042Tres.md) |  | [optional] 
+**max** | [**List[V0042Tres]**](V0042Tres.md) |  | [optional]
+**min** | [**List[V0042Tres]**](V0042Tres.md) |  | [optional]
+**average** | [**List[V0042Tres]**](V0042Tres.md) |  | [optional]
+**total** | [**List[V0042Tres]**](V0042Tres.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0042_step_tres_requested import V0042StepTresRequested
+from openapi_slurm.models.v0042_step_tres_requested import V0042StepTresRequested
 
 # TODO update the JSON string below
 json = "{}"

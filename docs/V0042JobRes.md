@@ -5,15 +5,15 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**select_type** | **List[str]** |  | 
-**nodes** | [**V0042JobResNodes**](V0042JobResNodes.md) |  | [optional] 
-**cpus** | **int** | Number of allocated CPUs | 
-**threads_per_core** | [**V0042Uint16NoValStruct**](V0042Uint16NoValStruct.md) |  | 
+**select_type** | **List[str]** |  |
+**nodes** | [**V0042JobResNodes**](V0042JobResNodes.md) |  | [optional]
+**cpus** | **int** | Number of allocated CPUs |
+**threads_per_core** | [**V0042Uint16NoValStruct**](V0042Uint16NoValStruct.md) |  |
 
 ## Example
 
 ```python
-from openapi_client.models.v0042_job_res import V0042JobRes
+from openapi_slurm.models.v0042_job_res import V0042JobRes
 
 # TODO update the JSON string below
 json = "{}"

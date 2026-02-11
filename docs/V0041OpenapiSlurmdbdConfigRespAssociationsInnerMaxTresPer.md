@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**job** | [**List[V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerTresRequestedMaxInner]**](V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerTresRequestedMaxInner.md) | MaxTRESPerJob | [optional] 
-**node** | [**List[V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerTresRequestedMaxInner]**](V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerTresRequestedMaxInner.md) | MaxTRESPerNode | [optional] 
+**job** | [**List[V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerTresRequestedMaxInner]**](V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerTresRequestedMaxInner.md) | MaxTRESPerJob | [optional]
+**node** | [**List[V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerTresRequestedMaxInner]**](V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerTresRequestedMaxInner.md) | MaxTRESPerNode | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_associations_inner_max_tres_per import V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxTresPer
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_associations_inner_max_tres_per import V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxTresPer
 
 # TODO update the JSON string below
 json = "{}"

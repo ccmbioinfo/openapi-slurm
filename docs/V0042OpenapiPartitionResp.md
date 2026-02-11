@@ -5,16 +5,16 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**partitions** | [**List[V0042PartitionInfo]**](V0042PartitionInfo.md) |  | 
-**last_update** | [**V0042Uint64NoValStruct**](V0042Uint64NoValStruct.md) |  | 
-**meta** | [**V0042OpenapiMeta**](V0042OpenapiMeta.md) |  | [optional] 
-**errors** | [**List[V0042OpenapiError]**](V0042OpenapiError.md) |  | [optional] 
-**warnings** | [**List[V0042OpenapiWarning]**](V0042OpenapiWarning.md) |  | [optional] 
+**partitions** | [**List[V0042PartitionInfo]**](V0042PartitionInfo.md) |  |
+**last_update** | [**V0042Uint64NoValStruct**](V0042Uint64NoValStruct.md) |  |
+**meta** | [**V0042OpenapiMeta**](V0042OpenapiMeta.md) |  | [optional]
+**errors** | [**List[V0042OpenapiError]**](V0042OpenapiError.md) |  | [optional]
+**warnings** | [**List[V0042OpenapiWarning]**](V0042OpenapiWarning.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0042_openapi_partition_resp import V0042OpenapiPartitionResp
+from openapi_slurm.models.v0042_openapi_partition_resp import V0042OpenapiPartitionResp
 
 # TODO update the JSON string below
 json = "{}"

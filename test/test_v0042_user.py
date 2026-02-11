@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0042_user import V0042User
+from openapi_slurm.models.v0042_user import V0042User
 
 class TestV0042User(unittest.TestCase):
     """V0042User unit test stubs"""
@@ -40,20 +40,20 @@ class TestV0042User(unittest.TestCase):
                     'Not Set'
                     ],
                 associations = [
-                    openapi_client.models.v0/0/42_assoc_short.v0.0.42_assoc_short(
-                        account = '', 
-                        cluster = '', 
-                        partition = '', 
-                        user = '', 
+                    openapi_slurm.models.v0/0/42_assoc_short.v0.0.42_assoc_short(
+                        account = '',
+                        cluster = '',
+                        partition = '',
+                        user = '',
                         id = 56, )
                     ],
                 coordinators = [
-                    openapi_client.models.v0/0/42_coord.v0.0.42_coord(
-                        name = '', 
+                    openapi_slurm.models.v0/0/42_coord.v0.0.42_coord(
+                        name = '',
                         direct = True, )
                     ],
-                default = openapi_client.models.v0_0_42_user_default.v0_0_42_user_default(
-                    account = '', 
+                default = openapi_slurm.models.v0_0_42_user_default.v0_0_42_user_default(
+                    account = '',
                     wckey = '', ),
                 flags = [
                     'NONE'
@@ -61,24 +61,24 @@ class TestV0042User(unittest.TestCase):
                 name = '',
                 old_name = '',
                 wckeys = [
-                    openapi_client.models.v0/0/42_wckey.v0.0.42_wckey(
+                    openapi_slurm.models.v0/0/42_wckey.v0.0.42_wckey(
                         accounting = [
-                            openapi_client.models.v0/0/42_accounting.v0.0.42_accounting(
-                                allocated = openapi_client.models.v0_0_42_accounting_allocated.v0_0_42_accounting_allocated(
-                                    seconds = 56, ), 
-                                id = 56, 
-                                id_alt = 56, 
-                                start = 56, 
-                                tres = openapi_client.models.v0/0/42_tres.v0.0.42_tres(
-                                    type = '', 
-                                    name = '', 
-                                    id = 56, 
+                            openapi_slurm.models.v0/0/42_accounting.v0.0.42_accounting(
+                                allocated = openapi_slurm.models.v0_0_42_accounting_allocated.v0_0_42_accounting_allocated(
+                                    seconds = 56, ),
+                                id = 56,
+                                id_alt = 56,
+                                start = 56,
+                                tres = openapi_slurm.models.v0/0/42_tres.v0.0.42_tres(
+                                    type = '',
+                                    name = '',
+                                    id = 56,
                                     count = 56, ), )
-                            ], 
-                        cluster = '', 
-                        id = 56, 
-                        name = '', 
-                        user = '', 
+                            ],
+                        cluster = '',
+                        id = 56,
+                        name = '',
+                        user = '',
                         flags = [
                             'DELETED'
                             ], )

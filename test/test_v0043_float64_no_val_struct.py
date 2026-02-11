@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0043_float64_no_val_struct import V0043Float64NoValStruct
+from openapi_slurm.models.v0043_float64_no_val_struct import V0043Float64NoValStruct
 
 class TestV0043Float64NoValStruct(unittest.TestCase):
     """V0043Float64NoValStruct unit test stubs"""

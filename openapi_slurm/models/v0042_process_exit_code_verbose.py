@@ -20,8 +20,8 @@ import json
 
 from pydantic import BaseModel, ConfigDict, StrictStr, field_validator
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0042_process_exit_code_verbose_signal import V0042ProcessExitCodeVerboseSignal
-from openapi_client.models.v0042_uint32_no_val_struct import V0042Uint32NoValStruct
+from openapi_slurm.models.v0042_process_exit_code_verbose_signal import V0042ProcessExitCodeVerboseSignal
+from openapi_slurm.models.v0042_uint32_no_val_struct import V0042Uint32NoValStruct
 from typing import Optional, Set
 from typing_extensions import Self
 

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_per_user import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxJobsPerUser
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_per_user import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxJobsPerUser
 
 class TestV0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxJobsPerUser(unittest.TestCase):
     """V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxJobsPerUser unit test stubs"""

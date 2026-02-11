@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**billing_weights** | **str** | TRESBillingWeights | [optional] 
-**configured** | **str** | TRES | [optional] 
+**billing_weights** | **str** | TRESBillingWeights | [optional]
+**configured** | **str** | TRES | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_partition_info_tres import V0040PartitionInfoTres
+from openapi_slurm.models.v0040_partition_info_tres import V0040PartitionInfoTres
 
 # TODO update the JSON string below
 json = "{}"

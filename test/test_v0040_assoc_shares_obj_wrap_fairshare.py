@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_assoc_shares_obj_wrap_fairshare import V0040AssocSharesObjWrapFairshare
+from openapi_slurm.models.v0040_assoc_shares_obj_wrap_fairshare import V0040AssocSharesObjWrapFairshare
 
 class TestV0040AssocSharesObjWrapFairshare(unittest.TestCase):
     """V0040AssocSharesObjWrapFairshare unit test stubs"""

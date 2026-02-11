@@ -5,12 +5,12 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**per** | [**V0042QosLimitsMaxWallClockPer**](V0042QosLimitsMaxWallClockPer.md) |  | [optional] 
+**per** | [**V0042QosLimitsMaxWallClockPer**](V0042QosLimitsMaxWallClockPer.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0042_qos_limits_max_wall_clock import V0042QosLimitsMaxWallClock
+from openapi_slurm.models.v0042_qos_limits_max_wall_clock import V0042QosLimitsMaxWallClock
 
 # TODO update the JSON string below
 json = "{}"

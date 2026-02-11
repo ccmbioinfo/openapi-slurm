@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**wckey** | **str** | WCKey name | 
-**flags** | **List[str]** | Active flags | 
+**wckey** | **str** | WCKey name |
+**flags** | **List[str]** | Active flags |
 
 ## Example
 
 ```python
-from openapi_client.models.v0043_wckey_tag_struct import V0043WckeyTagStruct
+from openapi_slurm.models.v0043_wckey_tag_struct import V0043WckeyTagStruct
 
 # TODO update the JSON string below
 json = "{}"

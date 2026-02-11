@@ -6,14 +6,14 @@ When the job started accruing age priority (UNIX timestamp)
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**set** | **bool** | True if number has been set; False if number is unset | [optional] 
-**infinite** | **bool** | True if number has been set to infinite; \&quot;set\&quot; and \&quot;number\&quot; will be ignored | [optional] 
-**number** | **int** | If \&quot;set\&quot; is True the number will be set with value; otherwise ignore number contents | [optional] 
+**set** | **bool** | True if number has been set; False if number is unset | [optional]
+**infinite** | **bool** | True if number has been set to infinite; \&quot;set\&quot; and \&quot;number\&quot; will be ignored | [optional]
+**number** | **int** | If \&quot;set\&quot; is True the number will be set with value; otherwise ignore number contents | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_job_info_resp_jobs_inner_accrue_time import V0041OpenapiJobInfoRespJobsInnerAccrueTime
+from openapi_slurm.models.v0041_openapi_job_info_resp_jobs_inner_accrue_time import V0041OpenapiJobInfoRespJobsInnerAccrueTime
 
 # TODO update the JSON string below
 json = "{}"

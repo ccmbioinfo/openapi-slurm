@@ -6,17 +6,17 @@ Filters to select associations for users
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**accounts** | **List[str]** | CSV accounts list | [optional] 
-**association** | [**V0041OpenapiUsersAddCondRespAssociationConditionAssociation**](V0041OpenapiUsersAddCondRespAssociationConditionAssociation.md) |  | [optional] 
-**clusters** | **List[str]** | CSV clusters list | [optional] 
-**partitions** | **List[str]** | CSV partitions list | [optional] 
-**users** | **List[str]** | CSV users list | 
-**wckeys** | **List[str]** | CSV WCKeys list | [optional] 
+**accounts** | **List[str]** | CSV accounts list | [optional]
+**association** | [**V0041OpenapiUsersAddCondRespAssociationConditionAssociation**](V0041OpenapiUsersAddCondRespAssociationConditionAssociation.md) |  | [optional]
+**clusters** | **List[str]** | CSV clusters list | [optional]
+**partitions** | **List[str]** | CSV partitions list | [optional]
+**users** | **List[str]** | CSV users list |
+**wckeys** | **List[str]** | CSV WCKeys list | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_users_add_cond_resp_association_condition import V0041OpenapiUsersAddCondRespAssociationCondition
+from openapi_slurm.models.v0041_openapi_users_add_cond_resp_association_condition import V0041OpenapiUsersAddCondRespAssociationCondition
 
 # TODO update the JSON string below
 json = "{}"

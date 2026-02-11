@@ -20,8 +20,8 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictInt
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0042_accounting_allocated import V0042AccountingAllocated
-from openapi_client.models.v0042_tres import V0042Tres
+from openapi_slurm.models.v0042_accounting_allocated import V0042AccountingAllocated
+from openapi_slurm.models.v0042_tres import V0042Tres
 from typing import Optional, Set
 from typing_extensions import Self
 

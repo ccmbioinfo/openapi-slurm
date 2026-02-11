@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**accruing** | [**V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxActiveJobsAccruing**](V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxActiveJobsAccruing.md) |  | [optional] 
-**count** | [**V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxActiveJobsCount**](V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxActiveJobsCount.md) |  | [optional] 
+**accruing** | [**V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxActiveJobsAccruing**](V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxActiveJobsAccruing.md) |  | [optional]
+**count** | [**V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxActiveJobsCount**](V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxActiveJobsCount.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxActiveJobs
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxActiveJobs
 
 # TODO update the JSON string below
 json = "{}"

@@ -5,14 +5,14 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**list** | **List[str]** | Other QOS&#39;s this QOS can preempt | [optional] 
-**mode** | **List[str]** | PreemptMode | [optional] 
-**exempt_time** | [**V0041OpenapiSlurmdbdConfigRespQosInnerPreemptExemptTime**](V0041OpenapiSlurmdbdConfigRespQosInnerPreemptExemptTime.md) |  | [optional] 
+**list** | **List[str]** | Other QOS&#39;s this QOS can preempt | [optional]
+**mode** | **List[str]** | PreemptMode | [optional]
+**exempt_time** | [**V0041OpenapiSlurmdbdConfigRespQosInnerPreemptExemptTime**](V0041OpenapiSlurmdbdConfigRespQosInnerPreemptExemptTime.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_qos_inner_preempt import V0041OpenapiSlurmdbdConfigRespQosInnerPreempt
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_qos_inner_preempt import V0041OpenapiSlurmdbdConfigRespQosInnerPreempt
 
 # TODO update the JSON string below
 json = "{}"

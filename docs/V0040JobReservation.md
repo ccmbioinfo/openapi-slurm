@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**id** | **int** | Unique identifier of requested reservation | [optional] 
-**name** | **str** | Name of reservation to use | [optional] 
+**id** | **int** | Unique identifier of requested reservation | [optional]
+**name** | **str** | Name of reservation to use | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_job_reservation import V0040JobReservation
+from openapi_slurm.models.v0040_job_reservation import V0040JobReservation
 
 # TODO update the JSON string below
 json = "{}"

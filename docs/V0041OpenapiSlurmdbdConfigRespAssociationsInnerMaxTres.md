@@ -5,15 +5,15 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**total** | [**List[V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerTresRequestedMaxInner]**](V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerTresRequestedMaxInner.md) | GrpTRES | [optional] 
-**group** | [**V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxTresGroup**](V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxTresGroup.md) |  | [optional] 
-**minutes** | [**V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxTresMinutes**](V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxTresMinutes.md) |  | [optional] 
-**per** | [**V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxTresPer**](V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxTresPer.md) |  | [optional] 
+**total** | [**List[V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerTresRequestedMaxInner]**](V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerTresRequestedMaxInner.md) | GrpTRES | [optional]
+**group** | [**V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxTresGroup**](V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxTresGroup.md) |  | [optional]
+**minutes** | [**V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxTresMinutes**](V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxTresMinutes.md) |  | [optional]
+**per** | [**V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxTresPer**](V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxTresPer.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_associations_inner_max_tres import V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxTres
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_associations_inner_max_tres import V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxTres
 
 # TODO update the JSON string below
 json = "{}"

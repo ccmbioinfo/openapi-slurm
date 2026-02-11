@@ -20,11 +20,11 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictBool, StrictInt, StrictStr, field_validator
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0040_assoc_default import V0040AssocDefault
-from openapi_client.models.v0042_accounting import V0042Accounting
-from openapi_client.models.v0042_assoc_max import V0042AssocMax
-from openapi_client.models.v0042_assoc_min import V0042AssocMin
-from openapi_client.models.v0042_uint32_no_val_struct import V0042Uint32NoValStruct
+from openapi_slurm.models.v0040_assoc_default import V0040AssocDefault
+from openapi_slurm.models.v0042_accounting import V0042Accounting
+from openapi_slurm.models.v0042_assoc_max import V0042AssocMax
+from openapi_slurm.models.v0042_assoc_min import V0042AssocMin
+from openapi_slurm.models.v0042_uint32_no_val_struct import V0042Uint32NoValStruct
 from typing import Optional, Set
 from typing_extensions import Self
 

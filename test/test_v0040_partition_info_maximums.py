@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_partition_info_maximums import V0040PartitionInfoMaximums
+from openapi_slurm.models.v0040_partition_info_maximums import V0040PartitionInfoMaximums
 
 class TestV0040PartitionInfoMaximums(unittest.TestCase):
     """V0040PartitionInfoMaximums unit test stubs"""
@@ -36,40 +36,40 @@ class TestV0040PartitionInfoMaximums(unittest.TestCase):
         model = V0040PartitionInfoMaximums()
         if include_optional:
             return V0040PartitionInfoMaximums(
-                cpus_per_node = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
-                    set = True, 
-                    infinite = True, 
+                cpus_per_node = openapi_slurm.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                cpus_per_socket = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
-                    set = True, 
-                    infinite = True, 
+                cpus_per_socket = openapi_slurm.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
                 memory_per_cpu = 56,
-                partition_memory_per_cpu = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
-                    set = True, 
-                    infinite = True, 
+                partition_memory_per_cpu = openapi_slurm.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                partition_memory_per_node = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
-                    set = True, 
-                    infinite = True, 
+                partition_memory_per_node = openapi_slurm.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                nodes = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
-                    set = True, 
-                    infinite = True, 
+                nodes = openapi_slurm.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
                 shares = 56,
-                oversubscribe = openapi_client.models.v0_0_40_partition_info_maximums_oversubscribe.v0_0_40_partition_info_maximums_oversubscribe(
-                    jobs = 56, 
+                oversubscribe = openapi_slurm.models.v0_0_40_partition_info_maximums_oversubscribe.v0_0_40_partition_info_maximums_oversubscribe(
+                    jobs = 56,
                     flags = [
                         'force'
                         ], ),
-                time = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
-                    set = True, 
-                    infinite = True, 
+                time = openapi_slurm.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                over_time_limit = openapi_client.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
-                    set = True, 
-                    infinite = True, 
+                over_time_limit = openapi_slurm.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
+                    set = True,
+                    infinite = True,
                     number = 56, )
             )
         else:

@@ -5,15 +5,15 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**description** | **str** | Long form error description | [optional] 
-**error_number** | **int** | Slurm numeric error identifier | [optional] 
-**error** | **str** | Short form error description | [optional] 
-**source** | **str** | Source of error or where error was first detected | [optional] 
+**description** | **str** | Long form error description | [optional]
+**error_number** | **int** | Slurm numeric error identifier | [optional]
+**error** | **str** | Short form error description | [optional]
+**source** | **str** | Source of error or where error was first detected | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_shares_resp_errors_inner import V0041OpenapiSharesRespErrorsInner
+from openapi_slurm.models.v0041_openapi_shares_resp_errors_inner import V0041OpenapiSharesRespErrorsInner
 
 # TODO update the JSON string below
 json = "{}"

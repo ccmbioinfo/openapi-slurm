@@ -5,16 +5,16 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**allocated** | [**V0042AccountingAllocated**](V0042AccountingAllocated.md) |  | [optional] 
-**id** | **int** | Association ID or Workload characterization key ID | [optional] 
-**id_alt** | **int** | Alternate ID (not currently used) | [optional] 
-**start** | **int** | When the record was started (UNIX timestamp) (UNIX timestamp or time string recognized by Slurm (e.g., &#39;[MM/DD[/YY]-]HH:MM[:SS]&#39;)) | [optional] 
-**tres** | [**V0043Tres**](V0043Tres.md) |  | [optional] 
+**allocated** | [**V0042AccountingAllocated**](V0042AccountingAllocated.md) |  | [optional]
+**id** | **int** | Association ID or Workload characterization key ID | [optional]
+**id_alt** | **int** | Alternate ID (not currently used) | [optional]
+**start** | **int** | When the record was started (UNIX timestamp) (UNIX timestamp or time string recognized by Slurm (e.g., &#39;[MM/DD[/YY]-]HH:MM[:SS]&#39;)) | [optional]
+**tres** | [**V0043Tres**](V0043Tres.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0043_accounting import V0043Accounting
+from openapi_slurm.models.v0043_accounting import V0043Accounting
 
 # TODO update the JSON string below
 json = "{}"

@@ -5,16 +5,16 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**reservations** | [**List[V0042ReservationInfo]**](V0042ReservationInfo.md) |  | 
-**last_update** | [**V0042Uint64NoValStruct**](V0042Uint64NoValStruct.md) |  | 
-**meta** | [**V0042OpenapiMeta**](V0042OpenapiMeta.md) |  | [optional] 
-**errors** | [**List[V0042OpenapiError]**](V0042OpenapiError.md) |  | [optional] 
-**warnings** | [**List[V0042OpenapiWarning]**](V0042OpenapiWarning.md) |  | [optional] 
+**reservations** | [**List[V0042ReservationInfo]**](V0042ReservationInfo.md) |  |
+**last_update** | [**V0042Uint64NoValStruct**](V0042Uint64NoValStruct.md) |  |
+**meta** | [**V0042OpenapiMeta**](V0042OpenapiMeta.md) |  | [optional]
+**errors** | [**List[V0042OpenapiError]**](V0042OpenapiError.md) |  | [optional]
+**warnings** | [**List[V0042OpenapiWarning]**](V0042OpenapiWarning.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0042_openapi_reservation_resp import V0042OpenapiReservationResp
+from openapi_slurm.models.v0042_openapi_reservation_resp import V0042OpenapiReservationResp
 
 # TODO update the JSON string below
 json = "{}"

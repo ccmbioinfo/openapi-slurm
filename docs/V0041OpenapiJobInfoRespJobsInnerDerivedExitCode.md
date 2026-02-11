@@ -6,14 +6,14 @@ Highest exit code of all job steps
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**status** | **List[str]** | Status given by return code | [optional] 
-**return_code** | [**V0041OpenapiJobInfoRespJobsInnerDerivedExitCodeReturnCode**](V0041OpenapiJobInfoRespJobsInnerDerivedExitCodeReturnCode.md) |  | [optional] 
-**signal** | [**V0041OpenapiJobInfoRespJobsInnerDerivedExitCodeSignal**](V0041OpenapiJobInfoRespJobsInnerDerivedExitCodeSignal.md) |  | [optional] 
+**status** | **List[str]** | Status given by return code | [optional]
+**return_code** | [**V0041OpenapiJobInfoRespJobsInnerDerivedExitCodeReturnCode**](V0041OpenapiJobInfoRespJobsInnerDerivedExitCodeReturnCode.md) |  | [optional]
+**signal** | [**V0041OpenapiJobInfoRespJobsInnerDerivedExitCodeSignal**](V0041OpenapiJobInfoRespJobsInnerDerivedExitCodeSignal.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_job_info_resp_jobs_inner_derived_exit_code import V0041OpenapiJobInfoRespJobsInnerDerivedExitCode
+from openapi_slurm.models.v0041_openapi_job_info_resp_jobs_inner_derived_exit_code import V0041OpenapiJobInfoRespJobsInnerDerivedExitCode
 
 # TODO update the JSON string below
 json = "{}"

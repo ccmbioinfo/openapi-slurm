@@ -5,25 +5,25 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**comment** | **str** | Arbitrary comment | [optional] 
-**cpu_bind** | **int** | Default method for binding tasks to allocated CPUs | [optional] 
-**extra** | **str** | Arbitrary string used for node filtering if extra constraints are enabled | [optional] 
-**features** | **List[str]** | Available features | [optional] 
-**features_act** | **List[str]** | Currently active features | [optional] 
-**gres** | **str** | Generic resources | [optional] 
-**address** | **List[str]** | NodeAddr, used to establish a communication path | [optional] 
-**hostname** | **List[str]** | NodeHostname | [optional] 
-**name** | **List[str]** | NodeName | [optional] 
-**state** | **List[str]** | New state to assign to the node | [optional] 
-**reason** | **str** | Reason for node being DOWN or DRAINING | [optional] 
-**reason_uid** | **str** | User ID to associate with the reason (needed if user root is sending message) | [optional] 
-**resume_after** | [**V0041UpdateNodeMsgResumeAfter**](V0041UpdateNodeMsgResumeAfter.md) |  | [optional] 
-**weight** | [**V0041UpdateNodeMsgWeight**](V0041UpdateNodeMsgWeight.md) |  | [optional] 
+**comment** | **str** | Arbitrary comment | [optional]
+**cpu_bind** | **int** | Default method for binding tasks to allocated CPUs | [optional]
+**extra** | **str** | Arbitrary string used for node filtering if extra constraints are enabled | [optional]
+**features** | **List[str]** | Available features | [optional]
+**features_act** | **List[str]** | Currently active features | [optional]
+**gres** | **str** | Generic resources | [optional]
+**address** | **List[str]** | NodeAddr, used to establish a communication path | [optional]
+**hostname** | **List[str]** | NodeHostname | [optional]
+**name** | **List[str]** | NodeName | [optional]
+**state** | **List[str]** | New state to assign to the node | [optional]
+**reason** | **str** | Reason for node being DOWN or DRAINING | [optional]
+**reason_uid** | **str** | User ID to associate with the reason (needed if user root is sending message) | [optional]
+**resume_after** | [**V0041UpdateNodeMsgResumeAfter**](V0041UpdateNodeMsgResumeAfter.md) |  | [optional]
+**weight** | [**V0041UpdateNodeMsgWeight**](V0041UpdateNodeMsgWeight.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_update_node_msg import V0041UpdateNodeMsg
+from openapi_slurm.models.v0041_update_node_msg import V0041UpdateNodeMsg
 
 # TODO update the JSON string below
 json = "{}"

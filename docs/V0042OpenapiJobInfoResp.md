@@ -5,17 +5,17 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**jobs** | [**List[V0042JobInfo]**](V0042JobInfo.md) |  | 
-**last_backfill** | [**V0042Uint64NoValStruct**](V0042Uint64NoValStruct.md) |  | 
-**last_update** | [**V0042Uint64NoValStruct**](V0042Uint64NoValStruct.md) |  | 
-**meta** | [**V0042OpenapiMeta**](V0042OpenapiMeta.md) |  | [optional] 
-**errors** | [**List[V0042OpenapiError]**](V0042OpenapiError.md) |  | [optional] 
-**warnings** | [**List[V0042OpenapiWarning]**](V0042OpenapiWarning.md) |  | [optional] 
+**jobs** | [**List[V0042JobInfo]**](V0042JobInfo.md) |  |
+**last_backfill** | [**V0042Uint64NoValStruct**](V0042Uint64NoValStruct.md) |  |
+**last_update** | [**V0042Uint64NoValStruct**](V0042Uint64NoValStruct.md) |  |
+**meta** | [**V0042OpenapiMeta**](V0042OpenapiMeta.md) |  | [optional]
+**errors** | [**List[V0042OpenapiError]**](V0042OpenapiError.md) |  | [optional]
+**warnings** | [**List[V0042OpenapiWarning]**](V0042OpenapiWarning.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0042_openapi_job_info_resp import V0042OpenapiJobInfoResp
+from openapi_slurm.models.v0042_openapi_job_info_resp import V0042OpenapiJobInfoResp
 
 # TODO update the JSON string below
 json = "{}"

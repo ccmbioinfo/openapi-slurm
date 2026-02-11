@@ -5,24 +5,24 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**id** | **int** | Association ID | [optional] 
-**cluster** | **str** | Cluster name | [optional] 
-**name** | **str** | Share name | [optional] 
-**parent** | **str** | Parent name | [optional] 
-**partition** | **str** | Partition name | [optional] 
-**shares_normalized** | [**V0042Float64NoValStruct**](V0042Float64NoValStruct.md) |  | [optional] 
-**shares** | [**V0042Uint32NoValStruct**](V0042Uint32NoValStruct.md) |  | [optional] 
-**tres** | [**V0042AssocSharesObjWrapTres**](V0042AssocSharesObjWrapTres.md) |  | [optional] 
-**effective_usage** | [**V0042Float64NoValStruct**](V0042Float64NoValStruct.md) |  | [optional] 
-**usage_normalized** | [**V0042Float64NoValStruct**](V0042Float64NoValStruct.md) |  | [optional] 
-**usage** | **int** | Measure of tresbillableunits usage | [optional] 
-**fairshare** | [**V0042AssocSharesObjWrapFairshare**](V0042AssocSharesObjWrapFairshare.md) |  | [optional] 
-**type** | **List[str]** |  | [optional] 
+**id** | **int** | Association ID | [optional]
+**cluster** | **str** | Cluster name | [optional]
+**name** | **str** | Share name | [optional]
+**parent** | **str** | Parent name | [optional]
+**partition** | **str** | Partition name | [optional]
+**shares_normalized** | [**V0042Float64NoValStruct**](V0042Float64NoValStruct.md) |  | [optional]
+**shares** | [**V0042Uint32NoValStruct**](V0042Uint32NoValStruct.md) |  | [optional]
+**tres** | [**V0042AssocSharesObjWrapTres**](V0042AssocSharesObjWrapTres.md) |  | [optional]
+**effective_usage** | [**V0042Float64NoValStruct**](V0042Float64NoValStruct.md) |  | [optional]
+**usage_normalized** | [**V0042Float64NoValStruct**](V0042Float64NoValStruct.md) |  | [optional]
+**usage** | **int** | Measure of tresbillableunits usage | [optional]
+**fairshare** | [**V0042AssocSharesObjWrapFairshare**](V0042AssocSharesObjWrapFairshare.md) |  | [optional]
+**type** | **List[str]** |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0042_assoc_shares_obj_wrap import V0042AssocSharesObjWrap
+from openapi_slurm.models.v0042_assoc_shares_obj_wrap import V0042AssocSharesObjWrap
 
 # TODO update the JSON string below
 json = "{}"

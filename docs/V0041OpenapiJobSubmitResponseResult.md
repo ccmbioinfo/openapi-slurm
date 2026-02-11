@@ -6,16 +6,16 @@ Job submission
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**job_id** | **int** | New job ID | [optional] 
-**step_id** | **str** | New job step ID | [optional] 
-**error_code** | **int** | Error code | [optional] 
-**error** | **str** | Error message | [optional] 
-**job_submit_user_msg** | **str** | Message to user from job_submit plugin | [optional] 
+**job_id** | **int** | New job ID | [optional]
+**step_id** | **str** | New job step ID | [optional]
+**error_code** | **int** | Error code | [optional]
+**error** | **str** | Error message | [optional]
+**job_submit_user_msg** | **str** | Message to user from job_submit plugin | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_job_submit_response_result import V0041OpenapiJobSubmitResponseResult
+from openapi_slurm.models.v0041_openapi_job_submit_response_result import V0041OpenapiJobSubmitResponseResult
 
 # TODO update the JSON string below
 json = "{}"

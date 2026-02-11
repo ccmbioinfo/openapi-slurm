@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_cluster_rec import V0040ClusterRec
+from openapi_slurm.models.v0040_cluster_rec import V0040ClusterRec
 
 class TestV0040ClusterRec(unittest.TestCase):
     """V0040ClusterRec unit test stubs"""
@@ -36,8 +36,8 @@ class TestV0040ClusterRec(unittest.TestCase):
         model = V0040ClusterRec()
         if include_optional:
             return V0040ClusterRec(
-                controller = openapi_client.models.v0_0_40_cluster_rec_controller.v0_0_40_cluster_rec_controller(
-                    host = '', 
+                controller = openapi_slurm.models.v0_0_40_cluster_rec_controller.v0_0_40_cluster_rec_controller(
+                    host = '',
                     port = 56, ),
                 flags = [
                     'REGISTERING'
@@ -45,19 +45,19 @@ class TestV0040ClusterRec(unittest.TestCase):
                 name = '',
                 nodes = '',
                 select_plugin = '',
-                associations = openapi_client.models.v0_0_40_cluster_rec_associations.v0_0_40_cluster_rec_associations(
-                    root = openapi_client.models.v0/0/40_assoc_short.v0.0.40_assoc_short(
-                        account = '', 
-                        cluster = '', 
-                        partition = '', 
-                        user = '', 
+                associations = openapi_slurm.models.v0_0_40_cluster_rec_associations.v0_0_40_cluster_rec_associations(
+                    root = openapi_slurm.models.v0/0/40_assoc_short.v0.0.40_assoc_short(
+                        account = '',
+                        cluster = '',
+                        partition = '',
+                        user = '',
                         id = 56, ), ),
                 rpc_version = 56,
                 tres = [
-                    openapi_client.models.v0/0/40_tres.v0.0.40_tres(
-                        type = '', 
-                        name = '', 
-                        id = 56, 
+                    openapi_slurm.models.v0/0/40_tres.v0.0.40_tres(
+                        type = '',
+                        name = '',
+                        id = 56,
                         count = 56, )
                     ]
             )

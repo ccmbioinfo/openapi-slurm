@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_nodes_resp_nodes_inner import V0041OpenapiNodesRespNodesInner
+from openapi_slurm.models.v0041_openapi_nodes_resp_nodes_inner import V0041OpenapiNodesRespNodesInner
 
 class TestV0041OpenapiNodesRespNodesInner(unittest.TestCase):
     """V0041OpenapiNodesRespNodesInner unit test stubs"""
@@ -39,35 +39,35 @@ class TestV0041OpenapiNodesRespNodesInner(unittest.TestCase):
                 architecture = '',
                 burstbuffer_network_address = '',
                 boards = 56,
-                boot_time = openapi_client.models.v0_0_41_openapi_nodes_resp_nodes_inner_boot_time.v0_0_41_openapi_nodes_resp_nodes_inner_boot_time(
-                    set = True, 
-                    infinite = True, 
+                boot_time = openapi_slurm.models.v0_0_41_openapi_nodes_resp_nodes_inner_boot_time.v0_0_41_openapi_nodes_resp_nodes_inner_boot_time(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
                 cluster_name = '',
                 cores = 56,
                 specialized_cores = 56,
                 cpu_binding = 56,
                 cpu_load = 56,
-                free_mem = openapi_client.models.v0_0_41_openapi_nodes_resp_nodes_inner_free_mem.v0_0_41_openapi_nodes_resp_nodes_inner_free_mem(
-                    set = True, 
-                    infinite = True, 
+                free_mem = openapi_slurm.models.v0_0_41_openapi_nodes_resp_nodes_inner_free_mem.v0_0_41_openapi_nodes_resp_nodes_inner_free_mem(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
                 cpus = 56,
                 effective_cpus = 56,
                 specialized_cpus = '',
-                energy = openapi_client.models.v0_0_41_openapi_nodes_resp_nodes_inner_energy.v0_0_41_openapi_nodes_resp_nodes_inner_energy(
-                    average_watts = 56, 
-                    base_consumed_energy = 56, 
-                    consumed_energy = 56, 
-                    current_watts = openapi_client.models.v0_0_41_openapi_nodes_resp_nodes_inner_energy_current_watts.v0_0_41_openapi_nodes_resp_nodes_inner_energy_current_watts(
-                        set = True, 
-                        infinite = True, 
-                        number = 56, ), 
-                    previous_consumed_energy = 56, 
+                energy = openapi_slurm.models.v0_0_41_openapi_nodes_resp_nodes_inner_energy.v0_0_41_openapi_nodes_resp_nodes_inner_energy(
+                    average_watts = 56,
+                    base_consumed_energy = 56,
+                    consumed_energy = 56,
+                    current_watts = openapi_slurm.models.v0_0_41_openapi_nodes_resp_nodes_inner_energy_current_watts.v0_0_41_openapi_nodes_resp_nodes_inner_energy_current_watts(
+                        set = True,
+                        infinite = True,
+                        number = 56, ),
+                    previous_consumed_energy = 56,
                     last_collected = 56, ),
-                external_sensors = openapi_client.models.external_sensors.external_sensors(),
+                external_sensors = openapi_slurm.models.external_sensors.external_sensors(),
                 extra = '',
-                power = openapi_client.models.power.power(),
+                power = openapi_slurm.models.power.power(),
                 features = [
                     ''
                     ],
@@ -80,9 +80,9 @@ class TestV0041OpenapiNodesRespNodesInner(unittest.TestCase):
                 gres_used = '',
                 instance_id = '',
                 instance_type = '',
-                last_busy = openapi_client.models.v0_0_41_openapi_nodes_resp_nodes_inner_last_busy.v0_0_41_openapi_nodes_resp_nodes_inner_last_busy(
-                    set = True, 
-                    infinite = True, 
+                last_busy = openapi_slurm.models.v0_0_41_openapi_nodes_resp_nodes_inner_last_busy.v0_0_41_openapi_nodes_resp_nodes_inner_last_busy(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
                 mcs_label = '',
                 specialized_memory = 56,
@@ -105,14 +105,14 @@ class TestV0041OpenapiNodesRespNodesInner(unittest.TestCase):
                 res_cores_per_gpu = 56,
                 comment = '',
                 reason = '',
-                reason_changed_at = openapi_client.models.v0_0_41_openapi_nodes_resp_nodes_inner_reason_changed_at.v0_0_41_openapi_nodes_resp_nodes_inner_reason_changed_at(
-                    set = True, 
-                    infinite = True, 
+                reason_changed_at = openapi_slurm.models.v0_0_41_openapi_nodes_resp_nodes_inner_reason_changed_at.v0_0_41_openapi_nodes_resp_nodes_inner_reason_changed_at(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
                 reason_set_by_user = '',
-                resume_after = openapi_client.models.v0_0_41_openapi_nodes_resp_nodes_inner_resume_after.v0_0_41_openapi_nodes_resp_nodes_inner_resume_after(
-                    set = True, 
-                    infinite = True, 
+                resume_after = openapi_slurm.models.v0_0_41_openapi_nodes_resp_nodes_inner_resume_after.v0_0_41_openapi_nodes_resp_nodes_inner_resume_after(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
                 reservation = '',
                 alloc_memory = 56,
@@ -120,9 +120,9 @@ class TestV0041OpenapiNodesRespNodesInner(unittest.TestCase):
                 alloc_idle_cpus = 56,
                 tres_used = '',
                 tres_weighted = 1.337,
-                slurmd_start_time = openapi_client.models.v0_0_41_openapi_nodes_resp_nodes_inner_slurmd_start_time.v0_0_41_openapi_nodes_resp_nodes_inner_slurmd_start_time(
-                    set = True, 
-                    infinite = True, 
+                slurmd_start_time = openapi_slurm.models.v0_0_41_openapi_nodes_resp_nodes_inner_slurmd_start_time.v0_0_41_openapi_nodes_resp_nodes_inner_slurmd_start_time(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
                 sockets = 56,
                 threads = 56,

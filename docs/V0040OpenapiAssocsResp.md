@@ -5,15 +5,15 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**associations** | [**List[V0040Assoc]**](V0040Assoc.md) |  | 
-**meta** | [**V0040OpenapiMeta**](V0040OpenapiMeta.md) |  | [optional] 
-**errors** | [**List[V0040OpenapiError]**](V0040OpenapiError.md) |  | [optional] 
-**warnings** | [**List[V0040OpenapiWarning]**](V0040OpenapiWarning.md) |  | [optional] 
+**associations** | [**List[V0040Assoc]**](V0040Assoc.md) |  |
+**meta** | [**V0040OpenapiMeta**](V0040OpenapiMeta.md) |  | [optional]
+**errors** | [**List[V0040OpenapiError]**](V0040OpenapiError.md) |  | [optional]
+**warnings** | [**List[V0040OpenapiWarning]**](V0040OpenapiWarning.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_openapi_assocs_resp import V0040OpenapiAssocsResp
+from openapi_slurm.models.v0040_openapi_assocs_resp import V0040OpenapiAssocsResp
 
 # TODO update the JSON string below
 json = "{}"

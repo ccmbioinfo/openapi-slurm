@@ -5,16 +5,16 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**count** | **int** | Number of allocated nodes | [optional] 
-**select_type** | **List[str]** | Node scheduling selection method | [optional] 
-**list** | **str** | Node(s) allocated to the job | [optional] 
-**whole** | **bool** | Whether whole nodes were allocated | [optional] 
-**allocation** | [**List[V0043JobResNode]**](V0043JobResNode.md) | Job resources for a node | [optional] 
+**count** | **int** | Number of allocated nodes | [optional]
+**select_type** | **List[str]** | Node scheduling selection method | [optional]
+**list** | **str** | Node(s) allocated to the job | [optional]
+**whole** | **bool** | Whether whole nodes were allocated | [optional]
+**allocation** | [**List[V0043JobResNode]**](V0043JobResNode.md) | Job resources for a node | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0043_job_res_nodes import V0043JobResNodes
+from openapi_slurm.models.v0043_job_res_nodes import V0043JobResNodes
 
 # TODO update the JSON string below
 json = "{}"

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_job_array_limits_max_running import V0040JobArrayLimitsMaxRunning
+from openapi_slurm.models.v0040_job_array_limits_max_running import V0040JobArrayLimitsMaxRunning
 
 class TestV0040JobArrayLimitsMaxRunning(unittest.TestCase):
     """V0040JobArrayLimitsMaxRunning unit test stubs"""

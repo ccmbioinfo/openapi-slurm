@@ -5,15 +5,15 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**grace_time** | **int** | GraceTime | [optional] 
-**max** | [**V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMax**](V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMax.md) |  | [optional] 
-**factor** | [**V0041OpenapiSlurmdbdConfigRespQosInnerLimitsFactor**](V0041OpenapiSlurmdbdConfigRespQosInnerLimitsFactor.md) |  | [optional] 
-**min** | [**V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMin**](V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMin.md) |  | [optional] 
+**grace_time** | **int** | GraceTime | [optional]
+**max** | [**V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMax**](V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMax.md) |  | [optional]
+**factor** | [**V0041OpenapiSlurmdbdConfigRespQosInnerLimitsFactor**](V0041OpenapiSlurmdbdConfigRespQosInnerLimitsFactor.md) |  | [optional]
+**min** | [**V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMin**](V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMin.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits import V0041OpenapiSlurmdbdConfigRespQosInnerLimits
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits import V0041OpenapiSlurmdbdConfigRespQosInnerLimits
 
 # TODO update the JSON string below
 json = "{}"

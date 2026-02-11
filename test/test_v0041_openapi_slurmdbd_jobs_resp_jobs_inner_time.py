@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_time import V0041OpenapiSlurmdbdJobsRespJobsInnerTime
+from openapi_slurm.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_time import V0041OpenapiSlurmdbdJobsRespJobsInnerTime
 
 class TestV0041OpenapiSlurmdbdJobsRespJobsInnerTime(unittest.TestCase):
     """V0041OpenapiSlurmdbdJobsRespJobsInnerTime unit test stubs"""
@@ -39,25 +39,25 @@ class TestV0041OpenapiSlurmdbdJobsRespJobsInnerTime(unittest.TestCase):
                 elapsed = 56,
                 eligible = 56,
                 end = 56,
-                planned = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_time_planned.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_time_planned(
-                    set = True, 
-                    infinite = True, 
+                planned = openapi_slurm.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_time_planned.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_time_planned(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
                 start = 56,
                 submission = 56,
                 suspended = 56,
-                system = openapi_client.models.v0_0_40_job_time_system.v0_0_40_job_time_system(
-                    seconds = 56, 
+                system = openapi_slurm.models.v0_0_40_job_time_system.v0_0_40_job_time_system(
+                    seconds = 56,
                     microseconds = 56, ),
-                limit = openapi_client.models.v0_0_41_job_desc_msg_time_limit.v0_0_41_job_desc_msg_time_limit(
-                    set = True, 
-                    infinite = True, 
+                limit = openapi_slurm.models.v0_0_41_job_desc_msg_time_limit.v0_0_41_job_desc_msg_time_limit(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                total = openapi_client.models.v0_0_40_job_time_total.v0_0_40_job_time_total(
-                    seconds = 56, 
+                total = openapi_slurm.models.v0_0_40_job_time_total.v0_0_40_job_time_total(
+                    seconds = 56,
                     microseconds = 56, ),
-                user = openapi_client.models.v0_0_40_job_time_user.v0_0_40_job_time_user(
-                    seconds = 56, 
+                user = openapi_slurm.models.v0_0_40_job_time_user.v0_0_40_job_time_user(
+                    seconds = 56,
                     microseconds = 56, )
             )
         else:

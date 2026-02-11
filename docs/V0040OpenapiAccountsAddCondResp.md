@@ -5,16 +5,16 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**association_condition** | [**V0040AccountsAddCond**](V0040AccountsAddCond.md) |  | [optional] 
-**account** | [**V0040AccountShort**](V0040AccountShort.md) |  | [optional] 
-**meta** | [**V0040OpenapiMeta**](V0040OpenapiMeta.md) |  | [optional] 
-**errors** | [**List[V0040OpenapiError]**](V0040OpenapiError.md) |  | [optional] 
-**warnings** | [**List[V0040OpenapiWarning]**](V0040OpenapiWarning.md) |  | [optional] 
+**association_condition** | [**V0040AccountsAddCond**](V0040AccountsAddCond.md) |  | [optional]
+**account** | [**V0040AccountShort**](V0040AccountShort.md) |  | [optional]
+**meta** | [**V0040OpenapiMeta**](V0040OpenapiMeta.md) |  | [optional]
+**errors** | [**List[V0040OpenapiError]**](V0040OpenapiError.md) |  | [optional]
+**warnings** | [**List[V0040OpenapiWarning]**](V0040OpenapiWarning.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_openapi_accounts_add_cond_resp import V0040OpenapiAccountsAddCondResp
+from openapi_slurm.models.v0040_openapi_accounts_add_cond_resp import V0040OpenapiAccountsAddCondResp
 
 # TODO update the JSON string below
 json = "{}"

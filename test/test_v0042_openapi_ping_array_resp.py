@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0042_openapi_ping_array_resp import V0042OpenapiPingArrayResp
+from openapi_slurm.models.v0042_openapi_ping_array_resp import V0042OpenapiPingArrayResp
 
 class TestV0042OpenapiPingArrayResp(unittest.TestCase):
     """V0042OpenapiPingArrayResp unit test stubs"""
@@ -37,56 +37,56 @@ class TestV0042OpenapiPingArrayResp(unittest.TestCase):
         if include_optional:
             return V0042OpenapiPingArrayResp(
                 pings = [
-                    openapi_client.models.v0/0/42_controller_ping.v0.0.42_controller_ping(
-                        hostname = '', 
-                        pinged = '', 
-                        responding = True, 
-                        latency = 56, 
-                        mode = '', 
+                    openapi_slurm.models.v0/0/42_controller_ping.v0.0.42_controller_ping(
+                        hostname = '',
+                        pinged = '',
+                        responding = True,
+                        latency = 56,
+                        mode = '',
                         primary = True, )
                     ],
-                meta = openapi_client.models.v0/0/42_openapi_meta.v0.0.42_openapi_meta(
-                    plugin = openapi_client.models.v0_0_40_openapi_meta_plugin.v0_0_40_openapi_meta_plugin(
-                        type = '', 
-                        name = '', 
-                        data_parser = '', 
-                        accounting_storage = '', ), 
-                    client = openapi_client.models.v0_0_40_openapi_meta_client.v0_0_40_openapi_meta_client(
-                        source = '', 
-                        user = '', 
-                        group = '', ), 
+                meta = openapi_slurm.models.v0/0/42_openapi_meta.v0.0.42_openapi_meta(
+                    plugin = openapi_slurm.models.v0_0_40_openapi_meta_plugin.v0_0_40_openapi_meta_plugin(
+                        type = '',
+                        name = '',
+                        data_parser = '',
+                        accounting_storage = '', ),
+                    client = openapi_slurm.models.v0_0_40_openapi_meta_client.v0_0_40_openapi_meta_client(
+                        source = '',
+                        user = '',
+                        group = '', ),
                     command = [
                         ''
-                        ], 
-                    slurm = openapi_client.models.v0_0_40_openapi_meta_slurm.v0_0_40_openapi_meta_slurm(
-                        version = openapi_client.models.v0_0_40_openapi_meta_slurm_version.v0_0_40_openapi_meta_slurm_version(
-                            major = '', 
-                            micro = '', 
-                            minor = '', ), 
-                        release = '', 
+                        ],
+                    slurm = openapi_slurm.models.v0_0_40_openapi_meta_slurm.v0_0_40_openapi_meta_slurm(
+                        version = openapi_slurm.models.v0_0_40_openapi_meta_slurm_version.v0_0_40_openapi_meta_slurm_version(
+                            major = '',
+                            micro = '',
+                            minor = '', ),
+                        release = '',
                         cluster = '', ), ),
                 errors = [
-                    openapi_client.models.v0/0/42_openapi_error.v0.0.42_openapi_error(
-                        description = '', 
-                        error_number = 56, 
-                        error = '', 
+                    openapi_slurm.models.v0/0/42_openapi_error.v0.0.42_openapi_error(
+                        description = '',
+                        error_number = 56,
+                        error = '',
                         source = '', )
                     ],
                 warnings = [
-                    openapi_client.models.v0/0/42_openapi_warning.v0.0.42_openapi_warning(
-                        description = '', 
+                    openapi_slurm.models.v0/0/42_openapi_warning.v0.0.42_openapi_warning(
+                        description = '',
                         source = '', )
                     ]
             )
         else:
             return V0042OpenapiPingArrayResp(
                 pings = [
-                    openapi_client.models.v0/0/42_controller_ping.v0.0.42_controller_ping(
-                        hostname = '', 
-                        pinged = '', 
-                        responding = True, 
-                        latency = 56, 
-                        mode = '', 
+                    openapi_slurm.models.v0/0/42_controller_ping.v0.0.42_controller_ping(
+                        hostname = '',
+                        pinged = '',
+                        responding = True,
+                        latency = 56,
+                        mode = '',
                         primary = True, )
                     ],
         )

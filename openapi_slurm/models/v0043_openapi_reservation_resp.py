@@ -20,11 +20,11 @@ import json
 
 from pydantic import BaseModel, ConfigDict
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0043_openapi_error import V0043OpenapiError
-from openapi_client.models.v0043_openapi_meta import V0043OpenapiMeta
-from openapi_client.models.v0043_openapi_warning import V0043OpenapiWarning
-from openapi_client.models.v0043_reservation_info import V0043ReservationInfo
-from openapi_client.models.v0043_uint64_no_val_struct import V0043Uint64NoValStruct
+from openapi_slurm.models.v0043_openapi_error import V0043OpenapiError
+from openapi_slurm.models.v0043_openapi_meta import V0043OpenapiMeta
+from openapi_slurm.models.v0043_openapi_warning import V0043OpenapiWarning
+from openapi_slurm.models.v0043_reservation_info import V0043ReservationInfo
+from openapi_slurm.models.v0043_uint64_no_val_struct import V0043Uint64NoValStruct
 from typing import Optional, Set
 from typing_extensions import Self
 

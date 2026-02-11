@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**seconds** | **int** | Sum of System and User CPU time used by the job in seconds | [optional] 
-**microseconds** | **int** | Sum of System and User CPU time used by the job in microseconds | [optional] 
+**seconds** | **int** | Sum of System and User CPU time used by the job in seconds | [optional]
+**microseconds** | **int** | Sum of System and User CPU time used by the job in microseconds | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_job_time_total import V0040JobTimeTotal
+from openapi_slurm.models.v0040_job_time_total import V0040JobTimeTotal
 
 # TODO update the JSON string below
 json = "{}"

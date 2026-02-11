@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_accounting_allocated import V0040AccountingAllocated
+from openapi_slurm.models.v0040_accounting_allocated import V0040AccountingAllocated
 
 class TestV0040AccountingAllocated(unittest.TestCase):
     """V0040AccountingAllocated unit test stubs"""

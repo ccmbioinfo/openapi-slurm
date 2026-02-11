@@ -5,12 +5,12 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**wall_clock** | [**V0043Uint32NoValStruct**](V0043Uint32NoValStruct.md) |  | [optional] 
+**wall_clock** | [**V0043Uint32NoValStruct**](V0043Uint32NoValStruct.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0043_assoc_max_per_account import V0043AssocMaxPerAccount
+from openapi_slurm.models.v0043_assoc_max_per_account import V0043AssocMaxPerAccount
 
 # TODO update the JSON string below
 json = "{}"

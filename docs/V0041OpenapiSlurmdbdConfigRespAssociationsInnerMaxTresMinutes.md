@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**total** | [**List[V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerTresRequestedMaxInner]**](V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerTresRequestedMaxInner.md) | MaxTRESMinsPerJob | [optional] 
-**per** | [**V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxTresMinutesPer**](V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxTresMinutesPer.md) |  | [optional] 
+**total** | [**List[V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerTresRequestedMaxInner]**](V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerTresRequestedMaxInner.md) | MaxTRESMinsPerJob | [optional]
+**per** | [**V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxTresMinutesPer**](V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxTresMinutesPer.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_associations_inner_max_tres_minutes import V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxTresMinutes
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_associations_inner_max_tres_minutes import V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxTresMinutes
 
 # TODO update the JSON string below
 json = "{}"

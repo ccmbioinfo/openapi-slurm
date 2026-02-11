@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0042_shares_float128_tres import V0042SharesFloat128Tres
+from openapi_slurm.models.v0042_shares_float128_tres import V0042SharesFloat128Tres
 
 class TestV0042SharesFloat128Tres(unittest.TestCase):
     """V0042SharesFloat128Tres unit test stubs"""

@@ -20,9 +20,9 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictInt, StrictStr, field_validator
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0040_cluster_rec_associations import V0040ClusterRecAssociations
-from openapi_client.models.v0040_cluster_rec_controller import V0040ClusterRecController
-from openapi_client.models.v0040_tres import V0040Tres
+from openapi_slurm.models.v0040_cluster_rec_associations import V0040ClusterRecAssociations
+from openapi_slurm.models.v0040_cluster_rec_controller import V0040ClusterRecController
+from openapi_slurm.models.v0040_tres import V0040Tres
 from typing import Optional, Set
 from typing_extensions import Self
 

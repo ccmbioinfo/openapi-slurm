@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0043_reservation_desc_msg import V0043ReservationDescMsg
+from openapi_slurm.models.v0043_reservation_desc_msg import V0043ReservationDescMsg
 
 class TestV0043ReservationDescMsg(unittest.TestCase):
     """V0043ReservationDescMsg unit test stubs"""
@@ -41,17 +41,17 @@ class TestV0043ReservationDescMsg(unittest.TestCase):
                     ],
                 burst_buffer = '',
                 comment = '',
-                core_count = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                core_count = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                duration = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                duration = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                end_time = openapi_client.models.v0/0/43_uint64_no_val_struct.v0.0.43_uint64_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                end_time = openapi_slurm.models.v0/0/43_uint64_no_val_struct.v0.0.43_uint64_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
                 features = '',
                 flags = [
@@ -63,33 +63,33 @@ class TestV0043ReservationDescMsg(unittest.TestCase):
                 licenses = [
                     ''
                     ],
-                max_start_delay = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                max_start_delay = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
                 name = '',
-                node_count = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                node_count = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
                 node_list = [
                     ''
                     ],
                 partition = '',
-                purge_completed = openapi_client.models.v0_0_43_reservation_info_purge_completed.v0_0_43_reservation_info_purge_completed(
-                    time = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                        set = True, 
-                        infinite = True, 
+                purge_completed = openapi_slurm.models.v0_0_43_reservation_info_purge_completed.v0_0_43_reservation_info_purge_completed(
+                    time = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                        set = True,
+                        infinite = True,
                         number = 56, ), ),
-                start_time = openapi_client.models.v0/0/43_uint64_no_val_struct.v0.0.43_uint64_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                start_time = openapi_slurm.models.v0/0/43_uint64_no_val_struct.v0.0.43_uint64_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
                 tres = [
-                    openapi_client.models.v0/0/43_tres.v0.0.43_tres(
-                        type = '', 
-                        name = '', 
-                        id = 56, 
+                    openapi_slurm.models.v0/0/43_tres.v0.0.43_tres(
+                        type = '',
+                        name = '',
+                        id = 56,
                         count = 56, )
                     ],
                 users = [

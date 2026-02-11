@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_stats_resp_statistics_users_inner import V0041OpenapiSlurmdbdStatsRespStatisticsUsersInner
+from openapi_slurm.models.v0041_openapi_slurmdbd_stats_resp_statistics_users_inner import V0041OpenapiSlurmdbdStatsRespStatisticsUsersInner
 
 class TestV0041OpenapiSlurmdbdStatsRespStatisticsUsersInner(unittest.TestCase):
     """V0041OpenapiSlurmdbdStatsRespStatisticsUsersInner unit test stubs"""
@@ -38,8 +38,8 @@ class TestV0041OpenapiSlurmdbdStatsRespStatisticsUsersInner(unittest.TestCase):
             return V0041OpenapiSlurmdbdStatsRespStatisticsUsersInner(
                 user = '',
                 count = 56,
-                time = openapi_client.models.v0_0_40_stats_rpc_time.v0_0_40_stats_rpc_time(
-                    average = 56, 
+                time = openapi_slurm.models.v0_0_40_stats_rpc_time.v0_0_40_stats_rpc_time(
+                    average = 56,
                     total = 56, )
             )
         else:

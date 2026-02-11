@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0042_assoc_shares_obj_wrap_fairshare import V0042AssocSharesObjWrapFairshare
+from openapi_slurm.models.v0042_assoc_shares_obj_wrap_fairshare import V0042AssocSharesObjWrapFairshare
 
 class TestV0042AssocSharesObjWrapFairshare(unittest.TestCase):
     """V0042AssocSharesObjWrapFairshare unit test stubs"""
@@ -36,13 +36,13 @@ class TestV0042AssocSharesObjWrapFairshare(unittest.TestCase):
         model = V0042AssocSharesObjWrapFairshare()
         if include_optional:
             return V0042AssocSharesObjWrapFairshare(
-                factor = openapi_client.models.v0/0/42_float64_no_val_struct.v0.0.42_float64_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                factor = openapi_slurm.models.v0/0/42_float64_no_val_struct.v0.0.42_float64_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 1.337, ),
-                level = openapi_client.models.v0/0/42_float64_no_val_struct.v0.0.42_float64_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                level = openapi_slurm.models.v0/0/42_float64_no_val_struct.v0.0.42_float64_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 1.337, )
             )
         else:

@@ -5,15 +5,15 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**allocated** | [**V0040AccountingAllocated**](V0040AccountingAllocated.md) |  | [optional] 
-**id** | **int** | Association ID or Workload characterization key ID | [optional] 
-**start** | **int** | When the record was started | [optional] 
-**tres** | [**V0040Tres**](V0040Tres.md) |  | [optional] 
+**allocated** | [**V0040AccountingAllocated**](V0040AccountingAllocated.md) |  | [optional]
+**id** | **int** | Association ID or Workload characterization key ID | [optional]
+**start** | **int** | When the record was started | [optional]
+**tres** | [**V0040Tres**](V0040Tres.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_accounting import V0040Accounting
+from openapi_slurm.models.v0040_accounting import V0040Accounting
 
 # TODO update the JSON string below
 json = "{}"

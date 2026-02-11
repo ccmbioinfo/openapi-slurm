@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_associations_inner_max_jobs_accruing import V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxJobsAccruing
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_associations_inner_max_jobs_accruing import V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxJobsAccruing
 
 class TestV0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxJobsAccruing(unittest.TestCase):
     """V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxJobsAccruing unit test stubs"""

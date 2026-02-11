@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_qos_inner_usage_factor import V0041OpenapiSlurmdbdConfigRespQosInnerUsageFactor
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_qos_inner_usage_factor import V0041OpenapiSlurmdbdConfigRespQosInnerUsageFactor
 
 class TestV0041OpenapiSlurmdbdConfigRespQosInnerUsageFactor(unittest.TestCase):
     """V0041OpenapiSlurmdbdConfigRespQosInnerUsageFactor unit test stubs"""

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0043_assoc_min import V0043AssocMin
+from openapi_slurm.models.v0043_assoc_min import V0043AssocMin
 
 class TestV0043AssocMin(unittest.TestCase):
     """V0043AssocMin unit test stubs"""
@@ -36,9 +36,9 @@ class TestV0043AssocMin(unittest.TestCase):
         model = V0043AssocMin()
         if include_optional:
             return V0043AssocMin(
-                priority_threshold = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                priority_threshold = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, )
             )
         else:

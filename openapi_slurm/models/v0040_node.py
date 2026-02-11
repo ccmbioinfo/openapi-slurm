@@ -20,8 +20,8 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictFloat, StrictInt, StrictStr, field_validator
 from typing import Any, ClassVar, Dict, List, Optional, Union
-from openapi_client.models.v0040_acct_gather_energy import V0040AcctGatherEnergy
-from openapi_client.models.v0040_uint64_no_val import V0040Uint64NoVal
+from openapi_slurm.models.v0040_acct_gather_energy import V0040AcctGatherEnergy
+from openapi_slurm.models.v0040_uint64_no_val import V0040Uint64NoVal
 from typing import Optional, Set
 from typing_extensions import Self
 

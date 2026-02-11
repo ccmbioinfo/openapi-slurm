@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**index** | **int** | Core index | 
-**status** | **List[str]** | Core status | 
+**index** | **int** | Core index |
+**status** | **List[str]** | Core status |
 
 ## Example
 
 ```python
-from openapi_client.models.v0043_job_res_core import V0043JobResCore
+from openapi_slurm.models.v0043_job_res_core import V0043JobResCore
 
 # TODO update the JSON string below
 json = "{}"

@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**name** | **str** | TRES name | [optional] 
-**value** | **float** | TRES value | [optional] 
+**name** | **str** | TRES name | [optional]
+**value** | **float** | TRES value | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0043_shares_float128_tres import V0043SharesFloat128Tres
+from openapi_slurm.models.v0043_shares_float128_tres import V0043SharesFloat128Tres
 
 # TODO update the JSON string below
 json = "{}"

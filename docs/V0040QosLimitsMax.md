@@ -5,16 +5,16 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**active_jobs** | [**V0040QosLimitsMaxActiveJobs**](V0040QosLimitsMaxActiveJobs.md) |  | [optional] 
-**tres** | [**V0040QosLimitsMaxTres**](V0040QosLimitsMaxTres.md) |  | [optional] 
-**wall_clock** | [**V0040QosLimitsMaxWallClock**](V0040QosLimitsMaxWallClock.md) |  | [optional] 
-**jobs** | [**V0040QosLimitsMaxJobs**](V0040QosLimitsMaxJobs.md) |  | [optional] 
-**accruing** | [**V0040QosLimitsMaxJobsActiveJobs**](V0040QosLimitsMaxJobsActiveJobs.md) |  | [optional] 
+**active_jobs** | [**V0040QosLimitsMaxActiveJobs**](V0040QosLimitsMaxActiveJobs.md) |  | [optional]
+**tres** | [**V0040QosLimitsMaxTres**](V0040QosLimitsMaxTres.md) |  | [optional]
+**wall_clock** | [**V0040QosLimitsMaxWallClock**](V0040QosLimitsMaxWallClock.md) |  | [optional]
+**jobs** | [**V0040QosLimitsMaxJobs**](V0040QosLimitsMaxJobs.md) |  | [optional]
+**accruing** | [**V0040QosLimitsMaxJobsActiveJobs**](V0040QosLimitsMaxJobsActiveJobs.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_qos_limits_max import V0040QosLimitsMax
+from openapi_slurm.models.v0040_qos_limits_max import V0040QosLimitsMax
 
 # TODO update the JSON string below
 json = "{}"

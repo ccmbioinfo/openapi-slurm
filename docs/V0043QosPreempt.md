@@ -5,14 +5,14 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**list** | **List[str]** |  | [optional] 
-**mode** | **List[str]** | PreemptMode - Mechanism used to preempt jobs or enable gang scheduling | [optional] 
-**exempt_time** | [**V0043Uint32NoValStruct**](V0043Uint32NoValStruct.md) |  | [optional] 
+**list** | **List[str]** |  | [optional]
+**mode** | **List[str]** | PreemptMode - Mechanism used to preempt jobs or enable gang scheduling | [optional]
+**exempt_time** | [**V0043Uint32NoValStruct**](V0043Uint32NoValStruct.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0043_qos_preempt import V0043QosPreempt
+from openapi_slurm.models.v0043_qos_preempt import V0043QosPreempt
 
 # TODO update the JSON string below
 json = "{}"

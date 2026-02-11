@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0042_license import V0042License
+from openapi_slurm.models.v0042_license import V0042License
 
 class TestV0042License(unittest.TestCase):
     """V0042License unit test stubs"""

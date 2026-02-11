@@ -5,15 +5,15 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**pings** | [**List[V0041OpenapiPingArrayRespPingsInner]**](V0041OpenapiPingArrayRespPingsInner.md) | pings | 
-**meta** | [**V0041OpenapiSharesRespMeta**](V0041OpenapiSharesRespMeta.md) |  | [optional] 
-**errors** | [**List[V0041OpenapiSharesRespErrorsInner]**](V0041OpenapiSharesRespErrorsInner.md) | Query errors | [optional] 
-**warnings** | [**List[V0041OpenapiSharesRespWarningsInner]**](V0041OpenapiSharesRespWarningsInner.md) | Query warnings | [optional] 
+**pings** | [**List[V0041OpenapiPingArrayRespPingsInner]**](V0041OpenapiPingArrayRespPingsInner.md) | pings |
+**meta** | [**V0041OpenapiSharesRespMeta**](V0041OpenapiSharesRespMeta.md) |  | [optional]
+**errors** | [**List[V0041OpenapiSharesRespErrorsInner]**](V0041OpenapiSharesRespErrorsInner.md) | Query errors | [optional]
+**warnings** | [**List[V0041OpenapiSharesRespWarningsInner]**](V0041OpenapiSharesRespWarningsInner.md) | Query warnings | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_ping_array_resp import V0041OpenapiPingArrayResp
+from openapi_slurm.models.v0041_openapi_ping_array_resp import V0041OpenapiPingArrayResp
 
 # TODO update the JSON string below
 json = "{}"

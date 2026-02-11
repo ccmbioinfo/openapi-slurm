@@ -5,14 +5,14 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**list** | **List[str]** |  | [optional] 
-**mode** | **List[str]** |  | [optional] 
-**exempt_time** | [**V0042Uint32NoValStruct**](V0042Uint32NoValStruct.md) |  | [optional] 
+**list** | **List[str]** |  | [optional]
+**mode** | **List[str]** |  | [optional]
+**exempt_time** | [**V0042Uint32NoValStruct**](V0042Uint32NoValStruct.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0042_qos_preempt import V0042QosPreempt
+from openapi_slurm.models.v0042_qos_preempt import V0042QosPreempt
 
 # TODO update the JSON string below
 json = "{}"

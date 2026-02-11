@@ -20,7 +20,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0040_job_array_limits_max_running import V0040JobArrayLimitsMaxRunning
+from openapi_slurm.models.v0040_job_array_limits_max_running import V0040JobArrayLimitsMaxRunning
 from typing import Optional, Set
 from typing_extensions import Self
 

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0043_openapi_wckey_resp import V0043OpenapiWckeyResp
+from openapi_slurm.models.v0043_openapi_wckey_resp import V0043OpenapiWckeyResp
 
 class TestV0043OpenapiWckeyResp(unittest.TestCase):
     """V0043OpenapiWckeyResp unit test stubs"""
@@ -37,82 +37,82 @@ class TestV0043OpenapiWckeyResp(unittest.TestCase):
         if include_optional:
             return V0043OpenapiWckeyResp(
                 wckeys = [
-                    openapi_client.models.v0/0/43_wckey.v0.0.43_wckey(
+                    openapi_slurm.models.v0/0/43_wckey.v0.0.43_wckey(
                         accounting = [
-                            openapi_client.models.v0/0/43_accounting.v0.0.43_accounting(
-                                allocated = openapi_client.models.v0_0_42_accounting_allocated.v0_0_42_accounting_allocated(
-                                    seconds = 56, ), 
-                                id = 56, 
-                                id_alt = 56, 
-                                start = 56, 
-                                tres = openapi_client.models.v0/0/43_tres.v0.0.43_tres(
-                                    type = '', 
-                                    name = '', 
-                                    id = 56, 
+                            openapi_slurm.models.v0/0/43_accounting.v0.0.43_accounting(
+                                allocated = openapi_slurm.models.v0_0_42_accounting_allocated.v0_0_42_accounting_allocated(
+                                    seconds = 56, ),
+                                id = 56,
+                                id_alt = 56,
+                                start = 56,
+                                tres = openapi_slurm.models.v0/0/43_tres.v0.0.43_tres(
+                                    type = '',
+                                    name = '',
+                                    id = 56,
                                     count = 56, ), )
-                            ], 
-                        cluster = '', 
-                        id = 56, 
-                        name = '', 
-                        user = '', 
+                            ],
+                        cluster = '',
+                        id = 56,
+                        name = '',
+                        user = '',
                         flags = [
                             'DELETED'
                             ], )
                     ],
-                meta = openapi_client.models.v0/0/43_openapi_meta.v0.0.43_openapi_meta(
-                    plugin = openapi_client.models.v0_0_40_openapi_meta_plugin.v0_0_40_openapi_meta_plugin(
-                        type = '', 
-                        name = '', 
-                        data_parser = '', 
-                        accounting_storage = '', ), 
-                    client = openapi_client.models.v0_0_40_openapi_meta_client.v0_0_40_openapi_meta_client(
-                        source = '', 
-                        user = '', 
-                        group = '', ), 
+                meta = openapi_slurm.models.v0/0/43_openapi_meta.v0.0.43_openapi_meta(
+                    plugin = openapi_slurm.models.v0_0_40_openapi_meta_plugin.v0_0_40_openapi_meta_plugin(
+                        type = '',
+                        name = '',
+                        data_parser = '',
+                        accounting_storage = '', ),
+                    client = openapi_slurm.models.v0_0_40_openapi_meta_client.v0_0_40_openapi_meta_client(
+                        source = '',
+                        user = '',
+                        group = '', ),
                     command = [
                         ''
-                        ], 
-                    slurm = openapi_client.models.v0_0_40_openapi_meta_slurm.v0_0_40_openapi_meta_slurm(
-                        version = openapi_client.models.v0_0_40_openapi_meta_slurm_version.v0_0_40_openapi_meta_slurm_version(
-                            major = '', 
-                            micro = '', 
-                            minor = '', ), 
-                        release = '', 
+                        ],
+                    slurm = openapi_slurm.models.v0_0_40_openapi_meta_slurm.v0_0_40_openapi_meta_slurm(
+                        version = openapi_slurm.models.v0_0_40_openapi_meta_slurm_version.v0_0_40_openapi_meta_slurm_version(
+                            major = '',
+                            micro = '',
+                            minor = '', ),
+                        release = '',
                         cluster = '', ), ),
                 errors = [
-                    openapi_client.models.v0/0/43_openapi_error.v0.0.43_openapi_error(
-                        description = '', 
-                        error_number = 56, 
-                        error = '', 
+                    openapi_slurm.models.v0/0/43_openapi_error.v0.0.43_openapi_error(
+                        description = '',
+                        error_number = 56,
+                        error = '',
                         source = '', )
                     ],
                 warnings = [
-                    openapi_client.models.v0/0/43_openapi_warning.v0.0.43_openapi_warning(
-                        description = '', 
+                    openapi_slurm.models.v0/0/43_openapi_warning.v0.0.43_openapi_warning(
+                        description = '',
                         source = '', )
                     ]
             )
         else:
             return V0043OpenapiWckeyResp(
                 wckeys = [
-                    openapi_client.models.v0/0/43_wckey.v0.0.43_wckey(
+                    openapi_slurm.models.v0/0/43_wckey.v0.0.43_wckey(
                         accounting = [
-                            openapi_client.models.v0/0/43_accounting.v0.0.43_accounting(
-                                allocated = openapi_client.models.v0_0_42_accounting_allocated.v0_0_42_accounting_allocated(
-                                    seconds = 56, ), 
-                                id = 56, 
-                                id_alt = 56, 
-                                start = 56, 
-                                tres = openapi_client.models.v0/0/43_tres.v0.0.43_tres(
-                                    type = '', 
-                                    name = '', 
-                                    id = 56, 
+                            openapi_slurm.models.v0/0/43_accounting.v0.0.43_accounting(
+                                allocated = openapi_slurm.models.v0_0_42_accounting_allocated.v0_0_42_accounting_allocated(
+                                    seconds = 56, ),
+                                id = 56,
+                                id_alt = 56,
+                                start = 56,
+                                tres = openapi_slurm.models.v0/0/43_tres.v0.0.43_tres(
+                                    type = '',
+                                    name = '',
+                                    id = 56,
                                     count = 56, ), )
-                            ], 
-                        cluster = '', 
-                        id = 56, 
-                        name = '', 
-                        user = '', 
+                            ],
+                        cluster = '',
+                        id = 56,
+                        name = '',
+                        user = '',
                         flags = [
                             'DELETED'
                             ], )

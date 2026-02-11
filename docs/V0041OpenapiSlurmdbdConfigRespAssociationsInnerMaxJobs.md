@@ -5,15 +5,15 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**per** | [**V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxJobsPer**](V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxJobsPer.md) |  | [optional] 
-**active** | [**V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxJobsActive**](V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxJobsActive.md) |  | [optional] 
-**accruing** | [**V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxJobsAccruing**](V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxJobsAccruing.md) |  | [optional] 
-**total** | [**V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxJobsTotal**](V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxJobsTotal.md) |  | [optional] 
+**per** | [**V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxJobsPer**](V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxJobsPer.md) |  | [optional]
+**active** | [**V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxJobsActive**](V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxJobsActive.md) |  | [optional]
+**accruing** | [**V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxJobsAccruing**](V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxJobsAccruing.md) |  | [optional]
+**total** | [**V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxJobsTotal**](V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxJobsTotal.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_associations_inner_max_jobs import V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxJobs
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_associations_inner_max_jobs import V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxJobs
 
 # TODO update the JSON string below
 json = "{}"

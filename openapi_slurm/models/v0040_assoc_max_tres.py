@@ -20,10 +20,10 @@ import json
 
 from pydantic import BaseModel, ConfigDict
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0040_assoc_max_tres_group import V0040AssocMaxTresGroup
-from openapi_client.models.v0040_assoc_max_tres_minutes import V0040AssocMaxTresMinutes
-from openapi_client.models.v0040_assoc_max_tres_per import V0040AssocMaxTresPer
-from openapi_client.models.v0040_tres import V0040Tres
+from openapi_slurm.models.v0040_assoc_max_tres_group import V0040AssocMaxTresGroup
+from openapi_slurm.models.v0040_assoc_max_tres_minutes import V0040AssocMaxTresMinutes
+from openapi_slurm.models.v0040_assoc_max_tres_per import V0040AssocMaxTresPer
+from openapi_slurm.models.v0040_tres import V0040Tres
 from typing import Optional, Set
 from typing_extensions import Self
 

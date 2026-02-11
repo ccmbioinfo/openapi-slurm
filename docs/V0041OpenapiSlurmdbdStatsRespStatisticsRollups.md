@@ -6,14 +6,14 @@ Rollup statistics
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**hourly** | [**V0041OpenapiSlurmdbdStatsRespStatisticsRollupsHourly**](V0041OpenapiSlurmdbdStatsRespStatisticsRollupsHourly.md) |  | [optional] 
-**daily** | [**V0041OpenapiSlurmdbdStatsRespStatisticsRollupsDaily**](V0041OpenapiSlurmdbdStatsRespStatisticsRollupsDaily.md) |  | [optional] 
-**monthly** | [**V0041OpenapiSlurmdbdStatsRespStatisticsRollupsMonthly**](V0041OpenapiSlurmdbdStatsRespStatisticsRollupsMonthly.md) |  | [optional] 
+**hourly** | [**V0041OpenapiSlurmdbdStatsRespStatisticsRollupsHourly**](V0041OpenapiSlurmdbdStatsRespStatisticsRollupsHourly.md) |  | [optional]
+**daily** | [**V0041OpenapiSlurmdbdStatsRespStatisticsRollupsDaily**](V0041OpenapiSlurmdbdStatsRespStatisticsRollupsDaily.md) |  | [optional]
+**monthly** | [**V0041OpenapiSlurmdbdStatsRespStatisticsRollupsMonthly**](V0041OpenapiSlurmdbdStatsRespStatisticsRollupsMonthly.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_slurmdbd_stats_resp_statistics_rollups import V0041OpenapiSlurmdbdStatsRespStatisticsRollups
+from openapi_slurm.models.v0041_openapi_slurmdbd_stats_resp_statistics_rollups import V0041OpenapiSlurmdbdStatsRespStatisticsRollups
 
 # TODO update the JSON string below
 json = "{}"

@@ -5,14 +5,14 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**allowed_allocation** | **str** | AllocNodes | [optional] 
-**configured** | **str** | Nodes | [optional] 
-**total** | **int** | TotalNodes | [optional] 
+**allowed_allocation** | **str** | AllocNodes | [optional]
+**configured** | **str** | Nodes | [optional]
+**total** | **int** | TotalNodes | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_partition_info_nodes import V0040PartitionInfoNodes
+from openapi_slurm.models.v0040_partition_info_nodes import V0040PartitionInfoNodes
 
 # TODO update the JSON string below
 json = "{}"

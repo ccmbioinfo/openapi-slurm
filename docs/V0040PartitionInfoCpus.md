@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**task_binding** | **int** | CpuBind | [optional] 
-**total** | **int** | TotalCPUs | [optional] 
+**task_binding** | **int** | CpuBind | [optional]
+**total** | **int** | TotalCPUs | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_partition_info_cpus import V0040PartitionInfoCpus
+from openapi_slurm.models.v0040_partition_info_cpus import V0040PartitionInfoCpus
 
 # TODO update the JSON string below
 json = "{}"

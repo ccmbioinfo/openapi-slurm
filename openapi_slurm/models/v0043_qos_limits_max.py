@@ -20,11 +20,11 @@ import json
 
 from pydantic import BaseModel, ConfigDict
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0043_qos_limits_max_active_jobs import V0043QosLimitsMaxActiveJobs
-from openapi_client.models.v0043_qos_limits_max_jobs import V0043QosLimitsMaxJobs
-from openapi_client.models.v0043_qos_limits_max_jobs_active_jobs import V0043QosLimitsMaxJobsActiveJobs
-from openapi_client.models.v0043_qos_limits_max_tres import V0043QosLimitsMaxTres
-from openapi_client.models.v0043_qos_limits_max_wall_clock import V0043QosLimitsMaxWallClock
+from openapi_slurm.models.v0043_qos_limits_max_active_jobs import V0043QosLimitsMaxActiveJobs
+from openapi_slurm.models.v0043_qos_limits_max_jobs import V0043QosLimitsMaxJobs
+from openapi_slurm.models.v0043_qos_limits_max_jobs_active_jobs import V0043QosLimitsMaxJobsActiveJobs
+from openapi_slurm.models.v0043_qos_limits_max_tres import V0043QosLimitsMaxTres
+from openapi_slurm.models.v0043_qos_limits_max_wall_clock import V0043QosLimitsMaxWallClock
 from typing import Optional, Set
 from typing_extensions import Self
 

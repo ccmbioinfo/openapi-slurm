@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**billing_weights** | **str** | TRESBillingWeights - Billing weights of each tracked TRES type that will be used in calculating the usage of a job | [optional] 
-**configured** | **str** | TRES - Number of each applicable TRES type available in this partition | [optional] 
+**billing_weights** | **str** | TRESBillingWeights - Billing weights of each tracked TRES type that will be used in calculating the usage of a job | [optional]
+**configured** | **str** | TRES - Number of each applicable TRES type available in this partition | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0043_partition_info_tres import V0043PartitionInfoTres
+from openapi_slurm.models.v0043_partition_info_tres import V0043PartitionInfoTres
 
 # TODO update the JSON string below
 json = "{}"

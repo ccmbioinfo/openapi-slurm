@@ -5,15 +5,15 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**pings** | [**List[V0040ControllerPing]**](V0040ControllerPing.md) |  | 
-**meta** | [**V0040OpenapiMeta**](V0040OpenapiMeta.md) |  | [optional] 
-**errors** | [**List[V0040OpenapiError]**](V0040OpenapiError.md) |  | [optional] 
-**warnings** | [**List[V0040OpenapiWarning]**](V0040OpenapiWarning.md) |  | [optional] 
+**pings** | [**List[V0040ControllerPing]**](V0040ControllerPing.md) |  |
+**meta** | [**V0040OpenapiMeta**](V0040OpenapiMeta.md) |  | [optional]
+**errors** | [**List[V0040OpenapiError]**](V0040OpenapiError.md) |  | [optional]
+**warnings** | [**List[V0040OpenapiWarning]**](V0040OpenapiWarning.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_openapi_ping_array_resp import V0040OpenapiPingArrayResp
+from openapi_slurm.models.v0040_openapi_ping_array_resp import V0040OpenapiPingArrayResp
 
 # TODO update the JSON string below
 json = "{}"

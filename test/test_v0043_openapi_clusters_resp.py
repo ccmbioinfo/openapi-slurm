@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0043_openapi_clusters_resp import V0043OpenapiClustersResp
+from openapi_slurm.models.v0043_openapi_clusters_resp import V0043OpenapiClustersResp
 
 class TestV0043OpenapiClustersResp(unittest.TestCase):
     """V0043OpenapiClustersResp unit test stubs"""
@@ -37,91 +37,91 @@ class TestV0043OpenapiClustersResp(unittest.TestCase):
         if include_optional:
             return V0043OpenapiClustersResp(
                 clusters = [
-                    openapi_client.models.v0/0/43_cluster_rec.v0.0.43_cluster_rec(
-                        controller = openapi_client.models.v0_0_40_cluster_rec_controller.v0_0_40_cluster_rec_controller(
-                            host = '', 
-                            port = 56, ), 
+                    openapi_slurm.models.v0/0/43_cluster_rec.v0.0.43_cluster_rec(
+                        controller = openapi_slurm.models.v0_0_40_cluster_rec_controller.v0_0_40_cluster_rec_controller(
+                            host = '',
+                            port = 56, ),
                         flags = [
                             'DELETED'
-                            ], 
-                        name = '', 
-                        nodes = '', 
-                        select_plugin = '', 
-                        associations = openapi_client.models.v0_0_43_cluster_rec_associations.v0_0_43_cluster_rec_associations(
-                            root = openapi_client.models.v0/0/43_assoc_short.v0.0.43_assoc_short(
-                                account = '', 
-                                cluster = '', 
-                                partition = '', 
-                                user = '', 
-                                id = 56, ), ), 
-                        rpc_version = 56, 
+                            ],
+                        name = '',
+                        nodes = '',
+                        select_plugin = '',
+                        associations = openapi_slurm.models.v0_0_43_cluster_rec_associations.v0_0_43_cluster_rec_associations(
+                            root = openapi_slurm.models.v0/0/43_assoc_short.v0.0.43_assoc_short(
+                                account = '',
+                                cluster = '',
+                                partition = '',
+                                user = '',
+                                id = 56, ), ),
+                        rpc_version = 56,
                         tres = [
-                            openapi_client.models.v0/0/43_tres.v0.0.43_tres(
-                                type = '', 
-                                name = '', 
-                                id = 56, 
+                            openapi_slurm.models.v0/0/43_tres.v0.0.43_tres(
+                                type = '',
+                                name = '',
+                                id = 56,
                                 count = 56, )
                             ], )
                     ],
-                meta = openapi_client.models.v0/0/43_openapi_meta.v0.0.43_openapi_meta(
-                    plugin = openapi_client.models.v0_0_40_openapi_meta_plugin.v0_0_40_openapi_meta_plugin(
-                        type = '', 
-                        name = '', 
-                        data_parser = '', 
-                        accounting_storage = '', ), 
-                    client = openapi_client.models.v0_0_40_openapi_meta_client.v0_0_40_openapi_meta_client(
-                        source = '', 
-                        user = '', 
-                        group = '', ), 
+                meta = openapi_slurm.models.v0/0/43_openapi_meta.v0.0.43_openapi_meta(
+                    plugin = openapi_slurm.models.v0_0_40_openapi_meta_plugin.v0_0_40_openapi_meta_plugin(
+                        type = '',
+                        name = '',
+                        data_parser = '',
+                        accounting_storage = '', ),
+                    client = openapi_slurm.models.v0_0_40_openapi_meta_client.v0_0_40_openapi_meta_client(
+                        source = '',
+                        user = '',
+                        group = '', ),
                     command = [
                         ''
-                        ], 
-                    slurm = openapi_client.models.v0_0_40_openapi_meta_slurm.v0_0_40_openapi_meta_slurm(
-                        version = openapi_client.models.v0_0_40_openapi_meta_slurm_version.v0_0_40_openapi_meta_slurm_version(
-                            major = '', 
-                            micro = '', 
-                            minor = '', ), 
-                        release = '', 
+                        ],
+                    slurm = openapi_slurm.models.v0_0_40_openapi_meta_slurm.v0_0_40_openapi_meta_slurm(
+                        version = openapi_slurm.models.v0_0_40_openapi_meta_slurm_version.v0_0_40_openapi_meta_slurm_version(
+                            major = '',
+                            micro = '',
+                            minor = '', ),
+                        release = '',
                         cluster = '', ), ),
                 errors = [
-                    openapi_client.models.v0/0/43_openapi_error.v0.0.43_openapi_error(
-                        description = '', 
-                        error_number = 56, 
-                        error = '', 
+                    openapi_slurm.models.v0/0/43_openapi_error.v0.0.43_openapi_error(
+                        description = '',
+                        error_number = 56,
+                        error = '',
                         source = '', )
                     ],
                 warnings = [
-                    openapi_client.models.v0/0/43_openapi_warning.v0.0.43_openapi_warning(
-                        description = '', 
+                    openapi_slurm.models.v0/0/43_openapi_warning.v0.0.43_openapi_warning(
+                        description = '',
                         source = '', )
                     ]
             )
         else:
             return V0043OpenapiClustersResp(
                 clusters = [
-                    openapi_client.models.v0/0/43_cluster_rec.v0.0.43_cluster_rec(
-                        controller = openapi_client.models.v0_0_40_cluster_rec_controller.v0_0_40_cluster_rec_controller(
-                            host = '', 
-                            port = 56, ), 
+                    openapi_slurm.models.v0/0/43_cluster_rec.v0.0.43_cluster_rec(
+                        controller = openapi_slurm.models.v0_0_40_cluster_rec_controller.v0_0_40_cluster_rec_controller(
+                            host = '',
+                            port = 56, ),
                         flags = [
                             'DELETED'
-                            ], 
-                        name = '', 
-                        nodes = '', 
-                        select_plugin = '', 
-                        associations = openapi_client.models.v0_0_43_cluster_rec_associations.v0_0_43_cluster_rec_associations(
-                            root = openapi_client.models.v0/0/43_assoc_short.v0.0.43_assoc_short(
-                                account = '', 
-                                cluster = '', 
-                                partition = '', 
-                                user = '', 
-                                id = 56, ), ), 
-                        rpc_version = 56, 
+                            ],
+                        name = '',
+                        nodes = '',
+                        select_plugin = '',
+                        associations = openapi_slurm.models.v0_0_43_cluster_rec_associations.v0_0_43_cluster_rec_associations(
+                            root = openapi_slurm.models.v0/0/43_assoc_short.v0.0.43_assoc_short(
+                                account = '',
+                                cluster = '',
+                                partition = '',
+                                user = '',
+                                id = 56, ), ),
+                        rpc_version = 56,
                         tres = [
-                            openapi_client.models.v0/0/43_tres.v0.0.43_tres(
-                                type = '', 
-                                name = '', 
-                                id = 56, 
+                            openapi_slurm.models.v0/0/43_tres.v0.0.43_tres(
+                                type = '',
+                                name = '',
+                                id = 56,
                                 count = 56, )
                             ], )
                     ],

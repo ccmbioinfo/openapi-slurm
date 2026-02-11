@@ -5,12 +5,12 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**seconds** | **int** | Number of cpu seconds allocated | [optional] 
+**seconds** | **int** | Number of cpu seconds allocated | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_accounting_allocated import V0040AccountingAllocated
+from openapi_slurm.models.v0040_accounting_allocated import V0040AccountingAllocated
 
 # TODO update the JSON string below
 json = "{}"

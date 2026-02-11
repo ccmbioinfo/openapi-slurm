@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_step_time import V0040StepTime
+from openapi_slurm.models.v0040_step_time import V0040StepTime
 
 class TestV0040StepTime(unittest.TestCase):
     """V0040StepTime unit test stubs"""
@@ -37,23 +37,23 @@ class TestV0040StepTime(unittest.TestCase):
         if include_optional:
             return V0040StepTime(
                 elapsed = 56,
-                end = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
-                    set = True, 
-                    infinite = True, 
+                end = openapi_slurm.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                start = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
-                    set = True, 
-                    infinite = True, 
+                start = openapi_slurm.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
                 suspended = 56,
-                system = openapi_client.models.v0_0_40_step_time_system.v0_0_40_step_time_system(
-                    seconds = 56, 
+                system = openapi_slurm.models.v0_0_40_step_time_system.v0_0_40_step_time_system(
+                    seconds = 56,
                     microseconds = 56, ),
-                total = openapi_client.models.v0_0_40_step_time_total.v0_0_40_step_time_total(
-                    seconds = 56, 
+                total = openapi_slurm.models.v0_0_40_step_time_total.v0_0_40_step_time_total(
+                    seconds = 56,
                     microseconds = 56, ),
-                user = openapi_client.models.v0_0_40_step_time_user.v0_0_40_step_time_user(
-                    seconds = 56, 
+                user = openapi_slurm.models.v0_0_40_step_time_user.v0_0_40_step_time_user(
+                    seconds = 56,
                     microseconds = 56, )
             )
         else:

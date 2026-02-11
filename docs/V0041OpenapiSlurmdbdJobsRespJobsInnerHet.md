@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**job_id** | **int** | Heterogeneous job ID, if applicable | [optional] 
-**job_offset** | [**V0041OpenapiJobInfoRespJobsInnerHetJobOffset**](V0041OpenapiJobInfoRespJobsInnerHetJobOffset.md) |  | [optional] 
+**job_id** | **int** | Heterogeneous job ID, if applicable | [optional]
+**job_offset** | [**V0041OpenapiJobInfoRespJobsInnerHetJobOffset**](V0041OpenapiJobInfoRespJobsInnerHetJobOffset.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_het import V0041OpenapiSlurmdbdJobsRespJobsInnerHet
+from openapi_slurm.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_het import V0041OpenapiSlurmdbdJobsRespJobsInnerHet
 
 # TODO update the JSON string below
 json = "{}"

@@ -5,16 +5,16 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**association_condition** | [**V0043UsersAddCond**](V0043UsersAddCond.md) |  | 
-**user** | [**V0043UserShort**](V0043UserShort.md) |  | 
-**meta** | [**V0043OpenapiMeta**](V0043OpenapiMeta.md) |  | [optional] 
-**errors** | [**List[V0043OpenapiError]**](V0043OpenapiError.md) |  | [optional] 
-**warnings** | [**List[V0043OpenapiWarning]**](V0043OpenapiWarning.md) |  | [optional] 
+**association_condition** | [**V0043UsersAddCond**](V0043UsersAddCond.md) |  |
+**user** | [**V0043UserShort**](V0043UserShort.md) |  |
+**meta** | [**V0043OpenapiMeta**](V0043OpenapiMeta.md) |  | [optional]
+**errors** | [**List[V0043OpenapiError]**](V0043OpenapiError.md) |  | [optional]
+**warnings** | [**List[V0043OpenapiWarning]**](V0043OpenapiWarning.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0043_openapi_users_add_cond_resp import V0043OpenapiUsersAddCondResp
+from openapi_slurm.models.v0043_openapi_users_add_cond_resp import V0043OpenapiUsersAddCondResp
 
 # TODO update the JSON string below
 json = "{}"

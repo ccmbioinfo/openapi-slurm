@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**account** | [**V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxJobsActiveJobsPerAccount**](V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxJobsActiveJobsPerAccount.md) |  | [optional] 
-**user** | [**V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxJobsActiveJobsPerUser**](V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxJobsActiveJobsPerUser.md) |  | [optional] 
+**account** | [**V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxJobsActiveJobsPerAccount**](V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxJobsActiveJobsPerAccount.md) |  | [optional]
+**user** | [**V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxJobsActiveJobsPerUser**](V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxJobsActiveJobsPerUser.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs_per import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxJobsActiveJobsPer
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs_per import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxJobsActiveJobsPer
 
 # TODO update the JSON string below
 json = "{}"

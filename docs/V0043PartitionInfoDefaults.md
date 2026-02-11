@@ -5,16 +5,16 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**memory_per_cpu** | **int** | Raw value for DefMemPerCPU or DefMemPerNode | [optional] 
-**partition_memory_per_cpu** | [**V0043Uint64NoValStruct**](V0043Uint64NoValStruct.md) |  | [optional] 
-**partition_memory_per_node** | [**V0043Uint64NoValStruct**](V0043Uint64NoValStruct.md) |  | [optional] 
-**time** | [**V0043Uint32NoValStruct**](V0043Uint32NoValStruct.md) |  | [optional] 
-**job** | **str** | JobDefaults - Comma-separated list of job default values (this field is only used to set new defaults) | [optional] 
+**memory_per_cpu** | **int** | Raw value for DefMemPerCPU or DefMemPerNode | [optional]
+**partition_memory_per_cpu** | [**V0043Uint64NoValStruct**](V0043Uint64NoValStruct.md) |  | [optional]
+**partition_memory_per_node** | [**V0043Uint64NoValStruct**](V0043Uint64NoValStruct.md) |  | [optional]
+**time** | [**V0043Uint32NoValStruct**](V0043Uint32NoValStruct.md) |  | [optional]
+**job** | **str** | JobDefaults - Comma-separated list of job default values (this field is only used to set new defaults) | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0043_partition_info_defaults import V0043PartitionInfoDefaults
+from openapi_slurm.models.v0043_partition_info_defaults import V0043PartitionInfoDefaults
 
 # TODO update the JSON string below
 json = "{}"

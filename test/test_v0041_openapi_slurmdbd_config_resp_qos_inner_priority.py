@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_qos_inner_priority import V0041OpenapiSlurmdbdConfigRespQosInnerPriority
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_qos_inner_priority import V0041OpenapiSlurmdbdConfigRespQosInnerPriority
 
 class TestV0041OpenapiSlurmdbdConfigRespQosInnerPriority(unittest.TestCase):
     """V0041OpenapiSlurmdbdConfigRespQosInnerPriority unit test stubs"""

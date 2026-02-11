@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0043_openapi_shares_resp import V0043OpenapiSharesResp
+from openapi_slurm.models.v0043_openapi_shares_resp import V0043OpenapiSharesResp
 
 class TestV0043OpenapiSharesResp(unittest.TestCase):
     """V0043OpenapiSharesResp unit test stubs"""
@@ -36,126 +36,126 @@ class TestV0043OpenapiSharesResp(unittest.TestCase):
         model = V0043OpenapiSharesResp()
         if include_optional:
             return V0043OpenapiSharesResp(
-                shares = openapi_client.models.v0/0/43_shares_resp_msg.v0.0.43_shares_resp_msg(
+                shares = openapi_slurm.models.v0/0/43_shares_resp_msg.v0.0.43_shares_resp_msg(
                     shares = [
-                        openapi_client.models.v0/0/43_assoc_shares_obj_wrap.v0.0.43_assoc_shares_obj_wrap(
-                            id = 56, 
-                            cluster = '', 
-                            name = '', 
-                            parent = '', 
-                            partition = '', 
-                            shares_normalized = openapi_client.models.v0/0/43_float64_no_val_struct.v0.0.43_float64_no_val_struct(
-                                set = True, 
-                                infinite = True, 
-                                number = 1.337, ), 
-                            tres = openapi_client.models.v0_0_43_assoc_shares_obj_wrap_tres.v0_0_43_assoc_shares_obj_wrap_tres(
+                        openapi_slurm.models.v0/0/43_assoc_shares_obj_wrap.v0.0.43_assoc_shares_obj_wrap(
+                            id = 56,
+                            cluster = '',
+                            name = '',
+                            parent = '',
+                            partition = '',
+                            shares_normalized = openapi_slurm.models.v0/0/43_float64_no_val_struct.v0.0.43_float64_no_val_struct(
+                                set = True,
+                                infinite = True,
+                                number = 1.337, ),
+                            tres = openapi_slurm.models.v0_0_43_assoc_shares_obj_wrap_tres.v0_0_43_assoc_shares_obj_wrap_tres(
                                 run_seconds = [
-                                    openapi_client.models.v0/0/43_shares_uint64_tres.v0.0.43_shares_uint64_tres(
-                                        name = '', 
-                                        value = openapi_client.models.v0/0/43_uint64_no_val_struct.v0.0.43_uint64_no_val_struct(
-                                            set = True, 
-                                            infinite = True, 
+                                    openapi_slurm.models.v0/0/43_shares_uint64_tres.v0.0.43_shares_uint64_tres(
+                                        name = '',
+                                        value = openapi_slurm.models.v0/0/43_uint64_no_val_struct.v0.0.43_uint64_no_val_struct(
+                                            set = True,
+                                            infinite = True,
                                             number = 56, ), )
-                                    ], 
+                                    ],
                                 group_minutes = [
-                                    openapi_client.models.v0/0/43_shares_uint64_tres.v0.0.43_shares_uint64_tres(
+                                    openapi_slurm.models.v0/0/43_shares_uint64_tres.v0.0.43_shares_uint64_tres(
                                         name = '', )
-                                    ], 
+                                    ],
                                 usage = [
-                                    openapi_client.models.v0/0/43_shares_float128_tres.v0.0.43_shares_float128_tres(
+                                    openapi_slurm.models.v0/0/43_shares_float128_tres.v0.0.43_shares_float128_tres(
                                         name = '', )
-                                    ], ), 
-                            effective_usage = openapi_client.models.v0/0/43_float64_no_val_struct.v0.0.43_float64_no_val_struct(
-                                set = True, 
-                                infinite = True, 
-                                number = 1.337, ), 
-                            usage_normalized = , 
-                            usage = 56, 
-                            fairshare = openapi_client.models.v0_0_43_assoc_shares_obj_wrap_fairshare.v0_0_43_assoc_shares_obj_wrap_fairshare(
-                                factor = , 
-                                level = , ), 
+                                    ], ),
+                            effective_usage = openapi_slurm.models.v0/0/43_float64_no_val_struct.v0.0.43_float64_no_val_struct(
+                                set = True,
+                                infinite = True,
+                                number = 1.337, ),
+                            usage_normalized = ,
+                            usage = 56,
+                            fairshare = openapi_slurm.models.v0_0_43_assoc_shares_obj_wrap_fairshare.v0_0_43_assoc_shares_obj_wrap_fairshare(
+                                factor = ,
+                                level = , ),
                             type = [
                                 'USER'
                                 ], )
-                        ], 
+                        ],
                     total_shares = 56, ),
-                meta = openapi_client.models.v0/0/43_openapi_meta.v0.0.43_openapi_meta(
-                    plugin = openapi_client.models.v0_0_40_openapi_meta_plugin.v0_0_40_openapi_meta_plugin(
-                        type = '', 
-                        name = '', 
-                        data_parser = '', 
-                        accounting_storage = '', ), 
-                    client = openapi_client.models.v0_0_40_openapi_meta_client.v0_0_40_openapi_meta_client(
-                        source = '', 
-                        user = '', 
-                        group = '', ), 
+                meta = openapi_slurm.models.v0/0/43_openapi_meta.v0.0.43_openapi_meta(
+                    plugin = openapi_slurm.models.v0_0_40_openapi_meta_plugin.v0_0_40_openapi_meta_plugin(
+                        type = '',
+                        name = '',
+                        data_parser = '',
+                        accounting_storage = '', ),
+                    client = openapi_slurm.models.v0_0_40_openapi_meta_client.v0_0_40_openapi_meta_client(
+                        source = '',
+                        user = '',
+                        group = '', ),
                     command = [
                         ''
-                        ], 
-                    slurm = openapi_client.models.v0_0_40_openapi_meta_slurm.v0_0_40_openapi_meta_slurm(
-                        version = openapi_client.models.v0_0_40_openapi_meta_slurm_version.v0_0_40_openapi_meta_slurm_version(
-                            major = '', 
-                            micro = '', 
-                            minor = '', ), 
-                        release = '', 
+                        ],
+                    slurm = openapi_slurm.models.v0_0_40_openapi_meta_slurm.v0_0_40_openapi_meta_slurm(
+                        version = openapi_slurm.models.v0_0_40_openapi_meta_slurm_version.v0_0_40_openapi_meta_slurm_version(
+                            major = '',
+                            micro = '',
+                            minor = '', ),
+                        release = '',
                         cluster = '', ), ),
                 errors = [
-                    openapi_client.models.v0/0/43_openapi_error.v0.0.43_openapi_error(
-                        description = '', 
-                        error_number = 56, 
-                        error = '', 
+                    openapi_slurm.models.v0/0/43_openapi_error.v0.0.43_openapi_error(
+                        description = '',
+                        error_number = 56,
+                        error = '',
                         source = '', )
                     ],
                 warnings = [
-                    openapi_client.models.v0/0/43_openapi_warning.v0.0.43_openapi_warning(
-                        description = '', 
+                    openapi_slurm.models.v0/0/43_openapi_warning.v0.0.43_openapi_warning(
+                        description = '',
                         source = '', )
                     ]
             )
         else:
             return V0043OpenapiSharesResp(
-                shares = openapi_client.models.v0/0/43_shares_resp_msg.v0.0.43_shares_resp_msg(
+                shares = openapi_slurm.models.v0/0/43_shares_resp_msg.v0.0.43_shares_resp_msg(
                     shares = [
-                        openapi_client.models.v0/0/43_assoc_shares_obj_wrap.v0.0.43_assoc_shares_obj_wrap(
-                            id = 56, 
-                            cluster = '', 
-                            name = '', 
-                            parent = '', 
-                            partition = '', 
-                            shares_normalized = openapi_client.models.v0/0/43_float64_no_val_struct.v0.0.43_float64_no_val_struct(
-                                set = True, 
-                                infinite = True, 
-                                number = 1.337, ), 
-                            tres = openapi_client.models.v0_0_43_assoc_shares_obj_wrap_tres.v0_0_43_assoc_shares_obj_wrap_tres(
+                        openapi_slurm.models.v0/0/43_assoc_shares_obj_wrap.v0.0.43_assoc_shares_obj_wrap(
+                            id = 56,
+                            cluster = '',
+                            name = '',
+                            parent = '',
+                            partition = '',
+                            shares_normalized = openapi_slurm.models.v0/0/43_float64_no_val_struct.v0.0.43_float64_no_val_struct(
+                                set = True,
+                                infinite = True,
+                                number = 1.337, ),
+                            tres = openapi_slurm.models.v0_0_43_assoc_shares_obj_wrap_tres.v0_0_43_assoc_shares_obj_wrap_tres(
                                 run_seconds = [
-                                    openapi_client.models.v0/0/43_shares_uint64_tres.v0.0.43_shares_uint64_tres(
-                                        name = '', 
-                                        value = openapi_client.models.v0/0/43_uint64_no_val_struct.v0.0.43_uint64_no_val_struct(
-                                            set = True, 
-                                            infinite = True, 
+                                    openapi_slurm.models.v0/0/43_shares_uint64_tres.v0.0.43_shares_uint64_tres(
+                                        name = '',
+                                        value = openapi_slurm.models.v0/0/43_uint64_no_val_struct.v0.0.43_uint64_no_val_struct(
+                                            set = True,
+                                            infinite = True,
                                             number = 56, ), )
-                                    ], 
+                                    ],
                                 group_minutes = [
-                                    openapi_client.models.v0/0/43_shares_uint64_tres.v0.0.43_shares_uint64_tres(
+                                    openapi_slurm.models.v0/0/43_shares_uint64_tres.v0.0.43_shares_uint64_tres(
                                         name = '', )
-                                    ], 
+                                    ],
                                 usage = [
-                                    openapi_client.models.v0/0/43_shares_float128_tres.v0.0.43_shares_float128_tres(
+                                    openapi_slurm.models.v0/0/43_shares_float128_tres.v0.0.43_shares_float128_tres(
                                         name = '', )
-                                    ], ), 
-                            effective_usage = openapi_client.models.v0/0/43_float64_no_val_struct.v0.0.43_float64_no_val_struct(
-                                set = True, 
-                                infinite = True, 
-                                number = 1.337, ), 
-                            usage_normalized = , 
-                            usage = 56, 
-                            fairshare = openapi_client.models.v0_0_43_assoc_shares_obj_wrap_fairshare.v0_0_43_assoc_shares_obj_wrap_fairshare(
-                                factor = , 
-                                level = , ), 
+                                    ], ),
+                            effective_usage = openapi_slurm.models.v0/0/43_float64_no_val_struct.v0.0.43_float64_no_val_struct(
+                                set = True,
+                                infinite = True,
+                                number = 1.337, ),
+                            usage_normalized = ,
+                            usage = 56,
+                            fairshare = openapi_slurm.models.v0_0_43_assoc_shares_obj_wrap_fairshare.v0_0_43_assoc_shares_obj_wrap_fairshare(
+                                factor = ,
+                                level = , ),
                             type = [
                                 'USER'
                                 ], )
-                        ], 
+                        ],
                     total_shares = 56, ),
         )
         """

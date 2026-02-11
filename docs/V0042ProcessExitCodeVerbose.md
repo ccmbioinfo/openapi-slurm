@@ -5,14 +5,14 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**status** | **List[str]** |  | [optional] 
-**return_code** | [**V0042Uint32NoValStruct**](V0042Uint32NoValStruct.md) |  | [optional] 
-**signal** | [**V0042ProcessExitCodeVerboseSignal**](V0042ProcessExitCodeVerboseSignal.md) |  | [optional] 
+**status** | **List[str]** |  | [optional]
+**return_code** | [**V0042Uint32NoValStruct**](V0042Uint32NoValStruct.md) |  | [optional]
+**signal** | [**V0042ProcessExitCodeVerboseSignal**](V0042ProcessExitCodeVerboseSignal.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0042_process_exit_code_verbose import V0042ProcessExitCodeVerbose
+from openapi_slurm.models.v0042_process_exit_code_verbose import V0042ProcessExitCodeVerbose
 
 # TODO update the JSON string below
 json = "{}"

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0042_step_cpu import V0042StepCPU
+from openapi_slurm.models.v0042_step_cpu import V0042StepCPU
 
 class TestV0042StepCPU(unittest.TestCase):
     """V0042StepCPU unit test stubs"""
@@ -36,14 +36,14 @@ class TestV0042StepCPU(unittest.TestCase):
         model = V0042StepCPU()
         if include_optional:
             return V0042StepCPU(
-                requested_frequency = openapi_client.models.v0_0_42_step_cpu_requested_frequency.v0_0_42_step_CPU_requested_frequency(
-                    min = openapi_client.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
-                        set = True, 
-                        infinite = True, 
-                        number = 56, ), 
-                    max = openapi_client.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
-                        set = True, 
-                        infinite = True, 
+                requested_frequency = openapi_slurm.models.v0_0_42_step_cpu_requested_frequency.v0_0_42_step_CPU_requested_frequency(
+                    min = openapi_slurm.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
+                        set = True,
+                        infinite = True,
+                        number = 56, ),
+                    max = openapi_slurm.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
+                        set = True,
+                        infinite = True,
                         number = 56, ), ),
                 governor = ''
             )

@@ -5,14 +5,14 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**source** | **str** | Client source description | [optional] 
-**user** | **str** | Client user (if known) | [optional] 
-**group** | **str** | Client group (if known) | [optional] 
+**source** | **str** | Client source description | [optional]
+**user** | **str** | Client user (if known) | [optional]
+**group** | **str** | Client group (if known) | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_openapi_meta_client import V0040OpenapiMetaClient
+from openapi_slurm.models.v0040_openapi_meta_client import V0040OpenapiMetaClient
 
 # TODO update the JSON string below
 json = "{}"

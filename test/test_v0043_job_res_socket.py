@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0043_job_res_socket import V0043JobResSocket
+from openapi_slurm.models.v0043_job_res_socket import V0043JobResSocket
 
 class TestV0043JobResSocket(unittest.TestCase):
     """V0043JobResSocket unit test stubs"""
@@ -38,8 +38,8 @@ class TestV0043JobResSocket(unittest.TestCase):
             return V0043JobResSocket(
                 index = 56,
                 cores = [
-                    openapi_client.models.v0/0/43_job_res_core.v0.0.43_job_res_core(
-                        index = 56, 
+                    openapi_slurm.models.v0/0/43_job_res_core.v0.0.43_job_res_core(
+                        index = 56,
                         status = [
                             'INVALID'
                             ], )
@@ -49,8 +49,8 @@ class TestV0043JobResSocket(unittest.TestCase):
             return V0043JobResSocket(
                 index = 56,
                 cores = [
-                    openapi_client.models.v0/0/43_job_res_core.v0.0.43_job_res_core(
-                        index = 56, 
+                    openapi_slurm.models.v0/0/43_job_res_core.v0.0.43_job_res_core(
+                        index = 56,
                         status = [
                             'INVALID'
                             ], )

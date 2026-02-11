@@ -20,7 +20,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictStr
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0043_step_cpu_requested_frequency import V0043StepCPURequestedFrequency
+from openapi_slurm.models.v0043_step_cpu_requested_frequency import V0043StepCPURequestedFrequency
 from typing import Optional, Set
 from typing_extensions import Self
 

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_job_desc_msg_memory_per_cpu import V0041JobDescMsgMemoryPerCpu
+from openapi_slurm.models.v0041_job_desc_msg_memory_per_cpu import V0041JobDescMsgMemoryPerCpu
 
 class TestV0041JobDescMsgMemoryPerCpu(unittest.TestCase):
     """V0041JobDescMsgMemoryPerCpu unit test stubs"""

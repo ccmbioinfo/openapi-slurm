@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**allocated** | [**List[V0040Tres]**](V0040Tres.md) |  | [optional] 
-**requested** | [**List[V0040Tres]**](V0040Tres.md) |  | [optional] 
+**allocated** | [**List[V0040Tres]**](V0040Tres.md) |  | [optional]
+**requested** | [**List[V0040Tres]**](V0040Tres.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_job_tres import V0040JobTres
+from openapi_slurm.models.v0040_job_tres import V0040JobTres
 
 # TODO update the JSON string below
 json = "{}"

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_step_time_user import V0040StepTimeUser
+from openapi_slurm.models.v0040_step_time_user import V0040StepTimeUser
 
 class TestV0040StepTimeUser(unittest.TestCase):
     """V0040StepTimeUser unit test stubs"""

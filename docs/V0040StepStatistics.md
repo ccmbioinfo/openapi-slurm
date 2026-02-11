@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**cpu** | [**V0040StepStatisticsCPU**](V0040StepStatisticsCPU.md) |  | [optional] 
-**energy** | [**V0040StepStatisticsEnergy**](V0040StepStatisticsEnergy.md) |  | [optional] 
+**cpu** | [**V0040StepStatisticsCPU**](V0040StepStatisticsCPU.md) |  | [optional]
+**energy** | [**V0040StepStatisticsEnergy**](V0040StepStatisticsEnergy.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_step_statistics import V0040StepStatistics
+from openapi_slurm.models.v0040_step_statistics import V0040StepStatistics
 
 # TODO update the JSON string below
 json = "{}"

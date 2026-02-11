@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_min_tres_per import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMinTresPer
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_min_tres_per import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMinTresPer
 
 class TestV0041OpenapiSlurmdbdConfigRespQosInnerLimitsMinTresPer(unittest.TestCase):
     """V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMinTresPer unit test stubs"""
@@ -37,10 +37,10 @@ class TestV0041OpenapiSlurmdbdConfigRespQosInnerLimitsMinTresPer(unittest.TestCa
         if include_optional:
             return V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMinTresPer(
                 job = [
-                    openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner(
-                        type = '', 
-                        name = '', 
-                        id = 56, 
+                    openapi_slurm.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner(
+                        type = '',
+                        name = '',
+                        id = 56,
                         count = 56, )
                     ]
             )

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0043_qos_limits_max_tres_per import V0043QosLimitsMaxTresPer
+from openapi_slurm.models.v0043_qos_limits_max_tres_per import V0043QosLimitsMaxTresPer
 
 class TestV0043QosLimitsMaxTresPer(unittest.TestCase):
     """V0043QosLimitsMaxTresPer unit test stubs"""
@@ -37,31 +37,31 @@ class TestV0043QosLimitsMaxTresPer(unittest.TestCase):
         if include_optional:
             return V0043QosLimitsMaxTresPer(
                 account = [
-                    openapi_client.models.v0/0/43_tres.v0.0.43_tres(
-                        type = '', 
-                        name = '', 
-                        id = 56, 
+                    openapi_slurm.models.v0/0/43_tres.v0.0.43_tres(
+                        type = '',
+                        name = '',
+                        id = 56,
                         count = 56, )
                     ],
                 job = [
-                    openapi_client.models.v0/0/43_tres.v0.0.43_tres(
-                        type = '', 
-                        name = '', 
-                        id = 56, 
+                    openapi_slurm.models.v0/0/43_tres.v0.0.43_tres(
+                        type = '',
+                        name = '',
+                        id = 56,
                         count = 56, )
                     ],
                 node = [
-                    openapi_client.models.v0/0/43_tres.v0.0.43_tres(
-                        type = '', 
-                        name = '', 
-                        id = 56, 
+                    openapi_slurm.models.v0/0/43_tres.v0.0.43_tres(
+                        type = '',
+                        name = '',
+                        id = 56,
                         count = 56, )
                     ],
                 user = [
-                    openapi_client.models.v0/0/43_tres.v0.0.43_tres(
-                        type = '', 
-                        name = '', 
-                        id = 56, 
+                    openapi_slurm.models.v0/0/43_tres.v0.0.43_tres(
+                        type = '',
+                        name = '',
+                        id = 56,
                         count = 56, )
                     ]
             )

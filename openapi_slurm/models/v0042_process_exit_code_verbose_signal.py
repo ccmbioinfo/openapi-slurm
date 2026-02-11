@@ -20,7 +20,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictStr
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0042_uint16_no_val_struct import V0042Uint16NoValStruct
+from openapi_slurm.models.v0042_uint16_no_val_struct import V0042Uint16NoValStruct
 from typing import Optional, Set
 from typing_extensions import Self
 

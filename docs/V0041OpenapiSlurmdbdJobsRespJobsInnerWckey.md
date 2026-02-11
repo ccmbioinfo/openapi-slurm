@@ -6,13 +6,13 @@ Workload characterization key
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**wckey** | **str** | WCKey name | 
-**flags** | **List[str]** | Active flags | 
+**wckey** | **str** | WCKey name |
+**flags** | **List[str]** | Active flags |
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_wckey import V0041OpenapiSlurmdbdJobsRespJobsInnerWckey
+from openapi_slurm.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_wckey import V0041OpenapiSlurmdbdJobsRespJobsInnerWckey
 
 # TODO update the JSON string below
 json = "{}"

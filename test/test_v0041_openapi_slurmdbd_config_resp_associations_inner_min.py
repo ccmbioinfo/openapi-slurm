@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_associations_inner_min import V0041OpenapiSlurmdbdConfigRespAssociationsInnerMin
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_associations_inner_min import V0041OpenapiSlurmdbdConfigRespAssociationsInnerMin
 
 class TestV0041OpenapiSlurmdbdConfigRespAssociationsInnerMin(unittest.TestCase):
     """V0041OpenapiSlurmdbdConfigRespAssociationsInnerMin unit test stubs"""
@@ -36,9 +36,9 @@ class TestV0041OpenapiSlurmdbdConfigRespAssociationsInnerMin(unittest.TestCase):
         model = V0041OpenapiSlurmdbdConfigRespAssociationsInnerMin()
         if include_optional:
             return V0041OpenapiSlurmdbdConfigRespAssociationsInnerMin(
-                priority_threshold = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_min_priority_threshold.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_min_priority_threshold(
-                    set = True, 
-                    infinite = True, 
+                priority_threshold = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_min_priority_threshold.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_min_priority_threshold(
+                    set = True,
+                    infinite = True,
                     number = 56, )
             )
         else:

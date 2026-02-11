@@ -5,24 +5,24 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**id** | **int** | Association ID | [optional] 
-**cluster** | **str** | Cluster name | [optional] 
-**name** | **str** | Share name | [optional] 
-**parent** | **str** | Parent name | [optional] 
-**partition** | **str** | Partition name | [optional] 
-**shares_normalized** | [**V0041OpenapiSharesRespSharesSharesInnerSharesNormalized**](V0041OpenapiSharesRespSharesSharesInnerSharesNormalized.md) |  | [optional] 
-**shares** | [**V0041OpenapiSharesRespSharesSharesInnerShares**](V0041OpenapiSharesRespSharesSharesInnerShares.md) |  | [optional] 
-**tres** | [**V0041OpenapiSharesRespSharesSharesInnerTres**](V0041OpenapiSharesRespSharesSharesInnerTres.md) |  | [optional] 
-**effective_usage** | **float** | Effective, normalized usage | [optional] 
-**usage_normalized** | [**V0041OpenapiSharesRespSharesSharesInnerUsageNormalized**](V0041OpenapiSharesRespSharesSharesInnerUsageNormalized.md) |  | [optional] 
-**usage** | **int** | Measure of tresbillableunits usage | [optional] 
-**fairshare** | [**V0040AssocSharesObjWrapFairshare**](V0040AssocSharesObjWrapFairshare.md) |  | [optional] 
-**type** | **List[str]** | User or account association | [optional] 
+**id** | **int** | Association ID | [optional]
+**cluster** | **str** | Cluster name | [optional]
+**name** | **str** | Share name | [optional]
+**parent** | **str** | Parent name | [optional]
+**partition** | **str** | Partition name | [optional]
+**shares_normalized** | [**V0041OpenapiSharesRespSharesSharesInnerSharesNormalized**](V0041OpenapiSharesRespSharesSharesInnerSharesNormalized.md) |  | [optional]
+**shares** | [**V0041OpenapiSharesRespSharesSharesInnerShares**](V0041OpenapiSharesRespSharesSharesInnerShares.md) |  | [optional]
+**tres** | [**V0041OpenapiSharesRespSharesSharesInnerTres**](V0041OpenapiSharesRespSharesSharesInnerTres.md) |  | [optional]
+**effective_usage** | **float** | Effective, normalized usage | [optional]
+**usage_normalized** | [**V0041OpenapiSharesRespSharesSharesInnerUsageNormalized**](V0041OpenapiSharesRespSharesSharesInnerUsageNormalized.md) |  | [optional]
+**usage** | **int** | Measure of tresbillableunits usage | [optional]
+**fairshare** | [**V0040AssocSharesObjWrapFairshare**](V0040AssocSharesObjWrapFairshare.md) |  | [optional]
+**type** | **List[str]** | User or account association | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_shares_resp_shares_shares_inner import V0041OpenapiSharesRespSharesSharesInner
+from openapi_slurm.models.v0041_openapi_shares_resp_shares_shares_inner import V0041OpenapiSharesRespSharesSharesInner
 
 # TODO update the JSON string below
 json = "{}"

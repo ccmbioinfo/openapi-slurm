@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**priority_threshold** | [**V0043Uint32NoValStruct**](V0043Uint32NoValStruct.md) |  | [optional] 
-**tres** | [**V0043QosLimitsMinTres**](V0043QosLimitsMinTres.md) |  | [optional] 
+**priority_threshold** | [**V0043Uint32NoValStruct**](V0043Uint32NoValStruct.md) |  | [optional]
+**tres** | [**V0043QosLimitsMinTres**](V0043QosLimitsMinTres.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0043_qos_limits_min import V0043QosLimitsMin
+from openapi_slurm.models.v0043_qos_limits_min import V0043QosLimitsMin
 
 # TODO update the JSON string below
 json = "{}"

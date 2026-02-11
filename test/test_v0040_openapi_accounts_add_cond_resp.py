@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_openapi_accounts_add_cond_resp import V0040OpenapiAccountsAddCondResp
+from openapi_slurm.models.v0040_openapi_accounts_add_cond_resp import V0040OpenapiAccountsAddCondResp
 
 class TestV0040OpenapiAccountsAddCondResp(unittest.TestCase):
     """V0040OpenapiAccountsAddCondResp unit test stubs"""
@@ -36,89 +36,89 @@ class TestV0040OpenapiAccountsAddCondResp(unittest.TestCase):
         model = V0040OpenapiAccountsAddCondResp()
         if include_optional:
             return V0040OpenapiAccountsAddCondResp(
-                association_condition = openapi_client.models.v0/0/40_accounts_add_cond.v0.0.40_accounts_add_cond(
+                association_condition = openapi_slurm.models.v0/0/40_accounts_add_cond.v0.0.40_accounts_add_cond(
                     accounts = [
                         ''
-                        ], 
-                    association = openapi_client.models.v0/0/40_assoc_rec_set.v0.0.40_assoc_rec_set(
-                        comment = '', 
-                        defaultqos = '', 
-                        grpjobs = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
-                            set = True, 
-                            infinite = True, 
-                            number = 56, ), 
-                        grpjobsaccrue = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
-                            set = True, 
-                            infinite = True, 
-                            number = 56, ), 
-                        grpsubmitjobs = , 
+                        ],
+                    association = openapi_slurm.models.v0/0/40_assoc_rec_set.v0.0.40_assoc_rec_set(
+                        comment = '',
+                        defaultqos = '',
+                        grpjobs = openapi_slurm.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                            set = True,
+                            infinite = True,
+                            number = 56, ),
+                        grpjobsaccrue = openapi_slurm.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                            set = True,
+                            infinite = True,
+                            number = 56, ),
+                        grpsubmitjobs = ,
                         grptres = [
-                            openapi_client.models.v0/0/40_tres.v0.0.40_tres(
-                                type = '', 
-                                name = '', 
-                                id = 56, 
+                            openapi_slurm.models.v0/0/40_tres.v0.0.40_tres(
+                                type = '',
+                                name = '',
+                                id = 56,
                                 count = 56, )
-                            ], 
+                            ],
                         grptresmins = [
-                            openapi_client.models.v0/0/40_tres.v0.0.40_tres(
-                                type = '', 
-                                name = '', 
-                                id = 56, 
+                            openapi_slurm.models.v0/0/40_tres.v0.0.40_tres(
+                                type = '',
+                                name = '',
+                                id = 56,
                                 count = 56, )
-                            ], 
-                        grptresrunmins = , 
-                        grpwall = , 
-                        maxjobs = , 
-                        maxjobsaccrue = , 
-                        maxsubmitjobs = , 
-                        maxtresminsperjob = , 
-                        maxtresrunmins = , 
-                        maxtresperjob = , 
-                        maxtrespernode = , 
-                        maxwalldurationperjob = , 
-                        minpriothresh = , 
-                        parent = '', 
-                        priority = , 
+                            ],
+                        grptresrunmins = ,
+                        grpwall = ,
+                        maxjobs = ,
+                        maxjobsaccrue = ,
+                        maxsubmitjobs = ,
+                        maxtresminsperjob = ,
+                        maxtresrunmins = ,
+                        maxtresperjob = ,
+                        maxtrespernode = ,
+                        maxwalldurationperjob = ,
+                        minpriothresh = ,
+                        parent = '',
+                        priority = ,
                         qoslevel = [
                             ''
-                            ], 
-                        fairshare = 56, ), 
+                            ],
+                        fairshare = 56, ),
                     clusters = [
                         ''
                         ], ),
-                account = openapi_client.models.v0/0/40_account_short.v0.0.40_account_short(
-                    description = '', 
+                account = openapi_slurm.models.v0/0/40_account_short.v0.0.40_account_short(
+                    description = '',
                     organization = '', ),
-                meta = openapi_client.models.v0/0/40_openapi_meta.v0.0.40_openapi_meta(
-                    plugin = openapi_client.models.v0_0_40_openapi_meta_plugin.v0_0_40_openapi_meta_plugin(
-                        type = '', 
-                        name = '', 
-                        data_parser = '', 
-                        accounting_storage = '', ), 
-                    client = openapi_client.models.v0_0_40_openapi_meta_client.v0_0_40_openapi_meta_client(
-                        source = '', 
-                        user = '', 
-                        group = '', ), 
+                meta = openapi_slurm.models.v0/0/40_openapi_meta.v0.0.40_openapi_meta(
+                    plugin = openapi_slurm.models.v0_0_40_openapi_meta_plugin.v0_0_40_openapi_meta_plugin(
+                        type = '',
+                        name = '',
+                        data_parser = '',
+                        accounting_storage = '', ),
+                    client = openapi_slurm.models.v0_0_40_openapi_meta_client.v0_0_40_openapi_meta_client(
+                        source = '',
+                        user = '',
+                        group = '', ),
                     command = [
                         ''
-                        ], 
-                    slurm = openapi_client.models.v0_0_40_openapi_meta_slurm.v0_0_40_openapi_meta_slurm(
-                        version = openapi_client.models.v0_0_40_openapi_meta_slurm_version.v0_0_40_openapi_meta_slurm_version(
-                            major = '', 
-                            micro = '', 
-                            minor = '', ), 
-                        release = '', 
+                        ],
+                    slurm = openapi_slurm.models.v0_0_40_openapi_meta_slurm.v0_0_40_openapi_meta_slurm(
+                        version = openapi_slurm.models.v0_0_40_openapi_meta_slurm_version.v0_0_40_openapi_meta_slurm_version(
+                            major = '',
+                            micro = '',
+                            minor = '', ),
+                        release = '',
                         cluster = '', ), ),
                 errors = [
-                    openapi_client.models.v0/0/40_openapi_error.v0.0.40_openapi_error(
-                        description = '', 
-                        error_number = 56, 
-                        error = '', 
+                    openapi_slurm.models.v0/0/40_openapi_error.v0.0.40_openapi_error(
+                        description = '',
+                        error_number = 56,
+                        error = '',
                         source = '', )
                     ],
                 warnings = [
-                    openapi_client.models.v0/0/40_openapi_warning.v0.0.40_openapi_warning(
-                        description = '', 
+                    openapi_slurm.models.v0/0/40_openapi_warning.v0.0.40_openapi_warning(
+                        description = '',
                         source = '', )
                     ]
             )

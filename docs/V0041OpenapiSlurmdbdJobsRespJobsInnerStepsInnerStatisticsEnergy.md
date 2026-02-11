@@ -5,12 +5,12 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**consumed** | [**V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerStatisticsEnergyConsumed**](V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerStatisticsEnergyConsumed.md) |  | [optional] 
+**consumed** | [**V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerStatisticsEnergyConsumed**](V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerStatisticsEnergyConsumed.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics_energy import V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerStatisticsEnergy
+from openapi_slurm.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics_energy import V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerStatisticsEnergy
 
 # TODO update the JSON string below
 json = "{}"

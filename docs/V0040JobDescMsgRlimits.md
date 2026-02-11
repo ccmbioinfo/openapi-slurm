@@ -5,21 +5,21 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**cpu** | [**V0040Uint64NoVal**](V0040Uint64NoVal.md) |  | [optional] 
-**fsize** | [**V0040Uint64NoVal**](V0040Uint64NoVal.md) |  | [optional] 
-**data** | [**V0040Uint64NoVal**](V0040Uint64NoVal.md) |  | [optional] 
-**stack** | [**V0040Uint64NoVal**](V0040Uint64NoVal.md) |  | [optional] 
-**core** | [**V0040Uint64NoVal**](V0040Uint64NoVal.md) |  | [optional] 
-**rss** | [**V0040Uint64NoVal**](V0040Uint64NoVal.md) |  | [optional] 
-**nproc** | [**V0040Uint64NoVal**](V0040Uint64NoVal.md) |  | [optional] 
-**nofile** | [**V0040Uint64NoVal**](V0040Uint64NoVal.md) |  | [optional] 
-**memlock** | [**V0040Uint64NoVal**](V0040Uint64NoVal.md) |  | [optional] 
-**var_as** | [**V0040Uint64NoVal**](V0040Uint64NoVal.md) |  | [optional] 
+**cpu** | [**V0040Uint64NoVal**](V0040Uint64NoVal.md) |  | [optional]
+**fsize** | [**V0040Uint64NoVal**](V0040Uint64NoVal.md) |  | [optional]
+**data** | [**V0040Uint64NoVal**](V0040Uint64NoVal.md) |  | [optional]
+**stack** | [**V0040Uint64NoVal**](V0040Uint64NoVal.md) |  | [optional]
+**core** | [**V0040Uint64NoVal**](V0040Uint64NoVal.md) |  | [optional]
+**rss** | [**V0040Uint64NoVal**](V0040Uint64NoVal.md) |  | [optional]
+**nproc** | [**V0040Uint64NoVal**](V0040Uint64NoVal.md) |  | [optional]
+**nofile** | [**V0040Uint64NoVal**](V0040Uint64NoVal.md) |  | [optional]
+**memlock** | [**V0040Uint64NoVal**](V0040Uint64NoVal.md) |  | [optional]
+**var_as** | [**V0040Uint64NoVal**](V0040Uint64NoVal.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_job_desc_msg_rlimits import V0040JobDescMsgRlimits
+from openapi_slurm.models.v0040_job_desc_msg_rlimits import V0040JobDescMsgRlimits
 
 # TODO update the JSON string below
 json = "{}"

@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**min** | [**V0040Uint32NoVal**](V0040Uint32NoVal.md) |  | [optional] 
-**max** | [**V0040Uint32NoVal**](V0040Uint32NoVal.md) |  | [optional] 
+**min** | [**V0040Uint32NoVal**](V0040Uint32NoVal.md) |  | [optional]
+**max** | [**V0040Uint32NoVal**](V0040Uint32NoVal.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_step_cpu_requested_frequency import V0040StepCPURequestedFrequency
+from openapi_slurm.models.v0040_step_cpu_requested_frequency import V0040StepCPURequestedFrequency
 
 # TODO update the JSON string below
 json = "{}"

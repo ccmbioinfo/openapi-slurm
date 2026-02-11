@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.api.slurmdb_api import SlurmdbApi
+from openapi_slurm.api.slurmdb_api import SlurmdbApi
 
 
 class TestSlurmdbApi(unittest.TestCase):

@@ -20,20 +20,20 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictBool, StrictInt, StrictStr, field_validator
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0040_job_comment import V0040JobComment
-from openapi_client.models.v0040_job_mcs import V0040JobMcs
-from openapi_client.models.v0040_job_reservation import V0040JobReservation
-from openapi_client.models.v0042_assoc_short import V0042AssocShort
-from openapi_client.models.v0042_job_array import V0042JobArray
-from openapi_client.models.v0042_job_het import V0042JobHet
-from openapi_client.models.v0042_job_required import V0042JobRequired
-from openapi_client.models.v0042_job_state import V0042JobState
-from openapi_client.models.v0042_job_time import V0042JobTime
-from openapi_client.models.v0042_job_tres import V0042JobTres
-from openapi_client.models.v0042_process_exit_code_verbose import V0042ProcessExitCodeVerbose
-from openapi_client.models.v0042_step import V0042Step
-from openapi_client.models.v0042_uint32_no_val_struct import V0042Uint32NoValStruct
-from openapi_client.models.v0042_wckey_tag_struct import V0042WckeyTagStruct
+from openapi_slurm.models.v0040_job_comment import V0040JobComment
+from openapi_slurm.models.v0040_job_mcs import V0040JobMcs
+from openapi_slurm.models.v0040_job_reservation import V0040JobReservation
+from openapi_slurm.models.v0042_assoc_short import V0042AssocShort
+from openapi_slurm.models.v0042_job_array import V0042JobArray
+from openapi_slurm.models.v0042_job_het import V0042JobHet
+from openapi_slurm.models.v0042_job_required import V0042JobRequired
+from openapi_slurm.models.v0042_job_state import V0042JobState
+from openapi_slurm.models.v0042_job_time import V0042JobTime
+from openapi_slurm.models.v0042_job_tres import V0042JobTres
+from openapi_slurm.models.v0042_process_exit_code_verbose import V0042ProcessExitCodeVerbose
+from openapi_slurm.models.v0042_step import V0042Step
+from openapi_slurm.models.v0042_uint32_no_val_struct import V0042Uint32NoValStruct
+from openapi_slurm.models.v0042_wckey_tag_struct import V0042WckeyTagStruct
 from typing import Optional, Set
 from typing_extensions import Self
 

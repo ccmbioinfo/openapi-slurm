@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0043_step_nodes import V0043StepNodes
+from openapi_slurm.models.v0043_step_nodes import V0043StepNodes
 
 class TestV0043StepNodes(unittest.TestCase):
     """V0043StepNodes unit test stubs"""

@@ -20,9 +20,9 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictInt
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0043_rollup_stats import V0043RollupStats
-from openapi_client.models.v0043_stats_rpc import V0043StatsRpc
-from openapi_client.models.v0043_stats_user import V0043StatsUser
+from openapi_slurm.models.v0043_rollup_stats import V0043RollupStats
+from openapi_slurm.models.v0043_stats_rpc import V0043StatsRpc
+from openapi_slurm.models.v0043_stats_user import V0043StatsUser
 from typing import Optional, Set
 from typing_extensions import Self
 

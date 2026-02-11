@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**name** | **str** | TRES name | [optional] 
-**value** | [**V0042Uint64NoValStruct**](V0042Uint64NoValStruct.md) |  | [optional] 
+**name** | **str** | TRES name | [optional]
+**value** | [**V0042Uint64NoValStruct**](V0042Uint64NoValStruct.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0042_shares_uint64_tres import V0042SharesUint64Tres
+from openapi_slurm.models.v0042_shares_uint64_tres import V0042SharesUint64Tres
 
 # TODO update the JSON string below
 json = "{}"

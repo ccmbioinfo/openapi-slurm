@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0042_partition_info import V0042PartitionInfo
+from openapi_slurm.models.v0042_partition_info import V0042PartitionInfo
 
 class TestV0042PartitionInfo(unittest.TestCase):
     """V0042PartitionInfo unit test stubs"""
@@ -36,99 +36,99 @@ class TestV0042PartitionInfo(unittest.TestCase):
         model = V0042PartitionInfo()
         if include_optional:
             return V0042PartitionInfo(
-                nodes = openapi_client.models.v0_0_40_partition_info_nodes.v0_0_40_partition_info_nodes(
-                    allowed_allocation = '', 
-                    configured = '', 
+                nodes = openapi_slurm.models.v0_0_40_partition_info_nodes.v0_0_40_partition_info_nodes(
+                    allowed_allocation = '',
+                    configured = '',
                     total = 56, ),
-                accounts = openapi_client.models.v0_0_40_partition_info_accounts.v0_0_40_partition_info_accounts(
-                    allowed = '', 
+                accounts = openapi_slurm.models.v0_0_40_partition_info_accounts.v0_0_40_partition_info_accounts(
+                    allowed = '',
                     deny = '', ),
-                groups = openapi_client.models.v0_0_40_partition_info_groups.v0_0_40_partition_info_groups(
+                groups = openapi_slurm.models.v0_0_40_partition_info_groups.v0_0_40_partition_info_groups(
                     allowed = '', ),
-                qos = openapi_client.models.v0_0_40_partition_info_qos.v0_0_40_partition_info_qos(
-                    allowed = '', 
-                    deny = '', 
+                qos = openapi_slurm.models.v0_0_40_partition_info_qos.v0_0_40_partition_info_qos(
+                    allowed = '',
+                    deny = '',
                     assigned = '', ),
                 alternate = '',
-                tres = openapi_client.models.v0_0_40_partition_info_tres.v0_0_40_partition_info_tres(
-                    billing_weights = '', 
+                tres = openapi_slurm.models.v0_0_40_partition_info_tres.v0_0_40_partition_info_tres(
+                    billing_weights = '',
                     configured = '', ),
                 cluster = '',
                 select_type = [
                     'CPU'
                     ],
-                cpus = openapi_client.models.v0_0_40_partition_info_cpus.v0_0_40_partition_info_cpus(
-                    task_binding = 56, 
+                cpus = openapi_slurm.models.v0_0_40_partition_info_cpus.v0_0_40_partition_info_cpus(
+                    task_binding = 56,
                     total = 56, ),
-                defaults = openapi_client.models.v0_0_42_partition_info_defaults.v0_0_42_partition_info_defaults(
-                    memory_per_cpu = 56, 
-                    partition_memory_per_cpu = openapi_client.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
-                        set = True, 
-                        infinite = True, 
-                        number = 56, ), 
-                    partition_memory_per_node = openapi_client.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
-                        set = True, 
-                        infinite = True, 
-                        number = 56, ), 
-                    time = openapi_client.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
-                        set = True, 
-                        infinite = True, 
-                        number = 56, ), 
+                defaults = openapi_slurm.models.v0_0_42_partition_info_defaults.v0_0_42_partition_info_defaults(
+                    memory_per_cpu = 56,
+                    partition_memory_per_cpu = openapi_slurm.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
+                        set = True,
+                        infinite = True,
+                        number = 56, ),
+                    partition_memory_per_node = openapi_slurm.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
+                        set = True,
+                        infinite = True,
+                        number = 56, ),
+                    time = openapi_slurm.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
+                        set = True,
+                        infinite = True,
+                        number = 56, ),
                     job = '', ),
                 grace_time = 56,
-                maximums = openapi_client.models.v0_0_42_partition_info_maximums.v0_0_42_partition_info_maximums(
-                    cpus_per_node = openapi_client.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
-                        set = True, 
-                        infinite = True, 
-                        number = 56, ), 
-                    cpus_per_socket = openapi_client.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
-                        set = True, 
-                        infinite = True, 
-                        number = 56, ), 
-                    memory_per_cpu = 56, 
-                    partition_memory_per_cpu = openapi_client.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
-                        set = True, 
-                        infinite = True, 
-                        number = 56, ), 
-                    partition_memory_per_node = openapi_client.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
-                        set = True, 
-                        infinite = True, 
-                        number = 56, ), 
-                    nodes = , 
-                    shares = 56, 
-                    oversubscribe = openapi_client.models.v0_0_42_partition_info_maximums_oversubscribe.v0_0_42_partition_info_maximums_oversubscribe(
-                        jobs = 56, 
+                maximums = openapi_slurm.models.v0_0_42_partition_info_maximums.v0_0_42_partition_info_maximums(
+                    cpus_per_node = openapi_slurm.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
+                        set = True,
+                        infinite = True,
+                        number = 56, ),
+                    cpus_per_socket = openapi_slurm.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
+                        set = True,
+                        infinite = True,
+                        number = 56, ),
+                    memory_per_cpu = 56,
+                    partition_memory_per_cpu = openapi_slurm.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
+                        set = True,
+                        infinite = True,
+                        number = 56, ),
+                    partition_memory_per_node = openapi_slurm.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
+                        set = True,
+                        infinite = True,
+                        number = 56, ),
+                    nodes = ,
+                    shares = 56,
+                    oversubscribe = openapi_slurm.models.v0_0_42_partition_info_maximums_oversubscribe.v0_0_42_partition_info_maximums_oversubscribe(
+                        jobs = 56,
                         flags = [
                             'force'
-                            ], ), 
-                    time = , 
-                    over_time_limit = openapi_client.models.v0/0/42_uint16_no_val_struct.v0.0.42_uint16_no_val_struct(
-                        set = True, 
-                        infinite = True, 
+                            ], ),
+                    time = ,
+                    over_time_limit = openapi_slurm.models.v0/0/42_uint16_no_val_struct.v0.0.42_uint16_no_val_struct(
+                        set = True,
+                        infinite = True,
                         number = 56, ), ),
-                minimums = openapi_client.models.v0_0_40_partition_info_minimums.v0_0_40_partition_info_minimums(
+                minimums = openapi_slurm.models.v0_0_40_partition_info_minimums.v0_0_40_partition_info_minimums(
                     nodes = 56, ),
                 name = '',
                 node_sets = '',
-                priority = openapi_client.models.v0_0_40_partition_info_priority.v0_0_40_partition_info_priority(
-                    job_factor = 56, 
+                priority = openapi_slurm.models.v0_0_40_partition_info_priority.v0_0_40_partition_info_priority(
+                    job_factor = 56,
                     tier = 56, ),
-                timeouts = openapi_client.models.v0_0_42_partition_info_timeouts.v0_0_42_partition_info_timeouts(
-                    resume = openapi_client.models.v0/0/42_uint16_no_val_struct.v0.0.42_uint16_no_val_struct(
-                        set = True, 
-                        infinite = True, 
-                        number = 56, ), 
-                    suspend = openapi_client.models.v0/0/42_uint16_no_val_struct.v0.0.42_uint16_no_val_struct(
-                        set = True, 
-                        infinite = True, 
+                timeouts = openapi_slurm.models.v0_0_42_partition_info_timeouts.v0_0_42_partition_info_timeouts(
+                    resume = openapi_slurm.models.v0/0/42_uint16_no_val_struct.v0.0.42_uint16_no_val_struct(
+                        set = True,
+                        infinite = True,
+                        number = 56, ),
+                    suspend = openapi_slurm.models.v0/0/42_uint16_no_val_struct.v0.0.42_uint16_no_val_struct(
+                        set = True,
+                        infinite = True,
                         number = 56, ), ),
-                partition = openapi_client.models.v0_0_42_partition_info_partition.v0_0_42_partition_info_partition(
+                partition = openapi_slurm.models.v0_0_42_partition_info_partition.v0_0_42_partition_info_partition(
                     state = [
                         'INACTIVE'
                         ], ),
-                suspend_time = openapi_client.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                suspend_time = openapi_slurm.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, )
             )
         else:

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0043_stats_msg_rpc_queue import V0043StatsMsgRpcQueue
+from openapi_slurm.models.v0043_stats_msg_rpc_queue import V0043StatsMsgRpcQueue
 
 class TestV0043StatsMsgRpcQueue(unittest.TestCase):
     """V0043StatsMsgRpcQueue unit test stubs"""

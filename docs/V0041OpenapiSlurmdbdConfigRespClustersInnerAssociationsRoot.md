@@ -6,16 +6,16 @@ Root association information
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**account** | **str** | Account | [optional] 
-**cluster** | **str** | Cluster | [optional] 
-**partition** | **str** | Partition | [optional] 
-**user** | **str** | User name | 
-**id** | **int** | Numeric association ID | [optional] 
+**account** | **str** | Account | [optional]
+**cluster** | **str** | Cluster | [optional]
+**partition** | **str** | Partition | [optional]
+**user** | **str** | User name |
+**id** | **int** | Numeric association ID | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_clusters_inner_associations_root import V0041OpenapiSlurmdbdConfigRespClustersInnerAssociationsRoot
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_clusters_inner_associations_root import V0041OpenapiSlurmdbdConfigRespClustersInnerAssociationsRoot
 
 # TODO update the JSON string below
 json = "{}"

@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**requested_frequency** | [**V0040StepCPURequestedFrequency**](V0040StepCPURequestedFrequency.md) |  | [optional] 
-**governor** | **str** | Requested CPU frequency governor in kHz | [optional] 
+**requested_frequency** | [**V0040StepCPURequestedFrequency**](V0040StepCPURequestedFrequency.md) |  | [optional]
+**governor** | **str** | Requested CPU frequency governor in kHz | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_step_cpu import V0040StepCPU
+from openapi_slurm.models.v0040_step_cpu import V0040StepCPU
 
 # TODO update the JSON string below
 json = "{}"

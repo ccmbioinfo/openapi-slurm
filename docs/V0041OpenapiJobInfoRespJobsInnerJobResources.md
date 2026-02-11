@@ -6,15 +6,15 @@ Resources used by the job
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**select_type** | **List[str]** | Scheduler consumable resource selection type | 
-**nodes** | [**V0041OpenapiJobInfoRespJobsInnerJobResourcesNodes**](V0041OpenapiJobInfoRespJobsInnerJobResourcesNodes.md) |  | [optional] 
-**cpus** | **int** | Number of allocated CPUs | 
-**threads_per_core** | [**V0041OpenapiJobInfoRespJobsInnerJobResourcesThreadsPerCore**](V0041OpenapiJobInfoRespJobsInnerJobResourcesThreadsPerCore.md) |  | 
+**select_type** | **List[str]** | Scheduler consumable resource selection type |
+**nodes** | [**V0041OpenapiJobInfoRespJobsInnerJobResourcesNodes**](V0041OpenapiJobInfoRespJobsInnerJobResourcesNodes.md) |  | [optional]
+**cpus** | **int** | Number of allocated CPUs |
+**threads_per_core** | [**V0041OpenapiJobInfoRespJobsInnerJobResourcesThreadsPerCore**](V0041OpenapiJobInfoRespJobsInnerJobResourcesThreadsPerCore.md) |  |
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_job_info_resp_jobs_inner_job_resources import V0041OpenapiJobInfoRespJobsInnerJobResources
+from openapi_slurm.models.v0041_openapi_job_info_resp_jobs_inner_job_resources import V0041OpenapiJobInfoRespJobsInnerJobResources
 
 # TODO update the JSON string below
 json = "{}"

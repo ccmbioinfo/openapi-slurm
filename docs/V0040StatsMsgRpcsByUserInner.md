@@ -6,16 +6,16 @@ user
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**user** | **str** | user name | [optional] 
-**user_id** | **int** | user id (numeric) | [optional] 
-**count** | **int** | Number of RPCs received | [optional] 
-**average_time** | **int** | Average time spent processing RPC in seconds | [optional] 
-**total_time** | **int** | Total time spent processing RPC in seconds | [optional] 
+**user** | **str** | user name | [optional]
+**user_id** | **int** | user id (numeric) | [optional]
+**count** | **int** | Number of RPCs received | [optional]
+**average_time** | **int** | Average time spent processing RPC in seconds | [optional]
+**total_time** | **int** | Total time spent processing RPC in seconds | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_stats_msg_rpcs_by_user_inner import V0040StatsMsgRpcsByUserInner
+from openapi_slurm.models.v0040_stats_msg_rpcs_by_user_inner import V0040StatsMsgRpcsByUserInner
 
 # TODO update the JSON string below
 json = "{}"

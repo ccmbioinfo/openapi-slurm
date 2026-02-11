@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**seconds** | **int** | User CPU time used by the step in seconds | [optional] 
-**microseconds** | **int** | User CPU time used by the step in microseconds | [optional] 
+**seconds** | **int** | User CPU time used by the step in seconds | [optional]
+**microseconds** | **int** | User CPU time used by the step in microseconds | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_step_time_user import V0040StepTimeUser
+from openapi_slurm.models.v0040_step_time_user import V0040StepTimeUser
 
 # TODO update the JSON string below
 json = "{}"

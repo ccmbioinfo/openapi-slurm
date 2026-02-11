@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0043_reservation_info_purge_completed import V0043ReservationInfoPurgeCompleted
+from openapi_slurm.models.v0043_reservation_info_purge_completed import V0043ReservationInfoPurgeCompleted
 
 class TestV0043ReservationInfoPurgeCompleted(unittest.TestCase):
     """V0043ReservationInfoPurgeCompleted unit test stubs"""
@@ -36,9 +36,9 @@ class TestV0043ReservationInfoPurgeCompleted(unittest.TestCase):
         model = V0043ReservationInfoPurgeCompleted()
         if include_optional:
             return V0043ReservationInfoPurgeCompleted(
-                time = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                time = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, )
             )
         else:

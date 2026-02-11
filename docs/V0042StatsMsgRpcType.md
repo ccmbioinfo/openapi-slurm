@@ -5,20 +5,20 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**type_id** | **int** | Message type as integer | 
-**message_type** | **str** | Message type as string | 
-**count** | **int** | Number of RPCs received | 
-**queued** | **int** | Number of RPCs queued | 
-**dropped** | **int** | Number of RPCs dropped | 
-**cycle_last** | **int** | Number of RPCs processed within the last RPC queue cycle | 
-**cycle_max** | **int** | Maximum number of RPCs processed within a RPC queue cycle since start | 
-**total_time** | **int** | Total time spent processing RPC in seconds | 
-**average_time** | [**V0042Uint64NoValStruct**](V0042Uint64NoValStruct.md) |  | 
+**type_id** | **int** | Message type as integer |
+**message_type** | **str** | Message type as string |
+**count** | **int** | Number of RPCs received |
+**queued** | **int** | Number of RPCs queued |
+**dropped** | **int** | Number of RPCs dropped |
+**cycle_last** | **int** | Number of RPCs processed within the last RPC queue cycle |
+**cycle_max** | **int** | Maximum number of RPCs processed within a RPC queue cycle since start |
+**total_time** | **int** | Total time spent processing RPC in seconds |
+**average_time** | [**V0042Uint64NoValStruct**](V0042Uint64NoValStruct.md) |  |
 
 ## Example
 
 ```python
-from openapi_client.models.v0042_stats_msg_rpc_type import V0042StatsMsgRpcType
+from openapi_slurm.models.v0042_stats_msg_rpc_type import V0042StatsMsgRpcType
 
 # TODO update the JSON string below
 json = "{}"

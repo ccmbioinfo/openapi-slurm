@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_job_desc_msg_rlimits import V0041JobDescMsgRlimits
+from openapi_slurm.models.v0041_job_desc_msg_rlimits import V0041JobDescMsgRlimits
 
 class TestV0041JobDescMsgRlimits(unittest.TestCase):
     """V0041JobDescMsgRlimits unit test stubs"""
@@ -36,45 +36,45 @@ class TestV0041JobDescMsgRlimits(unittest.TestCase):
         model = V0041JobDescMsgRlimits()
         if include_optional:
             return V0041JobDescMsgRlimits(
-                cpu = openapi_client.models.v0_0_41_job_desc_msg_rlimits_cpu.v0_0_41_job_desc_msg_rlimits_cpu(
-                    set = True, 
-                    infinite = True, 
+                cpu = openapi_slurm.models.v0_0_41_job_desc_msg_rlimits_cpu.v0_0_41_job_desc_msg_rlimits_cpu(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                fsize = openapi_client.models.v0_0_41_job_desc_msg_rlimits_fsize.v0_0_41_job_desc_msg_rlimits_fsize(
-                    set = True, 
-                    infinite = True, 
+                fsize = openapi_slurm.models.v0_0_41_job_desc_msg_rlimits_fsize.v0_0_41_job_desc_msg_rlimits_fsize(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                data = openapi_client.models.v0_0_41_job_desc_msg_rlimits_data.v0_0_41_job_desc_msg_rlimits_data(
-                    set = True, 
-                    infinite = True, 
+                data = openapi_slurm.models.v0_0_41_job_desc_msg_rlimits_data.v0_0_41_job_desc_msg_rlimits_data(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                stack = openapi_client.models.v0_0_41_job_desc_msg_rlimits_stack.v0_0_41_job_desc_msg_rlimits_stack(
-                    set = True, 
-                    infinite = True, 
+                stack = openapi_slurm.models.v0_0_41_job_desc_msg_rlimits_stack.v0_0_41_job_desc_msg_rlimits_stack(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                core = openapi_client.models.v0_0_41_job_desc_msg_rlimits_core.v0_0_41_job_desc_msg_rlimits_core(
-                    set = True, 
-                    infinite = True, 
+                core = openapi_slurm.models.v0_0_41_job_desc_msg_rlimits_core.v0_0_41_job_desc_msg_rlimits_core(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                rss = openapi_client.models.v0_0_41_job_desc_msg_rlimits_rss.v0_0_41_job_desc_msg_rlimits_rss(
-                    set = True, 
-                    infinite = True, 
+                rss = openapi_slurm.models.v0_0_41_job_desc_msg_rlimits_rss.v0_0_41_job_desc_msg_rlimits_rss(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                nproc = openapi_client.models.v0_0_41_job_desc_msg_rlimits_nproc.v0_0_41_job_desc_msg_rlimits_nproc(
-                    set = True, 
-                    infinite = True, 
+                nproc = openapi_slurm.models.v0_0_41_job_desc_msg_rlimits_nproc.v0_0_41_job_desc_msg_rlimits_nproc(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                nofile = openapi_client.models.v0_0_41_job_desc_msg_rlimits_nofile.v0_0_41_job_desc_msg_rlimits_nofile(
-                    set = True, 
-                    infinite = True, 
+                nofile = openapi_slurm.models.v0_0_41_job_desc_msg_rlimits_nofile.v0_0_41_job_desc_msg_rlimits_nofile(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                memlock = openapi_client.models.v0_0_41_job_desc_msg_rlimits_memlock.v0_0_41_job_desc_msg_rlimits_memlock(
-                    set = True, 
-                    infinite = True, 
+                memlock = openapi_slurm.models.v0_0_41_job_desc_msg_rlimits_memlock.v0_0_41_job_desc_msg_rlimits_memlock(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                var_as = openapi_client.models.v0_0_41_job_desc_msg_rlimits_as.v0_0_41_job_desc_msg_rlimits_as(
-                    set = True, 
-                    infinite = True, 
+                var_as = openapi_slurm.models.v0_0_41_job_desc_msg_rlimits_as.v0_0_41_job_desc_msg_rlimits_as(
+                    set = True,
+                    infinite = True,
                     number = 56, )
             )
         else:

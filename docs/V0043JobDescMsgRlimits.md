@@ -5,21 +5,21 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**cpu** | [**V0043Uint64NoValStruct**](V0043Uint64NoValStruct.md) |  | [optional] 
-**fsize** | [**V0043Uint64NoValStruct**](V0043Uint64NoValStruct.md) |  | [optional] 
-**data** | [**V0043Uint64NoValStruct**](V0043Uint64NoValStruct.md) |  | [optional] 
-**stack** | [**V0043Uint64NoValStruct**](V0043Uint64NoValStruct.md) |  | [optional] 
-**core** | [**V0043Uint64NoValStruct**](V0043Uint64NoValStruct.md) |  | [optional] 
-**rss** | [**V0043Uint64NoValStruct**](V0043Uint64NoValStruct.md) |  | [optional] 
-**nproc** | [**V0043Uint64NoValStruct**](V0043Uint64NoValStruct.md) |  | [optional] 
-**nofile** | [**V0043Uint64NoValStruct**](V0043Uint64NoValStruct.md) |  | [optional] 
-**memlock** | [**V0043Uint64NoValStruct**](V0043Uint64NoValStruct.md) |  | [optional] 
-**var_as** | [**V0043Uint64NoValStruct**](V0043Uint64NoValStruct.md) |  | [optional] 
+**cpu** | [**V0043Uint64NoValStruct**](V0043Uint64NoValStruct.md) |  | [optional]
+**fsize** | [**V0043Uint64NoValStruct**](V0043Uint64NoValStruct.md) |  | [optional]
+**data** | [**V0043Uint64NoValStruct**](V0043Uint64NoValStruct.md) |  | [optional]
+**stack** | [**V0043Uint64NoValStruct**](V0043Uint64NoValStruct.md) |  | [optional]
+**core** | [**V0043Uint64NoValStruct**](V0043Uint64NoValStruct.md) |  | [optional]
+**rss** | [**V0043Uint64NoValStruct**](V0043Uint64NoValStruct.md) |  | [optional]
+**nproc** | [**V0043Uint64NoValStruct**](V0043Uint64NoValStruct.md) |  | [optional]
+**nofile** | [**V0043Uint64NoValStruct**](V0043Uint64NoValStruct.md) |  | [optional]
+**memlock** | [**V0043Uint64NoValStruct**](V0043Uint64NoValStruct.md) |  | [optional]
+**var_as** | [**V0043Uint64NoValStruct**](V0043Uint64NoValStruct.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0043_job_desc_msg_rlimits import V0043JobDescMsgRlimits
+from openapi_slurm.models.v0043_job_desc_msg_rlimits import V0043JobDescMsgRlimits
 
 # TODO update the JSON string below
 json = "{}"

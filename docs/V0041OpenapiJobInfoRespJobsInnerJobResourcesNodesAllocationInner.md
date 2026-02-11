@@ -6,16 +6,16 @@ Job resources for a node
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**index** | **int** | Node index | 
-**name** | **str** | Node name | 
-**cpus** | [**V0041OpenapiJobInfoRespJobsInnerJobResourcesNodesAllocationInnerCpus**](V0041OpenapiJobInfoRespJobsInnerJobResourcesNodesAllocationInnerCpus.md) |  | [optional] 
-**memory** | [**V0041OpenapiJobInfoRespJobsInnerJobResourcesNodesAllocationInnerMemory**](V0041OpenapiJobInfoRespJobsInnerJobResourcesNodesAllocationInnerMemory.md) |  | [optional] 
-**sockets** | [**List[V0041OpenapiJobInfoRespJobsInnerJobResourcesNodesAllocationInnerSocketsInner]**](V0041OpenapiJobInfoRespJobsInnerJobResourcesNodesAllocationInnerSocketsInner.md) | Socket allocations in node | 
+**index** | **int** | Node index |
+**name** | **str** | Node name |
+**cpus** | [**V0041OpenapiJobInfoRespJobsInnerJobResourcesNodesAllocationInnerCpus**](V0041OpenapiJobInfoRespJobsInnerJobResourcesNodesAllocationInnerCpus.md) |  | [optional]
+**memory** | [**V0041OpenapiJobInfoRespJobsInnerJobResourcesNodesAllocationInnerMemory**](V0041OpenapiJobInfoRespJobsInnerJobResourcesNodesAllocationInnerMemory.md) |  | [optional]
+**sockets** | [**List[V0041OpenapiJobInfoRespJobsInnerJobResourcesNodesAllocationInnerSocketsInner]**](V0041OpenapiJobInfoRespJobsInnerJobResourcesNodesAllocationInnerSocketsInner.md) | Socket allocations in node |
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner import V0041OpenapiJobInfoRespJobsInnerJobResourcesNodesAllocationInner
+from openapi_slurm.models.v0041_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner import V0041OpenapiJobInfoRespJobsInnerJobResourcesNodesAllocationInner
 
 # TODO update the JSON string below
 json = "{}"

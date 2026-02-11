@@ -5,14 +5,14 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**jobs** | [**V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxJobs**](V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxJobs.md) |  | [optional] 
-**tres** | [**V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxTres**](V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxTres.md) |  | [optional] 
-**per** | [**V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxPer**](V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxPer.md) |  | [optional] 
+**jobs** | [**V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxJobs**](V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxJobs.md) |  | [optional]
+**tres** | [**V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxTres**](V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxTres.md) |  | [optional]
+**per** | [**V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxPer**](V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxPer.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_associations_inner_max import V0041OpenapiSlurmdbdConfigRespAssociationsInnerMax
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_associations_inner_max import V0041OpenapiSlurmdbdConfigRespAssociationsInnerMax
 
 # TODO update the JSON string below
 json = "{}"

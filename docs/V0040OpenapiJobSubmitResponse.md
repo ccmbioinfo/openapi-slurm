@@ -5,18 +5,18 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**result** | [**V0040JobSubmitResponseMsg**](V0040JobSubmitResponseMsg.md) |  | [optional] 
-**job_id** | **int** | Submitted Job ID | [optional] 
-**step_id** | **str** | Submitted Step ID | [optional] 
-**job_submit_user_msg** | **str** | job submission user message | [optional] 
-**meta** | [**V0040OpenapiMeta**](V0040OpenapiMeta.md) |  | [optional] 
-**errors** | [**List[V0040OpenapiError]**](V0040OpenapiError.md) |  | [optional] 
-**warnings** | [**List[V0040OpenapiWarning]**](V0040OpenapiWarning.md) |  | [optional] 
+**result** | [**V0040JobSubmitResponseMsg**](V0040JobSubmitResponseMsg.md) |  | [optional]
+**job_id** | **int** | Submitted Job ID | [optional]
+**step_id** | **str** | Submitted Step ID | [optional]
+**job_submit_user_msg** | **str** | job submission user message | [optional]
+**meta** | [**V0040OpenapiMeta**](V0040OpenapiMeta.md) |  | [optional]
+**errors** | [**List[V0040OpenapiError]**](V0040OpenapiError.md) |  | [optional]
+**warnings** | [**List[V0040OpenapiWarning]**](V0040OpenapiWarning.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_openapi_job_submit_response import V0040OpenapiJobSubmitResponse
+from openapi_slurm.models.v0040_openapi_job_submit_response import V0040OpenapiJobSubmitResponse
 
 # TODO update the JSON string below
 json = "{}"

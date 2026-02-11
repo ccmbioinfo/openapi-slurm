@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_openapi_meta_plugin import V0040OpenapiMetaPlugin
+from openapi_slurm.models.v0040_openapi_meta_plugin import V0040OpenapiMetaPlugin
 
 class TestV0040OpenapiMetaPlugin(unittest.TestCase):
     """V0040OpenapiMetaPlugin unit test stubs"""

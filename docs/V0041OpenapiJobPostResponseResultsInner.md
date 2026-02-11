@@ -5,16 +5,16 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**job_id** | **int** | Job ID for updated job | [optional] 
-**step_id** | **str** | Step ID for updated job | [optional] 
-**error** | **str** | Verbose update status or error | [optional] 
-**error_code** | **int** | Verbose update status or error | [optional] 
-**why** | **str** | Update response message | [optional] 
+**job_id** | **int** | Job ID for updated job | [optional]
+**step_id** | **str** | Step ID for updated job | [optional]
+**error** | **str** | Verbose update status or error | [optional]
+**error_code** | **int** | Verbose update status or error | [optional]
+**why** | **str** | Update response message | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_job_post_response_results_inner import V0041OpenapiJobPostResponseResultsInner
+from openapi_slurm.models.v0041_openapi_job_post_response_results_inner import V0041OpenapiJobPostResponseResultsInner
 
 # TODO update the JSON string below
 json = "{}"

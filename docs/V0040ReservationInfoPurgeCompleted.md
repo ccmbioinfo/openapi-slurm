@@ -5,12 +5,12 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**time** | [**V0040Uint32NoVal**](V0040Uint32NoVal.md) |  | [optional] 
+**time** | [**V0040Uint32NoVal**](V0040Uint32NoVal.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_reservation_info_purge_completed import V0040ReservationInfoPurgeCompleted
+from openapi_slurm.models.v0040_reservation_info_purge_completed import V0040ReservationInfoPurgeCompleted
 
 # TODO update the JSON string below
 json = "{}"

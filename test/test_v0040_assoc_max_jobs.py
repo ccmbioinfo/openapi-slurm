@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_assoc_max_jobs import V0040AssocMaxJobs
+from openapi_slurm.models.v0040_assoc_max_jobs import V0040AssocMaxJobs
 
 class TestV0040AssocMaxJobs(unittest.TestCase):
     """V0040AssocMaxJobs unit test stubs"""
@@ -36,28 +36,28 @@ class TestV0040AssocMaxJobs(unittest.TestCase):
         model = V0040AssocMaxJobs()
         if include_optional:
             return V0040AssocMaxJobs(
-                per = openapi_client.models.v0_0_40_assoc_max_jobs_per.v0_0_40_assoc_max_jobs_per(
-                    count = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
-                        set = True, 
-                        infinite = True, 
-                        number = 56, ), 
-                    accruing = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
-                        set = True, 
-                        infinite = True, 
-                        number = 56, ), 
-                    submitted = , 
+                per = openapi_slurm.models.v0_0_40_assoc_max_jobs_per.v0_0_40_assoc_max_jobs_per(
+                    count = openapi_slurm.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                        set = True,
+                        infinite = True,
+                        number = 56, ),
+                    accruing = openapi_slurm.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                        set = True,
+                        infinite = True,
+                        number = 56, ),
+                    submitted = ,
                     wall_clock = , ),
-                active = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
-                    set = True, 
-                    infinite = True, 
+                active = openapi_slurm.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                accruing = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
-                    set = True, 
-                    infinite = True, 
+                accruing = openapi_slurm.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                total = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
-                    set = True, 
-                    infinite = True, 
+                total = openapi_slurm.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                    set = True,
+                    infinite = True,
                     number = 56, )
             )
         else:

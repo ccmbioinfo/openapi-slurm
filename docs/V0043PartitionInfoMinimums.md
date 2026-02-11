@@ -5,12 +5,12 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**nodes** | **int** | MinNodes - Minimum count of nodes which may be allocated to any single job | [optional] 
+**nodes** | **int** | MinNodes - Minimum count of nodes which may be allocated to any single job | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0043_partition_info_minimums import V0043PartitionInfoMinimums
+from openapi_slurm.models.v0043_partition_info_minimums import V0043PartitionInfoMinimums
 
 # TODO update the JSON string below
 json = "{}"

@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**node** | **str** | Name of reserved node | [optional] 
-**core** | **str** | IDs of reserved cores | [optional] 
+**node** | **str** | Name of reserved node | [optional]
+**core** | **str** | IDs of reserved cores | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_reservation_resp_reservations_inner_core_specializations_inner import V0041OpenapiReservationRespReservationsInnerCoreSpecializationsInner
+from openapi_slurm.models.v0041_openapi_reservation_resp_reservations_inner_core_specializations_inner import V0041OpenapiReservationRespReservationsInnerCoreSpecializationsInner
 
 # TODO update the JSON string below
 json = "{}"

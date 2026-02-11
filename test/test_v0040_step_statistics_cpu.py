@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_step_statistics_cpu import V0040StepStatisticsCPU
+from openapi_slurm.models.v0040_step_statistics_cpu import V0040StepStatisticsCPU
 
 class TestV0040StepStatisticsCPU(unittest.TestCase):
     """V0040StepStatisticsCPU unit test stubs"""

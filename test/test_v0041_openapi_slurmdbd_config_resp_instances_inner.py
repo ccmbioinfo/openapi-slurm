@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_instances_inner import V0041OpenapiSlurmdbdConfigRespInstancesInner
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_instances_inner import V0041OpenapiSlurmdbdConfigRespInstancesInner
 
 class TestV0041OpenapiSlurmdbdConfigRespInstancesInner(unittest.TestCase):
     """V0041OpenapiSlurmdbdConfigRespInstancesInner unit test stubs"""
@@ -41,8 +41,8 @@ class TestV0041OpenapiSlurmdbdConfigRespInstancesInner(unittest.TestCase):
                 instance_id = '',
                 instance_type = '',
                 node_name = '',
-                time = openapi_client.models.v0_0_40_instance_time.v0_0_40_instance_time(
-                    time_end = 56, 
+                time = openapi_slurm.models.v0_0_40_instance_time.v0_0_40_instance_time(
+                    time_end = 56,
                     time_start = 56, )
             )
         else:

@@ -5,14 +5,14 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**version** | [**V0040OpenapiMetaSlurmVersion**](V0040OpenapiMetaSlurmVersion.md) |  | [optional] 
-**release** | **str** | Slurm release string | [optional] 
-**cluster** | **str** | Slurm cluster name | [optional] 
+**version** | [**V0040OpenapiMetaSlurmVersion**](V0040OpenapiMetaSlurmVersion.md) |  | [optional]
+**release** | **str** | Slurm release string | [optional]
+**cluster** | **str** | Slurm cluster name | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_openapi_meta_slurm import V0040OpenapiMetaSlurm
+from openapi_slurm.models.v0040_openapi_meta_slurm import V0040OpenapiMetaSlurm
 
 # TODO update the JSON string below
 json = "{}"

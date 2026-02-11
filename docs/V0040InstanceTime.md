@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**time_end** | **int** | When the instance will end (UNIX timestamp) | [optional] 
-**time_start** | **int** | When the instance will start (UNIX timestamp) | [optional] 
+**time_end** | **int** | When the instance will end (UNIX timestamp) | [optional]
+**time_start** | **int** | When the instance will start (UNIX timestamp) | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_instance_time import V0040InstanceTime
+from openapi_slurm.models.v0040_instance_time import V0040InstanceTime
 
 # TODO update the JSON string below
 json = "{}"

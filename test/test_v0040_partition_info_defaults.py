@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_partition_info_defaults import V0040PartitionInfoDefaults
+from openapi_slurm.models.v0040_partition_info_defaults import V0040PartitionInfoDefaults
 
 class TestV0040PartitionInfoDefaults(unittest.TestCase):
     """V0040PartitionInfoDefaults unit test stubs"""
@@ -37,17 +37,17 @@ class TestV0040PartitionInfoDefaults(unittest.TestCase):
         if include_optional:
             return V0040PartitionInfoDefaults(
                 memory_per_cpu = 56,
-                partition_memory_per_cpu = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
-                    set = True, 
-                    infinite = True, 
+                partition_memory_per_cpu = openapi_slurm.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                partition_memory_per_node = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
-                    set = True, 
-                    infinite = True, 
+                partition_memory_per_node = openapi_slurm.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                time = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
-                    set = True, 
-                    infinite = True, 
+                time = openapi_slurm.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
                 job = ''
             )

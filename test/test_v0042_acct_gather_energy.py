@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0042_acct_gather_energy import V0042AcctGatherEnergy
+from openapi_slurm.models.v0042_acct_gather_energy import V0042AcctGatherEnergy
 
 class TestV0042AcctGatherEnergy(unittest.TestCase):
     """V0042AcctGatherEnergy unit test stubs"""
@@ -39,9 +39,9 @@ class TestV0042AcctGatherEnergy(unittest.TestCase):
                 average_watts = 56,
                 base_consumed_energy = 56,
                 consumed_energy = 56,
-                current_watts = openapi_client.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                current_watts = openapi_slurm.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
                 previous_consumed_energy = 56,
                 last_collected = 56

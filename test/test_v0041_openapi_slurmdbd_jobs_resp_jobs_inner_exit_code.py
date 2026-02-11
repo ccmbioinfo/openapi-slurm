@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_exit_code import V0041OpenapiSlurmdbdJobsRespJobsInnerExitCode
+from openapi_slurm.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_exit_code import V0041OpenapiSlurmdbdJobsRespJobsInnerExitCode
 
 class TestV0041OpenapiSlurmdbdJobsRespJobsInnerExitCode(unittest.TestCase):
     """V0041OpenapiSlurmdbdJobsRespJobsInnerExitCode unit test stubs"""
@@ -39,15 +39,15 @@ class TestV0041OpenapiSlurmdbdJobsRespJobsInnerExitCode(unittest.TestCase):
                 status = [
                     'INVALID'
                     ],
-                return_code = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_return_code.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_return_code(
-                    set = True, 
-                    infinite = True, 
+                return_code = openapi_slurm.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_return_code.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_return_code(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                signal = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal(
-                    id = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal_id.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal_id(
-                        set = True, 
-                        infinite = True, 
-                        number = 56, ), 
+                signal = openapi_slurm.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal(
+                    id = openapi_slurm.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal_id.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal_id(
+                        set = True,
+                        infinite = True,
+                        number = 56, ),
                     name = '', )
             )
         else:

@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**index** | **int** | Core index | 
-**cores** | [**List[V0041OpenapiJobInfoRespJobsInnerJobResourcesNodesAllocationInnerSocketsInnerCoresInner]**](V0041OpenapiJobInfoRespJobsInnerJobResourcesNodesAllocationInnerSocketsInnerCoresInner.md) | Core in socket | 
+**index** | **int** | Core index |
+**cores** | [**List[V0041OpenapiJobInfoRespJobsInnerJobResourcesNodesAllocationInnerSocketsInnerCoresInner]**](V0041OpenapiJobInfoRespJobsInnerJobResourcesNodesAllocationInnerSocketsInnerCoresInner.md) | Core in socket |
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_sockets_inner import V0041OpenapiJobInfoRespJobsInnerJobResourcesNodesAllocationInnerSocketsInner
+from openapi_slurm.models.v0041_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_sockets_inner import V0041OpenapiJobInfoRespJobsInnerJobResourcesNodesAllocationInnerSocketsInner
 
 # TODO update the JSON string below
 json = "{}"

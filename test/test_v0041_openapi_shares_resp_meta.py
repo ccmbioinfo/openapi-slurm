@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_shares_resp_meta import V0041OpenapiSharesRespMeta
+from openapi_slurm.models.v0041_openapi_shares_resp_meta import V0041OpenapiSharesRespMeta
 
 class TestV0041OpenapiSharesRespMeta(unittest.TestCase):
     """V0041OpenapiSharesRespMeta unit test stubs"""
@@ -36,24 +36,24 @@ class TestV0041OpenapiSharesRespMeta(unittest.TestCase):
         model = V0041OpenapiSharesRespMeta()
         if include_optional:
             return V0041OpenapiSharesRespMeta(
-                plugin = openapi_client.models.v0_0_40_openapi_meta_plugin.v0_0_40_openapi_meta_plugin(
-                    type = '', 
-                    name = '', 
-                    data_parser = '', 
+                plugin = openapi_slurm.models.v0_0_40_openapi_meta_plugin.v0_0_40_openapi_meta_plugin(
+                    type = '',
+                    name = '',
+                    data_parser = '',
                     accounting_storage = '', ),
-                client = openapi_client.models.v0_0_40_openapi_meta_client.v0_0_40_openapi_meta_client(
-                    source = '', 
-                    user = '', 
+                client = openapi_slurm.models.v0_0_40_openapi_meta_client.v0_0_40_openapi_meta_client(
+                    source = '',
+                    user = '',
                     group = '', ),
                 command = [
                     ''
                     ],
-                slurm = openapi_client.models.v0_0_40_openapi_meta_slurm.v0_0_40_openapi_meta_slurm(
-                    version = openapi_client.models.v0_0_40_openapi_meta_slurm_version.v0_0_40_openapi_meta_slurm_version(
-                        major = '', 
-                        micro = '', 
-                        minor = '', ), 
-                    release = '', 
+                slurm = openapi_slurm.models.v0_0_40_openapi_meta_slurm.v0_0_40_openapi_meta_slurm(
+                    version = openapi_slurm.models.v0_0_40_openapi_meta_slurm_version.v0_0_40_openapi_meta_slurm_version(
+                        major = '',
+                        micro = '',
+                        minor = '', ),
+                    release = '',
                     cluster = '', )
             )
         else:

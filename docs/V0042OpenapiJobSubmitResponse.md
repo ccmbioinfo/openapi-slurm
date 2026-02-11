@@ -5,17 +5,17 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**job_id** | **int** | submitted Job ID | [optional] 
-**step_id** | **str** | submitted Step ID | [optional] 
-**job_submit_user_msg** | **str** | Job submission user message | [optional] 
-**meta** | [**V0042OpenapiMeta**](V0042OpenapiMeta.md) |  | [optional] 
-**errors** | [**List[V0042OpenapiError]**](V0042OpenapiError.md) |  | [optional] 
-**warnings** | [**List[V0042OpenapiWarning]**](V0042OpenapiWarning.md) |  | [optional] 
+**job_id** | **int** | submitted Job ID | [optional]
+**step_id** | **str** | submitted Step ID | [optional]
+**job_submit_user_msg** | **str** | Job submission user message | [optional]
+**meta** | [**V0042OpenapiMeta**](V0042OpenapiMeta.md) |  | [optional]
+**errors** | [**List[V0042OpenapiError]**](V0042OpenapiError.md) |  | [optional]
+**warnings** | [**List[V0042OpenapiWarning]**](V0042OpenapiWarning.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0042_openapi_job_submit_response import V0042OpenapiJobSubmitResponse
+from openapi_slurm.models.v0042_openapi_job_submit_response import V0042OpenapiJobSubmitResponse
 
 # TODO update the JSON string below
 json = "{}"

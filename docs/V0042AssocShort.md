@@ -5,16 +5,16 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**account** | **str** | Account name | [optional] 
-**cluster** | **str** | Cluster name | [optional] 
-**partition** | **str** | Partition name | [optional] 
-**user** | **str** | User name | 
-**id** | **int** | Numeric association ID | [optional] 
+**account** | **str** | Account name | [optional]
+**cluster** | **str** | Cluster name | [optional]
+**partition** | **str** | Partition name | [optional]
+**user** | **str** | User name |
+**id** | **int** | Numeric association ID | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0042_assoc_short import V0042AssocShort
+from openapi_slurm.models.v0042_assoc_short import V0042AssocShort
 
 # TODO update the JSON string below
 json = "{}"

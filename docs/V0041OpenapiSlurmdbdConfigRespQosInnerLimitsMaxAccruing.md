@@ -5,12 +5,12 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**per** | [**V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxAccruingPer**](V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxAccruingPer.md) |  | [optional] 
+**per** | [**V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxAccruingPer**](V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxAccruingPer.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_max_accruing import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxAccruing
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_max_accruing import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxAccruing
 
 # TODO update the JSON string below
 json = "{}"

@@ -5,15 +5,15 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**hostname** | **str** | Target for ping | 
-**responding** | **bool** | If ping RPC responded with pong from slurmdbd | 
-**latency** | **int** | Number of microseconds it took to successfully ping or timeout | 
-**primary** | **bool** | Is responding slurmdbd the primary controller (Is responding slurmctld the primary controller) | 
+**hostname** | **str** | Target for ping |
+**responding** | **bool** | If ping RPC responded with pong from slurmdbd |
+**latency** | **int** | Number of microseconds it took to successfully ping or timeout |
+**primary** | **bool** | Is responding slurmdbd the primary controller (Is responding slurmctld the primary controller) |
 
 ## Example
 
 ```python
-from openapi_client.models.v0043_slurmdbd_ping import V0043SlurmdbdPing
+from openapi_slurm.models.v0043_slurmdbd_ping import V0043SlurmdbdPing
 
 # TODO update the JSON string below
 json = "{}"

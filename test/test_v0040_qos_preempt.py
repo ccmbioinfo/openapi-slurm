@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_qos_preempt import V0040QosPreempt
+from openapi_slurm.models.v0040_qos_preempt import V0040QosPreempt
 
 class TestV0040QosPreempt(unittest.TestCase):
     """V0040QosPreempt unit test stubs"""
@@ -42,9 +42,9 @@ class TestV0040QosPreempt(unittest.TestCase):
                 mode = [
                     'DISABLED'
                     ],
-                exempt_time = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
-                    set = True, 
-                    infinite = True, 
+                exempt_time = openapi_slurm.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                    set = True,
+                    infinite = True,
                     number = 56, )
             )
         else:

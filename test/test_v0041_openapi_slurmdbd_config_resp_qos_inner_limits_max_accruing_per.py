@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_max_accruing_per import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxAccruingPer
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_max_accruing_per import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxAccruingPer
 
 class TestV0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxAccruingPer(unittest.TestCase):
     """V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxAccruingPer unit test stubs"""
@@ -36,13 +36,13 @@ class TestV0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxAccruingPer(unittest.Te
         model = V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxAccruingPer()
         if include_optional:
             return V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxAccruingPer(
-                account = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_accruing_per_account.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_accruing_per_account(
-                    set = True, 
-                    infinite = True, 
+                account = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_accruing_per_account.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_accruing_per_account(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                user = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_accruing_per_user.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_accruing_per_user(
-                    set = True, 
-                    infinite = True, 
+                user = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_accruing_per_user.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_accruing_per_user(
+                    set = True,
+                    infinite = True,
                     number = 56, )
             )
         else:

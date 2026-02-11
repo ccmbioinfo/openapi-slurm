@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**accruing** | [**V0040Uint32NoVal**](V0040Uint32NoVal.md) |  | [optional] 
-**count** | [**V0040Uint32NoVal**](V0040Uint32NoVal.md) |  | [optional] 
+**accruing** | [**V0040Uint32NoVal**](V0040Uint32NoVal.md) |  | [optional]
+**count** | [**V0040Uint32NoVal**](V0040Uint32NoVal.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_qos_limits_max_active_jobs import V0040QosLimitsMaxActiveJobs
+from openapi_slurm.models.v0040_qos_limits_max_active_jobs import V0040QosLimitsMaxActiveJobs
 
 # TODO update the JSON string below
 json = "{}"

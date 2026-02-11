@@ -5,15 +5,15 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**type** | **str** | Slurm plugin type (if applicable) | [optional] 
-**name** | **str** | Slurm plugin name (if applicable) | [optional] 
-**data_parser** | **str** | Slurm data_parser plugin | [optional] 
-**accounting_storage** | **str** | Slurm accounting plugin | [optional] 
+**type** | **str** | Slurm plugin type (if applicable) | [optional]
+**name** | **str** | Slurm plugin name (if applicable) | [optional]
+**data_parser** | **str** | Slurm data_parser plugin | [optional]
+**accounting_storage** | **str** | Slurm accounting plugin | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_openapi_meta_plugin import V0040OpenapiMetaPlugin
+from openapi_slurm.models.v0040_openapi_meta_plugin import V0040OpenapiMetaPlugin
 
 # TODO update the JSON string below
 json = "{}"

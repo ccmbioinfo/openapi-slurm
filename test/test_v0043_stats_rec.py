@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0043_stats_rec import V0043StatsRec
+from openapi_slurm.models.v0043_stats_rec import V0043StatsRec
 
 class TestV0043StatsRec(unittest.TestCase):
     """V0043StatsRec unit test stubs"""
@@ -37,34 +37,34 @@ class TestV0043StatsRec(unittest.TestCase):
         if include_optional:
             return V0043StatsRec(
                 time_start = 56,
-                rollups = openapi_client.models.v0/0/43_rollup_stats.v0.0.43_rollup_stats(
-                    hourly = openapi_client.models.v0_0_43_rollup_stats_hourly.v0_0_43_rollup_stats_hourly(
-                        count = 56, 
-                        last_run = 56, 
-                        duration = openapi_client.models.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_hourly_duration.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_hourly_duration(
-                            last = 56, 
-                            max = 56, 
-                            time = 56, ), ), 
-                    daily = openapi_client.models.v0_0_43_rollup_stats_daily.v0_0_43_rollup_stats_daily(
-                        count = 56, 
-                        last_run = 56, ), 
-                    monthly = openapi_client.models.v0_0_43_rollup_stats_monthly.v0_0_43_rollup_stats_monthly(
-                        count = 56, 
+                rollups = openapi_slurm.models.v0/0/43_rollup_stats.v0.0.43_rollup_stats(
+                    hourly = openapi_slurm.models.v0_0_43_rollup_stats_hourly.v0_0_43_rollup_stats_hourly(
+                        count = 56,
+                        last_run = 56,
+                        duration = openapi_slurm.models.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_hourly_duration.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_hourly_duration(
+                            last = 56,
+                            max = 56,
+                            time = 56, ), ),
+                    daily = openapi_slurm.models.v0_0_43_rollup_stats_daily.v0_0_43_rollup_stats_daily(
+                        count = 56,
+                        last_run = 56, ),
+                    monthly = openapi_slurm.models.v0_0_43_rollup_stats_monthly.v0_0_43_rollup_stats_monthly(
+                        count = 56,
                         last_run = 56, ), ),
                 rpcs = [
-                    openapi_client.models.v0/0/43_stats_rpc.v0.0.43_stats_rpc(
-                        rpc = '', 
-                        count = 56, 
-                        time = openapi_client.models.v0_0_40_stats_rpc_time.v0_0_40_stats_rpc_time(
-                            average = 56, 
+                    openapi_slurm.models.v0/0/43_stats_rpc.v0.0.43_stats_rpc(
+                        rpc = '',
+                        count = 56,
+                        time = openapi_slurm.models.v0_0_40_stats_rpc_time.v0_0_40_stats_rpc_time(
+                            average = 56,
                             total = 56, ), )
                     ],
                 users = [
-                    openapi_client.models.v0/0/43_stats_user.v0.0.43_stats_user(
-                        user = '', 
-                        count = 56, 
-                        time = openapi_client.models.v0_0_40_stats_rpc_time.v0_0_40_stats_rpc_time(
-                            average = 56, 
+                    openapi_slurm.models.v0/0/43_stats_user.v0.0.43_stats_user(
+                        user = '',
+                        count = 56,
+                        time = openapi_slurm.models.v0_0_40_stats_rpc_time.v0_0_40_stats_rpc_time(
+                            average = 56,
                             total = 56, ), )
                     ]
             )

@@ -5,12 +5,12 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**job** | [**List[V0040Tres]**](V0040Tres.md) |  | [optional] 
+**job** | [**List[V0040Tres]**](V0040Tres.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_qos_limits_min_tres_per import V0040QosLimitsMinTresPer
+from openapi_slurm.models.v0040_qos_limits_min_tres_per import V0040QosLimitsMinTresPer
 
 # TODO update the JSON string below
 json = "{}"

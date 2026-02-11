@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0042_slurmdbd_ping import V0042SlurmdbdPing
+from openapi_slurm.models.v0042_slurmdbd_ping import V0042SlurmdbdPing
 
 class TestV0042SlurmdbdPing(unittest.TestCase):
     """V0042SlurmdbdPing unit test stubs"""

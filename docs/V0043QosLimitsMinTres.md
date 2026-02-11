@@ -5,12 +5,12 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**per** | [**V0043QosLimitsMinTresPer**](V0043QosLimitsMinTresPer.md) |  | [optional] 
+**per** | [**V0043QosLimitsMinTresPer**](V0043QosLimitsMinTresPer.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0043_qos_limits_min_tres import V0043QosLimitsMinTres
+from openapi_slurm.models.v0043_qos_limits_min_tres import V0043QosLimitsMinTres
 
 # TODO update the JSON string below
 json = "{}"

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_stats_rec import V0040StatsRec
+from openapi_slurm.models.v0040_stats_rec import V0040StatsRec
 
 class TestV0040StatsRec(unittest.TestCase):
     """V0040StatsRec unit test stubs"""
@@ -38,28 +38,28 @@ class TestV0040StatsRec(unittest.TestCase):
             return V0040StatsRec(
                 time_start = 56,
                 rollups = [
-                    openapi_client.models.v0_0_40_rollup_stats_inner.v0_0_40_rollup_stats_inner(
-                        type = 'internal', 
-                        last_run = 56, 
-                        max_cycle = 56, 
-                        total_time = 56, 
-                        total_cycles = 56, 
+                    openapi_slurm.models.v0_0_40_rollup_stats_inner.v0_0_40_rollup_stats_inner(
+                        type = 'internal',
+                        last_run = 56,
+                        max_cycle = 56,
+                        total_time = 56,
+                        total_cycles = 56,
                         mean_cycles = 56, )
                     ],
                 rpcs = [
-                    openapi_client.models.v0/0/40_stats_rpc.v0.0.40_stats_rpc(
-                        rpc = '', 
-                        count = 56, 
-                        time = openapi_client.models.v0_0_40_stats_rpc_time.v0_0_40_stats_rpc_time(
-                            average = 56, 
+                    openapi_slurm.models.v0/0/40_stats_rpc.v0.0.40_stats_rpc(
+                        rpc = '',
+                        count = 56,
+                        time = openapi_slurm.models.v0_0_40_stats_rpc_time.v0_0_40_stats_rpc_time(
+                            average = 56,
                             total = 56, ), )
                     ],
                 users = [
-                    openapi_client.models.v0/0/40_stats_user.v0.0.40_stats_user(
-                        user = '', 
-                        count = 56, 
-                        time = openapi_client.models.v0_0_40_stats_rpc_time.v0_0_40_stats_rpc_time(
-                            average = 56, 
+                    openapi_slurm.models.v0/0/40_stats_user.v0.0.40_stats_user(
+                        user = '',
+                        count = 56,
+                        time = openapi_slurm.models.v0_0_40_stats_rpc_time.v0_0_40_stats_rpc_time(
+                            average = 56,
                             total = 56, ), )
                     ]
             )

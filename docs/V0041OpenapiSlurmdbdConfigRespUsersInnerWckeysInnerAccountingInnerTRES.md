@@ -6,15 +6,15 @@ Trackable resources
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**type** | **str** | TRES type (CPU, MEM, etc) | 
-**name** | **str** | TRES name (if applicable) | [optional] 
-**id** | **int** | ID used in database | [optional] 
-**count** | **int** | TRES count (0 if listed generically) | [optional] 
+**type** | **str** | TRES type (CPU, MEM, etc) |
+**name** | **str** | TRES name (if applicable) | [optional]
+**id** | **int** | ID used in database | [optional]
+**count** | **int** | TRES count (0 if listed generically) | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_users_inner_wckeys_inner_accounting_inner_tres import V0041OpenapiSlurmdbdConfigRespUsersInnerWckeysInnerAccountingInnerTRES
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_users_inner_wckeys_inner_accounting_inner_tres import V0041OpenapiSlurmdbdConfigRespUsersInnerWckeysInnerAccountingInnerTRES
 
 # TODO update the JSON string below
 json = "{}"

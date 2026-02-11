@@ -6,15 +6,15 @@ statistics
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**time_start** | **int** | When data collection started (UNIX timestamp) | [optional] 
-**rollups** | [**V0041OpenapiSlurmdbdStatsRespStatisticsRollups**](V0041OpenapiSlurmdbdStatsRespStatisticsRollups.md) |  | [optional] 
-**rpcs** | [**List[V0041OpenapiSlurmdbdStatsRespStatisticsRPCsInner]**](V0041OpenapiSlurmdbdStatsRespStatisticsRPCsInner.md) | List of RPCs sent to the slurmdbd | [optional] 
-**users** | [**List[V0041OpenapiSlurmdbdStatsRespStatisticsUsersInner]**](V0041OpenapiSlurmdbdStatsRespStatisticsUsersInner.md) | List of users that issued RPCs | [optional] 
+**time_start** | **int** | When data collection started (UNIX timestamp) | [optional]
+**rollups** | [**V0041OpenapiSlurmdbdStatsRespStatisticsRollups**](V0041OpenapiSlurmdbdStatsRespStatisticsRollups.md) |  | [optional]
+**rpcs** | [**List[V0041OpenapiSlurmdbdStatsRespStatisticsRPCsInner]**](V0041OpenapiSlurmdbdStatsRespStatisticsRPCsInner.md) | List of RPCs sent to the slurmdbd | [optional]
+**users** | [**List[V0041OpenapiSlurmdbdStatsRespStatisticsUsersInner]**](V0041OpenapiSlurmdbdStatsRespStatisticsUsersInner.md) | List of users that issued RPCs | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_slurmdbd_stats_resp_statistics import V0041OpenapiSlurmdbdStatsRespStatistics
+from openapi_slurm.models.v0041_openapi_slurmdbd_stats_resp_statistics import V0041OpenapiSlurmdbdStatsRespStatistics
 
 # TODO update the JSON string below
 json = "{}"

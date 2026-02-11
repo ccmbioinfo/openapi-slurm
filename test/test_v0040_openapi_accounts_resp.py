@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_openapi_accounts_resp import V0040OpenapiAccountsResp
+from openapi_slurm.models.v0040_openapi_accounts_resp import V0040OpenapiAccountsResp
 
 class TestV0040OpenapiAccountsResp(unittest.TestCase):
     """V0040OpenapiAccountsResp unit test stubs"""
@@ -37,80 +37,80 @@ class TestV0040OpenapiAccountsResp(unittest.TestCase):
         if include_optional:
             return V0040OpenapiAccountsResp(
                 accounts = [
-                    openapi_client.models.v0/0/40_account.v0.0.40_account(
+                    openapi_slurm.models.v0/0/40_account.v0.0.40_account(
                         associations = [
-                            openapi_client.models.v0/0/40_assoc_short.v0.0.40_assoc_short(
-                                account = '', 
-                                cluster = '', 
-                                partition = '', 
-                                user = '', 
+                            openapi_slurm.models.v0/0/40_assoc_short.v0.0.40_assoc_short(
+                                account = '',
+                                cluster = '',
+                                partition = '',
+                                user = '',
                                 id = 56, )
-                            ], 
+                            ],
                         coordinators = [
-                            openapi_client.models.v0/0/40_coord.v0.0.40_coord(
-                                name = '', 
+                            openapi_slurm.models.v0/0/40_coord.v0.0.40_coord(
+                                name = '',
                                 direct = True, )
-                            ], 
-                        description = '', 
-                        name = '', 
-                        organization = '', 
+                            ],
+                        description = '',
+                        name = '',
+                        organization = '',
                         flags = [
                             'DELETED'
                             ], )
                     ],
-                meta = openapi_client.models.v0/0/40_openapi_meta.v0.0.40_openapi_meta(
-                    plugin = openapi_client.models.v0_0_40_openapi_meta_plugin.v0_0_40_openapi_meta_plugin(
-                        type = '', 
-                        name = '', 
-                        data_parser = '', 
-                        accounting_storage = '', ), 
-                    client = openapi_client.models.v0_0_40_openapi_meta_client.v0_0_40_openapi_meta_client(
-                        source = '', 
-                        user = '', 
-                        group = '', ), 
+                meta = openapi_slurm.models.v0/0/40_openapi_meta.v0.0.40_openapi_meta(
+                    plugin = openapi_slurm.models.v0_0_40_openapi_meta_plugin.v0_0_40_openapi_meta_plugin(
+                        type = '',
+                        name = '',
+                        data_parser = '',
+                        accounting_storage = '', ),
+                    client = openapi_slurm.models.v0_0_40_openapi_meta_client.v0_0_40_openapi_meta_client(
+                        source = '',
+                        user = '',
+                        group = '', ),
                     command = [
                         ''
-                        ], 
-                    slurm = openapi_client.models.v0_0_40_openapi_meta_slurm.v0_0_40_openapi_meta_slurm(
-                        version = openapi_client.models.v0_0_40_openapi_meta_slurm_version.v0_0_40_openapi_meta_slurm_version(
-                            major = '', 
-                            micro = '', 
-                            minor = '', ), 
-                        release = '', 
+                        ],
+                    slurm = openapi_slurm.models.v0_0_40_openapi_meta_slurm.v0_0_40_openapi_meta_slurm(
+                        version = openapi_slurm.models.v0_0_40_openapi_meta_slurm_version.v0_0_40_openapi_meta_slurm_version(
+                            major = '',
+                            micro = '',
+                            minor = '', ),
+                        release = '',
                         cluster = '', ), ),
                 errors = [
-                    openapi_client.models.v0/0/40_openapi_error.v0.0.40_openapi_error(
-                        description = '', 
-                        error_number = 56, 
-                        error = '', 
+                    openapi_slurm.models.v0/0/40_openapi_error.v0.0.40_openapi_error(
+                        description = '',
+                        error_number = 56,
+                        error = '',
                         source = '', )
                     ],
                 warnings = [
-                    openapi_client.models.v0/0/40_openapi_warning.v0.0.40_openapi_warning(
-                        description = '', 
+                    openapi_slurm.models.v0/0/40_openapi_warning.v0.0.40_openapi_warning(
+                        description = '',
                         source = '', )
                     ]
             )
         else:
             return V0040OpenapiAccountsResp(
                 accounts = [
-                    openapi_client.models.v0/0/40_account.v0.0.40_account(
+                    openapi_slurm.models.v0/0/40_account.v0.0.40_account(
                         associations = [
-                            openapi_client.models.v0/0/40_assoc_short.v0.0.40_assoc_short(
-                                account = '', 
-                                cluster = '', 
-                                partition = '', 
-                                user = '', 
+                            openapi_slurm.models.v0/0/40_assoc_short.v0.0.40_assoc_short(
+                                account = '',
+                                cluster = '',
+                                partition = '',
+                                user = '',
                                 id = 56, )
-                            ], 
+                            ],
                         coordinators = [
-                            openapi_client.models.v0/0/40_coord.v0.0.40_coord(
-                                name = '', 
+                            openapi_slurm.models.v0/0/40_coord.v0.0.40_coord(
+                                name = '',
                                 direct = True, )
-                            ], 
-                        description = '', 
-                        name = '', 
-                        organization = '', 
+                            ],
+                        description = '',
+                        name = '',
+                        organization = '',
                         flags = [
                             'DELETED'
                             ], )

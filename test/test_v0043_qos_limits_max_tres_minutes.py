@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0043_qos_limits_max_tres_minutes import V0043QosLimitsMaxTresMinutes
+from openapi_slurm.models.v0043_qos_limits_max_tres_minutes import V0043QosLimitsMaxTresMinutes
 
 class TestV0043QosLimitsMaxTresMinutes(unittest.TestCase):
     """V0043QosLimitsMaxTresMinutes unit test stubs"""
@@ -37,28 +37,28 @@ class TestV0043QosLimitsMaxTresMinutes(unittest.TestCase):
         if include_optional:
             return V0043QosLimitsMaxTresMinutes(
                 total = [
-                    openapi_client.models.v0/0/43_tres.v0.0.43_tres(
-                        type = '', 
-                        name = '', 
-                        id = 56, 
+                    openapi_slurm.models.v0/0/43_tres.v0.0.43_tres(
+                        type = '',
+                        name = '',
+                        id = 56,
                         count = 56, )
                     ],
-                per = openapi_client.models.v0_0_43_qos_limits_max_tres_minutes_per.v0_0_43_qos_limits_max_tres_minutes_per(
+                per = openapi_slurm.models.v0_0_43_qos_limits_max_tres_minutes_per.v0_0_43_qos_limits_max_tres_minutes_per(
                     qos = [
-                        openapi_client.models.v0/0/43_tres.v0.0.43_tres(
-                            type = '', 
-                            name = '', 
-                            id = 56, 
+                        openapi_slurm.models.v0/0/43_tres.v0.0.43_tres(
+                            type = '',
+                            name = '',
+                            id = 56,
                             count = 56, )
-                        ], 
+                        ],
                     job = [
-                        openapi_client.models.v0/0/43_tres.v0.0.43_tres(
-                            type = '', 
-                            name = '', 
-                            id = 56, 
+                        openapi_slurm.models.v0/0/43_tres.v0.0.43_tres(
+                            type = '',
+                            name = '',
+                            id = 56,
                             count = 56, )
-                        ], 
-                    account = , 
+                        ],
+                    account = ,
                     user = , )
             )
         else:

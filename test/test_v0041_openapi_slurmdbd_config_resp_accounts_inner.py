@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_accounts_inner import V0041OpenapiSlurmdbdConfigRespAccountsInner
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_accounts_inner import V0041OpenapiSlurmdbdConfigRespAccountsInner
 
 class TestV0041OpenapiSlurmdbdConfigRespAccountsInner(unittest.TestCase):
     """V0041OpenapiSlurmdbdConfigRespAccountsInner unit test stubs"""
@@ -37,16 +37,16 @@ class TestV0041OpenapiSlurmdbdConfigRespAccountsInner(unittest.TestCase):
         if include_optional:
             return V0041OpenapiSlurmdbdConfigRespAccountsInner(
                 associations = [
-                    openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_accounts_inner_associations_inner.v0_0_41_openapi_slurmdbd_config_resp_accounts_inner_associations_inner(
-                        account = '', 
-                        cluster = '', 
-                        partition = '', 
-                        user = '', 
+                    openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_accounts_inner_associations_inner.v0_0_41_openapi_slurmdbd_config_resp_accounts_inner_associations_inner(
+                        account = '',
+                        cluster = '',
+                        partition = '',
+                        user = '',
                         id = 56, )
                     ],
                 coordinators = [
-                    openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_accounts_inner_coordinators_inner.v0_0_41_openapi_slurmdbd_config_resp_accounts_inner_coordinators_inner(
-                        name = '', 
+                    openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_accounts_inner_coordinators_inner.v0_0_41_openapi_slurmdbd_config_resp_accounts_inner_coordinators_inner(
+                        name = '',
                         direct = True, )
                     ],
                 description = '',

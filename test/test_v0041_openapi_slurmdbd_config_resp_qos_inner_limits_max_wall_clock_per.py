@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock_per import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxWallClockPer
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock_per import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxWallClockPer
 
 class TestV0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxWallClockPer(unittest.TestCase):
     """V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxWallClockPer unit test stubs"""
@@ -36,13 +36,13 @@ class TestV0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxWallClockPer(unittest.T
         model = V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxWallClockPer()
         if include_optional:
             return V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxWallClockPer(
-                qos = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock_per_qos.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock_per_qos(
-                    set = True, 
-                    infinite = True, 
+                qos = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock_per_qos.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock_per_qos(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                job = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock_per_job.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock_per_job(
-                    set = True, 
-                    infinite = True, 
+                job = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock_per_job.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock_per_job(
+                    set = True,
+                    infinite = True,
                     number = 56, )
             )
         else:

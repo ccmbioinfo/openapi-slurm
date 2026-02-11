@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**factor** | [**V0043Float64NoValStruct**](V0043Float64NoValStruct.md) |  | [optional] 
-**level** | [**V0043Float64NoValStruct**](V0043Float64NoValStruct.md) |  | [optional] 
+**factor** | [**V0043Float64NoValStruct**](V0043Float64NoValStruct.md) |  | [optional]
+**level** | [**V0043Float64NoValStruct**](V0043Float64NoValStruct.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0043_assoc_shares_obj_wrap_fairshare import V0043AssocSharesObjWrapFairshare
+from openapi_slurm.models.v0043_assoc_shares_obj_wrap_fairshare import V0043AssocSharesObjWrapFairshare
 
 # TODO update the JSON string below
 json = "{}"

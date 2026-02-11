@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0043_kill_jobs_msg import V0043KillJobsMsg
+from openapi_slurm.models.v0043_kill_jobs_msg import V0043KillJobsMsg
 
 class TestV0043KillJobsMsg(unittest.TestCase):
     """V0043KillJobsMsg unit test stubs"""

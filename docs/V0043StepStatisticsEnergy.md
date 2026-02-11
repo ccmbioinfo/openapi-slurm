@@ -5,12 +5,12 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**consumed** | [**V0043Uint64NoValStruct**](V0043Uint64NoValStruct.md) |  | [optional] 
+**consumed** | [**V0043Uint64NoValStruct**](V0043Uint64NoValStruct.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0043_step_statistics_energy import V0043StepStatisticsEnergy
+from openapi_slurm.models.v0043_step_statistics_energy import V0043StepStatisticsEnergy
 
 # TODO update the JSON string below
 json = "{}"

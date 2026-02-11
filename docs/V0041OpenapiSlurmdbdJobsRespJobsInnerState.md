@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**current** | **List[str]** | Current state | [optional] 
-**reason** | **str** | Reason for previous Pending or Failed state | [optional] 
+**current** | **List[str]** | Current state | [optional]
+**reason** | **str** | Reason for previous Pending or Failed state | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_state import V0041OpenapiSlurmdbdJobsRespJobsInnerState
+from openapi_slurm.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_state import V0041OpenapiSlurmdbdJobsRespJobsInnerState
 
 # TODO update the JSON string below
 json = "{}"

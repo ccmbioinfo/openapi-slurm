@@ -47,5 +47,5 @@ setup(
     long_description="""\
     API to access and control Slurm
     """,  # noqa: E501
-    package_data={"openapi_client": ["py.typed"]},
+    package_data={"openapi_slurm": ["py.typed"]},
 )

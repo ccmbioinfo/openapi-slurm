@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_time import V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerTime
+from openapi_slurm.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_time import V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerTime
 
 class TestV0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerTime(unittest.TestCase):
     """V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerTime unit test stubs"""
@@ -37,23 +37,23 @@ class TestV0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerTime(unittest.TestCase)
         if include_optional:
             return V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerTime(
                 elapsed = 56,
-                end = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_time_end.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_time_end(
-                    set = True, 
-                    infinite = True, 
+                end = openapi_slurm.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_time_end.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_time_end(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                start = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_time_start.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_time_start(
-                    set = True, 
-                    infinite = True, 
+                start = openapi_slurm.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_time_start.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_time_start(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
                 suspended = 56,
-                system = openapi_client.models.v0_0_40_step_time_system.v0_0_40_step_time_system(
-                    seconds = 56, 
+                system = openapi_slurm.models.v0_0_40_step_time_system.v0_0_40_step_time_system(
+                    seconds = 56,
                     microseconds = 56, ),
-                total = openapi_client.models.v0_0_40_step_time_total.v0_0_40_step_time_total(
-                    seconds = 56, 
+                total = openapi_slurm.models.v0_0_40_step_time_total.v0_0_40_step_time_total(
+                    seconds = 56,
                     microseconds = 56, ),
-                user = openapi_client.models.v0_0_40_step_time_user.v0_0_40_step_time_user(
-                    seconds = 56, 
+                user = openapi_slurm.models.v0_0_40_step_time_user.v0_0_40_step_time_user(
+                    seconds = 56,
                     microseconds = 56, )
             )
         else:

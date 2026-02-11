@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_job_time_total import V0040JobTimeTotal
+from openapi_slurm.models.v0040_job_time_total import V0040JobTimeTotal
 
 class TestV0040JobTimeTotal(unittest.TestCase):
     """V0040JobTimeTotal unit test stubs"""

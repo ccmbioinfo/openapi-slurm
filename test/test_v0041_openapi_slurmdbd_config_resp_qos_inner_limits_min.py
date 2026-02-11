@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_min import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMin
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_min import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMin
 
 class TestV0041OpenapiSlurmdbdConfigRespQosInnerLimitsMin(unittest.TestCase):
     """V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMin unit test stubs"""
@@ -36,17 +36,17 @@ class TestV0041OpenapiSlurmdbdConfigRespQosInnerLimitsMin(unittest.TestCase):
         model = V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMin()
         if include_optional:
             return V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMin(
-                priority_threshold = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_min_priority_threshold.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_min_priority_threshold(
-                    set = True, 
-                    infinite = True, 
+                priority_threshold = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_min_priority_threshold.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_min_priority_threshold(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                tres = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_min_tres.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_min_tres(
-                    per = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_min_tres_per.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_min_tres_per(
+                tres = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_min_tres.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_min_tres(
+                    per = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_min_tres_per.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_min_tres_per(
                         job = [
-                            openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner(
-                                type = '', 
-                                name = '', 
-                                id = 56, 
+                            openapi_slurm.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner(
+                                type = '',
+                                name = '',
+                                id = 56,
                                 count = 56, )
                             ], ), )
             )

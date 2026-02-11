@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0042_job_required import V0042JobRequired
+from openapi_slurm.models.v0042_job_required import V0042JobRequired
 
 class TestV0042JobRequired(unittest.TestCase):
     """V0042JobRequired unit test stubs"""
@@ -37,13 +37,13 @@ class TestV0042JobRequired(unittest.TestCase):
         if include_optional:
             return V0042JobRequired(
                 cpus = 56,
-                memory_per_cpu = openapi_client.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                memory_per_cpu = openapi_slurm.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                memory_per_node = openapi_client.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                memory_per_node = openapi_slurm.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, )
             )
         else:

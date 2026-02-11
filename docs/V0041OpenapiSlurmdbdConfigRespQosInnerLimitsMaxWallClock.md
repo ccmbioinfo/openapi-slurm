@@ -5,12 +5,12 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**per** | [**V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxWallClockPer**](V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxWallClockPer.md) |  | [optional] 
+**per** | [**V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxWallClockPer**](V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxWallClockPer.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxWallClock
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxWallClock
 
 # TODO update the JSON string below
 json = "{}"

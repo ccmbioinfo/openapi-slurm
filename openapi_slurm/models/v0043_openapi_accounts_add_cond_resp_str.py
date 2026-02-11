@@ -20,9 +20,9 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictStr
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0043_openapi_error import V0043OpenapiError
-from openapi_client.models.v0043_openapi_meta import V0043OpenapiMeta
-from openapi_client.models.v0043_openapi_warning import V0043OpenapiWarning
+from openapi_slurm.models.v0043_openapi_error import V0043OpenapiError
+from openapi_slurm.models.v0043_openapi_meta import V0043OpenapiMeta
+from openapi_slurm.models.v0043_openapi_warning import V0043OpenapiWarning
 from typing import Optional, Set
 from typing_extensions import Self
 

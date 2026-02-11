@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**shares** | [**List[V0040AssocSharesObjWrap]**](V0040AssocSharesObjWrap.md) |  | [optional] 
-**total_shares** | **int** | Total number of shares | [optional] 
+**shares** | [**List[V0040AssocSharesObjWrap]**](V0040AssocSharesObjWrap.md) |  | [optional]
+**total_shares** | **int** | Total number of shares | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_shares_resp_msg import V0040SharesRespMsg
+from openapi_slurm.models.v0040_shares_resp_msg import V0040SharesRespMsg
 
 # TODO update the JSON string below
 json = "{}"

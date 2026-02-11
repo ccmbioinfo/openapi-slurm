@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0043_schedule_exit_fields import V0043ScheduleExitFields
+from openapi_slurm.models.v0043_schedule_exit_fields import V0043ScheduleExitFields
 
 class TestV0043ScheduleExitFields(unittest.TestCase):
     """V0043ScheduleExitFields unit test stubs"""

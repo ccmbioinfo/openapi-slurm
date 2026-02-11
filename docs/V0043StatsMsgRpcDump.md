@@ -5,14 +5,14 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**type_id** | **int** | Message type as integer | 
-**message_type** | **str** | Message type as string (Slurm RPC message type) | 
-**count** | **List[str]** |  | 
+**type_id** | **int** | Message type as integer |
+**message_type** | **str** | Message type as string (Slurm RPC message type) |
+**count** | **List[str]** |  |
 
 ## Example
 
 ```python
-from openapi_client.models.v0043_stats_msg_rpc_dump import V0043StatsMsgRpcDump
+from openapi_slurm.models.v0043_stats_msg_rpc_dump import V0043StatsMsgRpcDump
 
 # TODO update the JSON string below
 json = "{}"

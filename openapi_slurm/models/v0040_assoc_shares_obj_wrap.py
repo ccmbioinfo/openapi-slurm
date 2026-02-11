@@ -20,10 +20,10 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictFloat, StrictInt, StrictStr, field_validator
 from typing import Any, ClassVar, Dict, List, Optional, Union
-from openapi_client.models.v0040_assoc_shares_obj_wrap_fairshare import V0040AssocSharesObjWrapFairshare
-from openapi_client.models.v0040_assoc_shares_obj_wrap_tres import V0040AssocSharesObjWrapTres
-from openapi_client.models.v0040_float64_no_val import V0040Float64NoVal
-from openapi_client.models.v0040_uint32_no_val import V0040Uint32NoVal
+from openapi_slurm.models.v0040_assoc_shares_obj_wrap_fairshare import V0040AssocSharesObjWrapFairshare
+from openapi_slurm.models.v0040_assoc_shares_obj_wrap_tres import V0040AssocSharesObjWrapTres
+from openapi_slurm.models.v0040_float64_no_val import V0040Float64NoVal
+from openapi_slurm.models.v0040_uint32_no_val import V0040Uint32NoVal
 from typing import Optional, Set
 from typing_extensions import Self
 

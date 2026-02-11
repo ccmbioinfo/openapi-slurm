@@ -5,14 +5,14 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**total** | [**List[V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerTresRequestedMaxInner]**](V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerTresRequestedMaxInner.md) | GrpTRES | [optional] 
-**minutes** | [**V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxTresMinutes**](V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxTresMinutes.md) |  | [optional] 
-**per** | [**V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxTresPer**](V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxTresPer.md) |  | [optional] 
+**total** | [**List[V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerTresRequestedMaxInner]**](V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerTresRequestedMaxInner.md) | GrpTRES | [optional]
+**minutes** | [**V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxTresMinutes**](V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxTresMinutes.md) |  | [optional]
+**per** | [**V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxTresPer**](V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxTresPer.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_max_tres import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxTres
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_max_tres import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxTres
 
 # TODO update the JSON string below
 json = "{}"

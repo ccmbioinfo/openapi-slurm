@@ -5,12 +5,12 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**distribution** | **str** | The layout of the step was when it was running | [optional] 
+**distribution** | **str** | The layout of the step was when it was running | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_step_task import V0040StepTask
+from openapi_slurm.models.v0040_step_task import V0040StepTask
 
 # TODO update the JSON string below
 json = "{}"

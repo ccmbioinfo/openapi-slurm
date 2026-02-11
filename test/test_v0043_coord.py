@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0043_coord import V0043Coord
+from openapi_slurm.models.v0043_coord import V0043Coord
 
 class TestV0043Coord(unittest.TestCase):
     """V0043Coord unit test stubs"""

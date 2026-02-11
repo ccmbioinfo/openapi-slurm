@@ -5,14 +5,14 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**run_seconds** | [**List[V0041OpenapiSharesRespSharesSharesInnerTresRunSecondsInner]**](V0041OpenapiSharesRespSharesSharesInnerTresRunSecondsInner.md) | Currently running tres-secs &#x3D; grp_used_tres_run_secs | [optional] 
-**group_minutes** | [**List[V0041OpenapiSharesRespSharesSharesInnerTresRunSecondsInner]**](V0041OpenapiSharesRespSharesSharesInnerTresRunSecondsInner.md) | TRES-minute limit | [optional] 
-**usage** | [**List[V0041OpenapiSharesRespSharesSharesInnerTresUsageInner]**](V0041OpenapiSharesRespSharesSharesInnerTresUsageInner.md) | Measure of each TRES usage | [optional] 
+**run_seconds** | [**List[V0041OpenapiSharesRespSharesSharesInnerTresRunSecondsInner]**](V0041OpenapiSharesRespSharesSharesInnerTresRunSecondsInner.md) | Currently running tres-secs &#x3D; grp_used_tres_run_secs | [optional]
+**group_minutes** | [**List[V0041OpenapiSharesRespSharesSharesInnerTresRunSecondsInner]**](V0041OpenapiSharesRespSharesSharesInnerTresRunSecondsInner.md) | TRES-minute limit | [optional]
+**usage** | [**List[V0041OpenapiSharesRespSharesSharesInnerTresUsageInner]**](V0041OpenapiSharesRespSharesSharesInnerTresUsageInner.md) | Measure of each TRES usage | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_shares_resp_shares_shares_inner_tres import V0041OpenapiSharesRespSharesSharesInnerTres
+from openapi_slurm.models.v0041_openapi_shares_resp_shares_shares_inner_tres import V0041OpenapiSharesRespSharesSharesInnerTres
 
 # TODO update the JSON string below
 json = "{}"

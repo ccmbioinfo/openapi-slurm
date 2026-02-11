@@ -5,12 +5,12 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**time** | [**V0041OpenapiReservationRespReservationsInnerPurgeCompletedTime**](V0041OpenapiReservationRespReservationsInnerPurgeCompletedTime.md) |  | [optional] 
+**time** | [**V0041OpenapiReservationRespReservationsInnerPurgeCompletedTime**](V0041OpenapiReservationRespReservationsInnerPurgeCompletedTime.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_reservation_resp_reservations_inner_purge_completed import V0041OpenapiReservationRespReservationsInnerPurgeCompleted
+from openapi_slurm.models.v0041_openapi_reservation_resp_reservations_inner_purge_completed import V0041OpenapiReservationRespReservationsInnerPurgeCompleted
 
 # TODO update the JSON string below
 json = "{}"

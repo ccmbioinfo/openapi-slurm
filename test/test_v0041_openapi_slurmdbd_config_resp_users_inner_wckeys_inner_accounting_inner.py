@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_users_inner_wckeys_inner_accounting_inner import V0041OpenapiSlurmdbdConfigRespUsersInnerWckeysInnerAccountingInner
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_users_inner_wckeys_inner_accounting_inner import V0041OpenapiSlurmdbdConfigRespUsersInnerWckeysInnerAccountingInner
 
 class TestV0041OpenapiSlurmdbdConfigRespUsersInnerWckeysInnerAccountingInner(unittest.TestCase):
     """V0041OpenapiSlurmdbdConfigRespUsersInnerWckeysInnerAccountingInner unit test stubs"""
@@ -36,14 +36,14 @@ class TestV0041OpenapiSlurmdbdConfigRespUsersInnerWckeysInnerAccountingInner(uni
         model = V0041OpenapiSlurmdbdConfigRespUsersInnerWckeysInnerAccountingInner()
         if include_optional:
             return V0041OpenapiSlurmdbdConfigRespUsersInnerWckeysInnerAccountingInner(
-                allocated = openapi_client.models.v0_0_40_accounting_allocated.v0_0_40_accounting_allocated(
+                allocated = openapi_slurm.models.v0_0_40_accounting_allocated.v0_0_40_accounting_allocated(
                     seconds = 56, ),
                 id = 56,
                 start = 56,
-                tres = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner_accounting_inner_tres.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner_accounting_inner_TRES(
-                    type = '', 
-                    name = '', 
-                    id = 56, 
+                tres = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner_accounting_inner_tres.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner_accounting_inner_TRES(
+                    type = '',
+                    name = '',
+                    id = 56,
                     count = 56, )
             )
         else:

@@ -5,15 +5,15 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**error** | [**V0040KillJobsRespJobError**](V0040KillJobsRespJobError.md) |  | [optional] 
-**step_id** | **str** | Job or Step ID that signaling failed | 
-**job_id** | [**V0043Uint32NoValStruct**](V0043Uint32NoValStruct.md) |  | 
-**federation** | [**V0040KillJobsRespJobFederation**](V0040KillJobsRespJobFederation.md) |  | [optional] 
+**error** | [**V0040KillJobsRespJobError**](V0040KillJobsRespJobError.md) |  | [optional]
+**step_id** | **str** | Job or Step ID that signaling failed |
+**job_id** | [**V0043Uint32NoValStruct**](V0043Uint32NoValStruct.md) |  |
+**federation** | [**V0040KillJobsRespJobFederation**](V0040KillJobsRespJobFederation.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0043_kill_jobs_resp_job import V0043KillJobsRespJob
+from openapi_slurm.models.v0043_kill_jobs_resp_job import V0043KillJobsRespJob
 
 # TODO update the JSON string below
 json = "{}"

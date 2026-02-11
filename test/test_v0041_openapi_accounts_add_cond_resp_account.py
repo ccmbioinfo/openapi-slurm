@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_accounts_add_cond_resp_account import V0041OpenapiAccountsAddCondRespAccount
+from openapi_slurm.models.v0041_openapi_accounts_add_cond_resp_account import V0041OpenapiAccountsAddCondRespAccount
 
 class TestV0041OpenapiAccountsAddCondRespAccount(unittest.TestCase):
     """V0041OpenapiAccountsAddCondRespAccount unit test stubs"""

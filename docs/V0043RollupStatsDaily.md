@@ -5,14 +5,14 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**count** | **int** | Number of daily rollups since last_run | [optional] 
-**last_run** | **int** | Last time daily rollup ran (UNIX timestamp) (UNIX timestamp or time string recognized by Slurm (e.g., &#39;[MM/DD[/YY]-]HH:MM[:SS]&#39;)) | [optional] 
-**duration** | [**V0041OpenapiSlurmdbdStatsRespStatisticsRollupsDailyDuration**](V0041OpenapiSlurmdbdStatsRespStatisticsRollupsDailyDuration.md) |  | [optional] 
+**count** | **int** | Number of daily rollups since last_run | [optional]
+**last_run** | **int** | Last time daily rollup ran (UNIX timestamp) (UNIX timestamp or time string recognized by Slurm (e.g., &#39;[MM/DD[/YY]-]HH:MM[:SS]&#39;)) | [optional]
+**duration** | [**V0041OpenapiSlurmdbdStatsRespStatisticsRollupsDailyDuration**](V0041OpenapiSlurmdbdStatsRespStatisticsRollupsDailyDuration.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0043_rollup_stats_daily import V0043RollupStatsDaily
+from openapi_slurm.models.v0043_rollup_stats_daily import V0043RollupStatsDaily
 
 # TODO update the JSON string below
 json = "{}"

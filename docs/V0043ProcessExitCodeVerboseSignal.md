@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**id** | [**V0043Uint16NoValStruct**](V0043Uint16NoValStruct.md) |  | [optional] 
-**name** | **str** | Signal sent to process (name) | [optional] 
+**id** | [**V0043Uint16NoValStruct**](V0043Uint16NoValStruct.md) |  | [optional]
+**name** | **str** | Signal sent to process (name) | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0043_process_exit_code_verbose_signal import V0043ProcessExitCodeVerboseSignal
+from openapi_slurm.models.v0043_process_exit_code_verbose_signal import V0043ProcessExitCodeVerboseSignal
 
 # TODO update the JSON string below
 json = "{}"

@@ -5,23 +5,23 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**time** | [**V0042StepTime**](V0042StepTime.md) |  | [optional] 
-**exit_code** | [**V0042ProcessExitCodeVerbose**](V0042ProcessExitCodeVerbose.md) |  | [optional] 
-**nodes** | [**V0042StepNodes**](V0042StepNodes.md) |  | [optional] 
-**tasks** | [**V0040StepTasks**](V0040StepTasks.md) |  | [optional] 
-**pid** | **str** | Deprecated; Process ID | [optional] 
-**cpu** | [**V0042StepCPU**](V0042StepCPU.md) |  | [optional] 
-**kill_request_user** | **str** | User ID that requested termination of the step | [optional] 
-**state** | **List[str]** |  | [optional] 
-**statistics** | [**V0042StepStatistics**](V0042StepStatistics.md) |  | [optional] 
-**step** | [**V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerStep**](V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerStep.md) |  | [optional] 
-**task** | [**V0040StepTask**](V0040StepTask.md) |  | [optional] 
-**tres** | [**V0042StepTres**](V0042StepTres.md) |  | [optional] 
+**time** | [**V0042StepTime**](V0042StepTime.md) |  | [optional]
+**exit_code** | [**V0042ProcessExitCodeVerbose**](V0042ProcessExitCodeVerbose.md) |  | [optional]
+**nodes** | [**V0042StepNodes**](V0042StepNodes.md) |  | [optional]
+**tasks** | [**V0040StepTasks**](V0040StepTasks.md) |  | [optional]
+**pid** | **str** | Deprecated; Process ID | [optional]
+**cpu** | [**V0042StepCPU**](V0042StepCPU.md) |  | [optional]
+**kill_request_user** | **str** | User ID that requested termination of the step | [optional]
+**state** | **List[str]** |  | [optional]
+**statistics** | [**V0042StepStatistics**](V0042StepStatistics.md) |  | [optional]
+**step** | [**V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerStep**](V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerStep.md) |  | [optional]
+**task** | [**V0040StepTask**](V0040StepTask.md) |  | [optional]
+**tres** | [**V0042StepTres**](V0042StepTres.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0042_step import V0042Step
+from openapi_slurm.models.v0042_step import V0042Step
 
 # TODO update the JSON string below
 json = "{}"

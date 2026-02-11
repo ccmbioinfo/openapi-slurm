@@ -6,15 +6,15 @@ Slurm meta values
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**plugin** | [**V0040OpenapiMetaPlugin**](V0040OpenapiMetaPlugin.md) |  | [optional] 
-**client** | [**V0040OpenapiMetaClient**](V0040OpenapiMetaClient.md) |  | [optional] 
-**command** | **List[str]** | CLI command (if applicable) | [optional] 
-**slurm** | [**V0040OpenapiMetaSlurm**](V0040OpenapiMetaSlurm.md) |  | [optional] 
+**plugin** | [**V0040OpenapiMetaPlugin**](V0040OpenapiMetaPlugin.md) |  | [optional]
+**client** | [**V0040OpenapiMetaClient**](V0040OpenapiMetaClient.md) |  | [optional]
+**command** | **List[str]** | CLI command (if applicable) | [optional]
+**slurm** | [**V0040OpenapiMetaSlurm**](V0040OpenapiMetaSlurm.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_shares_resp_meta import V0041OpenapiSharesRespMeta
+from openapi_slurm.models.v0041_openapi_shares_resp_meta import V0041OpenapiSharesRespMeta
 
 # TODO update the JSON string below
 json = "{}"

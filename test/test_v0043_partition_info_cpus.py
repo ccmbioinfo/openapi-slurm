@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0043_partition_info_cpus import V0043PartitionInfoCpus
+from openapi_slurm.models.v0043_partition_info_cpus import V0043PartitionInfoCpus
 
 class TestV0043PartitionInfoCpus(unittest.TestCase):
     """V0043PartitionInfoCpus unit test stubs"""

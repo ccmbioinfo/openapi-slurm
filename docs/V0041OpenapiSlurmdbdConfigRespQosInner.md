@@ -5,20 +5,20 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**description** | **str** | Arbitrary description | [optional] 
-**flags** | **List[str]** | Flags, to avoid modifying current values specify NOT_SET | [optional] 
-**id** | **int** | Unique ID | [optional] 
-**limits** | [**V0041OpenapiSlurmdbdConfigRespQosInnerLimits**](V0041OpenapiSlurmdbdConfigRespQosInnerLimits.md) |  | [optional] 
-**name** | **str** | Name | [optional] 
-**preempt** | [**V0041OpenapiSlurmdbdConfigRespQosInnerPreempt**](V0041OpenapiSlurmdbdConfigRespQosInnerPreempt.md) |  | [optional] 
-**priority** | [**V0041OpenapiSlurmdbdConfigRespQosInnerPriority**](V0041OpenapiSlurmdbdConfigRespQosInnerPriority.md) |  | [optional] 
-**usage_factor** | [**V0041OpenapiSlurmdbdConfigRespQosInnerUsageFactor**](V0041OpenapiSlurmdbdConfigRespQosInnerUsageFactor.md) |  | [optional] 
-**usage_threshold** | [**V0041OpenapiSlurmdbdConfigRespQosInnerUsageThreshold**](V0041OpenapiSlurmdbdConfigRespQosInnerUsageThreshold.md) |  | [optional] 
+**description** | **str** | Arbitrary description | [optional]
+**flags** | **List[str]** | Flags, to avoid modifying current values specify NOT_SET | [optional]
+**id** | **int** | Unique ID | [optional]
+**limits** | [**V0041OpenapiSlurmdbdConfigRespQosInnerLimits**](V0041OpenapiSlurmdbdConfigRespQosInnerLimits.md) |  | [optional]
+**name** | **str** | Name | [optional]
+**preempt** | [**V0041OpenapiSlurmdbdConfigRespQosInnerPreempt**](V0041OpenapiSlurmdbdConfigRespQosInnerPreempt.md) |  | [optional]
+**priority** | [**V0041OpenapiSlurmdbdConfigRespQosInnerPriority**](V0041OpenapiSlurmdbdConfigRespQosInnerPriority.md) |  | [optional]
+**usage_factor** | [**V0041OpenapiSlurmdbdConfigRespQosInnerUsageFactor**](V0041OpenapiSlurmdbdConfigRespQosInnerUsageFactor.md) |  | [optional]
+**usage_threshold** | [**V0041OpenapiSlurmdbdConfigRespQosInnerUsageThreshold**](V0041OpenapiSlurmdbdConfigRespQosInnerUsageThreshold.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_qos_inner import V0041OpenapiSlurmdbdConfigRespQosInner
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_qos_inner import V0041OpenapiSlurmdbdConfigRespQosInner
 
 # TODO update the JSON string below
 json = "{}"

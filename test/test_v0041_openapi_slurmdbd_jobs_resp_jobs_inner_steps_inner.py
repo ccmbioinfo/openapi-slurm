@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner import V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInner
+from openapi_slurm.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner import V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInner
 
 class TestV0041OpenapiSlurmdbdJobsRespJobsInnerStepsInner(unittest.TestCase):
     """V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInner unit test stubs"""
@@ -36,102 +36,102 @@ class TestV0041OpenapiSlurmdbdJobsRespJobsInnerStepsInner(unittest.TestCase):
         model = V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInner()
         if include_optional:
             return V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInner(
-                time = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_time.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_time(
-                    elapsed = 56, 
-                    end = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_time_end.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_time_end(
-                        set = True, 
-                        infinite = True, 
-                        number = 56, ), 
-                    start = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_time_start.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_time_start(
-                        set = True, 
-                        infinite = True, 
-                        number = 56, ), 
-                    suspended = 56, 
-                    system = openapi_client.models.v0_0_40_step_time_system.v0_0_40_step_time_system(
-                        seconds = 56, 
-                        microseconds = 56, ), 
-                    total = openapi_client.models.v0_0_40_step_time_total.v0_0_40_step_time_total(
-                        seconds = 56, 
-                        microseconds = 56, ), 
-                    user = openapi_client.models.v0_0_40_step_time_user.v0_0_40_step_time_user(
-                        seconds = 56, 
+                time = openapi_slurm.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_time.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_time(
+                    elapsed = 56,
+                    end = openapi_slurm.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_time_end.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_time_end(
+                        set = True,
+                        infinite = True,
+                        number = 56, ),
+                    start = openapi_slurm.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_time_start.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_time_start(
+                        set = True,
+                        infinite = True,
+                        number = 56, ),
+                    suspended = 56,
+                    system = openapi_slurm.models.v0_0_40_step_time_system.v0_0_40_step_time_system(
+                        seconds = 56,
+                        microseconds = 56, ),
+                    total = openapi_slurm.models.v0_0_40_step_time_total.v0_0_40_step_time_total(
+                        seconds = 56,
+                        microseconds = 56, ),
+                    user = openapi_slurm.models.v0_0_40_step_time_user.v0_0_40_step_time_user(
+                        seconds = 56,
                         microseconds = 56, ), ),
-                exit_code = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_exit_code.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_exit_code(
+                exit_code = openapi_slurm.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_exit_code.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_exit_code(
                     status = [
                         'INVALID'
-                        ], 
-                    return_code = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_return_code.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_return_code(
-                        set = True, 
-                        infinite = True, 
-                        number = 56, ), 
-                    signal = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal(
-                        id = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal_id.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal_id(
-                            set = True, 
-                            infinite = True, 
-                            number = 56, ), 
+                        ],
+                    return_code = openapi_slurm.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_return_code.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_return_code(
+                        set = True,
+                        infinite = True,
+                        number = 56, ),
+                    signal = openapi_slurm.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal(
+                        id = openapi_slurm.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal_id.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal_id(
+                            set = True,
+                            infinite = True,
+                            number = 56, ),
                         name = '', ), ),
-                nodes = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_nodes.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_nodes(
-                    count = 56, 
-                    range = '', 
+                nodes = openapi_slurm.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_nodes.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_nodes(
+                    count = 56,
+                    range = '',
                     list = [
                         ''
                         ], ),
-                tasks = openapi_client.models.v0_0_40_step_tasks.v0_0_40_step_tasks(
+                tasks = openapi_slurm.models.v0_0_40_step_tasks.v0_0_40_step_tasks(
                     count = 56, ),
                 pid = '',
-                cpu = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_cpu.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_CPU(
-                    requested_frequency = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_cpu_requested_frequency.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_CPU_requested_frequency(
-                        min = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_cpu_requested_frequency_min.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_CPU_requested_frequency_min(
-                            set = True, 
-                            infinite = True, 
-                            number = 56, ), 
-                        max = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_cpu_requested_frequency_max.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_CPU_requested_frequency_max(
-                            set = True, 
-                            infinite = True, 
-                            number = 56, ), ), 
+                cpu = openapi_slurm.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_cpu.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_CPU(
+                    requested_frequency = openapi_slurm.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_cpu_requested_frequency.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_CPU_requested_frequency(
+                        min = openapi_slurm.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_cpu_requested_frequency_min.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_CPU_requested_frequency_min(
+                            set = True,
+                            infinite = True,
+                            number = 56, ),
+                        max = openapi_slurm.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_cpu_requested_frequency_max.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_CPU_requested_frequency_max(
+                            set = True,
+                            infinite = True,
+                            number = 56, ), ),
                     governor = '', ),
                 kill_request_user = '',
                 state = [
                     'PENDING'
                     ],
-                statistics = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics(
-                    cpu = openapi_client.models.v0_0_40_step_statistics_cpu.v0_0_40_step_statistics_CPU(
-                        actual_frequency = 56, ), 
-                    energy = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics_energy.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics_energy(
-                        consumed = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics_energy_consumed.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics_energy_consumed(
-                            set = True, 
-                            infinite = True, 
+                statistics = openapi_slurm.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics(
+                    cpu = openapi_slurm.models.v0_0_40_step_statistics_cpu.v0_0_40_step_statistics_CPU(
+                        actual_frequency = 56, ),
+                    energy = openapi_slurm.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics_energy.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics_energy(
+                        consumed = openapi_slurm.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics_energy_consumed.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics_energy_consumed(
+                            set = True,
+                            infinite = True,
                             number = 56, ), ), ),
-                step = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_step.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_step(
-                    id = '', 
+                step = openapi_slurm.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_step.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_step(
+                    id = '',
                     name = '', ),
-                task = openapi_client.models.v0_0_40_step_task.v0_0_40_step_task(
+                task = openapi_slurm.models.v0_0_40_step_task.v0_0_40_step_task(
                     distribution = '', ),
-                tres = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres(
-                    requested = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested(
+                tres = openapi_slurm.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres(
+                    requested = openapi_slurm.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested(
                         max = [
-                            openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner(
-                                type = '', 
-                                name = '', 
-                                id = 56, 
+                            openapi_slurm.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner(
+                                type = '',
+                                name = '',
+                                id = 56,
                                 count = 56, )
-                            ], 
+                            ],
                         min = [
-                            openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner(
-                                type = '', 
-                                name = '', 
-                                id = 56, 
+                            openapi_slurm.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner(
+                                type = '',
+                                name = '',
+                                id = 56,
                                 count = 56, )
-                            ], 
+                            ],
                         average = [
-                            
-                            ], 
+
+                            ],
                         total = [
-                            
-                            ], ), 
-                    consumed = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_consumed.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_consumed(), 
+
+                            ], ),
+                    consumed = openapi_slurm.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_consumed.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_consumed(),
                     allocated = [
-                        
+
                         ], )
             )
         else:

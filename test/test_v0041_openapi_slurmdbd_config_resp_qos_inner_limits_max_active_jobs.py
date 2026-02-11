@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxActiveJobs
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxActiveJobs
 
 class TestV0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxActiveJobs(unittest.TestCase):
     """V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxActiveJobs unit test stubs"""
@@ -36,13 +36,13 @@ class TestV0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxActiveJobs(unittest.Tes
         model = V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxActiveJobs()
         if include_optional:
             return V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxActiveJobs(
-                accruing = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs_accruing.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs_accruing(
-                    set = True, 
-                    infinite = True, 
+                accruing = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs_accruing.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs_accruing(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                count = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs_count.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs_count(
-                    set = True, 
-                    infinite = True, 
+                count = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs_count.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs_count(
+                    set = True,
+                    infinite = True,
                     number = 56, )
             )
         else:

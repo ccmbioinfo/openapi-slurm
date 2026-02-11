@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_job_array_limits import V0040JobArrayLimits
+from openapi_slurm.models.v0040_job_array_limits import V0040JobArrayLimits
 
 class TestV0040JobArrayLimits(unittest.TestCase):
     """V0040JobArrayLimits unit test stubs"""
@@ -36,8 +36,8 @@ class TestV0040JobArrayLimits(unittest.TestCase):
         model = V0040JobArrayLimits()
         if include_optional:
             return V0040JobArrayLimits(
-                max = openapi_client.models.v0_0_40_job_array_limits_max.v0_0_40_job_array_limits_max(
-                    running = openapi_client.models.v0_0_40_job_array_limits_max_running.v0_0_40_job_array_limits_max_running(
+                max = openapi_slurm.models.v0_0_40_job_array_limits_max.v0_0_40_job_array_limits_max(
+                    running = openapi_slurm.models.v0_0_40_job_array_limits_max_running.v0_0_40_job_array_limits_max_running(
                         tasks = 56, ), )
             )
         else:

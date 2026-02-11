@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_associations_inner_max_tres_group import V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxTresGroup
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_associations_inner_max_tres_group import V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxTresGroup
 
 class TestV0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxTresGroup(unittest.TestCase):
     """V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxTresGroup unit test stubs"""
@@ -37,17 +37,17 @@ class TestV0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxTresGroup(unittest.T
         if include_optional:
             return V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxTresGroup(
                 minutes = [
-                    openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner(
-                        type = '', 
-                        name = '', 
-                        id = 56, 
+                    openapi_slurm.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner(
+                        type = '',
+                        name = '',
+                        id = 56,
                         count = 56, )
                     ],
                 active = [
-                    openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner(
-                        type = '', 
-                        name = '', 
-                        id = 56, 
+                    openapi_slurm.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner(
+                        type = '',
+                        name = '',
+                        id = 56,
                         count = 56, )
                     ]
             )

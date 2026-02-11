@@ -20,7 +20,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_clusters_inner_associations_root import V0041OpenapiSlurmdbdConfigRespClustersInnerAssociationsRoot
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_clusters_inner_associations_root import V0041OpenapiSlurmdbdConfigRespClustersInnerAssociationsRoot
 from typing import Optional, Set
 from typing_extensions import Self
 

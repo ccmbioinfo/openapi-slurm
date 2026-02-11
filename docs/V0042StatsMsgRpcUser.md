@@ -5,16 +5,16 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**user_id** | **int** | User ID (numeric) | 
-**user** | **str** | User name | 
-**count** | **int** | Number of RPCs received | 
-**total_time** | **int** | Total time spent processing RPC in seconds | 
-**average_time** | [**V0042Uint64NoValStruct**](V0042Uint64NoValStruct.md) |  | 
+**user_id** | **int** | User ID (numeric) |
+**user** | **str** | User name |
+**count** | **int** | Number of RPCs received |
+**total_time** | **int** | Total time spent processing RPC in seconds |
+**average_time** | [**V0042Uint64NoValStruct**](V0042Uint64NoValStruct.md) |  |
 
 ## Example
 
 ```python
-from openapi_client.models.v0042_stats_msg_rpc_user import V0042StatsMsgRpcUser
+from openapi_slurm.models.v0042_stats_msg_rpc_user import V0042StatsMsgRpcUser
 
 # TODO update the JSON string below
 json = "{}"

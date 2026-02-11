@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_accounts_inner_coordinators_inner import V0041OpenapiSlurmdbdConfigRespAccountsInnerCoordinatorsInner
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_accounts_inner_coordinators_inner import V0041OpenapiSlurmdbdConfigRespAccountsInnerCoordinatorsInner
 
 class TestV0041OpenapiSlurmdbdConfigRespAccountsInnerCoordinatorsInner(unittest.TestCase):
     """V0041OpenapiSlurmdbdConfigRespAccountsInnerCoordinatorsInner unit test stubs"""

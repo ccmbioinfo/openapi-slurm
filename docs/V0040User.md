@@ -5,19 +5,19 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**administrator_level** | **List[str]** |  | [optional] 
-**associations** | [**List[V0040AssocShort]**](V0040AssocShort.md) |  | [optional] 
-**coordinators** | [**List[V0040Coord]**](V0040Coord.md) |  | [optional] 
-**default** | [**V0040UserDefault**](V0040UserDefault.md) |  | [optional] 
-**flags** | **List[str]** |  | [optional] 
-**name** | **str** | User name | 
-**old_name** | **str** | Previous user name | [optional] 
-**wckeys** | [**List[V0040Wckey]**](V0040Wckey.md) |  | [optional] 
+**administrator_level** | **List[str]** |  | [optional]
+**associations** | [**List[V0040AssocShort]**](V0040AssocShort.md) |  | [optional]
+**coordinators** | [**List[V0040Coord]**](V0040Coord.md) |  | [optional]
+**default** | [**V0040UserDefault**](V0040UserDefault.md) |  | [optional]
+**flags** | **List[str]** |  | [optional]
+**name** | **str** | User name |
+**old_name** | **str** | Previous user name | [optional]
+**wckeys** | [**List[V0040Wckey]**](V0040Wckey.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_user import V0040User
+from openapi_slurm.models.v0040_user import V0040User
 
 # TODO update the JSON string below
 json = "{}"

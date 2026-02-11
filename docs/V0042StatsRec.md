@@ -5,15 +5,15 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**time_start** | **int** | When data collection started (UNIX timestamp) | [optional] 
-**rollups** | [**V0042RollupStats**](V0042RollupStats.md) |  | [optional] 
-**rpcs** | [**List[V0042StatsRpc]**](V0042StatsRpc.md) |  | [optional] 
-**users** | [**List[V0042StatsUser]**](V0042StatsUser.md) |  | [optional] 
+**time_start** | **int** | When data collection started (UNIX timestamp) | [optional]
+**rollups** | [**V0042RollupStats**](V0042RollupStats.md) |  | [optional]
+**rpcs** | [**List[V0042StatsRpc]**](V0042StatsRpc.md) |  | [optional]
+**users** | [**List[V0042StatsUser]**](V0042StatsUser.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0042_stats_rec import V0042StatsRec
+from openapi_slurm.models.v0042_stats_rec import V0042StatsRec
 
 # TODO update the JSON string below
 json = "{}"

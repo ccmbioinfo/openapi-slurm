@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_nodes_resp_nodes_inner_energy import V0041OpenapiNodesRespNodesInnerEnergy
+from openapi_slurm.models.v0041_openapi_nodes_resp_nodes_inner_energy import V0041OpenapiNodesRespNodesInnerEnergy
 
 class TestV0041OpenapiNodesRespNodesInnerEnergy(unittest.TestCase):
     """V0041OpenapiNodesRespNodesInnerEnergy unit test stubs"""
@@ -39,9 +39,9 @@ class TestV0041OpenapiNodesRespNodesInnerEnergy(unittest.TestCase):
                 average_watts = 56,
                 base_consumed_energy = 56,
                 consumed_energy = 56,
-                current_watts = openapi_client.models.v0_0_41_openapi_nodes_resp_nodes_inner_energy_current_watts.v0_0_41_openapi_nodes_resp_nodes_inner_energy_current_watts(
-                    set = True, 
-                    infinite = True, 
+                current_watts = openapi_slurm.models.v0_0_41_openapi_nodes_resp_nodes_inner_energy_current_watts.v0_0_41_openapi_nodes_resp_nodes_inner_energy_current_watts(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
                 previous_consumed_energy = 56,
                 last_collected = 56

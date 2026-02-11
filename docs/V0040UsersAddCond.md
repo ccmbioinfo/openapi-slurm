@@ -5,17 +5,17 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**accounts** | **List[str]** |  | [optional] 
-**association** | [**V0040AssocRecSet**](V0040AssocRecSet.md) |  | [optional] 
-**clusters** | **List[str]** |  | [optional] 
-**partitions** | **List[str]** |  | [optional] 
-**users** | **List[str]** |  | 
-**wckeys** | **List[str]** |  | [optional] 
+**accounts** | **List[str]** |  | [optional]
+**association** | [**V0040AssocRecSet**](V0040AssocRecSet.md) |  | [optional]
+**clusters** | **List[str]** |  | [optional]
+**partitions** | **List[str]** |  | [optional]
+**users** | **List[str]** |  |
+**wckeys** | **List[str]** |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_users_add_cond import V0040UsersAddCond
+from openapi_slurm.models.v0040_users_add_cond import V0040UsersAddCond
 
 # TODO update the JSON string below
 json = "{}"

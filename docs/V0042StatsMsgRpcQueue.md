@@ -5,14 +5,14 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**type_id** | **int** | Message type as integer | 
-**message_type** | **str** | Message type as string | 
-**count** | **int** | Number of pending RPCs queued | 
+**type_id** | **int** | Message type as integer |
+**message_type** | **str** | Message type as string |
+**count** | **int** | Number of pending RPCs queued |
 
 ## Example
 
 ```python
-from openapi_client.models.v0042_stats_msg_rpc_queue import V0042StatsMsgRpcQueue
+from openapi_slurm.models.v0042_stats_msg_rpc_queue import V0042StatsMsgRpcQueue
 
 # TODO update the JSON string below
 json = "{}"

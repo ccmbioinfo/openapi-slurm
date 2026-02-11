@@ -5,17 +5,17 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**associations** | [**List[V0042AssocShort]**](V0042AssocShort.md) |  | [optional] 
-**coordinators** | [**List[V0042Coord]**](V0042Coord.md) |  | [optional] 
-**description** | **str** | Arbitrary string describing the account | 
-**name** | **str** | Account name | 
-**organization** | **str** | Organization to which the account belongs | 
-**flags** | **List[str]** |  | [optional] 
+**associations** | [**List[V0042AssocShort]**](V0042AssocShort.md) |  | [optional]
+**coordinators** | [**List[V0042Coord]**](V0042Coord.md) |  | [optional]
+**description** | **str** | Arbitrary string describing the account |
+**name** | **str** | Account name |
+**organization** | **str** | Organization to which the account belongs |
+**flags** | **List[str]** |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0042_account import V0042Account
+from openapi_slurm.models.v0042_account import V0042Account
 
 # TODO update the JSON string below
 json = "{}"

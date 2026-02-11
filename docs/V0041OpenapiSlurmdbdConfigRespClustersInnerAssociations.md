@@ -5,12 +5,12 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**root** | [**V0041OpenapiSlurmdbdConfigRespClustersInnerAssociationsRoot**](V0041OpenapiSlurmdbdConfigRespClustersInnerAssociationsRoot.md) |  | [optional] 
+**root** | [**V0041OpenapiSlurmdbdConfigRespClustersInnerAssociationsRoot**](V0041OpenapiSlurmdbdConfigRespClustersInnerAssociationsRoot.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_clusters_inner_associations import V0041OpenapiSlurmdbdConfigRespClustersInnerAssociations
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_clusters_inner_associations import V0041OpenapiSlurmdbdConfigRespClustersInnerAssociations
 
 # TODO update the JSON string below
 json = "{}"

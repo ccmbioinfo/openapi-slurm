@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_users_inner_wckeys_inner import V0041OpenapiSlurmdbdConfigRespUsersInnerWckeysInner
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_users_inner_wckeys_inner import V0041OpenapiSlurmdbdConfigRespUsersInnerWckeysInner
 
 class TestV0041OpenapiSlurmdbdConfigRespUsersInnerWckeysInner(unittest.TestCase):
     """V0041OpenapiSlurmdbdConfigRespUsersInnerWckeysInner unit test stubs"""
@@ -37,15 +37,15 @@ class TestV0041OpenapiSlurmdbdConfigRespUsersInnerWckeysInner(unittest.TestCase)
         if include_optional:
             return V0041OpenapiSlurmdbdConfigRespUsersInnerWckeysInner(
                 accounting = [
-                    openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner_accounting_inner.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner_accounting_inner(
-                        allocated = openapi_client.models.v0_0_40_accounting_allocated.v0_0_40_accounting_allocated(
-                            seconds = 56, ), 
-                        id = 56, 
-                        start = 56, 
-                        tres = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner_accounting_inner_tres.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner_accounting_inner_TRES(
-                            type = '', 
-                            name = '', 
-                            id = 56, 
+                    openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner_accounting_inner.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner_accounting_inner(
+                        allocated = openapi_slurm.models.v0_0_40_accounting_allocated.v0_0_40_accounting_allocated(
+                            seconds = 56, ),
+                        id = 56,
+                        start = 56,
+                        tres = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner_accounting_inner_tres.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner_accounting_inner_TRES(
+                            type = '',
+                            name = '',
+                            id = 56,
                             count = 56, ), )
                     ],
                 cluster = '',

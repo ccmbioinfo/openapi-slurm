@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_associations_inner_max_jobs_per import V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxJobsPer
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_associations_inner_max_jobs_per import V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxJobsPer
 
 class TestV0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxJobsPer(unittest.TestCase):
     """V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxJobsPer unit test stubs"""
@@ -36,21 +36,21 @@ class TestV0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxJobsPer(unittest.Tes
         model = V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxJobsPer()
         if include_optional:
             return V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxJobsPer(
-                count = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs_count.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs_count(
-                    set = True, 
-                    infinite = True, 
+                count = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs_count.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs_count(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                accruing = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs_accruing.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs_accruing(
-                    set = True, 
-                    infinite = True, 
+                accruing = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs_accruing.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_active_jobs_accruing(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                submitted = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_jobs_per_submitted.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_jobs_per_submitted(
-                    set = True, 
-                    infinite = True, 
+                submitted = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_jobs_per_submitted.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_jobs_per_submitted(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                wall_clock = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock_per_job.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock_per_job(
-                    set = True, 
-                    infinite = True, 
+                wall_clock = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock_per_job.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock_per_job(
+                    set = True,
+                    infinite = True,
                     number = 56, )
             )
         else:

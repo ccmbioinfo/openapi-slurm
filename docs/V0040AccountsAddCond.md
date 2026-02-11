@@ -5,14 +5,14 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**accounts** | **List[str]** |  | 
-**association** | [**V0040AssocRecSet**](V0040AssocRecSet.md) |  | [optional] 
-**clusters** | **List[str]** |  | [optional] 
+**accounts** | **List[str]** |  |
+**association** | [**V0040AssocRecSet**](V0040AssocRecSet.md) |  | [optional]
+**clusters** | **List[str]** |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_accounts_add_cond import V0040AccountsAddCond
+from openapi_slurm.models.v0040_accounts_add_cond import V0040AccountsAddCond
 
 # TODO update the JSON string below
 json = "{}"

@@ -20,13 +20,13 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictBool, StrictInt
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0043_bf_exit_fields import V0043BfExitFields
-from openapi_client.models.v0043_schedule_exit_fields import V0043ScheduleExitFields
-from openapi_client.models.v0043_stats_msg_rpc_dump import V0043StatsMsgRpcDump
-from openapi_client.models.v0043_stats_msg_rpc_queue import V0043StatsMsgRpcQueue
-from openapi_client.models.v0043_stats_msg_rpc_type import V0043StatsMsgRpcType
-from openapi_client.models.v0043_stats_msg_rpc_user import V0043StatsMsgRpcUser
-from openapi_client.models.v0043_uint64_no_val_struct import V0043Uint64NoValStruct
+from openapi_slurm.models.v0043_bf_exit_fields import V0043BfExitFields
+from openapi_slurm.models.v0043_schedule_exit_fields import V0043ScheduleExitFields
+from openapi_slurm.models.v0043_stats_msg_rpc_dump import V0043StatsMsgRpcDump
+from openapi_slurm.models.v0043_stats_msg_rpc_queue import V0043StatsMsgRpcQueue
+from openapi_slurm.models.v0043_stats_msg_rpc_type import V0043StatsMsgRpcType
+from openapi_slurm.models.v0043_stats_msg_rpc_user import V0043StatsMsgRpcUser
+from openapi_slurm.models.v0043_uint64_no_val_struct import V0043Uint64NoValStruct
 from typing import Optional, Set
 from typing_extensions import Self
 

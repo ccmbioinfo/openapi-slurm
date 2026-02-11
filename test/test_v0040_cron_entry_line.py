@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_cron_entry_line import V0040CronEntryLine
+from openapi_slurm.models.v0040_cron_entry_line import V0040CronEntryLine
 
 class TestV0040CronEntryLine(unittest.TestCase):
     """V0040CronEntryLine unit test stubs"""

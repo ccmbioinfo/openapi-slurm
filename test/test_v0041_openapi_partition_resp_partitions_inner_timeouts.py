@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_partition_resp_partitions_inner_timeouts import V0041OpenapiPartitionRespPartitionsInnerTimeouts
+from openapi_slurm.models.v0041_openapi_partition_resp_partitions_inner_timeouts import V0041OpenapiPartitionRespPartitionsInnerTimeouts
 
 class TestV0041OpenapiPartitionRespPartitionsInnerTimeouts(unittest.TestCase):
     """V0041OpenapiPartitionRespPartitionsInnerTimeouts unit test stubs"""
@@ -36,13 +36,13 @@ class TestV0041OpenapiPartitionRespPartitionsInnerTimeouts(unittest.TestCase):
         model = V0041OpenapiPartitionRespPartitionsInnerTimeouts()
         if include_optional:
             return V0041OpenapiPartitionRespPartitionsInnerTimeouts(
-                resume = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_timeouts_resume.v0_0_41_openapi_partition_resp_partitions_inner_timeouts_resume(
-                    set = True, 
-                    infinite = True, 
+                resume = openapi_slurm.models.v0_0_41_openapi_partition_resp_partitions_inner_timeouts_resume.v0_0_41_openapi_partition_resp_partitions_inner_timeouts_resume(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                suspend = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_timeouts_suspend.v0_0_41_openapi_partition_resp_partitions_inner_timeouts_suspend(
-                    set = True, 
-                    infinite = True, 
+                suspend = openapi_slurm.models.v0_0_41_openapi_partition_resp_partitions_inner_timeouts_suspend.v0_0_41_openapi_partition_resp_partitions_inner_timeouts_suspend(
+                    set = True,
+                    infinite = True,
                     number = 56, )
             )
         else:

@@ -5,12 +5,12 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**actual_frequency** | **int** | Average weighted CPU frequency of all tasks in kHz | [optional] 
+**actual_frequency** | **int** | Average weighted CPU frequency of all tasks in kHz | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_step_statistics_cpu import V0040StepStatisticsCPU
+from openapi_slurm.models.v0040_step_statistics_cpu import V0040StepStatisticsCPU
 
 # TODO update the JSON string below
 json = "{}"

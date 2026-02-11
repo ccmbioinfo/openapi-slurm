@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_associations_inner_max_tres_minutes_per import V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxTresMinutesPer
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_associations_inner_max_tres_minutes_per import V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxTresMinutesPer
 
 class TestV0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxTresMinutesPer(unittest.TestCase):
     """V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxTresMinutesPer unit test stubs"""
@@ -37,10 +37,10 @@ class TestV0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxTresMinutesPer(unitt
         if include_optional:
             return V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxTresMinutesPer(
                 job = [
-                    openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner(
-                        type = '', 
-                        name = '', 
-                        id = 56, 
+                    openapi_slurm.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner(
+                        type = '',
+                        name = '',
+                        id = 56,
                         count = 56, )
                     ]
             )

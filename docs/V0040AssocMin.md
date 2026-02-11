@@ -5,12 +5,12 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**priority_threshold** | [**V0040Uint32NoVal**](V0040Uint32NoVal.md) |  | [optional] 
+**priority_threshold** | [**V0040Uint32NoVal**](V0040Uint32NoVal.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_assoc_min import V0040AssocMin
+from openapi_slurm.models.v0040_assoc_min import V0040AssocMin
 
 # TODO update the JSON string below
 json = "{}"

@@ -5,14 +5,14 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**allowed_allocation** | **str** | AllocNodes - Comma-separated list of nodes from which users can submit jobs in the partition | [optional] 
-**configured** | **str** | Nodes - Comma-separated list of nodes which are associated with this partition | [optional] 
-**total** | **int** | TotalNodes - Number of nodes available in this partition | [optional] 
+**allowed_allocation** | **str** | AllocNodes - Comma-separated list of nodes from which users can submit jobs in the partition | [optional]
+**configured** | **str** | Nodes - Comma-separated list of nodes which are associated with this partition | [optional]
+**total** | **int** | TotalNodes - Number of nodes available in this partition | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0043_partition_info_nodes import V0043PartitionInfoNodes
+from openapi_slurm.models.v0043_partition_info_nodes import V0043PartitionInfoNodes
 
 # TODO update the JSON string below
 json = "{}"

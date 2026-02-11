@@ -5,18 +5,18 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**result** | [**V0041OpenapiJobSubmitResponseResult**](V0041OpenapiJobSubmitResponseResult.md) |  | [optional] 
-**job_id** | **int** | Submitted Job ID | [optional] 
-**step_id** | **str** | Submitted Step ID | [optional] 
-**job_submit_user_msg** | **str** | Job submission user message | [optional] 
-**meta** | [**V0041OpenapiSharesRespMeta**](V0041OpenapiSharesRespMeta.md) |  | [optional] 
-**errors** | [**List[V0041OpenapiSharesRespErrorsInner]**](V0041OpenapiSharesRespErrorsInner.md) | Query errors | [optional] 
-**warnings** | [**List[V0041OpenapiSharesRespWarningsInner]**](V0041OpenapiSharesRespWarningsInner.md) | Query warnings | [optional] 
+**result** | [**V0041OpenapiJobSubmitResponseResult**](V0041OpenapiJobSubmitResponseResult.md) |  | [optional]
+**job_id** | **int** | Submitted Job ID | [optional]
+**step_id** | **str** | Submitted Step ID | [optional]
+**job_submit_user_msg** | **str** | Job submission user message | [optional]
+**meta** | [**V0041OpenapiSharesRespMeta**](V0041OpenapiSharesRespMeta.md) |  | [optional]
+**errors** | [**List[V0041OpenapiSharesRespErrorsInner]**](V0041OpenapiSharesRespErrorsInner.md) | Query errors | [optional]
+**warnings** | [**List[V0041OpenapiSharesRespWarningsInner]**](V0041OpenapiSharesRespWarningsInner.md) | Query warnings | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_job_submit_response import V0041OpenapiJobSubmitResponse
+from openapi_slurm.models.v0041_openapi_job_submit_response import V0041OpenapiJobSubmitResponse
 
 # TODO update the JSON string below
 json = "{}"

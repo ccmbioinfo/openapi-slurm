@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_het import V0041OpenapiSlurmdbdJobsRespJobsInnerHet
+from openapi_slurm.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_het import V0041OpenapiSlurmdbdJobsRespJobsInnerHet
 
 class TestV0041OpenapiSlurmdbdJobsRespJobsInnerHet(unittest.TestCase):
     """V0041OpenapiSlurmdbdJobsRespJobsInnerHet unit test stubs"""
@@ -37,9 +37,9 @@ class TestV0041OpenapiSlurmdbdJobsRespJobsInnerHet(unittest.TestCase):
         if include_optional:
             return V0041OpenapiSlurmdbdJobsRespJobsInnerHet(
                 job_id = 56,
-                job_offset = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_het_job_offset.v0_0_41_openapi_job_info_resp_jobs_inner_het_job_offset(
-                    set = True, 
-                    infinite = True, 
+                job_offset = openapi_slurm.models.v0_0_41_openapi_job_info_resp_jobs_inner_het_job_offset.v0_0_41_openapi_job_info_resp_jobs_inner_het_job_offset(
+                    set = True,
+                    infinite = True,
                     number = 56, )
             )
         else:

@@ -5,19 +5,19 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**controller** | [**V0040ClusterRecController**](V0040ClusterRecController.md) |  | [optional] 
-**flags** | **List[str]** |  | [optional] 
-**name** | **str** | ClusterName | [optional] 
-**nodes** | **str** | Node names | [optional] 
-**select_plugin** | **str** |  | [optional] 
-**associations** | [**V0040ClusterRecAssociations**](V0040ClusterRecAssociations.md) |  | [optional] 
-**rpc_version** | **int** | RPC version used in the cluster | [optional] 
-**tres** | [**List[V0040Tres]**](V0040Tres.md) |  | [optional] 
+**controller** | [**V0040ClusterRecController**](V0040ClusterRecController.md) |  | [optional]
+**flags** | **List[str]** |  | [optional]
+**name** | **str** | ClusterName | [optional]
+**nodes** | **str** | Node names | [optional]
+**select_plugin** | **str** |  | [optional]
+**associations** | [**V0040ClusterRecAssociations**](V0040ClusterRecAssociations.md) |  | [optional]
+**rpc_version** | **int** | RPC version used in the cluster | [optional]
+**tres** | [**List[V0040Tres]**](V0040Tres.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_cluster_rec import V0040ClusterRec
+from openapi_slurm.models.v0040_cluster_rec import V0040ClusterRec
 
 # TODO update the JSON string below
 json = "{}"

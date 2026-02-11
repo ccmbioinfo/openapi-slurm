@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0043_accounting import V0043Accounting
+from openapi_slurm.models.v0043_accounting import V0043Accounting
 
 class TestV0043Accounting(unittest.TestCase):
     """V0043Accounting unit test stubs"""
@@ -36,15 +36,15 @@ class TestV0043Accounting(unittest.TestCase):
         model = V0043Accounting()
         if include_optional:
             return V0043Accounting(
-                allocated = openapi_client.models.v0_0_42_accounting_allocated.v0_0_42_accounting_allocated(
+                allocated = openapi_slurm.models.v0_0_42_accounting_allocated.v0_0_42_accounting_allocated(
                     seconds = 56, ),
                 id = 56,
                 id_alt = 56,
                 start = 56,
-                tres = openapi_client.models.v0/0/43_tres.v0.0.43_tres(
-                    type = '', 
-                    name = '', 
-                    id = 56, 
+                tres = openapi_slurm.models.v0/0/43_tres.v0.0.43_tres(
+                    type = '',
+                    name = '',
+                    id = 56,
                     count = 56, )
             )
         else:

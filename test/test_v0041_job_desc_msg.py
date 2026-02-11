@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_job_desc_msg import V0041JobDescMsg
+from openapi_slurm.models.v0041_job_desc_msg import V0041JobDescMsg
 
 class TestV0041JobDescMsg(unittest.TestCase):
     """V0041JobDescMsg unit test stubs"""
@@ -46,9 +46,9 @@ class TestV0041JobDescMsg(unittest.TestCase):
                     ],
                 array = '',
                 batch_features = '',
-                begin_time = openapi_client.models.v0_0_41_job_desc_msg_begin_time.v0_0_41_job_desc_msg_begin_time(
-                    set = True, 
-                    infinite = True, 
+                begin_time = openapi_slurm.models.v0_0_41_job_desc_msg_begin_time.v0_0_41_job_desc_msg_begin_time(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
                 flags = [
                     'KILL_INVALID_DEPENDENCY'
@@ -68,19 +68,19 @@ class TestV0041JobDescMsg(unittest.TestCase):
                     ],
                 cpu_frequency = '',
                 cpus_per_tres = '',
-                crontab = openapi_client.models.v0_0_41_job_desc_msg_crontab.v0_0_41_job_desc_msg_crontab(
+                crontab = openapi_slurm.models.v0_0_41_job_desc_msg_crontab.v0_0_41_job_desc_msg_crontab(
                     flags = [
                         'WILD_MINUTE'
-                        ], 
-                    minute = '', 
-                    hour = '', 
-                    day_of_month = '', 
-                    month = '', 
-                    day_of_week = '', 
-                    specification = '', 
-                    command = '', 
-                    line = openapi_client.models.v0_0_40_cron_entry_line.v0_0_40_cron_entry_line(
-                        start = 56, 
+                        ],
+                    minute = '',
+                    hour = '',
+                    day_of_month = '',
+                    month = '',
+                    day_of_week = '',
+                    specification = '',
+                    command = '',
+                    line = openapi_slurm.models.v0_0_40_cron_entry_line.v0_0_40_cron_entry_line(
+                        start = 56,
                         end = 56, ), ),
                 deadline = 56,
                 delay_boot = 56,
@@ -89,46 +89,46 @@ class TestV0041JobDescMsg(unittest.TestCase):
                 environment = [
                     ''
                     ],
-                rlimits = openapi_client.models.v0_0_41_job_desc_msg_rlimits.v0_0_41_job_desc_msg_rlimits(
-                    cpu = openapi_client.models.v0_0_41_job_desc_msg_rlimits_cpu.v0_0_41_job_desc_msg_rlimits_cpu(
-                        set = True, 
-                        infinite = True, 
-                        number = 56, ), 
-                    fsize = openapi_client.models.v0_0_41_job_desc_msg_rlimits_fsize.v0_0_41_job_desc_msg_rlimits_fsize(
-                        set = True, 
-                        infinite = True, 
-                        number = 56, ), 
-                    data = openapi_client.models.v0_0_41_job_desc_msg_rlimits_data.v0_0_41_job_desc_msg_rlimits_data(
-                        set = True, 
-                        infinite = True, 
-                        number = 56, ), 
-                    stack = openapi_client.models.v0_0_41_job_desc_msg_rlimits_stack.v0_0_41_job_desc_msg_rlimits_stack(
-                        set = True, 
-                        infinite = True, 
-                        number = 56, ), 
-                    core = openapi_client.models.v0_0_41_job_desc_msg_rlimits_core.v0_0_41_job_desc_msg_rlimits_core(
-                        set = True, 
-                        infinite = True, 
-                        number = 56, ), 
-                    rss = openapi_client.models.v0_0_41_job_desc_msg_rlimits_rss.v0_0_41_job_desc_msg_rlimits_rss(
-                        set = True, 
-                        infinite = True, 
-                        number = 56, ), 
-                    nproc = openapi_client.models.v0_0_41_job_desc_msg_rlimits_nproc.v0_0_41_job_desc_msg_rlimits_nproc(
-                        set = True, 
-                        infinite = True, 
-                        number = 56, ), 
-                    nofile = openapi_client.models.v0_0_41_job_desc_msg_rlimits_nofile.v0_0_41_job_desc_msg_rlimits_nofile(
-                        set = True, 
-                        infinite = True, 
-                        number = 56, ), 
-                    memlock = openapi_client.models.v0_0_41_job_desc_msg_rlimits_memlock.v0_0_41_job_desc_msg_rlimits_memlock(
-                        set = True, 
-                        infinite = True, 
-                        number = 56, ), 
-                    as = openapi_client.models.v0_0_41_job_desc_msg_rlimits_as.v0_0_41_job_desc_msg_rlimits_as(
-                        set = True, 
-                        infinite = True, 
+                rlimits = openapi_slurm.models.v0_0_41_job_desc_msg_rlimits.v0_0_41_job_desc_msg_rlimits(
+                    cpu = openapi_slurm.models.v0_0_41_job_desc_msg_rlimits_cpu.v0_0_41_job_desc_msg_rlimits_cpu(
+                        set = True,
+                        infinite = True,
+                        number = 56, ),
+                    fsize = openapi_slurm.models.v0_0_41_job_desc_msg_rlimits_fsize.v0_0_41_job_desc_msg_rlimits_fsize(
+                        set = True,
+                        infinite = True,
+                        number = 56, ),
+                    data = openapi_slurm.models.v0_0_41_job_desc_msg_rlimits_data.v0_0_41_job_desc_msg_rlimits_data(
+                        set = True,
+                        infinite = True,
+                        number = 56, ),
+                    stack = openapi_slurm.models.v0_0_41_job_desc_msg_rlimits_stack.v0_0_41_job_desc_msg_rlimits_stack(
+                        set = True,
+                        infinite = True,
+                        number = 56, ),
+                    core = openapi_slurm.models.v0_0_41_job_desc_msg_rlimits_core.v0_0_41_job_desc_msg_rlimits_core(
+                        set = True,
+                        infinite = True,
+                        number = 56, ),
+                    rss = openapi_slurm.models.v0_0_41_job_desc_msg_rlimits_rss.v0_0_41_job_desc_msg_rlimits_rss(
+                        set = True,
+                        infinite = True,
+                        number = 56, ),
+                    nproc = openapi_slurm.models.v0_0_41_job_desc_msg_rlimits_nproc.v0_0_41_job_desc_msg_rlimits_nproc(
+                        set = True,
+                        infinite = True,
+                        number = 56, ),
+                    nofile = openapi_slurm.models.v0_0_41_job_desc_msg_rlimits_nofile.v0_0_41_job_desc_msg_rlimits_nofile(
+                        set = True,
+                        infinite = True,
+                        number = 56, ),
+                    memlock = openapi_slurm.models.v0_0_41_job_desc_msg_rlimits_memlock.v0_0_41_job_desc_msg_rlimits_memlock(
+                        set = True,
+                        infinite = True,
+                        number = 56, ),
+                    as = openapi_slurm.models.v0_0_41_job_desc_msg_rlimits_as.v0_0_41_job_desc_msg_rlimits_as(
+                        set = True,
+                        infinite = True,
                         number = 56, ), ),
                 excluded_nodes = [
                     ''
@@ -161,18 +161,18 @@ class TestV0041JobDescMsg(unittest.TestCase):
                 reserve_ports = 56,
                 overcommit = True,
                 partition = '',
-                distribution_plane_size = openapi_client.models.v0_0_41_job_desc_msg_distribution_plane_size.v0_0_41_job_desc_msg_distribution_plane_size(
-                    set = True, 
-                    infinite = True, 
+                distribution_plane_size = openapi_slurm.models.v0_0_41_job_desc_msg_distribution_plane_size.v0_0_41_job_desc_msg_distribution_plane_size(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
                 power_flags = [
                     null
                     ],
                 prefer = '',
                 hold = True,
-                priority = openapi_client.models.v0_0_41_job_desc_msg_priority.v0_0_41_job_desc_msg_priority(
-                    set = True, 
-                    infinite = True, 
+                priority = openapi_slurm.models.v0_0_41_job_desc_msg_priority.v0_0_41_job_desc_msg_priority(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
                 profile = [
                     'NOT_SET'
@@ -198,13 +198,13 @@ class TestV0041JobDescMsg(unittest.TestCase):
                     ''
                     ],
                 distribution = '',
-                time_limit = openapi_client.models.v0_0_41_job_desc_msg_time_limit.v0_0_41_job_desc_msg_time_limit(
-                    set = True, 
-                    infinite = True, 
+                time_limit = openapi_slurm.models.v0_0_41_job_desc_msg_time_limit.v0_0_41_job_desc_msg_time_limit(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                time_minimum = openapi_client.models.v0_0_41_job_desc_msg_time_minimum.v0_0_41_job_desc_msg_time_minimum(
-                    set = True, 
-                    infinite = True, 
+                time_minimum = openapi_slurm.models.v0_0_41_job_desc_msg_time_minimum.v0_0_41_job_desc_msg_time_minimum(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
                 tres_bind = '',
                 tres_freq = '',
@@ -218,9 +218,9 @@ class TestV0041JobDescMsg(unittest.TestCase):
                     'BATCH_JOB'
                     ],
                 kill_warning_signal = '',
-                kill_warning_delay = openapi_client.models.v0_0_41_job_desc_msg_kill_warning_delay.v0_0_41_job_desc_msg_kill_warning_delay(
-                    set = True, 
-                    infinite = True, 
+                kill_warning_delay = openapi_slurm.models.v0_0_41_job_desc_msg_kill_warning_delay.v0_0_41_job_desc_msg_kill_warning_delay(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
                 current_working_directory = '',
                 cpus_per_task = 56,
@@ -239,23 +239,23 @@ class TestV0041JobDescMsg(unittest.TestCase):
                 tasks_per_board = 56,
                 ntasks_per_tres = 56,
                 minimum_cpus_per_node = 56,
-                memory_per_cpu = openapi_client.models.v0_0_41_job_desc_msg_memory_per_cpu.v0_0_41_job_desc_msg_memory_per_cpu(
-                    set = True, 
-                    infinite = True, 
+                memory_per_cpu = openapi_slurm.models.v0_0_41_job_desc_msg_memory_per_cpu.v0_0_41_job_desc_msg_memory_per_cpu(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                memory_per_node = openapi_client.models.v0_0_41_job_desc_msg_memory_per_cpu.v0_0_41_job_desc_msg_memory_per_cpu(
-                    set = True, 
-                    infinite = True, 
+                memory_per_node = openapi_slurm.models.v0_0_41_job_desc_msg_memory_per_cpu.v0_0_41_job_desc_msg_memory_per_cpu(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
                 temporary_disk_per_node = 56,
                 selinux_context = '',
-                required_switches = openapi_client.models.v0_0_41_job_desc_msg_required_switches.v0_0_41_job_desc_msg_required_switches(
-                    set = True, 
-                    infinite = True, 
+                required_switches = openapi_slurm.models.v0_0_41_job_desc_msg_required_switches.v0_0_41_job_desc_msg_required_switches(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                segment_size = openapi_client.models.v0_0_41_job_desc_msg_segment_size.v0_0_41_job_desc_msg_segment_size(
-                    set = True, 
-                    infinite = True, 
+                segment_size = openapi_slurm.models.v0_0_41_job_desc_msg_segment_size.v0_0_41_job_desc_msg_segment_size(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
                 standard_error = '',
                 standard_input = '',

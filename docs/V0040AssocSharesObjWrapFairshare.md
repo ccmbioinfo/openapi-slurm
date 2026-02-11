@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**factor** | **float** | Fairshare factor | [optional] 
-**level** | **float** | Fairshare factor at this level; stored on an assoc as a long double, but that is not needed for display in sshare | [optional] 
+**factor** | **float** | Fairshare factor | [optional]
+**level** | **float** | Fairshare factor at this level; stored on an assoc as a long double, but that is not needed for display in sshare | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_assoc_shares_obj_wrap_fairshare import V0040AssocSharesObjWrapFairshare
+from openapi_slurm.models.v0040_assoc_shares_obj_wrap_fairshare import V0040AssocSharesObjWrapFairshare
 
 # TODO update the JSON string below
 json = "{}"

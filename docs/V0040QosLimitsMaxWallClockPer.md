@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**qos** | [**V0040Uint32NoVal**](V0040Uint32NoVal.md) |  | [optional] 
-**job** | [**V0040Uint32NoVal**](V0040Uint32NoVal.md) |  | [optional] 
+**qos** | [**V0040Uint32NoVal**](V0040Uint32NoVal.md) |  | [optional]
+**job** | [**V0040Uint32NoVal**](V0040Uint32NoVal.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_qos_limits_max_wall_clock_per import V0040QosLimitsMaxWallClockPer
+from openapi_slurm.models.v0040_qos_limits_max_wall_clock_per import V0040QosLimitsMaxWallClockPer
 
 # TODO update the JSON string below
 json = "{}"

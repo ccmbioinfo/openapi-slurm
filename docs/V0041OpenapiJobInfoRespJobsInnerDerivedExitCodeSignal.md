@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**id** | [**V0041OpenapiJobInfoRespJobsInnerDerivedExitCodeSignalId**](V0041OpenapiJobInfoRespJobsInnerDerivedExitCodeSignalId.md) |  | [optional] 
-**name** | **str** | Signal sent to process | [optional] 
+**id** | [**V0041OpenapiJobInfoRespJobsInnerDerivedExitCodeSignalId**](V0041OpenapiJobInfoRespJobsInnerDerivedExitCodeSignalId.md) |  | [optional]
+**name** | **str** | Signal sent to process | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_job_info_resp_jobs_inner_derived_exit_code_signal import V0041OpenapiJobInfoRespJobsInnerDerivedExitCodeSignal
+from openapi_slurm.models.v0041_openapi_job_info_resp_jobs_inner_derived_exit_code_signal import V0041OpenapiJobInfoRespJobsInnerDerivedExitCodeSignal
 
 # TODO update the JSON string below
 json = "{}"

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0043_stats_msg_rpc_user import V0043StatsMsgRpcUser
+from openapi_slurm.models.v0043_stats_msg_rpc_user import V0043StatsMsgRpcUser
 
 class TestV0043StatsMsgRpcUser(unittest.TestCase):
     """V0043StatsMsgRpcUser unit test stubs"""
@@ -40,9 +40,9 @@ class TestV0043StatsMsgRpcUser(unittest.TestCase):
                 user = '',
                 count = 56,
                 total_time = 56,
-                average_time = openapi_client.models.v0/0/43_uint64_no_val_struct.v0.0.43_uint64_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                average_time = openapi_slurm.models.v0/0/43_uint64_no_val_struct.v0.0.43_uint64_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, )
             )
         else:
@@ -51,9 +51,9 @@ class TestV0043StatsMsgRpcUser(unittest.TestCase):
                 user = '',
                 count = 56,
                 total_time = 56,
-                average_time = openapi_client.models.v0/0/43_uint64_no_val_struct.v0.0.43_uint64_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                average_time = openapi_slurm.models.v0/0/43_uint64_no_val_struct.v0.0.43_uint64_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
         )
         """

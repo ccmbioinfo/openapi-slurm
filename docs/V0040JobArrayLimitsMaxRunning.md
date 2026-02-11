@@ -5,12 +5,12 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**tasks** | **int** | Maximum number of simultaneously running tasks, 0 if no limit | [optional] 
+**tasks** | **int** | Maximum number of simultaneously running tasks, 0 if no limit | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_job_array_limits_max_running import V0040JobArrayLimitsMaxRunning
+from openapi_slurm.models.v0040_job_array_limits_max_running import V0040JobArrayLimitsMaxRunning
 
 # TODO update the JSON string below
 json = "{}"

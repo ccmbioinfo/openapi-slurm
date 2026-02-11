@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**min** | [**V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerCPURequestedFrequencyMin**](V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerCPURequestedFrequencyMin.md) |  | [optional] 
-**max** | [**V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerCPURequestedFrequencyMax**](V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerCPURequestedFrequencyMax.md) |  | [optional] 
+**min** | [**V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerCPURequestedFrequencyMin**](V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerCPURequestedFrequencyMin.md) |  | [optional]
+**max** | [**V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerCPURequestedFrequencyMax**](V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerCPURequestedFrequencyMax.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_cpu_requested_frequency import V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerCPURequestedFrequency
+from openapi_slurm.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_cpu_requested_frequency import V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerCPURequestedFrequency
 
 # TODO update the JSON string below
 json = "{}"

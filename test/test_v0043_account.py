@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0043_account import V0043Account
+from openapi_slurm.models.v0043_account import V0043Account
 
 class TestV0043Account(unittest.TestCase):
     """V0043Account unit test stubs"""
@@ -37,16 +37,16 @@ class TestV0043Account(unittest.TestCase):
         if include_optional:
             return V0043Account(
                 associations = [
-                    openapi_client.models.v0/0/43_assoc_short.v0.0.43_assoc_short(
-                        account = '', 
-                        cluster = '', 
-                        partition = '', 
-                        user = '', 
+                    openapi_slurm.models.v0/0/43_assoc_short.v0.0.43_assoc_short(
+                        account = '',
+                        cluster = '',
+                        partition = '',
+                        user = '',
                         id = 56, )
                     ],
                 coordinators = [
-                    openapi_client.models.v0/0/43_coord.v0.0.43_coord(
-                        name = '', 
+                    openapi_slurm.models.v0/0/43_coord.v0.0.43_coord(
+                        name = '',
                         direct = True, )
                     ],
                 description = '',

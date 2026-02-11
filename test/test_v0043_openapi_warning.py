@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0043_openapi_warning import V0043OpenapiWarning
+from openapi_slurm.models.v0043_openapi_warning import V0043OpenapiWarning
 
 class TestV0043OpenapiWarning(unittest.TestCase):
     """V0043OpenapiWarning unit test stubs"""

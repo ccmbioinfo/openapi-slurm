@@ -5,14 +5,14 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**cpus** | **int** | Minimum number of CPUs required | [optional] 
-**memory_per_cpu** | [**V0041JobDescMsgMemoryPerCpu**](V0041JobDescMsgMemoryPerCpu.md) |  | [optional] 
-**memory_per_node** | [**V0041OpenapiJobInfoRespJobsInnerMemoryPerNode**](V0041OpenapiJobInfoRespJobsInnerMemoryPerNode.md) |  | [optional] 
+**cpus** | **int** | Minimum number of CPUs required | [optional]
+**memory_per_cpu** | [**V0041JobDescMsgMemoryPerCpu**](V0041JobDescMsgMemoryPerCpu.md) |  | [optional]
+**memory_per_node** | [**V0041OpenapiJobInfoRespJobsInnerMemoryPerNode**](V0041OpenapiJobInfoRespJobsInnerMemoryPerNode.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_required import V0041OpenapiSlurmdbdJobsRespJobsInnerRequired
+from openapi_slurm.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_required import V0041OpenapiSlurmdbdJobsRespJobsInnerRequired
 
 # TODO update the JSON string below
 json = "{}"

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_assoc_default import V0040AssocDefault
+from openapi_slurm.models.v0040_assoc_default import V0040AssocDefault
 
 class TestV0040AssocDefault(unittest.TestCase):
     """V0040AssocDefault unit test stubs"""

@@ -6,14 +6,14 @@ Maximum wall clock time in minutes able to be allocated by running jobs in this 
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**set** | **bool** | True if number has been set; False if number is unset | [optional] 
-**infinite** | **bool** | True if number has been set to infinite; \&quot;set\&quot; and \&quot;number\&quot; will be ignored | [optional] 
-**number** | **int** | If \&quot;set\&quot; is True the number will be set with value; otherwise ignore number contents | [optional] 
+**set** | **bool** | True if number has been set; False if number is unset | [optional]
+**infinite** | **bool** | True if number has been set to infinite; \&quot;set\&quot; and \&quot;number\&quot; will be ignored | [optional]
+**number** | **int** | If \&quot;set\&quot; is True the number will be set with value; otherwise ignore number contents | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_users_add_cond_resp_association_condition_association_grpwall import V0041OpenapiUsersAddCondRespAssociationConditionAssociationGrpwall
+from openapi_slurm.models.v0041_openapi_users_add_cond_resp_association_condition_association_grpwall import V0041OpenapiUsersAddCondRespAssociationConditionAssociationGrpwall
 
 # TODO update the JSON string below
 json = "{}"

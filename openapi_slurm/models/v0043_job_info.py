@@ -20,14 +20,14 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictBool, StrictInt, StrictStr, field_validator
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0041_openapi_job_info_resp_jobs_inner_power import V0041OpenapiJobInfoRespJobsInnerPower
-from openapi_client.models.v0043_float64_no_val_struct import V0043Float64NoValStruct
-from openapi_client.models.v0043_job_res import V0043JobRes
-from openapi_client.models.v0043_part_prio import V0043PartPrio
-from openapi_client.models.v0043_process_exit_code_verbose import V0043ProcessExitCodeVerbose
-from openapi_client.models.v0043_uint16_no_val_struct import V0043Uint16NoValStruct
-from openapi_client.models.v0043_uint32_no_val_struct import V0043Uint32NoValStruct
-from openapi_client.models.v0043_uint64_no_val_struct import V0043Uint64NoValStruct
+from openapi_slurm.models.v0041_openapi_job_info_resp_jobs_inner_power import V0041OpenapiJobInfoRespJobsInnerPower
+from openapi_slurm.models.v0043_float64_no_val_struct import V0043Float64NoValStruct
+from openapi_slurm.models.v0043_job_res import V0043JobRes
+from openapi_slurm.models.v0043_part_prio import V0043PartPrio
+from openapi_slurm.models.v0043_process_exit_code_verbose import V0043ProcessExitCodeVerbose
+from openapi_slurm.models.v0043_uint16_no_val_struct import V0043Uint16NoValStruct
+from openapi_slurm.models.v0043_uint32_no_val_struct import V0043Uint32NoValStruct
+from openapi_slurm.models.v0043_uint64_no_val_struct import V0043Uint64NoValStruct
 from typing import Optional, Set
 from typing_extensions import Self
 

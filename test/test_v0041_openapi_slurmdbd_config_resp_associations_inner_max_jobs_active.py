@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_associations_inner_max_jobs_active import V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxJobsActive
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_associations_inner_max_jobs_active import V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxJobsActive
 
 class TestV0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxJobsActive(unittest.TestCase):
     """V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxJobsActive unit test stubs"""

@@ -5,12 +5,12 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**sibling** | **str** | Name of federation sibling (may be empty for non-federation) | [optional] 
+**sibling** | **str** | Name of federation sibling (may be empty for non-federation) | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_kill_jobs_resp_job_federation import V0040KillJobsRespJobFederation
+from openapi_slurm.models.v0040_kill_jobs_resp_job_federation import V0040KillJobsRespJobFederation
 
 # TODO update the JSON string below
 json = "{}"

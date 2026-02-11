@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**seconds** | **int** | System CPU time used by the step in seconds | [optional] 
-**microseconds** | **int** | System CPU time used by the step in microseconds | [optional] 
+**seconds** | **int** | System CPU time used by the step in seconds | [optional]
+**microseconds** | **int** | System CPU time used by the step in microseconds | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_step_time_system import V0040StepTimeSystem
+from openapi_slurm.models.v0040_step_time_system import V0040StepTimeSystem
 
 # TODO update the JSON string below
 json = "{}"

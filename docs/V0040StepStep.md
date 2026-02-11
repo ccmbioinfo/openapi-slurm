@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**id** | **str** | Slurm Job Step ID | [optional] 
-**name** | **str** | Step name | [optional] 
+**id** | **str** | Slurm Job Step ID | [optional]
+**name** | **str** | Step name | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_step_step import V0040StepStep
+from openapi_slurm.models.v0040_step_step import V0040StepStep
 
 # TODO update the JSON string below
 json = "{}"

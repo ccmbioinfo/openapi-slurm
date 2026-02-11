@@ -20,9 +20,9 @@ import json
 
 from pydantic import BaseModel, ConfigDict, StrictStr
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0040_openapi_meta_client import V0040OpenapiMetaClient
-from openapi_client.models.v0040_openapi_meta_plugin import V0040OpenapiMetaPlugin
-from openapi_client.models.v0040_openapi_meta_slurm import V0040OpenapiMetaSlurm
+from openapi_slurm.models.v0040_openapi_meta_client import V0040OpenapiMetaClient
+from openapi_slurm.models.v0040_openapi_meta_plugin import V0040OpenapiMetaPlugin
+from openapi_slurm.models.v0040_openapi_meta_slurm import V0040OpenapiMetaSlurm
 from typing import Optional, Set
 from typing_extensions import Self
 

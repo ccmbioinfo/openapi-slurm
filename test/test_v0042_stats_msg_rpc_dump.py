@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0042_stats_msg_rpc_dump import V0042StatsMsgRpcDump
+from openapi_slurm.models.v0042_stats_msg_rpc_dump import V0042StatsMsgRpcDump
 
 class TestV0042StatsMsgRpcDump(unittest.TestCase):
     """V0042StatsMsgRpcDump unit test stubs"""

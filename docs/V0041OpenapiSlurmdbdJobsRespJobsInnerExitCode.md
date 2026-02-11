@@ -6,14 +6,14 @@ Exit code
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**status** | **List[str]** | Status given by return code | [optional] 
-**return_code** | [**V0041OpenapiJobInfoRespJobsInnerDerivedExitCodeReturnCode**](V0041OpenapiJobInfoRespJobsInnerDerivedExitCodeReturnCode.md) |  | [optional] 
-**signal** | [**V0041OpenapiJobInfoRespJobsInnerDerivedExitCodeSignal**](V0041OpenapiJobInfoRespJobsInnerDerivedExitCodeSignal.md) |  | [optional] 
+**status** | **List[str]** | Status given by return code | [optional]
+**return_code** | [**V0041OpenapiJobInfoRespJobsInnerDerivedExitCodeReturnCode**](V0041OpenapiJobInfoRespJobsInnerDerivedExitCodeReturnCode.md) |  | [optional]
+**signal** | [**V0041OpenapiJobInfoRespJobsInnerDerivedExitCodeSignal**](V0041OpenapiJobInfoRespJobsInnerDerivedExitCodeSignal.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_exit_code import V0041OpenapiSlurmdbdJobsRespJobsInnerExitCode
+from openapi_slurm.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_exit_code import V0041OpenapiSlurmdbdJobsRespJobsInnerExitCode
 
 # TODO update the JSON string below
 json = "{}"

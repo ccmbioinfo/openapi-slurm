@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**priority_threshold** | [**V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMinPriorityThreshold**](V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMinPriorityThreshold.md) |  | [optional] 
-**tres** | [**V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMinTres**](V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMinTres.md) |  | [optional] 
+**priority_threshold** | [**V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMinPriorityThreshold**](V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMinPriorityThreshold.md) |  | [optional]
+**tres** | [**V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMinTres**](V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMinTres.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_min import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMin
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_min import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMin
 
 # TODO update the JSON string below
 json = "{}"

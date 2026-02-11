@@ -20,9 +20,9 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictStr
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0040_kill_jobs_resp_job_error import V0040KillJobsRespJobError
-from openapi_client.models.v0040_kill_jobs_resp_job_federation import V0040KillJobsRespJobFederation
-from openapi_client.models.v0042_uint32_no_val_struct import V0042Uint32NoValStruct
+from openapi_slurm.models.v0040_kill_jobs_resp_job_error import V0040KillJobsRespJobError
+from openapi_slurm.models.v0040_kill_jobs_resp_job_federation import V0040KillJobsRespJobFederation
+from openapi_slurm.models.v0042_uint32_no_val_struct import V0042Uint32NoValStruct
 from typing import Optional, Set
 from typing_extensions import Self
 

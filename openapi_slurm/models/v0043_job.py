@@ -20,20 +20,20 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictBool, StrictInt, StrictStr, field_validator
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0040_job_comment import V0040JobComment
-from openapi_client.models.v0040_job_mcs import V0040JobMcs
-from openapi_client.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_state import V0041OpenapiSlurmdbdJobsRespJobsInnerState
-from openapi_client.models.v0043_assoc_short import V0043AssocShort
-from openapi_client.models.v0043_job_array import V0043JobArray
-from openapi_client.models.v0043_job_het import V0043JobHet
-from openapi_client.models.v0043_job_required import V0043JobRequired
-from openapi_client.models.v0043_job_reservation import V0043JobReservation
-from openapi_client.models.v0043_job_time import V0043JobTime
-from openapi_client.models.v0043_job_tres import V0043JobTres
-from openapi_client.models.v0043_process_exit_code_verbose import V0043ProcessExitCodeVerbose
-from openapi_client.models.v0043_step import V0043Step
-from openapi_client.models.v0043_uint32_no_val_struct import V0043Uint32NoValStruct
-from openapi_client.models.v0043_wckey_tag_struct import V0043WckeyTagStruct
+from openapi_slurm.models.v0040_job_comment import V0040JobComment
+from openapi_slurm.models.v0040_job_mcs import V0040JobMcs
+from openapi_slurm.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_state import V0041OpenapiSlurmdbdJobsRespJobsInnerState
+from openapi_slurm.models.v0043_assoc_short import V0043AssocShort
+from openapi_slurm.models.v0043_job_array import V0043JobArray
+from openapi_slurm.models.v0043_job_het import V0043JobHet
+from openapi_slurm.models.v0043_job_required import V0043JobRequired
+from openapi_slurm.models.v0043_job_reservation import V0043JobReservation
+from openapi_slurm.models.v0043_job_time import V0043JobTime
+from openapi_slurm.models.v0043_job_tres import V0043JobTres
+from openapi_slurm.models.v0043_process_exit_code_verbose import V0043ProcessExitCodeVerbose
+from openapi_slurm.models.v0043_step import V0043Step
+from openapi_slurm.models.v0043_uint32_no_val_struct import V0043Uint32NoValStruct
+from openapi_slurm.models.v0043_wckey_tag_struct import V0043WckeyTagStruct
 from typing import Optional, Set
 from typing_extensions import Self
 

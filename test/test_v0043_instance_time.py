@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0043_instance_time import V0043InstanceTime
+from openapi_slurm.models.v0043_instance_time import V0043InstanceTime
 
 class TestV0043InstanceTime(unittest.TestCase):
     """V0043InstanceTime unit test stubs"""

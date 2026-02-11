@@ -5,12 +5,12 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**flags** | **List[object]** |  | [optional] 
+**flags** | **List[object]** |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_job_info_resp_jobs_inner_power import V0041OpenapiJobInfoRespJobsInnerPower
+from openapi_slurm.models.v0041_openapi_job_info_resp_jobs_inner_power import V0041OpenapiJobInfoRespJobsInnerPower
 
 # TODO update the JSON string below
 json = "{}"

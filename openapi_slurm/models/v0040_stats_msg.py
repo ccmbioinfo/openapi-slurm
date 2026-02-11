@@ -20,11 +20,11 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictBool, StrictInt
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0040_bf_exit_fields import V0040BfExitFields
-from openapi_client.models.v0040_schedule_exit_fields import V0040ScheduleExitFields
-from openapi_client.models.v0040_stats_msg_rpcs_by_type_inner import V0040StatsMsgRpcsByTypeInner
-from openapi_client.models.v0040_stats_msg_rpcs_by_user_inner import V0040StatsMsgRpcsByUserInner
-from openapi_client.models.v0040_uint64_no_val import V0040Uint64NoVal
+from openapi_slurm.models.v0040_bf_exit_fields import V0040BfExitFields
+from openapi_slurm.models.v0040_schedule_exit_fields import V0040ScheduleExitFields
+from openapi_slurm.models.v0040_stats_msg_rpcs_by_type_inner import V0040StatsMsgRpcsByTypeInner
+from openapi_slurm.models.v0040_stats_msg_rpcs_by_user_inner import V0040StatsMsgRpcsByUserInner
+from openapi_slurm.models.v0040_uint64_no_val import V0040Uint64NoVal
 from typing import Optional, Set
 from typing_extensions import Self
 

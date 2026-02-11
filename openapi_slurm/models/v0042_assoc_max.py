@@ -20,9 +20,9 @@ import json
 
 from pydantic import BaseModel, ConfigDict
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0042_assoc_max_jobs import V0042AssocMaxJobs
-from openapi_client.models.v0042_assoc_max_per import V0042AssocMaxPer
-from openapi_client.models.v0042_assoc_max_tres import V0042AssocMaxTres
+from openapi_slurm.models.v0042_assoc_max_jobs import V0042AssocMaxJobs
+from openapi_slurm.models.v0042_assoc_max_per import V0042AssocMaxPer
+from openapi_slurm.models.v0042_assoc_max_tres import V0042AssocMaxTres
 from typing import Optional, Set
 from typing_extensions import Self
 

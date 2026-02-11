@@ -5,15 +5,15 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**results** | [**List[V0043JobArrayResponseMsgEntry]**](V0043JobArrayResponseMsgEntry.md) |  | [optional] 
-**meta** | [**V0043OpenapiMeta**](V0043OpenapiMeta.md) |  | [optional] 
-**errors** | [**List[V0043OpenapiError]**](V0043OpenapiError.md) |  | [optional] 
-**warnings** | [**List[V0043OpenapiWarning]**](V0043OpenapiWarning.md) |  | [optional] 
+**results** | [**List[V0043JobArrayResponseMsgEntry]**](V0043JobArrayResponseMsgEntry.md) |  | [optional]
+**meta** | [**V0043OpenapiMeta**](V0043OpenapiMeta.md) |  | [optional]
+**errors** | [**List[V0043OpenapiError]**](V0043OpenapiError.md) |  | [optional]
+**warnings** | [**List[V0043OpenapiWarning]**](V0043OpenapiWarning.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0043_openapi_job_post_response import V0043OpenapiJobPostResponse
+from openapi_slurm.models.v0043_openapi_job_post_response import V0043OpenapiJobPostResponse
 
 # TODO update the JSON string below
 json = "{}"

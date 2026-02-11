@@ -5,16 +5,16 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**index** | **int** | Node index | 
-**name** | **str** | Node name | 
-**cpus** | [**V0041OpenapiJobInfoRespJobsInnerJobResourcesNodesAllocationInnerCpus**](V0041OpenapiJobInfoRespJobsInnerJobResourcesNodesAllocationInnerCpus.md) |  | [optional] 
-**memory** | [**V0041OpenapiJobInfoRespJobsInnerJobResourcesNodesAllocationInnerMemory**](V0041OpenapiJobInfoRespJobsInnerJobResourcesNodesAllocationInnerMemory.md) |  | [optional] 
-**sockets** | [**List[V0042JobResSocket]**](V0042JobResSocket.md) |  | 
+**index** | **int** | Node index |
+**name** | **str** | Node name |
+**cpus** | [**V0041OpenapiJobInfoRespJobsInnerJobResourcesNodesAllocationInnerCpus**](V0041OpenapiJobInfoRespJobsInnerJobResourcesNodesAllocationInnerCpus.md) |  | [optional]
+**memory** | [**V0041OpenapiJobInfoRespJobsInnerJobResourcesNodesAllocationInnerMemory**](V0041OpenapiJobInfoRespJobsInnerJobResourcesNodesAllocationInnerMemory.md) |  | [optional]
+**sockets** | [**List[V0042JobResSocket]**](V0042JobResSocket.md) |  |
 
 ## Example
 
 ```python
-from openapi_client.models.v0042_job_res_node import V0042JobResNode
+from openapi_slurm.models.v0042_job_res_node import V0042JobResNode
 
 # TODO update the JSON string below
 json = "{}"

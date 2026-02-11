@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0042_openapi_meta import V0042OpenapiMeta
+from openapi_slurm.models.v0042_openapi_meta import V0042OpenapiMeta
 
 class TestV0042OpenapiMeta(unittest.TestCase):
     """V0042OpenapiMeta unit test stubs"""
@@ -36,24 +36,24 @@ class TestV0042OpenapiMeta(unittest.TestCase):
         model = V0042OpenapiMeta()
         if include_optional:
             return V0042OpenapiMeta(
-                plugin = openapi_client.models.v0_0_40_openapi_meta_plugin.v0_0_40_openapi_meta_plugin(
-                    type = '', 
-                    name = '', 
-                    data_parser = '', 
+                plugin = openapi_slurm.models.v0_0_40_openapi_meta_plugin.v0_0_40_openapi_meta_plugin(
+                    type = '',
+                    name = '',
+                    data_parser = '',
                     accounting_storage = '', ),
-                client = openapi_client.models.v0_0_40_openapi_meta_client.v0_0_40_openapi_meta_client(
-                    source = '', 
-                    user = '', 
+                client = openapi_slurm.models.v0_0_40_openapi_meta_client.v0_0_40_openapi_meta_client(
+                    source = '',
+                    user = '',
                     group = '', ),
                 command = [
                     ''
                     ],
-                slurm = openapi_client.models.v0_0_40_openapi_meta_slurm.v0_0_40_openapi_meta_slurm(
-                    version = openapi_client.models.v0_0_40_openapi_meta_slurm_version.v0_0_40_openapi_meta_slurm_version(
-                        major = '', 
-                        micro = '', 
-                        minor = '', ), 
-                    release = '', 
+                slurm = openapi_slurm.models.v0_0_40_openapi_meta_slurm.v0_0_40_openapi_meta_slurm(
+                    version = openapi_slurm.models.v0_0_40_openapi_meta_slurm_version.v0_0_40_openapi_meta_slurm_version(
+                        major = '',
+                        micro = '',
+                        minor = '', ),
+                    release = '',
                     cluster = '', )
             )
         else:

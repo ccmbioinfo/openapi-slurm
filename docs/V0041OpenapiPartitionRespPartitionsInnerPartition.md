@@ -5,12 +5,12 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**state** | **List[str]** | Current state(s) | [optional] 
+**state** | **List[str]** | Current state(s) | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_partition_resp_partitions_inner_partition import V0041OpenapiPartitionRespPartitionsInnerPartition
+from openapi_slurm.models.v0041_openapi_partition_resp_partitions_inner_partition import V0041OpenapiPartitionRespPartitionsInnerPartition
 
 # TODO update the JSON string below
 json = "{}"

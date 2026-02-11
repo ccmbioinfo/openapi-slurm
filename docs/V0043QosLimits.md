@@ -5,15 +5,15 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**grace_time** | **int** | GraceTime - Preemption grace time in seconds to be extended to a job which has been selected for preemption | [optional] 
-**max** | [**V0043QosLimitsMax**](V0043QosLimitsMax.md) |  | [optional] 
-**factor** | [**V0043Float64NoValStruct**](V0043Float64NoValStruct.md) |  | [optional] 
-**min** | [**V0043QosLimitsMin**](V0043QosLimitsMin.md) |  | [optional] 
+**grace_time** | **int** | GraceTime - Preemption grace time in seconds to be extended to a job which has been selected for preemption | [optional]
+**max** | [**V0043QosLimitsMax**](V0043QosLimitsMax.md) |  | [optional]
+**factor** | [**V0043Float64NoValStruct**](V0043Float64NoValStruct.md) |  | [optional]
+**min** | [**V0043QosLimitsMin**](V0043QosLimitsMin.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0043_qos_limits import V0043QosLimits
+from openapi_slurm.models.v0043_qos_limits import V0043QosLimits
 
 # TODO update the JSON string below
 json = "{}"

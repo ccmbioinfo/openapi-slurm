@@ -20,10 +20,10 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictInt
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0040_job_time_system import V0040JobTimeSystem
-from openapi_client.models.v0040_job_time_total import V0040JobTimeTotal
-from openapi_client.models.v0040_job_time_user import V0040JobTimeUser
-from openapi_client.models.v0040_uint32_no_val import V0040Uint32NoVal
+from openapi_slurm.models.v0040_job_time_system import V0040JobTimeSystem
+from openapi_slurm.models.v0040_job_time_total import V0040JobTimeTotal
+from openapi_slurm.models.v0040_job_time_user import V0040JobTimeUser
+from openapi_slurm.models.v0040_uint32_no_val import V0040Uint32NoVal
 from typing import Optional, Set
 from typing_extensions import Self
 

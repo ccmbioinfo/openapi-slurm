@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0042_controller_ping import V0042ControllerPing
+from openapi_slurm.models.v0042_controller_ping import V0042ControllerPing
 
 class TestV0042ControllerPing(unittest.TestCase):
     """V0042ControllerPing unit test stubs"""

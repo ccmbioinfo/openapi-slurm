@@ -5,30 +5,30 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**nodes** | [**V0040PartitionInfoNodes**](V0040PartitionInfoNodes.md) |  | [optional] 
-**accounts** | [**V0040PartitionInfoAccounts**](V0040PartitionInfoAccounts.md) |  | [optional] 
-**groups** | [**V0040PartitionInfoGroups**](V0040PartitionInfoGroups.md) |  | [optional] 
-**qos** | [**V0040PartitionInfoQos**](V0040PartitionInfoQos.md) |  | [optional] 
-**alternate** | **str** | Alternate | [optional] 
-**tres** | [**V0040PartitionInfoTres**](V0040PartitionInfoTres.md) |  | [optional] 
-**cluster** | **str** | Cluster name | [optional] 
-**select_type** | **List[str]** | Scheduler consumable resource selection type | [optional] 
-**cpus** | [**V0040PartitionInfoCpus**](V0040PartitionInfoCpus.md) |  | [optional] 
-**defaults** | [**V0041OpenapiPartitionRespPartitionsInnerDefaults**](V0041OpenapiPartitionRespPartitionsInnerDefaults.md) |  | [optional] 
-**grace_time** | **int** | GraceTime | [optional] 
-**maximums** | [**V0041OpenapiPartitionRespPartitionsInnerMaximums**](V0041OpenapiPartitionRespPartitionsInnerMaximums.md) |  | [optional] 
-**minimums** | [**V0040PartitionInfoMinimums**](V0040PartitionInfoMinimums.md) |  | [optional] 
-**name** | **str** | PartitionName | [optional] 
-**node_sets** | **str** | NodeSets | [optional] 
-**priority** | [**V0040PartitionInfoPriority**](V0040PartitionInfoPriority.md) |  | [optional] 
-**timeouts** | [**V0041OpenapiPartitionRespPartitionsInnerTimeouts**](V0041OpenapiPartitionRespPartitionsInnerTimeouts.md) |  | [optional] 
-**partition** | [**V0041OpenapiPartitionRespPartitionsInnerPartition**](V0041OpenapiPartitionRespPartitionsInnerPartition.md) |  | [optional] 
-**suspend_time** | [**V0041OpenapiPartitionRespPartitionsInnerSuspendTime**](V0041OpenapiPartitionRespPartitionsInnerSuspendTime.md) |  | [optional] 
+**nodes** | [**V0040PartitionInfoNodes**](V0040PartitionInfoNodes.md) |  | [optional]
+**accounts** | [**V0040PartitionInfoAccounts**](V0040PartitionInfoAccounts.md) |  | [optional]
+**groups** | [**V0040PartitionInfoGroups**](V0040PartitionInfoGroups.md) |  | [optional]
+**qos** | [**V0040PartitionInfoQos**](V0040PartitionInfoQos.md) |  | [optional]
+**alternate** | **str** | Alternate | [optional]
+**tres** | [**V0040PartitionInfoTres**](V0040PartitionInfoTres.md) |  | [optional]
+**cluster** | **str** | Cluster name | [optional]
+**select_type** | **List[str]** | Scheduler consumable resource selection type | [optional]
+**cpus** | [**V0040PartitionInfoCpus**](V0040PartitionInfoCpus.md) |  | [optional]
+**defaults** | [**V0041OpenapiPartitionRespPartitionsInnerDefaults**](V0041OpenapiPartitionRespPartitionsInnerDefaults.md) |  | [optional]
+**grace_time** | **int** | GraceTime | [optional]
+**maximums** | [**V0041OpenapiPartitionRespPartitionsInnerMaximums**](V0041OpenapiPartitionRespPartitionsInnerMaximums.md) |  | [optional]
+**minimums** | [**V0040PartitionInfoMinimums**](V0040PartitionInfoMinimums.md) |  | [optional]
+**name** | **str** | PartitionName | [optional]
+**node_sets** | **str** | NodeSets | [optional]
+**priority** | [**V0040PartitionInfoPriority**](V0040PartitionInfoPriority.md) |  | [optional]
+**timeouts** | [**V0041OpenapiPartitionRespPartitionsInnerTimeouts**](V0041OpenapiPartitionRespPartitionsInnerTimeouts.md) |  | [optional]
+**partition** | [**V0041OpenapiPartitionRespPartitionsInnerPartition**](V0041OpenapiPartitionRespPartitionsInnerPartition.md) |  | [optional]
+**suspend_time** | [**V0041OpenapiPartitionRespPartitionsInnerSuspendTime**](V0041OpenapiPartitionRespPartitionsInnerSuspendTime.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_partition_resp_partitions_inner import V0041OpenapiPartitionRespPartitionsInner
+from openapi_slurm.models.v0041_openapi_partition_resp_partitions_inner import V0041OpenapiPartitionRespPartitionsInner
 
 # TODO update the JSON string below
 json = "{}"

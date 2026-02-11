@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_kill_jobs_resp_job_federation import V0040KillJobsRespJobFederation
+from openapi_slurm.models.v0040_kill_jobs_resp_job_federation import V0040KillJobsRespJobFederation
 
 class TestV0040KillJobsRespJobFederation(unittest.TestCase):
     """V0040KillJobsRespJobFederation unit test stubs"""

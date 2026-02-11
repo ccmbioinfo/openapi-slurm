@@ -5,15 +5,15 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**job_id** | **int** | Job ID of job array, or 0 if N/A | [optional] 
-**limits** | [**V0040JobArrayLimits**](V0040JobArrayLimits.md) |  | [optional] 
-**task_id** | [**V0042Uint32NoValStruct**](V0042Uint32NoValStruct.md) |  | [optional] 
-**task** | **str** | String expression of task IDs in this record | [optional] 
+**job_id** | **int** | Job ID of job array, or 0 if N/A | [optional]
+**limits** | [**V0040JobArrayLimits**](V0040JobArrayLimits.md) |  | [optional]
+**task_id** | [**V0042Uint32NoValStruct**](V0042Uint32NoValStruct.md) |  | [optional]
+**task** | **str** | String expression of task IDs in this record | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0042_job_array import V0042JobArray
+from openapi_slurm.models.v0042_job_array import V0042JobArray
 
 # TODO update the JSON string below
 json = "{}"

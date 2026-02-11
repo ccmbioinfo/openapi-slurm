@@ -5,25 +5,25 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**comment** | **str** | Arbitrary comment | [optional] 
-**cpu_bind** | **int** | Default method for binding tasks to allocated CPUs | [optional] 
-**extra** | **str** | Arbitrary string used for node filtering if extra constraints are enabled | [optional] 
-**features** | **List[str]** |  | [optional] 
-**features_act** | **List[str]** |  | [optional] 
-**gres** | **str** | Generic resources | [optional] 
-**address** | **List[str]** |  | [optional] 
-**hostname** | **List[str]** |  | [optional] 
-**name** | **List[str]** |  | [optional] 
-**state** | **List[str]** |  | [optional] 
-**reason** | **str** | Reason for node being DOWN or DRAINING | [optional] 
-**reason_uid** | **str** | User ID to associate with the reason (needed if user root is sending message) | [optional] 
-**resume_after** | [**V0040Uint32NoVal**](V0040Uint32NoVal.md) |  | [optional] 
-**weight** | [**V0040Uint32NoVal**](V0040Uint32NoVal.md) |  | [optional] 
+**comment** | **str** | Arbitrary comment | [optional]
+**cpu_bind** | **int** | Default method for binding tasks to allocated CPUs | [optional]
+**extra** | **str** | Arbitrary string used for node filtering if extra constraints are enabled | [optional]
+**features** | **List[str]** |  | [optional]
+**features_act** | **List[str]** |  | [optional]
+**gres** | **str** | Generic resources | [optional]
+**address** | **List[str]** |  | [optional]
+**hostname** | **List[str]** |  | [optional]
+**name** | **List[str]** |  | [optional]
+**state** | **List[str]** |  | [optional]
+**reason** | **str** | Reason for node being DOWN or DRAINING | [optional]
+**reason_uid** | **str** | User ID to associate with the reason (needed if user root is sending message) | [optional]
+**resume_after** | [**V0040Uint32NoVal**](V0040Uint32NoVal.md) |  | [optional]
+**weight** | [**V0040Uint32NoVal**](V0040Uint32NoVal.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_update_node_msg import V0040UpdateNodeMsg
+from openapi_slurm.models.v0040_update_node_msg import V0040UpdateNodeMsg
 
 # TODO update the JSON string below
 json = "{}"

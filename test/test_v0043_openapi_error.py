@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0043_openapi_error import V0043OpenapiError
+from openapi_slurm.models.v0043_openapi_error import V0043OpenapiError
 
 class TestV0043OpenapiError(unittest.TestCase):
     """V0043OpenapiError unit test stubs"""

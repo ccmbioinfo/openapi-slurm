@@ -5,14 +5,14 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**run_seconds** | [**List[V0043SharesUint64Tres]**](V0043SharesUint64Tres.md) |  | [optional] 
-**group_minutes** | [**List[V0043SharesUint64Tres]**](V0043SharesUint64Tres.md) |  | [optional] 
-**usage** | [**List[V0043SharesFloat128Tres]**](V0043SharesFloat128Tres.md) |  | [optional] 
+**run_seconds** | [**List[V0043SharesUint64Tres]**](V0043SharesUint64Tres.md) |  | [optional]
+**group_minutes** | [**List[V0043SharesUint64Tres]**](V0043SharesUint64Tres.md) |  | [optional]
+**usage** | [**List[V0043SharesFloat128Tres]**](V0043SharesFloat128Tres.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0043_assoc_shares_obj_wrap_tres import V0043AssocSharesObjWrapTres
+from openapi_slurm.models.v0043_assoc_shares_obj_wrap_tres import V0043AssocSharesObjWrapTres
 
 # TODO update the JSON string below
 json = "{}"

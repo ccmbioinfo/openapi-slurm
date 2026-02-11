@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_sockets_inner import V0041OpenapiJobInfoRespJobsInnerJobResourcesNodesAllocationInnerSocketsInner
+from openapi_slurm.models.v0041_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_sockets_inner import V0041OpenapiJobInfoRespJobsInnerJobResourcesNodesAllocationInnerSocketsInner
 
 class TestV0041OpenapiJobInfoRespJobsInnerJobResourcesNodesAllocationInnerSocketsInner(unittest.TestCase):
     """V0041OpenapiJobInfoRespJobsInnerJobResourcesNodesAllocationInnerSocketsInner unit test stubs"""
@@ -38,8 +38,8 @@ class TestV0041OpenapiJobInfoRespJobsInnerJobResourcesNodesAllocationInnerSocket
             return V0041OpenapiJobInfoRespJobsInnerJobResourcesNodesAllocationInnerSocketsInner(
                 index = 56,
                 cores = [
-                    openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_sockets_inner_cores_inner.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_sockets_inner_cores_inner(
-                        index = 56, 
+                    openapi_slurm.models.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_sockets_inner_cores_inner.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_sockets_inner_cores_inner(
+                        index = 56,
                         status = [
                             'INVALID'
                             ], )
@@ -49,8 +49,8 @@ class TestV0041OpenapiJobInfoRespJobsInnerJobResourcesNodesAllocationInnerSocket
             return V0041OpenapiJobInfoRespJobsInnerJobResourcesNodesAllocationInnerSocketsInner(
                 index = 56,
                 cores = [
-                    openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_sockets_inner_cores_inner.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_sockets_inner_cores_inner(
-                        index = 56, 
+                    openapi_slurm.models.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_sockets_inner_cores_inner.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_sockets_inner_cores_inner(
+                        index = 56,
                         status = [
                             'INVALID'
                             ], )

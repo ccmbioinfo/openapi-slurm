@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics_energy import V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerStatisticsEnergy
+from openapi_slurm.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics_energy import V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerStatisticsEnergy
 
 class TestV0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerStatisticsEnergy(unittest.TestCase):
     """V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerStatisticsEnergy unit test stubs"""
@@ -36,9 +36,9 @@ class TestV0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerStatisticsEnergy(unitte
         model = V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerStatisticsEnergy()
         if include_optional:
             return V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerStatisticsEnergy(
-                consumed = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics_energy_consumed.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics_energy_consumed(
-                    set = True, 
-                    infinite = True, 
+                consumed = openapi_slurm.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics_energy_consumed.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics_energy_consumed(
+                    set = True,
+                    infinite = True,
                     number = 56, )
             )
         else:

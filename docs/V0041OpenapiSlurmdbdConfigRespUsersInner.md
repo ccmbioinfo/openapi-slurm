@@ -5,19 +5,19 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**administrator_level** | **List[str]** | AdminLevel granted to the user | [optional] 
-**associations** | [**List[V0041OpenapiSlurmdbdConfigRespAccountsInnerAssociationsInner]**](V0041OpenapiSlurmdbdConfigRespAccountsInnerAssociationsInner.md) | Associations created for this user | [optional] 
-**coordinators** | [**List[V0041OpenapiSlurmdbdConfigRespAccountsInnerCoordinatorsInner]**](V0041OpenapiSlurmdbdConfigRespAccountsInnerCoordinatorsInner.md) | Accounts this user is a coordinator for | [optional] 
-**default** | [**V0040UserDefault**](V0040UserDefault.md) |  | [optional] 
-**flags** | **List[str]** | Flags associated with user | [optional] 
-**name** | **str** | User name | 
-**old_name** | **str** | Previous user name | [optional] 
-**wckeys** | [**List[V0041OpenapiSlurmdbdConfigRespUsersInnerWckeysInner]**](V0041OpenapiSlurmdbdConfigRespUsersInnerWckeysInner.md) | List of available WCKeys | [optional] 
+**administrator_level** | **List[str]** | AdminLevel granted to the user | [optional]
+**associations** | [**List[V0041OpenapiSlurmdbdConfigRespAccountsInnerAssociationsInner]**](V0041OpenapiSlurmdbdConfigRespAccountsInnerAssociationsInner.md) | Associations created for this user | [optional]
+**coordinators** | [**List[V0041OpenapiSlurmdbdConfigRespAccountsInnerCoordinatorsInner]**](V0041OpenapiSlurmdbdConfigRespAccountsInnerCoordinatorsInner.md) | Accounts this user is a coordinator for | [optional]
+**default** | [**V0040UserDefault**](V0040UserDefault.md) |  | [optional]
+**flags** | **List[str]** | Flags associated with user | [optional]
+**name** | **str** | User name |
+**old_name** | **str** | Previous user name | [optional]
+**wckeys** | [**List[V0041OpenapiSlurmdbdConfigRespUsersInnerWckeysInner]**](V0041OpenapiSlurmdbdConfigRespUsersInnerWckeysInner.md) | List of available WCKeys | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_users_inner import V0041OpenapiSlurmdbdConfigRespUsersInner
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_users_inner import V0041OpenapiSlurmdbdConfigRespUsersInner
 
 # TODO update the JSON string below
 json = "{}"

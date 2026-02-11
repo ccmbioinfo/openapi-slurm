@@ -20,85 +20,85 @@ from typing_extensions import Annotated
 from pydantic import Field, StrictStr, field_validator
 from typing import Optional
 from typing_extensions import Annotated
-from openapi_client.models.v0040_job_desc_msg import V0040JobDescMsg
-from openapi_client.models.v0040_job_submit_req import V0040JobSubmitReq
-from openapi_client.models.v0040_kill_jobs_msg import V0040KillJobsMsg
-from openapi_client.models.v0040_openapi_diag_resp import V0040OpenapiDiagResp
-from openapi_client.models.v0040_openapi_job_info_resp import V0040OpenapiJobInfoResp
-from openapi_client.models.v0040_openapi_job_post_response import V0040OpenapiJobPostResponse
-from openapi_client.models.v0040_openapi_job_submit_response import V0040OpenapiJobSubmitResponse
-from openapi_client.models.v0040_openapi_kill_jobs_resp import V0040OpenapiKillJobsResp
-from openapi_client.models.v0040_openapi_licenses_resp import V0040OpenapiLicensesResp
-from openapi_client.models.v0040_openapi_nodes_resp import V0040OpenapiNodesResp
-from openapi_client.models.v0040_openapi_partition_resp import V0040OpenapiPartitionResp
-from openapi_client.models.v0040_openapi_ping_array_resp import V0040OpenapiPingArrayResp
-from openapi_client.models.v0040_openapi_reservation_resp import V0040OpenapiReservationResp
-from openapi_client.models.v0040_openapi_resp import V0040OpenapiResp
-from openapi_client.models.v0040_openapi_shares_resp import V0040OpenapiSharesResp
-from openapi_client.models.v0040_update_node_msg import V0040UpdateNodeMsg
-from openapi_client.models.v0041_job_alloc_req import V0041JobAllocReq
-from openapi_client.models.v0041_job_desc_msg import V0041JobDescMsg
-from openapi_client.models.v0041_job_submit_req import V0041JobSubmitReq
-from openapi_client.models.v0041_kill_jobs_msg import V0041KillJobsMsg
-from openapi_client.models.v0041_openapi_diag_resp import V0041OpenapiDiagResp
-from openapi_client.models.v0041_openapi_job_alloc_resp import V0041OpenapiJobAllocResp
-from openapi_client.models.v0041_openapi_job_info_resp import V0041OpenapiJobInfoResp
-from openapi_client.models.v0041_openapi_job_post_response import V0041OpenapiJobPostResponse
-from openapi_client.models.v0041_openapi_job_submit_response import V0041OpenapiJobSubmitResponse
-from openapi_client.models.v0041_openapi_kill_jobs_resp import V0041OpenapiKillJobsResp
-from openapi_client.models.v0041_openapi_licenses_resp import V0041OpenapiLicensesResp
-from openapi_client.models.v0041_openapi_nodes_resp import V0041OpenapiNodesResp
-from openapi_client.models.v0041_openapi_partition_resp import V0041OpenapiPartitionResp
-from openapi_client.models.v0041_openapi_ping_array_resp import V0041OpenapiPingArrayResp
-from openapi_client.models.v0041_openapi_reservation_resp import V0041OpenapiReservationResp
-from openapi_client.models.v0041_openapi_resp import V0041OpenapiResp
-from openapi_client.models.v0041_openapi_shares_resp import V0041OpenapiSharesResp
-from openapi_client.models.v0041_update_node_msg import V0041UpdateNodeMsg
-from openapi_client.models.v0042_job_alloc_req import V0042JobAllocReq
-from openapi_client.models.v0042_job_desc_msg import V0042JobDescMsg
-from openapi_client.models.v0042_job_submit_req import V0042JobSubmitReq
-from openapi_client.models.v0042_kill_jobs_msg import V0042KillJobsMsg
-from openapi_client.models.v0042_openapi_diag_resp import V0042OpenapiDiagResp
-from openapi_client.models.v0042_openapi_job_alloc_resp import V0042OpenapiJobAllocResp
-from openapi_client.models.v0042_openapi_job_info_resp import V0042OpenapiJobInfoResp
-from openapi_client.models.v0042_openapi_job_post_response import V0042OpenapiJobPostResponse
-from openapi_client.models.v0042_openapi_job_submit_response import V0042OpenapiJobSubmitResponse
-from openapi_client.models.v0042_openapi_kill_job_resp import V0042OpenapiKillJobResp
-from openapi_client.models.v0042_openapi_kill_jobs_resp import V0042OpenapiKillJobsResp
-from openapi_client.models.v0042_openapi_licenses_resp import V0042OpenapiLicensesResp
-from openapi_client.models.v0042_openapi_nodes_resp import V0042OpenapiNodesResp
-from openapi_client.models.v0042_openapi_partition_resp import V0042OpenapiPartitionResp
-from openapi_client.models.v0042_openapi_ping_array_resp import V0042OpenapiPingArrayResp
-from openapi_client.models.v0042_openapi_reservation_resp import V0042OpenapiReservationResp
-from openapi_client.models.v0042_openapi_resp import V0042OpenapiResp
-from openapi_client.models.v0042_openapi_shares_resp import V0042OpenapiSharesResp
-from openapi_client.models.v0042_update_node_msg import V0042UpdateNodeMsg
-from openapi_client.models.v0043_job_alloc_req import V0043JobAllocReq
-from openapi_client.models.v0043_job_desc_msg import V0043JobDescMsg
-from openapi_client.models.v0043_job_submit_req import V0043JobSubmitReq
-from openapi_client.models.v0043_kill_jobs_msg import V0043KillJobsMsg
-from openapi_client.models.v0043_openapi_diag_resp import V0043OpenapiDiagResp
-from openapi_client.models.v0043_openapi_job_alloc_resp import V0043OpenapiJobAllocResp
-from openapi_client.models.v0043_openapi_job_info_resp import V0043OpenapiJobInfoResp
-from openapi_client.models.v0043_openapi_job_post_response import V0043OpenapiJobPostResponse
-from openapi_client.models.v0043_openapi_job_submit_response import V0043OpenapiJobSubmitResponse
-from openapi_client.models.v0043_openapi_kill_job_resp import V0043OpenapiKillJobResp
-from openapi_client.models.v0043_openapi_kill_jobs_resp import V0043OpenapiKillJobsResp
-from openapi_client.models.v0043_openapi_licenses_resp import V0043OpenapiLicensesResp
-from openapi_client.models.v0043_openapi_nodes_resp import V0043OpenapiNodesResp
-from openapi_client.models.v0043_openapi_partition_resp import V0043OpenapiPartitionResp
-from openapi_client.models.v0043_openapi_ping_array_resp import V0043OpenapiPingArrayResp
-from openapi_client.models.v0043_openapi_reservation_mod_resp import V0043OpenapiReservationModResp
-from openapi_client.models.v0043_openapi_reservation_resp import V0043OpenapiReservationResp
-from openapi_client.models.v0043_openapi_resp import V0043OpenapiResp
-from openapi_client.models.v0043_openapi_shares_resp import V0043OpenapiSharesResp
-from openapi_client.models.v0043_reservation_desc_msg import V0043ReservationDescMsg
-from openapi_client.models.v0043_reservation_mod_req import V0043ReservationModReq
-from openapi_client.models.v0043_update_node_msg import V0043UpdateNodeMsg
+from openapi_slurm.models.v0040_job_desc_msg import V0040JobDescMsg
+from openapi_slurm.models.v0040_job_submit_req import V0040JobSubmitReq
+from openapi_slurm.models.v0040_kill_jobs_msg import V0040KillJobsMsg
+from openapi_slurm.models.v0040_openapi_diag_resp import V0040OpenapiDiagResp
+from openapi_slurm.models.v0040_openapi_job_info_resp import V0040OpenapiJobInfoResp
+from openapi_slurm.models.v0040_openapi_job_post_response import V0040OpenapiJobPostResponse
+from openapi_slurm.models.v0040_openapi_job_submit_response import V0040OpenapiJobSubmitResponse
+from openapi_slurm.models.v0040_openapi_kill_jobs_resp import V0040OpenapiKillJobsResp
+from openapi_slurm.models.v0040_openapi_licenses_resp import V0040OpenapiLicensesResp
+from openapi_slurm.models.v0040_openapi_nodes_resp import V0040OpenapiNodesResp
+from openapi_slurm.models.v0040_openapi_partition_resp import V0040OpenapiPartitionResp
+from openapi_slurm.models.v0040_openapi_ping_array_resp import V0040OpenapiPingArrayResp
+from openapi_slurm.models.v0040_openapi_reservation_resp import V0040OpenapiReservationResp
+from openapi_slurm.models.v0040_openapi_resp import V0040OpenapiResp
+from openapi_slurm.models.v0040_openapi_shares_resp import V0040OpenapiSharesResp
+from openapi_slurm.models.v0040_update_node_msg import V0040UpdateNodeMsg
+from openapi_slurm.models.v0041_job_alloc_req import V0041JobAllocReq
+from openapi_slurm.models.v0041_job_desc_msg import V0041JobDescMsg
+from openapi_slurm.models.v0041_job_submit_req import V0041JobSubmitReq
+from openapi_slurm.models.v0041_kill_jobs_msg import V0041KillJobsMsg
+from openapi_slurm.models.v0041_openapi_diag_resp import V0041OpenapiDiagResp
+from openapi_slurm.models.v0041_openapi_job_alloc_resp import V0041OpenapiJobAllocResp
+from openapi_slurm.models.v0041_openapi_job_info_resp import V0041OpenapiJobInfoResp
+from openapi_slurm.models.v0041_openapi_job_post_response import V0041OpenapiJobPostResponse
+from openapi_slurm.models.v0041_openapi_job_submit_response import V0041OpenapiJobSubmitResponse
+from openapi_slurm.models.v0041_openapi_kill_jobs_resp import V0041OpenapiKillJobsResp
+from openapi_slurm.models.v0041_openapi_licenses_resp import V0041OpenapiLicensesResp
+from openapi_slurm.models.v0041_openapi_nodes_resp import V0041OpenapiNodesResp
+from openapi_slurm.models.v0041_openapi_partition_resp import V0041OpenapiPartitionResp
+from openapi_slurm.models.v0041_openapi_ping_array_resp import V0041OpenapiPingArrayResp
+from openapi_slurm.models.v0041_openapi_reservation_resp import V0041OpenapiReservationResp
+from openapi_slurm.models.v0041_openapi_resp import V0041OpenapiResp
+from openapi_slurm.models.v0041_openapi_shares_resp import V0041OpenapiSharesResp
+from openapi_slurm.models.v0041_update_node_msg import V0041UpdateNodeMsg
+from openapi_slurm.models.v0042_job_alloc_req import V0042JobAllocReq
+from openapi_slurm.models.v0042_job_desc_msg import V0042JobDescMsg
+from openapi_slurm.models.v0042_job_submit_req import V0042JobSubmitReq
+from openapi_slurm.models.v0042_kill_jobs_msg import V0042KillJobsMsg
+from openapi_slurm.models.v0042_openapi_diag_resp import V0042OpenapiDiagResp
+from openapi_slurm.models.v0042_openapi_job_alloc_resp import V0042OpenapiJobAllocResp
+from openapi_slurm.models.v0042_openapi_job_info_resp import V0042OpenapiJobInfoResp
+from openapi_slurm.models.v0042_openapi_job_post_response import V0042OpenapiJobPostResponse
+from openapi_slurm.models.v0042_openapi_job_submit_response import V0042OpenapiJobSubmitResponse
+from openapi_slurm.models.v0042_openapi_kill_job_resp import V0042OpenapiKillJobResp
+from openapi_slurm.models.v0042_openapi_kill_jobs_resp import V0042OpenapiKillJobsResp
+from openapi_slurm.models.v0042_openapi_licenses_resp import V0042OpenapiLicensesResp
+from openapi_slurm.models.v0042_openapi_nodes_resp import V0042OpenapiNodesResp
+from openapi_slurm.models.v0042_openapi_partition_resp import V0042OpenapiPartitionResp
+from openapi_slurm.models.v0042_openapi_ping_array_resp import V0042OpenapiPingArrayResp
+from openapi_slurm.models.v0042_openapi_reservation_resp import V0042OpenapiReservationResp
+from openapi_slurm.models.v0042_openapi_resp import V0042OpenapiResp
+from openapi_slurm.models.v0042_openapi_shares_resp import V0042OpenapiSharesResp
+from openapi_slurm.models.v0042_update_node_msg import V0042UpdateNodeMsg
+from openapi_slurm.models.v0043_job_alloc_req import V0043JobAllocReq
+from openapi_slurm.models.v0043_job_desc_msg import V0043JobDescMsg
+from openapi_slurm.models.v0043_job_submit_req import V0043JobSubmitReq
+from openapi_slurm.models.v0043_kill_jobs_msg import V0043KillJobsMsg
+from openapi_slurm.models.v0043_openapi_diag_resp import V0043OpenapiDiagResp
+from openapi_slurm.models.v0043_openapi_job_alloc_resp import V0043OpenapiJobAllocResp
+from openapi_slurm.models.v0043_openapi_job_info_resp import V0043OpenapiJobInfoResp
+from openapi_slurm.models.v0043_openapi_job_post_response import V0043OpenapiJobPostResponse
+from openapi_slurm.models.v0043_openapi_job_submit_response import V0043OpenapiJobSubmitResponse
+from openapi_slurm.models.v0043_openapi_kill_job_resp import V0043OpenapiKillJobResp
+from openapi_slurm.models.v0043_openapi_kill_jobs_resp import V0043OpenapiKillJobsResp
+from openapi_slurm.models.v0043_openapi_licenses_resp import V0043OpenapiLicensesResp
+from openapi_slurm.models.v0043_openapi_nodes_resp import V0043OpenapiNodesResp
+from openapi_slurm.models.v0043_openapi_partition_resp import V0043OpenapiPartitionResp
+from openapi_slurm.models.v0043_openapi_ping_array_resp import V0043OpenapiPingArrayResp
+from openapi_slurm.models.v0043_openapi_reservation_mod_resp import V0043OpenapiReservationModResp
+from openapi_slurm.models.v0043_openapi_reservation_resp import V0043OpenapiReservationResp
+from openapi_slurm.models.v0043_openapi_resp import V0043OpenapiResp
+from openapi_slurm.models.v0043_openapi_shares_resp import V0043OpenapiSharesResp
+from openapi_slurm.models.v0043_reservation_desc_msg import V0043ReservationDescMsg
+from openapi_slurm.models.v0043_reservation_mod_req import V0043ReservationModReq
+from openapi_slurm.models.v0043_update_node_msg import V0043UpdateNodeMsg
 
-from openapi_client.api_client import ApiClient, RequestSerialized
-from openapi_client.api_response import ApiResponse
-from openapi_client.rest import RESTResponseType
+from openapi_slurm.api_client import ApiClient, RequestSerialized
+from openapi_slurm.api_response import ApiResponse
+from openapi_slurm.rest import RESTResponseType
 
 
 class SlurmApi:
@@ -365,13 +365,13 @@ class SlurmApi:
             _path_params['job_id'] = job_id
         # process the query parameters
         if signal is not None:
-            
+
             _query_params.append(('signal', signal))
-            
+
         if flags is not None:
-            
+
             _query_params.append(('flags', flags))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -388,8 +388,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -664,8 +664,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -927,8 +927,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -1190,8 +1190,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -1438,8 +1438,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -1712,13 +1712,13 @@ class SlurmApi:
             _path_params['job_id'] = job_id
         # process the query parameters
         if update_time is not None:
-            
+
             _query_params.append(('update_time', update_time))
-            
+
         if flags is not None:
-            
+
             _query_params.append(('flags', flags))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -1735,8 +1735,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -1994,13 +1994,13 @@ class SlurmApi:
         # process the path parameters
         # process the query parameters
         if update_time is not None:
-            
+
             _query_params.append(('update_time', update_time))
-            
+
         if flags is not None:
-            
+
             _query_params.append(('flags', flags))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -2017,8 +2017,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -2263,9 +2263,9 @@ class SlurmApi:
         # process the path parameters
         # process the query parameters
         if job_id is not None:
-            
+
             _query_params.append(('job_id', job_id))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -2282,8 +2282,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -2530,8 +2530,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -2804,13 +2804,13 @@ class SlurmApi:
             _path_params['node_name'] = node_name
         # process the query parameters
         if update_time is not None:
-            
+
             _query_params.append(('update_time', update_time))
-            
+
         if flags is not None:
-            
+
             _query_params.append(('flags', flags))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -2827,8 +2827,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -3086,13 +3086,13 @@ class SlurmApi:
         # process the path parameters
         # process the query parameters
         if update_time is not None:
-            
+
             _query_params.append(('update_time', update_time))
-            
+
         if flags is not None:
-            
+
             _query_params.append(('flags', flags))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -3109,8 +3109,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -3383,13 +3383,13 @@ class SlurmApi:
             _path_params['partition_name'] = partition_name
         # process the query parameters
         if update_time is not None:
-            
+
             _query_params.append(('update_time', update_time))
-            
+
         if flags is not None:
-            
+
             _query_params.append(('flags', flags))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -3406,8 +3406,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -3665,13 +3665,13 @@ class SlurmApi:
         # process the path parameters
         # process the query parameters
         if update_time is not None:
-            
+
             _query_params.append(('update_time', update_time))
-            
+
         if flags is not None:
-            
+
             _query_params.append(('flags', flags))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -3688,8 +3688,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -3936,8 +3936,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -4184,8 +4184,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -4445,9 +4445,9 @@ class SlurmApi:
             _path_params['reservation_name'] = reservation_name
         # process the query parameters
         if update_time is not None:
-            
+
             _query_params.append(('update_time', update_time))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -4464,8 +4464,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -4710,9 +4710,9 @@ class SlurmApi:
         # process the path parameters
         # process the query parameters
         if update_time is not None:
-            
+
             _query_params.append(('update_time', update_time))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -4729,8 +4729,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -4988,13 +4988,13 @@ class SlurmApi:
         # process the path parameters
         # process the query parameters
         if accounts is not None:
-            
+
             _query_params.append(('accounts', accounts))
-            
+
         if users is not None:
-            
+
             _query_params.append(('users', users))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -5011,8 +5011,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -5302,8 +5302,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -5578,8 +5578,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -5869,8 +5869,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -6145,8 +6145,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -6416,13 +6416,13 @@ class SlurmApi:
             _path_params['job_id'] = job_id
         # process the query parameters
         if signal is not None:
-            
+
             _query_params.append(('signal', signal))
-            
+
         if flags is not None:
-            
+
             _query_params.append(('flags', flags))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -6439,8 +6439,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -6712,8 +6712,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -6972,8 +6972,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -7232,8 +7232,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -7477,8 +7477,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -7748,13 +7748,13 @@ class SlurmApi:
             _path_params['job_id'] = job_id
         # process the query parameters
         if update_time is not None:
-            
+
             _query_params.append(('update_time', update_time))
-            
+
         if flags is not None:
-            
+
             _query_params.append(('flags', flags))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -7771,8 +7771,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -8027,13 +8027,13 @@ class SlurmApi:
         # process the path parameters
         # process the query parameters
         if update_time is not None:
-            
+
             _query_params.append(('update_time', update_time))
-            
+
         if flags is not None:
-            
+
             _query_params.append(('flags', flags))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -8050,8 +8050,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -8293,9 +8293,9 @@ class SlurmApi:
         # process the path parameters
         # process the query parameters
         if job_id is not None:
-            
+
             _query_params.append(('job_id', job_id))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -8312,8 +8312,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -8557,8 +8557,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -8828,13 +8828,13 @@ class SlurmApi:
             _path_params['node_name'] = node_name
         # process the query parameters
         if update_time is not None:
-            
+
             _query_params.append(('update_time', update_time))
-            
+
         if flags is not None:
-            
+
             _query_params.append(('flags', flags))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -8851,8 +8851,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -9107,13 +9107,13 @@ class SlurmApi:
         # process the path parameters
         # process the query parameters
         if update_time is not None:
-            
+
             _query_params.append(('update_time', update_time))
-            
+
         if flags is not None:
-            
+
             _query_params.append(('flags', flags))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -9130,8 +9130,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -9401,13 +9401,13 @@ class SlurmApi:
             _path_params['partition_name'] = partition_name
         # process the query parameters
         if update_time is not None:
-            
+
             _query_params.append(('update_time', update_time))
-            
+
         if flags is not None:
-            
+
             _query_params.append(('flags', flags))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -9424,8 +9424,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -9680,13 +9680,13 @@ class SlurmApi:
         # process the path parameters
         # process the query parameters
         if update_time is not None:
-            
+
             _query_params.append(('update_time', update_time))
-            
+
         if flags is not None:
-            
+
             _query_params.append(('flags', flags))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -9703,8 +9703,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -9948,8 +9948,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -10193,8 +10193,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -10451,9 +10451,9 @@ class SlurmApi:
             _path_params['reservation_name'] = reservation_name
         # process the query parameters
         if update_time is not None:
-            
+
             _query_params.append(('update_time', update_time))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -10470,8 +10470,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -10713,9 +10713,9 @@ class SlurmApi:
         # process the path parameters
         # process the query parameters
         if update_time is not None:
-            
+
             _query_params.append(('update_time', update_time))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -10732,8 +10732,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -10988,13 +10988,13 @@ class SlurmApi:
         # process the path parameters
         # process the query parameters
         if accounts is not None:
-            
+
             _query_params.append(('accounts', accounts))
-            
+
         if users is not None:
-            
+
             _query_params.append(('users', users))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -11011,8 +11011,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -11299,8 +11299,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -11572,8 +11572,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -11845,8 +11845,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -12133,8 +12133,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -12406,8 +12406,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -12677,13 +12677,13 @@ class SlurmApi:
             _path_params['job_id'] = job_id
         # process the query parameters
         if signal is not None:
-            
+
             _query_params.append(('signal', signal))
-            
+
         if flags is not None:
-            
+
             _query_params.append(('flags', flags))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -12700,8 +12700,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -12973,8 +12973,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -13233,8 +13233,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -13493,8 +13493,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -13738,8 +13738,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -14009,13 +14009,13 @@ class SlurmApi:
             _path_params['job_id'] = job_id
         # process the query parameters
         if update_time is not None:
-            
+
             _query_params.append(('update_time', update_time))
-            
+
         if flags is not None:
-            
+
             _query_params.append(('flags', flags))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -14032,8 +14032,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -14288,13 +14288,13 @@ class SlurmApi:
         # process the path parameters
         # process the query parameters
         if update_time is not None:
-            
+
             _query_params.append(('update_time', update_time))
-            
+
         if flags is not None:
-            
+
             _query_params.append(('flags', flags))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -14311,8 +14311,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -14554,9 +14554,9 @@ class SlurmApi:
         # process the path parameters
         # process the query parameters
         if job_id is not None:
-            
+
             _query_params.append(('job_id', job_id))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -14573,8 +14573,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -14818,8 +14818,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -15089,13 +15089,13 @@ class SlurmApi:
             _path_params['node_name'] = node_name
         # process the query parameters
         if update_time is not None:
-            
+
             _query_params.append(('update_time', update_time))
-            
+
         if flags is not None:
-            
+
             _query_params.append(('flags', flags))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -15112,8 +15112,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -15368,13 +15368,13 @@ class SlurmApi:
         # process the path parameters
         # process the query parameters
         if update_time is not None:
-            
+
             _query_params.append(('update_time', update_time))
-            
+
         if flags is not None:
-            
+
             _query_params.append(('flags', flags))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -15391,8 +15391,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -15662,13 +15662,13 @@ class SlurmApi:
             _path_params['partition_name'] = partition_name
         # process the query parameters
         if update_time is not None:
-            
+
             _query_params.append(('update_time', update_time))
-            
+
         if flags is not None:
-            
+
             _query_params.append(('flags', flags))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -15685,8 +15685,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -15941,13 +15941,13 @@ class SlurmApi:
         # process the path parameters
         # process the query parameters
         if update_time is not None:
-            
+
             _query_params.append(('update_time', update_time))
-            
+
         if flags is not None:
-            
+
             _query_params.append(('flags', flags))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -15964,8 +15964,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -16209,8 +16209,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -16454,8 +16454,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -16712,9 +16712,9 @@ class SlurmApi:
             _path_params['reservation_name'] = reservation_name
         # process the query parameters
         if update_time is not None:
-            
+
             _query_params.append(('update_time', update_time))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -16731,8 +16731,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -16974,9 +16974,9 @@ class SlurmApi:
         # process the path parameters
         # process the query parameters
         if update_time is not None:
-            
+
             _query_params.append(('update_time', update_time))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -16993,8 +16993,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -17249,13 +17249,13 @@ class SlurmApi:
         # process the path parameters
         # process the query parameters
         if accounts is not None:
-            
+
             _query_params.append(('accounts', accounts))
-            
+
         if users is not None:
-            
+
             _query_params.append(('users', users))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -17272,8 +17272,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -17560,8 +17560,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -17833,8 +17833,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -18106,8 +18106,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -18394,8 +18394,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -18667,8 +18667,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -18938,13 +18938,13 @@ class SlurmApi:
             _path_params['job_id'] = job_id
         # process the query parameters
         if signal is not None:
-            
+
             _query_params.append(('signal', signal))
-            
+
         if flags is not None:
-            
+
             _query_params.append(('flags', flags))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -18961,8 +18961,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -19234,8 +19234,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -19494,8 +19494,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -19754,8 +19754,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -19999,8 +19999,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -20270,13 +20270,13 @@ class SlurmApi:
             _path_params['job_id'] = job_id
         # process the query parameters
         if update_time is not None:
-            
+
             _query_params.append(('update_time', update_time))
-            
+
         if flags is not None:
-            
+
             _query_params.append(('flags', flags))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -20293,8 +20293,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -20549,13 +20549,13 @@ class SlurmApi:
         # process the path parameters
         # process the query parameters
         if update_time is not None:
-            
+
             _query_params.append(('update_time', update_time))
-            
+
         if flags is not None:
-            
+
             _query_params.append(('flags', flags))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -20572,8 +20572,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -20815,9 +20815,9 @@ class SlurmApi:
         # process the path parameters
         # process the query parameters
         if job_id is not None:
-            
+
             _query_params.append(('job_id', job_id))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -20834,8 +20834,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -21079,8 +21079,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -21350,13 +21350,13 @@ class SlurmApi:
             _path_params['node_name'] = node_name
         # process the query parameters
         if update_time is not None:
-            
+
             _query_params.append(('update_time', update_time))
-            
+
         if flags is not None:
-            
+
             _query_params.append(('flags', flags))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -21373,8 +21373,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -21629,13 +21629,13 @@ class SlurmApi:
         # process the path parameters
         # process the query parameters
         if update_time is not None:
-            
+
             _query_params.append(('update_time', update_time))
-            
+
         if flags is not None:
-            
+
             _query_params.append(('flags', flags))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -21652,8 +21652,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -21923,13 +21923,13 @@ class SlurmApi:
             _path_params['partition_name'] = partition_name
         # process the query parameters
         if update_time is not None:
-            
+
             _query_params.append(('update_time', update_time))
-            
+
         if flags is not None:
-            
+
             _query_params.append(('flags', flags))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -21946,8 +21946,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -22202,13 +22202,13 @@ class SlurmApi:
         # process the path parameters
         # process the query parameters
         if update_time is not None:
-            
+
             _query_params.append(('update_time', update_time))
-            
+
         if flags is not None:
-            
+
             _query_params.append(('flags', flags))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -22225,8 +22225,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -22470,8 +22470,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -22715,8 +22715,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -22973,9 +22973,9 @@ class SlurmApi:
             _path_params['reservation_name'] = reservation_name
         # process the query parameters
         if update_time is not None:
-            
+
             _query_params.append(('update_time', update_time))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -22992,8 +22992,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -23235,9 +23235,9 @@ class SlurmApi:
         # process the path parameters
         # process the query parameters
         if update_time is not None:
-            
+
             _query_params.append(('update_time', update_time))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -23254,8 +23254,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -23510,13 +23510,13 @@ class SlurmApi:
         # process the path parameters
         # process the query parameters
         if accounts is not None:
-            
+
             _query_params.append(('accounts', accounts))
-            
+
         if users is not None:
-            
+
             _query_params.append(('users', users))
-            
+
         # process the header parameters
         # process the form parameters
         # process the body parameter
@@ -23533,8 +23533,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -23821,8 +23821,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -24094,8 +24094,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -24367,8 +24367,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -24655,8 +24655,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -24928,8 +24928,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -25201,8 +25201,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 
@@ -25474,8 +25474,8 @@ class SlurmApi:
 
         # authentication setting
         _auth_settings: List[str] = [
-            'user', 
-            'bearerAuth', 
+            'user',
+            'bearerAuth',
             'token'
         ]
 

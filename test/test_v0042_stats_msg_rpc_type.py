@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0042_stats_msg_rpc_type import V0042StatsMsgRpcType
+from openapi_slurm.models.v0042_stats_msg_rpc_type import V0042StatsMsgRpcType
 
 class TestV0042StatsMsgRpcType(unittest.TestCase):
     """V0042StatsMsgRpcType unit test stubs"""
@@ -44,9 +44,9 @@ class TestV0042StatsMsgRpcType(unittest.TestCase):
                 cycle_last = 56,
                 cycle_max = 56,
                 total_time = 56,
-                average_time = openapi_client.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                average_time = openapi_slurm.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, )
             )
         else:
@@ -59,9 +59,9 @@ class TestV0042StatsMsgRpcType(unittest.TestCase):
                 cycle_last = 56,
                 cycle_max = 56,
                 total_time = 56,
-                average_time = openapi_client.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                average_time = openapi_slurm.models.v0/0/42_uint64_no_val_struct.v0.0.42_uint64_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
         )
         """

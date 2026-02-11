@@ -20,20 +20,20 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictBool, StrictInt, StrictStr, field_validator
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0040_assoc_short import V0040AssocShort
-from openapi_client.models.v0040_job_array import V0040JobArray
-from openapi_client.models.v0040_job_comment import V0040JobComment
-from openapi_client.models.v0040_job_het import V0040JobHet
-from openapi_client.models.v0040_job_mcs import V0040JobMcs
-from openapi_client.models.v0040_job_required import V0040JobRequired
-from openapi_client.models.v0040_job_reservation import V0040JobReservation
-from openapi_client.models.v0040_job_state import V0040JobState
-from openapi_client.models.v0040_job_time import V0040JobTime
-from openapi_client.models.v0040_job_tres import V0040JobTres
-from openapi_client.models.v0040_process_exit_code_verbose import V0040ProcessExitCodeVerbose
-from openapi_client.models.v0040_step import V0040Step
-from openapi_client.models.v0040_uint32_no_val import V0040Uint32NoVal
-from openapi_client.models.v0040_wckey_tag_struct import V0040WckeyTagStruct
+from openapi_slurm.models.v0040_assoc_short import V0040AssocShort
+from openapi_slurm.models.v0040_job_array import V0040JobArray
+from openapi_slurm.models.v0040_job_comment import V0040JobComment
+from openapi_slurm.models.v0040_job_het import V0040JobHet
+from openapi_slurm.models.v0040_job_mcs import V0040JobMcs
+from openapi_slurm.models.v0040_job_required import V0040JobRequired
+from openapi_slurm.models.v0040_job_reservation import V0040JobReservation
+from openapi_slurm.models.v0040_job_state import V0040JobState
+from openapi_slurm.models.v0040_job_time import V0040JobTime
+from openapi_slurm.models.v0040_job_tres import V0040JobTres
+from openapi_slurm.models.v0040_process_exit_code_verbose import V0040ProcessExitCodeVerbose
+from openapi_slurm.models.v0040_step import V0040Step
+from openapi_slurm.models.v0040_uint32_no_val import V0040Uint32NoVal
+from openapi_slurm.models.v0040_wckey_tag_struct import V0040WckeyTagStruct
 from typing import Optional, Set
 from typing_extensions import Self
 

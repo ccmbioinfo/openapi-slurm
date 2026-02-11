@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_stats_rpc_time import V0040StatsRpcTime
+from openapi_slurm.models.v0040_stats_rpc_time import V0040StatsRpcTime
 
 class TestV0040StatsRpcTime(unittest.TestCase):
     """V0040StatsRpcTime unit test stubs"""

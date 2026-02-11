@@ -6,14 +6,14 @@ CSV list of accounts, association limits and options, CSV list of clusters
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**accounts** | **List[str]** | CSV accounts list | 
-**association** | [**V0041OpenapiUsersAddCondRespAssociationConditionAssociation**](V0041OpenapiUsersAddCondRespAssociationConditionAssociation.md) |  | [optional] 
-**clusters** | **List[str]** | CSV clusters list | [optional] 
+**accounts** | **List[str]** | CSV accounts list |
+**association** | [**V0041OpenapiUsersAddCondRespAssociationConditionAssociation**](V0041OpenapiUsersAddCondRespAssociationConditionAssociation.md) |  | [optional]
+**clusters** | **List[str]** | CSV clusters list | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_accounts_add_cond_resp_association_condition import V0041OpenapiAccountsAddCondRespAssociationCondition
+from openapi_slurm.models.v0041_openapi_accounts_add_cond_resp_association_condition import V0041OpenapiAccountsAddCondRespAssociationCondition
 
 # TODO update the JSON string below
 json = "{}"

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0043_reservation_core_spec import V0043ReservationCoreSpec
+from openapi_slurm.models.v0043_reservation_core_spec import V0043ReservationCoreSpec
 
 class TestV0043ReservationCoreSpec(unittest.TestCase):
     """V0043ReservationCoreSpec unit test stubs"""

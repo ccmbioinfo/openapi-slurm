@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**host** | **str** | ControlHost | [optional] 
-**port** | **int** | ControlPort | [optional] 
+**host** | **str** | ControlHost | [optional]
+**port** | **int** | ControlPort | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_cluster_rec_controller import V0040ClusterRecController
+from openapi_slurm.models.v0040_cluster_rec_controller import V0040ClusterRecController
 
 # TODO update the JSON string below
 json = "{}"

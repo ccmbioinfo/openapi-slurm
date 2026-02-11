@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_process_exit_code_verbose import V0040ProcessExitCodeVerbose
+from openapi_slurm.models.v0040_process_exit_code_verbose import V0040ProcessExitCodeVerbose
 
 class TestV0040ProcessExitCodeVerbose(unittest.TestCase):
     """V0040ProcessExitCodeVerbose unit test stubs"""
@@ -39,15 +39,15 @@ class TestV0040ProcessExitCodeVerbose(unittest.TestCase):
                 status = [
                     'INVALID'
                     ],
-                return_code = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
-                    set = True, 
-                    infinite = True, 
+                return_code = openapi_slurm.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                signal = openapi_client.models.v0_0_40_process_exit_code_verbose_signal.v0_0_40_process_exit_code_verbose_signal(
-                    id = openapi_client.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
-                        set = True, 
-                        infinite = True, 
-                        number = 56, ), 
+                signal = openapi_slurm.models.v0_0_40_process_exit_code_verbose_signal.v0_0_40_process_exit_code_verbose_signal(
+                    id = openapi_slurm.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
+                        set = True,
+                        infinite = True,
+                        number = 56, ),
                     name = '', )
             )
         else:

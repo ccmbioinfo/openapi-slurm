@@ -5,12 +5,12 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**allowed** | **str** | AllowGroups - Comma-separated list of group names which may execute jobs in this partition | [optional] 
+**allowed** | **str** | AllowGroups - Comma-separated list of group names which may execute jobs in this partition | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0043_partition_info_groups import V0043PartitionInfoGroups
+from openapi_slurm.models.v0043_partition_info_groups import V0043PartitionInfoGroups
 
 # TODO update the JSON string below
 json = "{}"

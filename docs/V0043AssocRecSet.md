@@ -5,33 +5,33 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**comment** | **str** | Arbitrary comment | [optional] 
-**defaultqos** | **str** | Default QOS | [optional] 
-**grpjobs** | [**V0043Uint32NoValStruct**](V0043Uint32NoValStruct.md) |  | [optional] 
-**grpjobsaccrue** | [**V0043Uint32NoValStruct**](V0043Uint32NoValStruct.md) |  | [optional] 
-**grpsubmitjobs** | [**V0043Uint32NoValStruct**](V0043Uint32NoValStruct.md) |  | [optional] 
-**grptres** | [**List[V0043Tres]**](V0043Tres.md) |  | [optional] 
-**grptresmins** | [**List[V0043Tres]**](V0043Tres.md) |  | [optional] 
-**grptresrunmins** | [**List[V0043Tres]**](V0043Tres.md) |  | [optional] 
-**grpwall** | [**V0043Uint32NoValStruct**](V0043Uint32NoValStruct.md) |  | [optional] 
-**maxjobs** | [**V0043Uint32NoValStruct**](V0043Uint32NoValStruct.md) |  | [optional] 
-**maxjobsaccrue** | [**V0043Uint32NoValStruct**](V0043Uint32NoValStruct.md) |  | [optional] 
-**maxsubmitjobs** | [**V0043Uint32NoValStruct**](V0043Uint32NoValStruct.md) |  | [optional] 
-**maxtresminsperjob** | [**List[V0043Tres]**](V0043Tres.md) |  | [optional] 
-**maxtresrunmins** | [**List[V0043Tres]**](V0043Tres.md) |  | [optional] 
-**maxtresperjob** | [**List[V0043Tres]**](V0043Tres.md) |  | [optional] 
-**maxtrespernode** | [**List[V0043Tres]**](V0043Tres.md) |  | [optional] 
-**maxwalldurationperjob** | [**V0043Uint32NoValStruct**](V0043Uint32NoValStruct.md) |  | [optional] 
-**minpriothresh** | [**V0043Uint32NoValStruct**](V0043Uint32NoValStruct.md) |  | [optional] 
-**parent** | **str** | Name of parent account | [optional] 
-**priority** | [**V0043Uint32NoValStruct**](V0043Uint32NoValStruct.md) |  | [optional] 
-**qoslevel** | **List[str]** | List of QOS names | [optional] 
-**fairshare** | **int** | Allocated shares used for fairshare calculation | [optional] 
+**comment** | **str** | Arbitrary comment | [optional]
+**defaultqos** | **str** | Default QOS | [optional]
+**grpjobs** | [**V0043Uint32NoValStruct**](V0043Uint32NoValStruct.md) |  | [optional]
+**grpjobsaccrue** | [**V0043Uint32NoValStruct**](V0043Uint32NoValStruct.md) |  | [optional]
+**grpsubmitjobs** | [**V0043Uint32NoValStruct**](V0043Uint32NoValStruct.md) |  | [optional]
+**grptres** | [**List[V0043Tres]**](V0043Tres.md) |  | [optional]
+**grptresmins** | [**List[V0043Tres]**](V0043Tres.md) |  | [optional]
+**grptresrunmins** | [**List[V0043Tres]**](V0043Tres.md) |  | [optional]
+**grpwall** | [**V0043Uint32NoValStruct**](V0043Uint32NoValStruct.md) |  | [optional]
+**maxjobs** | [**V0043Uint32NoValStruct**](V0043Uint32NoValStruct.md) |  | [optional]
+**maxjobsaccrue** | [**V0043Uint32NoValStruct**](V0043Uint32NoValStruct.md) |  | [optional]
+**maxsubmitjobs** | [**V0043Uint32NoValStruct**](V0043Uint32NoValStruct.md) |  | [optional]
+**maxtresminsperjob** | [**List[V0043Tres]**](V0043Tres.md) |  | [optional]
+**maxtresrunmins** | [**List[V0043Tres]**](V0043Tres.md) |  | [optional]
+**maxtresperjob** | [**List[V0043Tres]**](V0043Tres.md) |  | [optional]
+**maxtrespernode** | [**List[V0043Tres]**](V0043Tres.md) |  | [optional]
+**maxwalldurationperjob** | [**V0043Uint32NoValStruct**](V0043Uint32NoValStruct.md) |  | [optional]
+**minpriothresh** | [**V0043Uint32NoValStruct**](V0043Uint32NoValStruct.md) |  | [optional]
+**parent** | **str** | Name of parent account | [optional]
+**priority** | [**V0043Uint32NoValStruct**](V0043Uint32NoValStruct.md) |  | [optional]
+**qoslevel** | **List[str]** | List of QOS names | [optional]
+**fairshare** | **int** | Allocated shares used for fairshare calculation | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0043_assoc_rec_set import V0043AssocRecSet
+from openapi_slurm.models.v0043_assoc_rec_set import V0043AssocRecSet
 
 # TODO update the JSON string below
 json = "{}"

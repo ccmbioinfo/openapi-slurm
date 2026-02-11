@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0043_job_desc_msg import V0043JobDescMsg
+from openapi_slurm.models.v0043_job_desc_msg import V0043JobDescMsg
 
 class TestV0043JobDescMsg(unittest.TestCase):
     """V0043JobDescMsg unit test stubs"""
@@ -46,9 +46,9 @@ class TestV0043JobDescMsg(unittest.TestCase):
                     ],
                 array = '',
                 batch_features = '',
-                begin_time = openapi_client.models.v0/0/43_uint64_no_val_struct.v0.0.43_uint64_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                begin_time = openapi_slurm.models.v0/0/43_uint64_no_val_struct.v0.0.43_uint64_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
                 flags = [
                     'KILL_INVALID_DEPENDENCY'
@@ -68,19 +68,19 @@ class TestV0043JobDescMsg(unittest.TestCase):
                     ],
                 cpu_frequency = '',
                 cpus_per_tres = '',
-                crontab = openapi_client.models.v0/0/43_cron_entry.v0.0.43_cron_entry(
+                crontab = openapi_slurm.models.v0/0/43_cron_entry.v0.0.43_cron_entry(
                     flags = [
                         'WILD_MINUTE'
-                        ], 
-                    minute = '', 
-                    hour = '', 
-                    day_of_month = '', 
-                    month = '', 
-                    day_of_week = '', 
-                    specification = '', 
-                    command = '', 
-                    line = openapi_client.models.v0_0_40_cron_entry_line.v0_0_40_cron_entry_line(
-                        start = 56, 
+                        ],
+                    minute = '',
+                    hour = '',
+                    day_of_month = '',
+                    month = '',
+                    day_of_week = '',
+                    specification = '',
+                    command = '',
+                    line = openapi_slurm.models.v0_0_40_cron_entry_line.v0_0_40_cron_entry_line(
+                        start = 56,
                         end = 56, ), ),
                 deadline = 56,
                 delay_boot = 56,
@@ -89,22 +89,22 @@ class TestV0043JobDescMsg(unittest.TestCase):
                 environment = [
                     ''
                     ],
-                rlimits = openapi_client.models.v0_0_43_job_desc_msg_rlimits.v0_0_43_job_desc_msg_rlimits(
-                    cpu = openapi_client.models.v0/0/43_uint64_no_val_struct.v0.0.43_uint64_no_val_struct(
-                        set = True, 
-                        infinite = True, 
-                        number = 56, ), 
-                    fsize = openapi_client.models.v0/0/43_uint64_no_val_struct.v0.0.43_uint64_no_val_struct(
-                        set = True, 
-                        infinite = True, 
-                        number = 56, ), 
-                    data = , 
-                    stack = , 
-                    core = , 
-                    rss = , 
-                    nproc = , 
-                    nofile = , 
-                    memlock = , 
+                rlimits = openapi_slurm.models.v0_0_43_job_desc_msg_rlimits.v0_0_43_job_desc_msg_rlimits(
+                    cpu = openapi_slurm.models.v0/0/43_uint64_no_val_struct.v0.0.43_uint64_no_val_struct(
+                        set = True,
+                        infinite = True,
+                        number = 56, ),
+                    fsize = openapi_slurm.models.v0/0/43_uint64_no_val_struct.v0.0.43_uint64_no_val_struct(
+                        set = True,
+                        infinite = True,
+                        number = 56, ),
+                    data = ,
+                    stack = ,
+                    core = ,
+                    rss = ,
+                    nproc = ,
+                    nofile = ,
+                    memlock = ,
                     as = , ),
                 excluded_nodes = [
                     ''
@@ -138,18 +138,18 @@ class TestV0043JobDescMsg(unittest.TestCase):
                 reserve_ports = 56,
                 overcommit = True,
                 partition = '',
-                distribution_plane_size = openapi_client.models.v0/0/43_uint16_no_val_struct.v0.0.43_uint16_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                distribution_plane_size = openapi_slurm.models.v0/0/43_uint16_no_val_struct.v0.0.43_uint16_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
                 power_flags = [
                     null
                     ],
                 prefer = '',
                 hold = True,
-                priority = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                priority = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
                 profile = [
                     'NOT_SET'
@@ -170,13 +170,13 @@ class TestV0043JobDescMsg(unittest.TestCase):
                     ''
                     ],
                 distribution = '',
-                time_limit = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                time_limit = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                time_minimum = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                time_minimum = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
                 tres_bind = '',
                 tres_freq = '',
@@ -190,9 +190,9 @@ class TestV0043JobDescMsg(unittest.TestCase):
                     'BATCH_JOB'
                     ],
                 kill_warning_signal = '',
-                kill_warning_delay = openapi_client.models.v0/0/43_uint16_no_val_struct.v0.0.43_uint16_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                kill_warning_delay = openapi_slurm.models.v0/0/43_uint16_no_val_struct.v0.0.43_uint16_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
                 current_working_directory = '',
                 cpus_per_task = 56,
@@ -211,23 +211,23 @@ class TestV0043JobDescMsg(unittest.TestCase):
                 tasks_per_board = 56,
                 ntasks_per_tres = 56,
                 minimum_cpus_per_node = 56,
-                memory_per_cpu = openapi_client.models.v0/0/43_uint64_no_val_struct.v0.0.43_uint64_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                memory_per_cpu = openapi_slurm.models.v0/0/43_uint64_no_val_struct.v0.0.43_uint64_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                memory_per_node = openapi_client.models.v0/0/43_uint64_no_val_struct.v0.0.43_uint64_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                memory_per_node = openapi_slurm.models.v0/0/43_uint64_no_val_struct.v0.0.43_uint64_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
                 temporary_disk_per_node = 56,
                 selinux_context = '',
-                required_switches = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                required_switches = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                segment_size = openapi_client.models.v0/0/43_uint16_no_val_struct.v0.0.43_uint16_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                segment_size = openapi_slurm.models.v0/0/43_uint16_no_val_struct.v0.0.43_uint16_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
                 standard_error = '',
                 standard_input = '',

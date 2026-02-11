@@ -20,7 +20,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictStr
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0041_openapi_users_add_cond_resp_association_condition_association import V0041OpenapiUsersAddCondRespAssociationConditionAssociation
+from openapi_slurm.models.v0041_openapi_users_add_cond_resp_association_condition_association import V0041OpenapiUsersAddCondRespAssociationConditionAssociation
 from typing import Optional, Set
 from typing_extensions import Self
 

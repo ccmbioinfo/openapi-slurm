@@ -5,14 +5,14 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**count** | **int** | Number of nodes in the job step | [optional] 
-**range** | **str** | Node(s) allocated to the job step | [optional] 
-**list** | **List[str]** | List of nodes used by the step | [optional] 
+**count** | **int** | Number of nodes in the job step | [optional]
+**range** | **str** | Node(s) allocated to the job step | [optional]
+**list** | **List[str]** | List of nodes used by the step | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_nodes import V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerNodes
+from openapi_slurm.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_nodes import V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerNodes
 
 # TODO update the JSON string below
 json = "{}"

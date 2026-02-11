@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0043_assoc_max_tres_minutes import V0043AssocMaxTresMinutes
+from openapi_slurm.models.v0043_assoc_max_tres_minutes import V0043AssocMaxTresMinutes
 
 class TestV0043AssocMaxTresMinutes(unittest.TestCase):
     """V0043AssocMaxTresMinutes unit test stubs"""
@@ -37,18 +37,18 @@ class TestV0043AssocMaxTresMinutes(unittest.TestCase):
         if include_optional:
             return V0043AssocMaxTresMinutes(
                 total = [
-                    openapi_client.models.v0/0/43_tres.v0.0.43_tres(
-                        type = '', 
-                        name = '', 
-                        id = 56, 
+                    openapi_slurm.models.v0/0/43_tres.v0.0.43_tres(
+                        type = '',
+                        name = '',
+                        id = 56,
                         count = 56, )
                     ],
-                per = openapi_client.models.v0_0_43_qos_limits_min_tres_per.v0_0_43_qos_limits_min_tres_per(
+                per = openapi_slurm.models.v0_0_43_qos_limits_min_tres_per.v0_0_43_qos_limits_min_tres_per(
                     job = [
-                        openapi_client.models.v0/0/43_tres.v0.0.43_tres(
-                            type = '', 
-                            name = '', 
-                            id = 56, 
+                        openapi_slurm.models.v0/0/43_tres.v0.0.43_tres(
+                            type = '',
+                            name = '',
+                            id = 56,
                             count = 56, )
                         ], )
             )

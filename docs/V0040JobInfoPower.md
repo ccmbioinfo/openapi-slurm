@@ -5,12 +5,12 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**flags** | **List[object]** | removed field | [optional] 
+**flags** | **List[object]** | removed field | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_job_info_power import V0040JobInfoPower
+from openapi_slurm.models.v0040_job_info_power import V0040JobInfoPower
 
 # TODO update the JSON string below
 json = "{}"

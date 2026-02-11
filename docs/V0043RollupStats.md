@@ -5,14 +5,14 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**hourly** | [**V0043RollupStatsHourly**](V0043RollupStatsHourly.md) |  | [optional] 
-**daily** | [**V0043RollupStatsDaily**](V0043RollupStatsDaily.md) |  | [optional] 
-**monthly** | [**V0043RollupStatsMonthly**](V0043RollupStatsMonthly.md) |  | [optional] 
+**hourly** | [**V0043RollupStatsHourly**](V0043RollupStatsHourly.md) |  | [optional]
+**daily** | [**V0043RollupStatsDaily**](V0043RollupStatsDaily.md) |  | [optional]
+**monthly** | [**V0043RollupStatsMonthly**](V0043RollupStatsMonthly.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0043_rollup_stats import V0043RollupStats
+from openapi_slurm.models.v0043_rollup_stats import V0043RollupStats
 
 # TODO update the JSON string below
 json = "{}"

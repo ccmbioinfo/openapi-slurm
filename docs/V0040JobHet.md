@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**job_id** | **int** | Heterogeneous job ID, if applicable | [optional] 
-**job_offset** | [**V0040Uint32NoVal**](V0040Uint32NoVal.md) |  | [optional] 
+**job_id** | **int** | Heterogeneous job ID, if applicable | [optional]
+**job_offset** | [**V0040Uint32NoVal**](V0040Uint32NoVal.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_job_het import V0040JobHet
+from openapi_slurm.models.v0040_job_het import V0040JobHet
 
 # TODO update the JSON string below
 json = "{}"

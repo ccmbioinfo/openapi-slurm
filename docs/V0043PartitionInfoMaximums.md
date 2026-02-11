@@ -5,21 +5,21 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**cpus_per_node** | [**V0043Uint32NoValStruct**](V0043Uint32NoValStruct.md) |  | [optional] 
-**cpus_per_socket** | [**V0043Uint32NoValStruct**](V0043Uint32NoValStruct.md) |  | [optional] 
-**memory_per_cpu** | **int** | Raw value for MaxMemPerCPU or MaxMemPerNode | [optional] 
-**partition_memory_per_cpu** | [**V0043Uint64NoValStruct**](V0043Uint64NoValStruct.md) |  | [optional] 
-**partition_memory_per_node** | [**V0043Uint64NoValStruct**](V0043Uint64NoValStruct.md) |  | [optional] 
-**nodes** | [**V0043Uint32NoValStruct**](V0043Uint32NoValStruct.md) |  | [optional] 
-**shares** | **int** | OverSubscribe - Controls the ability of the partition to execute more than one job at a time on each resource | [optional] 
-**oversubscribe** | [**V0041OpenapiPartitionRespPartitionsInnerMaximumsOversubscribe**](V0041OpenapiPartitionRespPartitionsInnerMaximumsOversubscribe.md) |  | [optional] 
-**time** | [**V0043Uint32NoValStruct**](V0043Uint32NoValStruct.md) |  | [optional] 
-**over_time_limit** | [**V0043Uint16NoValStruct**](V0043Uint16NoValStruct.md) |  | [optional] 
+**cpus_per_node** | [**V0043Uint32NoValStruct**](V0043Uint32NoValStruct.md) |  | [optional]
+**cpus_per_socket** | [**V0043Uint32NoValStruct**](V0043Uint32NoValStruct.md) |  | [optional]
+**memory_per_cpu** | **int** | Raw value for MaxMemPerCPU or MaxMemPerNode | [optional]
+**partition_memory_per_cpu** | [**V0043Uint64NoValStruct**](V0043Uint64NoValStruct.md) |  | [optional]
+**partition_memory_per_node** | [**V0043Uint64NoValStruct**](V0043Uint64NoValStruct.md) |  | [optional]
+**nodes** | [**V0043Uint32NoValStruct**](V0043Uint32NoValStruct.md) |  | [optional]
+**shares** | **int** | OverSubscribe - Controls the ability of the partition to execute more than one job at a time on each resource | [optional]
+**oversubscribe** | [**V0041OpenapiPartitionRespPartitionsInnerMaximumsOversubscribe**](V0041OpenapiPartitionRespPartitionsInnerMaximumsOversubscribe.md) |  | [optional]
+**time** | [**V0043Uint32NoValStruct**](V0043Uint32NoValStruct.md) |  | [optional]
+**over_time_limit** | [**V0043Uint16NoValStruct**](V0043Uint16NoValStruct.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0043_partition_info_maximums import V0043PartitionInfoMaximums
+from openapi_slurm.models.v0043_partition_info_maximums import V0043PartitionInfoMaximums
 
 # TODO update the JSON string below
 json = "{}"

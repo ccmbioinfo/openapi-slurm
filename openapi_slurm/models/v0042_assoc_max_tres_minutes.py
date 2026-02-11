@@ -20,8 +20,8 @@ import json
 
 from pydantic import BaseModel, ConfigDict
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0042_qos_limits_min_tres_per import V0042QosLimitsMinTresPer
-from openapi_client.models.v0042_tres import V0042Tres
+from openapi_slurm.models.v0042_qos_limits_min_tres_per import V0042QosLimitsMinTresPer
+from openapi_slurm.models.v0042_tres import V0042Tres
 from typing import Optional, Set
 from typing_extensions import Self
 

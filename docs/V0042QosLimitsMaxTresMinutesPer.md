@@ -5,15 +5,15 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**qos** | [**List[V0042Tres]**](V0042Tres.md) |  | [optional] 
-**job** | [**List[V0042Tres]**](V0042Tres.md) |  | [optional] 
-**account** | [**List[V0042Tres]**](V0042Tres.md) |  | [optional] 
-**user** | [**List[V0042Tres]**](V0042Tres.md) |  | [optional] 
+**qos** | [**List[V0042Tres]**](V0042Tres.md) |  | [optional]
+**job** | [**List[V0042Tres]**](V0042Tres.md) |  | [optional]
+**account** | [**List[V0042Tres]**](V0042Tres.md) |  | [optional]
+**user** | [**List[V0042Tres]**](V0042Tres.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0042_qos_limits_max_tres_minutes_per import V0042QosLimitsMaxTresMinutesPer
+from openapi_slurm.models.v0042_qos_limits_max_tres_minutes_per import V0042QosLimitsMaxTresMinutesPer
 
 # TODO update the JSON string below
 json = "{}"

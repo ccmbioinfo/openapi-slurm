@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0043_job_res_node import V0043JobResNode
+from openapi_slurm.models.v0043_job_res_node import V0043JobResNode
 
 class TestV0043JobResNode(unittest.TestCase):
     """V0043JobResNode unit test stubs"""
@@ -38,18 +38,18 @@ class TestV0043JobResNode(unittest.TestCase):
             return V0043JobResNode(
                 index = 56,
                 name = '',
-                cpus = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_cpus.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_cpus(
-                    count = 56, 
+                cpus = openapi_slurm.models.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_cpus.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_cpus(
+                    count = 56,
                     used = 56, ),
-                memory = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_memory.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_memory(
-                    used = 56, 
+                memory = openapi_slurm.models.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_memory.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_memory(
+                    used = 56,
                     allocated = 56, ),
                 sockets = [
-                    openapi_client.models.v0/0/43_job_res_socket.v0.0.43_job_res_socket(
-                        index = 56, 
+                    openapi_slurm.models.v0/0/43_job_res_socket.v0.0.43_job_res_socket(
+                        index = 56,
                         cores = [
-                            openapi_client.models.v0/0/43_job_res_core.v0.0.43_job_res_core(
-                                index = 56, 
+                            openapi_slurm.models.v0/0/43_job_res_core.v0.0.43_job_res_core(
+                                index = 56,
                                 status = [
                                     'INVALID'
                                     ], )
@@ -61,11 +61,11 @@ class TestV0043JobResNode(unittest.TestCase):
                 index = 56,
                 name = '',
                 sockets = [
-                    openapi_client.models.v0/0/43_job_res_socket.v0.0.43_job_res_socket(
-                        index = 56, 
+                    openapi_slurm.models.v0/0/43_job_res_socket.v0.0.43_job_res_socket(
+                        index = 56,
                         cores = [
-                            openapi_client.models.v0/0/43_job_res_core.v0.0.43_job_res_core(
-                                index = 56, 
+                            openapi_slurm.models.v0/0/43_job_res_core.v0.0.43_job_res_core(
+                                index = 56,
                                 status = [
                                     'INVALID'
                                     ], )

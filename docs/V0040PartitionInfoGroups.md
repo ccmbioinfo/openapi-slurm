@@ -5,12 +5,12 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**allowed** | **str** | AllowGroups | [optional] 
+**allowed** | **str** | AllowGroups | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_partition_info_groups import V0040PartitionInfoGroups
+from openapi_slurm.models.v0040_partition_info_groups import V0040PartitionInfoGroups
 
 # TODO update the JSON string below
 json = "{}"

@@ -6,16 +6,16 @@ Unique identifier for the association
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**account** | **str** | Account | [optional] 
-**cluster** | **str** | Cluster | [optional] 
-**partition** | **str** | Partition | [optional] 
-**user** | **str** | User name | 
-**id** | **int** | Numeric association ID | [optional] 
+**account** | **str** | Account | [optional]
+**cluster** | **str** | Cluster | [optional]
+**partition** | **str** | Partition | [optional]
+**user** | **str** | User name |
+**id** | **int** | Numeric association ID | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_association import V0041OpenapiSlurmdbdJobsRespJobsInnerAssociation
+from openapi_slurm.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_association import V0041OpenapiSlurmdbdJobsRespJobsInnerAssociation
 
 # TODO update the JSON string below
 json = "{}"

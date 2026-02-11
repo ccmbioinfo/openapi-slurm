@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**job_factor** | **int** | PriorityJobFactor - Partition factor used by priority/multifactor plugin in calculating job priority | [optional] 
-**tier** | **int** | PriorityTier - Controls the order in which the scheduler evaluates jobs from different partitions | [optional] 
+**job_factor** | **int** | PriorityJobFactor - Partition factor used by priority/multifactor plugin in calculating job priority | [optional]
+**tier** | **int** | PriorityTier - Controls the order in which the scheduler evaluates jobs from different partitions | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0043_partition_info_priority import V0043PartitionInfoPriority
+from openapi_slurm.models.v0043_partition_info_priority import V0043PartitionInfoPriority
 
 # TODO update the JSON string below
 json = "{}"

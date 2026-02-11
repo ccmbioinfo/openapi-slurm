@@ -5,14 +5,14 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**administrator** | **str** | Arbitrary comment made by administrator | [optional] 
-**job** | **str** | Arbitrary comment made by user | [optional] 
-**system** | **str** | Arbitrary comment from slurmctld | [optional] 
+**administrator** | **str** | Arbitrary comment made by administrator | [optional]
+**job** | **str** | Arbitrary comment made by user | [optional]
+**system** | **str** | Arbitrary comment from slurmctld | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_job_comment import V0040JobComment
+from openapi_slurm.models.v0040_job_comment import V0040JobComment
 
 # TODO update the JSON string below
 json = "{}"

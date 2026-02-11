@@ -5,12 +5,12 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**reservations** | [**List[V0043ReservationDescMsg]**](V0043ReservationDescMsg.md) |  | [optional] 
+**reservations** | [**List[V0043ReservationDescMsg]**](V0043ReservationDescMsg.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0043_reservation_mod_req import V0043ReservationModReq
+from openapi_slurm.models.v0043_reservation_mod_req import V0043ReservationModReq
 
 # TODO update the JSON string below
 json = "{}"

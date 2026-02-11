@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_qos_limits_max_jobs import V0040QosLimitsMaxJobs
+from openapi_slurm.models.v0040_qos_limits_max_jobs import V0040QosLimitsMaxJobs
 
 class TestV0040QosLimitsMaxJobs(unittest.TestCase):
     """V0040QosLimitsMaxJobs unit test stubs"""
@@ -36,24 +36,24 @@ class TestV0040QosLimitsMaxJobs(unittest.TestCase):
         model = V0040QosLimitsMaxJobs()
         if include_optional:
             return V0040QosLimitsMaxJobs(
-                active_jobs = openapi_client.models.v0_0_40_qos_limits_max_jobs_active_jobs.v0_0_40_qos_limits_max_jobs_active_jobs(
-                    per = openapi_client.models.v0_0_40_qos_limits_max_jobs_active_jobs_per.v0_0_40_qos_limits_max_jobs_active_jobs_per(
-                        account = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
-                            set = True, 
-                            infinite = True, 
-                            number = 56, ), 
-                        user = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
-                            set = True, 
-                            infinite = True, 
+                active_jobs = openapi_slurm.models.v0_0_40_qos_limits_max_jobs_active_jobs.v0_0_40_qos_limits_max_jobs_active_jobs(
+                    per = openapi_slurm.models.v0_0_40_qos_limits_max_jobs_active_jobs_per.v0_0_40_qos_limits_max_jobs_active_jobs_per(
+                        account = openapi_slurm.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                            set = True,
+                            infinite = True,
+                            number = 56, ),
+                        user = openapi_slurm.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                            set = True,
+                            infinite = True,
                             number = 56, ), ), ),
-                per = openapi_client.models.v0_0_40_qos_limits_max_jobs_active_jobs_per.v0_0_40_qos_limits_max_jobs_active_jobs_per(
-                    account = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
-                        set = True, 
-                        infinite = True, 
-                        number = 56, ), 
-                    user = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
-                        set = True, 
-                        infinite = True, 
+                per = openapi_slurm.models.v0_0_40_qos_limits_max_jobs_active_jobs_per.v0_0_40_qos_limits_max_jobs_active_jobs_per(
+                    account = openapi_slurm.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                        set = True,
+                        infinite = True,
+                        number = 56, ),
+                    user = openapi_slurm.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                        set = True,
+                        infinite = True,
                         number = 56, ), )
             )
         else:

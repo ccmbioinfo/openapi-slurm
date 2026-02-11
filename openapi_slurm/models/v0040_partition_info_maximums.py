@@ -20,10 +20,10 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictInt
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0040_partition_info_maximums_oversubscribe import V0040PartitionInfoMaximumsOversubscribe
-from openapi_client.models.v0040_uint16_no_val import V0040Uint16NoVal
-from openapi_client.models.v0040_uint32_no_val import V0040Uint32NoVal
-from openapi_client.models.v0040_uint64_no_val import V0040Uint64NoVal
+from openapi_slurm.models.v0040_partition_info_maximums_oversubscribe import V0040PartitionInfoMaximumsOversubscribe
+from openapi_slurm.models.v0040_uint16_no_val import V0040Uint16NoVal
+from openapi_slurm.models.v0040_uint32_no_val import V0040Uint32NoVal
+from openapi_slurm.models.v0040_uint64_no_val import V0040Uint64NoVal
 from typing import Optional, Set
 from typing_extensions import Self
 

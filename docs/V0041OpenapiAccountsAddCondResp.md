@@ -5,16 +5,16 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**association_condition** | [**V0041OpenapiAccountsAddCondRespAssociationCondition**](V0041OpenapiAccountsAddCondRespAssociationCondition.md) |  | [optional] 
-**account** | [**V0041OpenapiAccountsAddCondRespAccount**](V0041OpenapiAccountsAddCondRespAccount.md) |  | [optional] 
-**meta** | [**V0041OpenapiSharesRespMeta**](V0041OpenapiSharesRespMeta.md) |  | [optional] 
-**errors** | [**List[V0041OpenapiSharesRespErrorsInner]**](V0041OpenapiSharesRespErrorsInner.md) | Query errors | [optional] 
-**warnings** | [**List[V0041OpenapiSharesRespWarningsInner]**](V0041OpenapiSharesRespWarningsInner.md) | Query warnings | [optional] 
+**association_condition** | [**V0041OpenapiAccountsAddCondRespAssociationCondition**](V0041OpenapiAccountsAddCondRespAssociationCondition.md) |  | [optional]
+**account** | [**V0041OpenapiAccountsAddCondRespAccount**](V0041OpenapiAccountsAddCondRespAccount.md) |  | [optional]
+**meta** | [**V0041OpenapiSharesRespMeta**](V0041OpenapiSharesRespMeta.md) |  | [optional]
+**errors** | [**List[V0041OpenapiSharesRespErrorsInner]**](V0041OpenapiSharesRespErrorsInner.md) | Query errors | [optional]
+**warnings** | [**List[V0041OpenapiSharesRespWarningsInner]**](V0041OpenapiSharesRespWarningsInner.md) | Query warnings | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_accounts_add_cond_resp import V0041OpenapiAccountsAddCondResp
+from openapi_slurm.models.v0041_openapi_accounts_add_cond_resp import V0041OpenapiAccountsAddCondResp
 
 # TODO update the JSON string below
 json = "{}"

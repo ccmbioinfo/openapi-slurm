@@ -20,7 +20,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictBool, StrictInt, StrictStr, field_validator
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0042_job_res_node import V0042JobResNode
+from openapi_slurm.models.v0042_job_res_node import V0042JobResNode
 from typing import Optional, Set
 from typing_extensions import Self
 

@@ -5,12 +5,12 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**max** | [**V0040JobArrayLimitsMax**](V0040JobArrayLimitsMax.md) |  | [optional] 
+**max** | [**V0040JobArrayLimitsMax**](V0040JobArrayLimitsMax.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_job_array_limits import V0040JobArrayLimits
+from openapi_slurm.models.v0040_job_array_limits import V0040JobArrayLimits
 
 # TODO update the JSON string below
 json = "{}"

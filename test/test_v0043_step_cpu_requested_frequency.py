@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0043_step_cpu_requested_frequency import V0043StepCPURequestedFrequency
+from openapi_slurm.models.v0043_step_cpu_requested_frequency import V0043StepCPURequestedFrequency
 
 class TestV0043StepCPURequestedFrequency(unittest.TestCase):
     """V0043StepCPURequestedFrequency unit test stubs"""
@@ -36,13 +36,13 @@ class TestV0043StepCPURequestedFrequency(unittest.TestCase):
         model = V0043StepCPURequestedFrequency()
         if include_optional:
             return V0043StepCPURequestedFrequency(
-                min = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                min = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                max = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                max = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, )
             )
         else:

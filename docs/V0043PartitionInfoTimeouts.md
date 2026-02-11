@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**resume** | [**V0043Uint16NoValStruct**](V0043Uint16NoValStruct.md) |  | [optional] 
-**suspend** | [**V0043Uint16NoValStruct**](V0043Uint16NoValStruct.md) |  | [optional] 
+**resume** | [**V0043Uint16NoValStruct**](V0043Uint16NoValStruct.md) |  | [optional]
+**suspend** | [**V0043Uint16NoValStruct**](V0043Uint16NoValStruct.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0043_partition_info_timeouts import V0043PartitionInfoTimeouts
+from openapi_slurm.models.v0043_partition_info_timeouts import V0043PartitionInfoTimeouts
 
 # TODO update the JSON string below
 json = "{}"

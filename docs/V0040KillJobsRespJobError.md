@@ -5,14 +5,14 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**string** | **str** | String error encountered signaling job | [optional] 
-**code** | **int** | Numeric error encountered signaling job | [optional] 
-**message** | **str** | Error message why signaling job failed | [optional] 
+**string** | **str** | String error encountered signaling job | [optional]
+**code** | **int** | Numeric error encountered signaling job | [optional]
+**message** | **str** | Error message why signaling job failed | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_kill_jobs_resp_job_error import V0040KillJobsRespJobError
+from openapi_slurm.models.v0040_kill_jobs_resp_job_error import V0040KillJobsRespJobError
 
 # TODO update the JSON string below
 json = "{}"

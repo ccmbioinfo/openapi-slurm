@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0042_partition_info_maximums_oversubscribe import V0042PartitionInfoMaximumsOversubscribe
+from openapi_slurm.models.v0042_partition_info_maximums_oversubscribe import V0042PartitionInfoMaximumsOversubscribe
 
 class TestV0042PartitionInfoMaximumsOversubscribe(unittest.TestCase):
     """V0042PartitionInfoMaximumsOversubscribe unit test stubs"""

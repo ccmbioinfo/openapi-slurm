@@ -5,15 +5,15 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**hostname** | **str** | Target for ping | [optional] 
-**pinged** | **str** | Ping result | [optional] 
-**latency** | **int** | Number of microseconds it took to successfully ping or timeout | [optional] 
-**mode** | **str** | The operating mode of the responding slurmctld | [optional] 
+**hostname** | **str** | Target for ping | [optional]
+**pinged** | **str** | Ping result | [optional]
+**latency** | **int** | Number of microseconds it took to successfully ping or timeout | [optional]
+**mode** | **str** | The operating mode of the responding slurmctld | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_ping_array_resp_pings_inner import V0041OpenapiPingArrayRespPingsInner
+from openapi_slurm.models.v0041_openapi_ping_array_resp_pings_inner import V0041OpenapiPingArrayRespPingsInner
 
 # TODO update the JSON string below
 json = "{}"

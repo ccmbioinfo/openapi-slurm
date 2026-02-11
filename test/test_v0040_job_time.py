@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_job_time import V0040JobTime
+from openapi_slurm.models.v0040_job_time import V0040JobTime
 
 class TestV0040JobTime(unittest.TestCase):
     """V0040JobTime unit test stubs"""
@@ -42,18 +42,18 @@ class TestV0040JobTime(unittest.TestCase):
                 start = 56,
                 submission = 56,
                 suspended = 56,
-                system = openapi_client.models.v0_0_40_job_time_system.v0_0_40_job_time_system(
-                    seconds = 56, 
+                system = openapi_slurm.models.v0_0_40_job_time_system.v0_0_40_job_time_system(
+                    seconds = 56,
                     microseconds = 56, ),
-                limit = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
-                    set = True, 
-                    infinite = True, 
+                limit = openapi_slurm.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                total = openapi_client.models.v0_0_40_job_time_total.v0_0_40_job_time_total(
-                    seconds = 56, 
+                total = openapi_slurm.models.v0_0_40_job_time_total.v0_0_40_job_time_total(
+                    seconds = 56,
                     microseconds = 56, ),
-                user = openapi_client.models.v0_0_40_job_time_user.v0_0_40_job_time_user(
-                    seconds = 56, 
+                user = openapi_slurm.models.v0_0_40_job_time_user.v0_0_40_job_time_user(
+                    seconds = 56,
                     microseconds = 56, )
             )
         else:

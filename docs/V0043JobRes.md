@@ -5,15 +5,15 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**select_type** | **List[str]** | Scheduler consumable resource selection type | 
-**nodes** | [**V0043JobResNodes**](V0043JobResNodes.md) |  | [optional] 
-**cpus** | **int** | Number of allocated CPUs | 
-**threads_per_core** | [**V0043Uint16NoValStruct**](V0043Uint16NoValStruct.md) |  | 
+**select_type** | **List[str]** | Scheduler consumable resource selection type |
+**nodes** | [**V0043JobResNodes**](V0043JobResNodes.md) |  | [optional]
+**cpus** | **int** | Number of allocated CPUs |
+**threads_per_core** | [**V0043Uint16NoValStruct**](V0043Uint16NoValStruct.md) |  |
 
 ## Example
 
 ```python
-from openapi_client.models.v0043_job_res import V0043JobRes
+from openapi_slurm.models.v0043_job_res import V0043JobRes
 
 # TODO update the JSON string below
 json = "{}"

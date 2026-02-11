@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0043_partition_info_tres import V0043PartitionInfoTres
+from openapi_slurm.models.v0043_partition_info_tres import V0043PartitionInfoTres
 
 class TestV0043PartitionInfoTres(unittest.TestCase):
     """V0043PartitionInfoTres unit test stubs"""

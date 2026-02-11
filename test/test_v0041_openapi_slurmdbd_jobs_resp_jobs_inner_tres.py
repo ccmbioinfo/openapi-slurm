@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_tres import V0041OpenapiSlurmdbdJobsRespJobsInnerTres
+from openapi_slurm.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_tres import V0041OpenapiSlurmdbdJobsRespJobsInnerTres
 
 class TestV0041OpenapiSlurmdbdJobsRespJobsInnerTres(unittest.TestCase):
     """V0041OpenapiSlurmdbdJobsRespJobsInnerTres unit test stubs"""
@@ -37,17 +37,17 @@ class TestV0041OpenapiSlurmdbdJobsRespJobsInnerTres(unittest.TestCase):
         if include_optional:
             return V0041OpenapiSlurmdbdJobsRespJobsInnerTres(
                 allocated = [
-                    openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner(
-                        type = '', 
-                        name = '', 
-                        id = 56, 
+                    openapi_slurm.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner(
+                        type = '',
+                        name = '',
+                        id = 56,
                         count = 56, )
                     ],
                 requested = [
-                    openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner(
-                        type = '', 
-                        name = '', 
-                        id = 56, 
+                    openapi_slurm.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested_max_inner(
+                        type = '',
+                        name = '',
+                        id = 56,
                         count = 56, )
                     ]
             )

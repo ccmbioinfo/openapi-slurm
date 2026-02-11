@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_associations_inner_max_per import V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxPer
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_associations_inner_max_per import V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxPer
 
 class TestV0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxPer(unittest.TestCase):
     """V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxPer unit test stubs"""
@@ -36,10 +36,10 @@ class TestV0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxPer(unittest.TestCas
         model = V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxPer()
         if include_optional:
             return V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxPer(
-                account = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_per_account.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_per_account(
-                    wall_clock = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock_per_qos.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock_per_qos(
-                        set = True, 
-                        infinite = True, 
+                account = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_per_account.v0_0_41_openapi_slurmdbd_config_resp_associations_inner_max_per_account(
+                    wall_clock = openapi_slurm.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock_per_qos.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock_per_qos(
+                        set = True,
+                        infinite = True,
                         number = 56, ), )
             )
         else:

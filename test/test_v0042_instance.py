@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0042_instance import V0042Instance
+from openapi_slurm.models.v0042_instance import V0042Instance
 
 class TestV0042Instance(unittest.TestCase):
     """V0042Instance unit test stubs"""
@@ -41,8 +41,8 @@ class TestV0042Instance(unittest.TestCase):
                 instance_id = '',
                 instance_type = '',
                 node_name = '',
-                time = openapi_client.models.v0_0_40_instance_time.v0_0_40_instance_time(
-                    time_end = 56, 
+                time = openapi_slurm.models.v0_0_40_instance_time.v0_0_40_instance_time(
+                    time_end = 56,
                     time_start = 56, )
             )
         else:

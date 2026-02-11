@@ -6,13 +6,13 @@ fairshare info
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**shares** | [**List[V0041OpenapiSharesRespSharesSharesInner]**](V0041OpenapiSharesRespSharesSharesInner.md) | Association shares | [optional] 
-**total_shares** | **int** | Total number of shares | [optional] 
+**shares** | [**List[V0041OpenapiSharesRespSharesSharesInner]**](V0041OpenapiSharesRespSharesSharesInner.md) | Association shares | [optional]
+**total_shares** | **int** | Total number of shares | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_shares_resp_shares import V0041OpenapiSharesRespShares
+from openapi_slurm.models.v0041_openapi_shares_resp_shares import V0041OpenapiSharesRespShares
 
 # TODO update the JSON string below
 json = "{}"

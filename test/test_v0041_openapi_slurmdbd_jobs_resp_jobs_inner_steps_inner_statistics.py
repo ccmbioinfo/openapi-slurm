@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics import V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerStatistics
+from openapi_slurm.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics import V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerStatistics
 
 class TestV0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerStatistics(unittest.TestCase):
     """V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerStatistics unit test stubs"""
@@ -36,12 +36,12 @@ class TestV0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerStatistics(unittest.Tes
         model = V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerStatistics()
         if include_optional:
             return V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerStatistics(
-                cpu = openapi_client.models.v0_0_40_step_statistics_cpu.v0_0_40_step_statistics_CPU(
+                cpu = openapi_slurm.models.v0_0_40_step_statistics_cpu.v0_0_40_step_statistics_CPU(
                     actual_frequency = 56, ),
-                energy = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics_energy.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics_energy(
-                    consumed = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics_energy_consumed.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics_energy_consumed(
-                        set = True, 
-                        infinite = True, 
+                energy = openapi_slurm.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics_energy.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics_energy(
+                    consumed = openapi_slurm.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics_energy_consumed.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics_energy_consumed(
+                        set = True,
+                        infinite = True,
                         number = 56, ), )
             )
         else:

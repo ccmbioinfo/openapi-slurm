@@ -5,12 +5,12 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**wall_clock** | [**V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxWallClockPerQos**](V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxWallClockPerQos.md) |  | [optional] 
+**wall_clock** | [**V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxWallClockPerQos**](V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxWallClockPerQos.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_associations_inner_max_per_account import V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxPerAccount
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_associations_inner_max_per_account import V0041OpenapiSlurmdbdConfigRespAssociationsInnerMaxPerAccount
 
 # TODO update the JSON string below
 json = "{}"

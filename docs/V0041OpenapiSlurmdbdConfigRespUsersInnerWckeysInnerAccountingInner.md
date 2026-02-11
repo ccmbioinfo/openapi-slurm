@@ -5,15 +5,15 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**allocated** | [**V0040AccountingAllocated**](V0040AccountingAllocated.md) |  | [optional] 
-**id** | **int** | Association ID or Workload characterization key ID | [optional] 
-**start** | **int** | When the record was started | [optional] 
-**tres** | [**V0041OpenapiSlurmdbdConfigRespUsersInnerWckeysInnerAccountingInnerTRES**](V0041OpenapiSlurmdbdConfigRespUsersInnerWckeysInnerAccountingInnerTRES.md) |  | [optional] 
+**allocated** | [**V0040AccountingAllocated**](V0040AccountingAllocated.md) |  | [optional]
+**id** | **int** | Association ID or Workload characterization key ID | [optional]
+**start** | **int** | When the record was started | [optional]
+**tres** | [**V0041OpenapiSlurmdbdConfigRespUsersInnerWckeysInnerAccountingInnerTRES**](V0041OpenapiSlurmdbdConfigRespUsersInnerWckeysInnerAccountingInnerTRES.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_users_inner_wckeys_inner_accounting_inner import V0041OpenapiSlurmdbdConfigRespUsersInnerWckeysInnerAccountingInner
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_users_inner_wckeys_inner_accounting_inner import V0041OpenapiSlurmdbdConfigRespUsersInnerWckeysInnerAccountingInner
 
 # TODO update the JSON string below
 json = "{}"

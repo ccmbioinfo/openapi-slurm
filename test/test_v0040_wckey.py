@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_wckey import V0040Wckey
+from openapi_slurm.models.v0040_wckey import V0040Wckey
 
 class TestV0040Wckey(unittest.TestCase):
     """V0040Wckey unit test stubs"""
@@ -37,15 +37,15 @@ class TestV0040Wckey(unittest.TestCase):
         if include_optional:
             return V0040Wckey(
                 accounting = [
-                    openapi_client.models.v0/0/40_accounting.v0.0.40_accounting(
-                        allocated = openapi_client.models.v0_0_40_accounting_allocated.v0_0_40_accounting_allocated(
-                            seconds = 56, ), 
-                        id = 56, 
-                        start = 56, 
-                        tres = openapi_client.models.v0/0/40_tres.v0.0.40_tres(
-                            type = '', 
-                            name = '', 
-                            id = 56, 
+                    openapi_slurm.models.v0/0/40_accounting.v0.0.40_accounting(
+                        allocated = openapi_slurm.models.v0_0_40_accounting_allocated.v0_0_40_accounting_allocated(
+                            seconds = 56, ),
+                        id = 56,
+                        start = 56,
+                        tres = openapi_slurm.models.v0/0/40_tres.v0.0.40_tres(
+                            type = '',
+                            name = '',
+                            id = 56,
                             count = 56, ), )
                     ],
                 cluster = '',

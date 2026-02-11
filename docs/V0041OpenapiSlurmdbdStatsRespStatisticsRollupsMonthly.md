@@ -5,14 +5,14 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**count** | **int** | Number of monthly rollups since last_run | [optional] 
-**last_run** | **int** | Last time monthly rollup ran (UNIX timestamp) | [optional] 
-**duration** | [**V0041OpenapiSlurmdbdStatsRespStatisticsRollupsMonthlyDuration**](V0041OpenapiSlurmdbdStatsRespStatisticsRollupsMonthlyDuration.md) |  | [optional] 
+**count** | **int** | Number of monthly rollups since last_run | [optional]
+**last_run** | **int** | Last time monthly rollup ran (UNIX timestamp) | [optional]
+**duration** | [**V0041OpenapiSlurmdbdStatsRespStatisticsRollupsMonthlyDuration**](V0041OpenapiSlurmdbdStatsRespStatisticsRollupsMonthlyDuration.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_slurmdbd_stats_resp_statistics_rollups_monthly import V0041OpenapiSlurmdbdStatsRespStatisticsRollupsMonthly
+from openapi_slurm.models.v0041_openapi_slurmdbd_stats_resp_statistics_rollups_monthly import V0041OpenapiSlurmdbdStatsRespStatisticsRollupsMonthly
 
 # TODO update the JSON string below
 json = "{}"

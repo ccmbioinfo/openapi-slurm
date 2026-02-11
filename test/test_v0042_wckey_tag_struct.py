@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0042_wckey_tag_struct import V0042WckeyTagStruct
+from openapi_slurm.models.v0042_wckey_tag_struct import V0042WckeyTagStruct
 
 class TestV0042WckeyTagStruct(unittest.TestCase):
     """V0042WckeyTagStruct unit test stubs"""

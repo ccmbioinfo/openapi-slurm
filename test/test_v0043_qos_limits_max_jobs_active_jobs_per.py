@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0043_qos_limits_max_jobs_active_jobs_per import V0043QosLimitsMaxJobsActiveJobsPer
+from openapi_slurm.models.v0043_qos_limits_max_jobs_active_jobs_per import V0043QosLimitsMaxJobsActiveJobsPer
 
 class TestV0043QosLimitsMaxJobsActiveJobsPer(unittest.TestCase):
     """V0043QosLimitsMaxJobsActiveJobsPer unit test stubs"""
@@ -36,13 +36,13 @@ class TestV0043QosLimitsMaxJobsActiveJobsPer(unittest.TestCase):
         model = V0043QosLimitsMaxJobsActiveJobsPer()
         if include_optional:
             return V0043QosLimitsMaxJobsActiveJobsPer(
-                account = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                account = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                user = openapi_client.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                user = openapi_slurm.models.v0/0/43_uint32_no_val_struct.v0.0.43_uint32_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, )
             )
         else:

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0042_qos_limits_max_wall_clock_per import V0042QosLimitsMaxWallClockPer
+from openapi_slurm.models.v0042_qos_limits_max_wall_clock_per import V0042QosLimitsMaxWallClockPer
 
 class TestV0042QosLimitsMaxWallClockPer(unittest.TestCase):
     """V0042QosLimitsMaxWallClockPer unit test stubs"""
@@ -36,13 +36,13 @@ class TestV0042QosLimitsMaxWallClockPer(unittest.TestCase):
         model = V0042QosLimitsMaxWallClockPer()
         if include_optional:
             return V0042QosLimitsMaxWallClockPer(
-                qos = openapi_client.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                qos = openapi_slurm.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
-                job = openapi_client.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
-                    set = True, 
-                    infinite = True, 
+                job = openapi_slurm.models.v0/0/42_uint32_no_val_struct.v0.0.42_uint32_no_val_struct(
+                    set = True,
+                    infinite = True,
                     number = 56, )
             )
         else:

@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**resume** | [**V0041OpenapiPartitionRespPartitionsInnerTimeoutsResume**](V0041OpenapiPartitionRespPartitionsInnerTimeoutsResume.md) |  | [optional] 
-**suspend** | [**V0041OpenapiPartitionRespPartitionsInnerTimeoutsSuspend**](V0041OpenapiPartitionRespPartitionsInnerTimeoutsSuspend.md) |  | [optional] 
+**resume** | [**V0041OpenapiPartitionRespPartitionsInnerTimeoutsResume**](V0041OpenapiPartitionRespPartitionsInnerTimeoutsResume.md) |  | [optional]
+**suspend** | [**V0041OpenapiPartitionRespPartitionsInnerTimeoutsSuspend**](V0041OpenapiPartitionRespPartitionsInnerTimeoutsSuspend.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_partition_resp_partitions_inner_timeouts import V0041OpenapiPartitionRespPartitionsInnerTimeouts
+from openapi_slurm.models.v0041_openapi_partition_resp_partitions_inner_timeouts import V0041OpenapiPartitionRespPartitionsInnerTimeouts
 
 # TODO update the JSON string below
 json = "{}"

@@ -5,14 +5,14 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**requested** | [**V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerTresRequested**](V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerTresRequested.md) |  | [optional] 
-**consumed** | [**V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerTresConsumed**](V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerTresConsumed.md) |  | [optional] 
-**allocated** | [**List[V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerTresRequestedMaxInner]**](V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerTresRequestedMaxInner.md) | Trackable resources allocated to the step | [optional] 
+**requested** | [**V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerTresRequested**](V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerTresRequested.md) |  | [optional]
+**consumed** | [**V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerTresConsumed**](V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerTresConsumed.md) |  | [optional]
+**allocated** | [**List[V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerTresRequestedMaxInner]**](V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerTresRequestedMaxInner.md) | Trackable resources allocated to the step | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres import V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerTres
+from openapi_slurm.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres import V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerTres
 
 # TODO update the JSON string below
 json = "{}"

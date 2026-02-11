@@ -5,15 +5,15 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**grace_time** | **int** | GraceTime | [optional] 
-**max** | [**V0040QosLimitsMax**](V0040QosLimitsMax.md) |  | [optional] 
-**factor** | [**V0040Float64NoVal**](V0040Float64NoVal.md) |  | [optional] 
-**min** | [**V0040QosLimitsMin**](V0040QosLimitsMin.md) |  | [optional] 
+**grace_time** | **int** | GraceTime | [optional]
+**max** | [**V0040QosLimitsMax**](V0040QosLimitsMax.md) |  | [optional]
+**factor** | [**V0040Float64NoVal**](V0040Float64NoVal.md) |  | [optional]
+**min** | [**V0040QosLimitsMin**](V0040QosLimitsMin.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_qos_limits import V0040QosLimits
+from openapi_slurm.models.v0040_qos_limits import V0040QosLimits
 
 # TODO update the JSON string below
 json = "{}"

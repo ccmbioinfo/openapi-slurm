@@ -6,16 +6,16 @@ RPC
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**message_type** | **str** | Message type as string | [optional] 
-**type_id** | **int** | Message type as integer | [optional] 
-**count** | **int** | Number of RPCs received | [optional] 
-**average_time** | **int** | Average time spent processing RPC in seconds | [optional] 
-**total_time** | **int** | Total time spent processing RPC in seconds | [optional] 
+**message_type** | **str** | Message type as string | [optional]
+**type_id** | **int** | Message type as integer | [optional]
+**count** | **int** | Number of RPCs received | [optional]
+**average_time** | **int** | Average time spent processing RPC in seconds | [optional]
+**total_time** | **int** | Total time spent processing RPC in seconds | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_stats_msg_rpcs_by_type_inner import V0040StatsMsgRpcsByTypeInner
+from openapi_slurm.models.v0040_stats_msg_rpcs_by_type_inner import V0040StatsMsgRpcsByTypeInner
 
 # TODO update the JSON string below
 json = "{}"

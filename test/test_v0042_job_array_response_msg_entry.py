@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0042_job_array_response_msg_entry import V0042JobArrayResponseMsgEntry
+from openapi_slurm.models.v0042_job_array_response_msg_entry import V0042JobArrayResponseMsgEntry
 
 class TestV0042JobArrayResponseMsgEntry(unittest.TestCase):
     """V0042JobArrayResponseMsgEntry unit test stubs"""

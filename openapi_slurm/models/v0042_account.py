@@ -20,8 +20,8 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictStr, field_validator
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0042_assoc_short import V0042AssocShort
-from openapi_client.models.v0042_coord import V0042Coord
+from openapi_slurm.models.v0042_assoc_short import V0042AssocShort
+from openapi_slurm.models.v0042_coord import V0042Coord
 from typing import Optional, Set
 from typing_extensions import Self
 

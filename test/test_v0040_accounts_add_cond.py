@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_accounts_add_cond import V0040AccountsAddCond
+from openapi_slurm.models.v0040_accounts_add_cond import V0040AccountsAddCond
 
 class TestV0040AccountsAddCond(unittest.TestCase):
     """V0040AccountsAddCond unit test stubs"""
@@ -39,48 +39,48 @@ class TestV0040AccountsAddCond(unittest.TestCase):
                 accounts = [
                     ''
                     ],
-                association = openapi_client.models.v0/0/40_assoc_rec_set.v0.0.40_assoc_rec_set(
-                    comment = '', 
-                    defaultqos = '', 
-                    grpjobs = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
-                        set = True, 
-                        infinite = True, 
-                        number = 56, ), 
-                    grpjobsaccrue = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
-                        set = True, 
-                        infinite = True, 
-                        number = 56, ), 
-                    grpsubmitjobs = , 
+                association = openapi_slurm.models.v0/0/40_assoc_rec_set.v0.0.40_assoc_rec_set(
+                    comment = '',
+                    defaultqos = '',
+                    grpjobs = openapi_slurm.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                        set = True,
+                        infinite = True,
+                        number = 56, ),
+                    grpjobsaccrue = openapi_slurm.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                        set = True,
+                        infinite = True,
+                        number = 56, ),
+                    grpsubmitjobs = ,
                     grptres = [
-                        openapi_client.models.v0/0/40_tres.v0.0.40_tres(
-                            type = '', 
-                            name = '', 
-                            id = 56, 
+                        openapi_slurm.models.v0/0/40_tres.v0.0.40_tres(
+                            type = '',
+                            name = '',
+                            id = 56,
                             count = 56, )
-                        ], 
+                        ],
                     grptresmins = [
-                        openapi_client.models.v0/0/40_tres.v0.0.40_tres(
-                            type = '', 
-                            name = '', 
-                            id = 56, 
+                        openapi_slurm.models.v0/0/40_tres.v0.0.40_tres(
+                            type = '',
+                            name = '',
+                            id = 56,
                             count = 56, )
-                        ], 
-                    grptresrunmins = , 
-                    grpwall = , 
-                    maxjobs = , 
-                    maxjobsaccrue = , 
-                    maxsubmitjobs = , 
-                    maxtresminsperjob = , 
-                    maxtresrunmins = , 
-                    maxtresperjob = , 
-                    maxtrespernode = , 
-                    maxwalldurationperjob = , 
-                    minpriothresh = , 
-                    parent = '', 
-                    priority = , 
+                        ],
+                    grptresrunmins = ,
+                    grpwall = ,
+                    maxjobs = ,
+                    maxjobsaccrue = ,
+                    maxsubmitjobs = ,
+                    maxtresminsperjob = ,
+                    maxtresrunmins = ,
+                    maxtresperjob = ,
+                    maxtrespernode = ,
+                    maxwalldurationperjob = ,
+                    minpriothresh = ,
+                    parent = '',
+                    priority = ,
                     qoslevel = [
                         ''
-                        ], 
+                        ],
                     fairshare = 56, ),
                 clusters = [
                     ''

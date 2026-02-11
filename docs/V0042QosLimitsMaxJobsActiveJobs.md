@@ -5,12 +5,12 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**per** | [**V0042QosLimitsMaxJobsActiveJobsPer**](V0042QosLimitsMaxJobsActiveJobsPer.md) |  | [optional] 
+**per** | [**V0042QosLimitsMaxJobsActiveJobsPer**](V0042QosLimitsMaxJobsActiveJobsPer.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0042_qos_limits_max_jobs_active_jobs import V0042QosLimitsMaxJobsActiveJobs
+from openapi_slurm.models.v0042_qos_limits_max_jobs_active_jobs import V0042QosLimitsMaxJobsActiveJobs
 
 # TODO update the JSON string below
 json = "{}"

@@ -20,8 +20,8 @@ import json
 
 from pydantic import BaseModel, ConfigDict
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0043_shares_float128_tres import V0043SharesFloat128Tres
-from openapi_client.models.v0043_shares_uint64_tres import V0043SharesUint64Tres
+from openapi_slurm.models.v0043_shares_float128_tres import V0043SharesFloat128Tres
+from openapi_slurm.models.v0043_shares_uint64_tres import V0043SharesUint64Tres
 from typing import Optional, Set
 from typing_extensions import Self
 

@@ -5,12 +5,12 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**root** | [**V0040AssocShort**](V0040AssocShort.md) |  | [optional] 
+**root** | [**V0040AssocShort**](V0040AssocShort.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0040_cluster_rec_associations import V0040ClusterRecAssociations
+from openapi_slurm.models.v0040_cluster_rec_associations import V0040ClusterRecAssociations
 
 # TODO update the JSON string below
 json = "{}"

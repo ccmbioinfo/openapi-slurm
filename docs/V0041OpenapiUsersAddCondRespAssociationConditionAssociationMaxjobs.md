@@ -6,14 +6,14 @@ Maximum number of running jobs per user in this association
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**set** | **bool** | True if number has been set; False if number is unset | [optional] 
-**infinite** | **bool** | True if number has been set to infinite; \&quot;set\&quot; and \&quot;number\&quot; will be ignored | [optional] 
-**number** | **int** | If \&quot;set\&quot; is True the number will be set with value; otherwise ignore number contents | [optional] 
+**set** | **bool** | True if number has been set; False if number is unset | [optional]
+**infinite** | **bool** | True if number has been set to infinite; \&quot;set\&quot; and \&quot;number\&quot; will be ignored | [optional]
+**number** | **int** | If \&quot;set\&quot; is True the number will be set with value; otherwise ignore number contents | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_users_add_cond_resp_association_condition_association_maxjobs import V0041OpenapiUsersAddCondRespAssociationConditionAssociationMaxjobs
+from openapi_slurm.models.v0041_openapi_users_add_cond_resp_association_condition_association_maxjobs import V0041OpenapiUsersAddCondRespAssociationConditionAssociationMaxjobs
 
 # TODO update the JSON string below
 json = "{}"

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_diag_resp_statistics_rpcs_by_user_inner import V0041OpenapiDiagRespStatisticsRpcsByUserInner
+from openapi_slurm.models.v0041_openapi_diag_resp_statistics_rpcs_by_user_inner import V0041OpenapiDiagRespStatisticsRpcsByUserInner
 
 class TestV0041OpenapiDiagRespStatisticsRpcsByUserInner(unittest.TestCase):
     """V0041OpenapiDiagRespStatisticsRpcsByUserInner unit test stubs"""
@@ -40,9 +40,9 @@ class TestV0041OpenapiDiagRespStatisticsRpcsByUserInner(unittest.TestCase):
                 user = '',
                 count = 56,
                 total_time = 56,
-                average_time = openapi_client.models.v0_0_41_openapi_diag_resp_statistics_rpcs_by_message_type_inner_average_time.v0_0_41_openapi_diag_resp_statistics_rpcs_by_message_type_inner_average_time(
-                    set = True, 
-                    infinite = True, 
+                average_time = openapi_slurm.models.v0_0_41_openapi_diag_resp_statistics_rpcs_by_message_type_inner_average_time.v0_0_41_openapi_diag_resp_statistics_rpcs_by_message_type_inner_average_time(
+                    set = True,
+                    infinite = True,
                     number = 56, )
             )
         else:
@@ -51,9 +51,9 @@ class TestV0041OpenapiDiagRespStatisticsRpcsByUserInner(unittest.TestCase):
                 user = '',
                 count = 56,
                 total_time = 56,
-                average_time = openapi_client.models.v0_0_41_openapi_diag_resp_statistics_rpcs_by_message_type_inner_average_time.v0_0_41_openapi_diag_resp_statistics_rpcs_by_message_type_inner_average_time(
-                    set = True, 
-                    infinite = True, 
+                average_time = openapi_slurm.models.v0_0_41_openapi_diag_resp_statistics_rpcs_by_message_type_inner_average_time.v0_0_41_openapi_diag_resp_statistics_rpcs_by_message_type_inner_average_time(
+                    set = True,
+                    infinite = True,
                     number = 56, ),
         )
         """

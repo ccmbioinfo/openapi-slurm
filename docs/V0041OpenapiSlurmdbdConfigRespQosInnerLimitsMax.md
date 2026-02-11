@@ -5,16 +5,16 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**active_jobs** | [**V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxActiveJobs**](V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxActiveJobs.md) |  | [optional] 
-**tres** | [**V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxTres**](V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxTres.md) |  | [optional] 
-**wall_clock** | [**V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxWallClock**](V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxWallClock.md) |  | [optional] 
-**jobs** | [**V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxJobs**](V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxJobs.md) |  | [optional] 
-**accruing** | [**V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxAccruing**](V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxAccruing.md) |  | [optional] 
+**active_jobs** | [**V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxActiveJobs**](V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxActiveJobs.md) |  | [optional]
+**tres** | [**V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxTres**](V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxTres.md) |  | [optional]
+**wall_clock** | [**V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxWallClock**](V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxWallClock.md) |  | [optional]
+**jobs** | [**V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxJobs**](V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxJobs.md) |  | [optional]
+**accruing** | [**V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxAccruing**](V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxAccruing.md) |  | [optional]
 
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_max import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMax
+from openapi_slurm.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_max import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMax
 
 # TODO update the JSON string below
 json = "{}"
